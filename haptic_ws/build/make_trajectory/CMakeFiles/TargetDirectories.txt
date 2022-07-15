@@ -15,6 +15,7 @@
 /home/student/haptic_ws/build/make_trajectory/CMakeFiles/geometry_msgs_generate_messages_eus.dir
 /home/student/haptic_ws/build/make_trajectory/CMakeFiles/make_trajectory_generate_messages_eus.dir
 /home/student/haptic_ws/build/make_trajectory/CMakeFiles/std_msgs_generate_messages_nodejs.dir
+/home/student/haptic_ws/build/make_trajectory/CMakeFiles/Make_Trajectory_poly5_test.dir
 /home/student/haptic_ws/build/make_trajectory/CMakeFiles/make_trajectory_gencpp.dir
 /home/student/haptic_ws/build/make_trajectory/CMakeFiles/sensor_msgs_generate_messages_cpp.dir
 /home/student/haptic_ws/build/make_trajectory/CMakeFiles/std_msgs_generate_messages_py.dir

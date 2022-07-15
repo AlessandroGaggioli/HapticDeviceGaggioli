@@ -1,0 +1,1 @@
+/home/student/haptic_ws/devel/.private/read_joint/share/read_joint/cmake/read_jointConfig-version.cmake

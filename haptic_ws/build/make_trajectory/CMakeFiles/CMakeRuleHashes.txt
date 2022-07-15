@@ -1,0 +1,4 @@
+# Hashes of file build rules.
+a78eec935255482aadc059e436fff1c7 /home/student/haptic_ws/devel/.private/make_trajectory/share/roseus/ros/make_trajectory/manifest.l
+dccf61368da073e4a3aad88f21083ef1 CMakeFiles/clean_test_results
+e956d57ae8c5fbc98e104449ea907600 CMakeFiles/make_trajectory_generate_messages_eus

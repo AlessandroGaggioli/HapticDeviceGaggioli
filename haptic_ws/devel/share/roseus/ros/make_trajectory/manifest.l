@@ -1,0 +1,1 @@
+/home/student/haptic_ws/devel/.private/make_trajectory/share/roseus/ros/make_trajectory/manifest.l

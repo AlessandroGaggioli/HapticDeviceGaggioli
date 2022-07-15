@@ -1,0 +1,7 @@
+set(panda_ik_SETUP_PY_SETUP_MODULE "distutils.core")
+set(panda_ik_SETUP_PY_VERSION "0.0.0")
+set(panda_ik_SETUP_PY_SCRIPTS "")
+set(panda_ik_SETUP_PY_PACKAGES "panda_ik")
+set(panda_ik_SETUP_PY_PACKAGE_DIRS "scripts/panda_ik")
+set(panda_ik_SETUP_PY_MODULES "")
+set(panda_ik_SETUP_PY_MODULE_DIRS "")

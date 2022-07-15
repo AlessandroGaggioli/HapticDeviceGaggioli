@@ -1,0 +1,1 @@
+/home/student/haptic_ws/devel/.private/panda_ik/share/gennodejs/ros/panda_ik/srv/pandaIk.js

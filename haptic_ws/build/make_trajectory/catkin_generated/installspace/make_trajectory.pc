@@ -1,0 +1,8 @@
+prefix=/home/student/haptic_ws/install
+
+Name: make_trajectory
+Description: Description of make_trajectory
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lmake_trajectory
+Requires: message_runtime roscpp rospy std_msgs franka_core_msgs panda_ik

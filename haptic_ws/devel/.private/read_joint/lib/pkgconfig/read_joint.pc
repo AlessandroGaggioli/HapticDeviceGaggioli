@@ -1,0 +1,8 @@
+prefix=/home/student/haptic_ws/devel/.private/read_joint
+
+Name: read_joint
+Description: Description of read_joint
+Version: 0.0.0
+Cflags: -I/home/student/haptic_ws/src/read_joint/include
+Libs: -L${prefix}/lib -lread_joint
+Requires: roscpp rospy std_msgs

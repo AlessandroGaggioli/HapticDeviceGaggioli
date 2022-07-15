@@ -1,0 +1,26 @@
+[01m[K/home/student/haptic_ws/src/make_trajectory/src/Make_Trajectory_poly5.cpp:[m[K In function ‘[01m[Kvoid JointStateCallback(const JointState&)[m[K’:
+[01m[K/home/student/haptic_ws/src/make_trajectory/src/Make_Trajectory_poly5.cpp:68:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kdata[m[K’ was not declared in this scope
+   68 |     [01;31m[Kdata[m[K = true ;
+      |     [01;31m[K^~~~[m[K
+[01m[K/home/student/haptic_ws/src/make_trajectory/src/Make_Trajectory_poly5.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/student/haptic_ws/src/make_trajectory/src/Make_Trajectory_poly5.cpp:115:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kdata[m[K’ was not declared in this scope
+  115 |         if([01;31m[Kdata[m[K) {
+      |            [01;31m[K^~~~[m[K
+[01m[K/home/student/haptic_ws/src/make_trajectory/src/Make_Trajectory_poly5.cpp:161:74:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K)[m[K’ token
+  161 |                 coefficients_z[3]=0.5 * pow(period,-3) *20 * (distance_z)[01;31m[K)[m[K ;
+      |                                                                          [01;31m[K^[m[K
+      |                                                                          [32m[K;[m[K
+[01m[K/home/student/haptic_ws/src/make_trajectory/src/Make_Trajectory_poly5.cpp:162:74:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K)[m[K’ token
+  162 |                 coefficients_z[4]=0.5 * pow(period,-4) *30 * (distance_z)[01;31m[K)[m[K ;
+      |                                                                          [01;31m[K^[m[K
+      |                                                                          [32m[K;[m[K
+[01m[K/home/student/haptic_ws/src/make_trajectory/src/Make_Trajectory_poly5.cpp:163:74:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K)[m[K’ token
+  163 |                 coefficients_z[5]=0.5 * pow(period,-5) *12 * (distance_z)[01;31m[K)[m[K ;
+      |                                                                          [01;31m[K^[m[K
+      |                                                                          [32m[K;[m[K
+[01m[K/home/student/haptic_ws/src/make_trajectory/src/Make_Trajectory_poly5.cpp:203:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg_send[m[K’ was not declared in this scope
+  203 |     [01;31m[Kmsg_send[m[K.mode=1 ;
+      |     [01;31m[K^~~~~~~~[m[K
+make[2]: *** [CMakeFiles/Make_Trajectory_poly5.dir/build.make:63: CMakeFiles/Make_Trajectory_poly5.dir/src/Make_Trajectory_poly5.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:1491: CMakeFiles/Make_Trajectory_poly5.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,1 @@
+/home/student/haptic_ws/devel/.private/make_trajectory/lib/python3/dist-packages/make_trajectory/__init__.py

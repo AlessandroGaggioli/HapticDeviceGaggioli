@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/student/haptic_ws/devel/.private/read_joint/setup.sh

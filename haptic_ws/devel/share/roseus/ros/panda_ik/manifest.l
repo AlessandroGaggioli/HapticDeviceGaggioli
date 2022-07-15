@@ -1,0 +1,1 @@
+/home/student/haptic_ws/devel/.private/panda_ik/share/roseus/ros/panda_ik/manifest.l

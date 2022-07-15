@@ -1,0 +1,1 @@
+/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveGoal.msg

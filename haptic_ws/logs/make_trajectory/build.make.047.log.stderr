@@ -1,0 +1,23 @@
+[01m[K/home/student/haptic_ws/src/make_trajectory/src/MacchinaStati.cpp:[m[K In function ‘[01m[Kstd::vector<std::vector<double> > trajectory_points(double, std::vector<double>, std::vector<double>, coefficients)[m[K’:
+[01m[K/home/student/haptic_ws/src/make_trajectory/src/MacchinaStati.cpp:120:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kpos_fin[m[K’ was not declared in this scope; did you mean ‘[01m[Kpos_final[m[K’?
+  120 |                     double distance_x = [01;31m[Kpos_fin[m[K[0] - pos_init[0] ; //distanza da percorrere lungo x
+      |                                         [01;31m[K^~~~~~~[m[K
+      |                                         [32m[Kpos_final[m[K
+[01m[K/home/student/haptic_ws/src/make_trajectory/src/MacchinaStati.cpp:126:52:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  126 |                     std::vector<std::vector<<double[01;31m[K>>[m[K poly ;
+      |                                                    [01;31m[K^~[m[K
+[01m[K/home/student/haptic_ws/src/make_trajectory/src/MacchinaStati.cpp:126:52:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[01m[K/home/student/haptic_ws/src/make_trajectory/src/MacchinaStati.cpp:127:26:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kresize[m[K’ in ‘[01m[Kpoly[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+  127 |                     poly.[01;31m[Kresize[m[K(N_punti) ;
+      |                          [01;31m[K^~~~~~[m[K
+[01m[K/home/student/haptic_ws/src/make_trajectory/src/MacchinaStati.cpp:140:31:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kint[int][m[K’ for array subscript
+  140 |                         poly[i[01;31m[K][m[K= target ;
+      |                               [01;31m[K^[m[K
+[01m[K/home/student/haptic_ws/src/make_trajectory/src/MacchinaStati.cpp:142:8:[m[K [01;31m[Kerror: [m[Kcould not convert ‘[01m[Kpoly[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kstd::vector<std::vector<double> >[m[K’
+  142 | return [01;31m[Kpoly[m[K ;
+      |        [01;31m[K^~~~[m[K
+      |        [01;31m[K|[m[K
+      |        [01;31m[Kint[m[K
+make[2]: *** [CMakeFiles/MacchinaStati.dir/build.make:63: CMakeFiles/MacchinaStati.dir/src/MacchinaStati.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:212: CMakeFiles/MacchinaStati.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

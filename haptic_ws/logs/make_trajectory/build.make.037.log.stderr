@@ -1,0 +1,22 @@
+[01m[K/home/student/haptic_ws/src/make_trajectory/src/MacchinaStati.cpp:[m[K In function ‘[01m[Kcoefficients calc_coefficients(coefficients*, std::vector<double>, std::vector<double>, std::vector<double>)[m[K’:
+[01m[K/home/student/haptic_ws/src/make_trajectory/src/MacchinaStati.cpp:95:13:[m[K [01;31m[Kerror: [m[K‘[01m[Koly5[m[K’ was not declared in this scope
+   95 |             [01;31m[Koly5[m[K = calc_coefficients()*30 * (distance_y) ;
+      |             [01;31m[K^~~~[m[K
+[01m[K/home/student/haptic_ws/src/make_trajectory/src/MacchinaStati.cpp:95:38:[m[K [01;31m[Kerror: [m[Ktoo few arguments to function ‘[01m[Kcoefficients calc_coefficients(coefficients*, std::vector<double>, std::vector<double>, std::vector<double>)[m[K’
+   95 |             oly5 = calc_coefficients([01;31m[K)[m[K*30 * (distance_y) ;
+      |                                      [01;31m[K^[m[K
+[01m[K/home/student/haptic_ws/src/make_trajectory/src/MacchinaStati.cpp:57:14:[m[K [01;36m[Knote: [m[Kdeclared here
+   57 | coefficients [01;36m[Kcalc_coefficients[m[K(coefficients *coeff,std::vector<double> pos_init,std::vector<double> joint_pos_init,std::vector<double> pos_fin) {
+      |              [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/student/haptic_ws/src/make_trajectory/src/MacchinaStati.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/student/haptic_ws/src/make_trajectory/src/MacchinaStati.cpp:184:35:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kcoefficients[m[K’ to ‘[01m[Kcoefficients*[m[K’
+  184 |                 calc_coefficients([01;31m[Kpoly5[m[K,pos_initial,joint_pos_initial,pos_final) ;
+      |                                   [01;31m[K^~~~~[m[K
+      |                                   [01;31m[K|[m[K
+      |                                   [01;31m[Kcoefficients[m[K
+[01m[K/home/student/haptic_ws/src/make_trajectory/src/MacchinaStati.cpp:57:46:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kcoefficients calc_coefficients(coefficients*, std::vector<double>, std::vector<double>, std::vector<double>)[m[K’
+   57 | coefficients calc_coefficients([01;36m[Kcoefficients *coeff[m[K,std::vector<double> pos_init,std::vector<double> joint_pos_init,std::vector<double> pos_fin) {
+      |                                [01;36m[K~~~~~~~~~~~~~~^~~~~[m[K
+make[2]: *** [CMakeFiles/MacchinaStati.dir/build.make:63: CMakeFiles/MacchinaStati.dir/src/MacchinaStati.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:212: CMakeFiles/MacchinaStati.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

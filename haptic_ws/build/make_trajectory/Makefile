@@ -168,6 +168,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named MacchinaStati
+
+# Build rule for target.
+MacchinaStati: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 MacchinaStati
+.PHONY : MacchinaStati
+
+# fast build rule for target.
+MacchinaStati/fast:
+	$(MAKE) -f CMakeFiles/MacchinaStati.dir/build.make CMakeFiles/MacchinaStati.dir/build
+.PHONY : MacchinaStati/fast
+
+#=============================================================================
 # Target rules for targets named make_trajectory_genpy
 
 # Build rule for target.
@@ -1181,6 +1194,33 @@ gtest/fast:
 	$(MAKE) -f gtest/googletest/CMakeFiles/gtest.dir/build.make gtest/googletest/CMakeFiles/gtest.dir/build
 .PHONY : gtest/fast
 
+src/MacchinaStati.o: src/MacchinaStati.cpp.o
+
+.PHONY : src/MacchinaStati.o
+
+# target to build an object file
+src/MacchinaStati.cpp.o:
+	$(MAKE) -f CMakeFiles/MacchinaStati.dir/build.make CMakeFiles/MacchinaStati.dir/src/MacchinaStati.cpp.o
+.PHONY : src/MacchinaStati.cpp.o
+
+src/MacchinaStati.i: src/MacchinaStati.cpp.i
+
+.PHONY : src/MacchinaStati.i
+
+# target to preprocess a source file
+src/MacchinaStati.cpp.i:
+	$(MAKE) -f CMakeFiles/MacchinaStati.dir/build.make CMakeFiles/MacchinaStati.dir/src/MacchinaStati.cpp.i
+.PHONY : src/MacchinaStati.cpp.i
+
+src/MacchinaStati.s: src/MacchinaStati.cpp.s
+
+.PHONY : src/MacchinaStati.s
+
+# target to generate assembly for a file
+src/MacchinaStati.cpp.s:
+	$(MAKE) -f CMakeFiles/MacchinaStati.dir/build.make CMakeFiles/MacchinaStati.dir/src/MacchinaStati.cpp.s
+.PHONY : src/MacchinaStati.cpp.s
+
 src/Make_Trajectory_poly5.o: src/Make_Trajectory_poly5.cpp.o
 
 .PHONY : src/Make_Trajectory_poly5.o
@@ -1245,6 +1285,7 @@ help:
 	@echo "... install/local"
 	@echo "... list_install_components"
 	@echo "... test"
+	@echo "... MacchinaStati"
 	@echo "... make_trajectory_genpy"
 	@echo "... make_trajectory_generate_messages_py"
 	@echo "... make_trajectory_gennodejs"
@@ -1326,6 +1367,9 @@ help:
 	@echo "... gmock"
 	@echo "... gtest_main"
 	@echo "... gtest"
+	@echo "... src/MacchinaStati.o"
+	@echo "... src/MacchinaStati.i"
+	@echo "... src/MacchinaStati.s"
 	@echo "... src/Make_Trajectory_poly5.o"
 	@echo "... src/Make_Trajectory_poly5.i"
 	@echo "... src/Make_Trajectory_poly5.s"

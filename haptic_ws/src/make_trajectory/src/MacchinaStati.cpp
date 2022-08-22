@@ -1,4 +1,5 @@
 #include "ros/ros.h"
+#include "tf/transform_broadcaster.h"
 #include "sensor_msgs/JointState.h"
 #include "franka_core_msgs/JointCommand.h"
 #include "panda_ik/pandaIk.h"
@@ -10,10 +11,10 @@
 #define NumJointState 7
 #define frequence 50
 #define Ncoefficients 6 
-#define Vmax 0.1 
 #define N_punti 200 
 
 int state = 0 ; 
+double  Vmax =  0.1  ; 
 
 std::vector<double> joint_pos_initial ; 
 std::vector<double> pos_initial ; 
@@ -88,7 +89,7 @@ coefficients calc_coefficients(coefficients *coeff,std::vector<double> pos_init,
                     double distance_y = pos_fin[1] - pos_init[1] ; //distanza da percorrere lungo y
                     double distance_z = pos_fin[2] - pos_init[2] ; //distanza da percorrere lungo z
 
-                    double period = distance_max(distance_x,distance_y,distance_z) / Vmax; //periodo = distanza max / Vmax 
+                    double period = abs(distance_max(distance_x,distance_y,distance_z)) / Vmax; //periodo = distanza max / Vmax 
 
                     coeff->coefficients_x.resize(Ncoefficients) ;
                     coeff->coefficients_y.resize(Ncoefficients) ;
@@ -124,7 +125,7 @@ std::vector<std::vector<double>> trajectory_points(double Npunti,std::vector<dou
                     double distance_y = pos_fin[1] - pos_init[1] ; //distanza da percorrere lungo y
                     double distance_z = pos_fin[2] - pos_init[2] ; //distanza da percorrere lungo z
                     
-                    double period = distance_max(distance_x,distance_y,distance_z) / Vmax; //periodo = distanza max / Vmax 
+                    double period = distance_max(abs(distance_x),abs(distance_y),abs(distance_z)) / Vmax; //periodo = distanza max / Vmax 
 
                     std::vector<std::vector<double>> poly ; 
                     poly.resize(Npunti) ; 
@@ -165,15 +166,6 @@ void JointStateCallback(const sensor_msgs::JointState& msg_send_received) {
     data = true ; 
     //-------------------------------------
 }
-
-void print_target(int N,std::vector<double> vect) {
-    for(int i=0;i<N;i++) {
-        std::cout <<vect[i] ; 
-    }
-    std::cout <<std::endl ; 
-    
-}
-
 
 int main(int argc,char **argv) {
 
@@ -239,6 +231,7 @@ int main(int argc,char **argv) {
                 state = 0 ; 
             }
         }
+
         ros::spinOnce() ; 
         loop_rate.sleep() ; 
     }
@@ -248,11 +241,6 @@ int main(int argc,char **argv) {
         std::cout <<coeff_poly5.coefficients_x[i] <<" "; 
         std::cout <<coeff_poly5.coefficients_y[i] <<" ";
         std::cout <<coeff_poly5.coefficients_z[i] <<std::endl ; 
-    }
-
-    for(int i=0;i<N_punti;i++) {
-        print_target(N_punti,poly5[i]) ; 
-
     }
 
 return 0 ; 

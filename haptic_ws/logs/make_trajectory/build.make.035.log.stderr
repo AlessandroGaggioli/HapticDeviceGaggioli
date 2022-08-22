@@ -1,0 +1,6 @@
+[01m[K/home/student/haptic_ws/src/make_trajectory/src/MacchinaStati.cpp:57:144:[m[K [01;31m[Kerror: [m[Kexpected identifier before ‘[01m[K)[m[K’ token
+   57 | coefficients calc_coefficients(coefficients *coeff,std::vector<double> pos_init,std::vector<double> joint_pos_init,std::vector<double> pos_fin,[01;31m[K)[m[K {
+      |                                                                                                                                                [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/MacchinaStati.dir/build.make:63: CMakeFiles/MacchinaStati.dir/src/MacchinaStati.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:212: CMakeFiles/MacchinaStati.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

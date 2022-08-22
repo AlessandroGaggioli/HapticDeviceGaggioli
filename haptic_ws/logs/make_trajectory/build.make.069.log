@@ -1,0 +1,26 @@
+[ 14%] [32mBuilding CXX object CMakeFiles/MacchinaStati.dir/src/MacchinaStati.cpp.o[0m
+[ 28%] [32m[1mLinking CXX executable /home/student/haptic_ws/devel/.private/make_trajectory/lib/make_trajectory/MacchinaStati[0m
+[ 28%] Built target MacchinaStati
+[ 28%] Built target std_msgs_generate_messages_eus
+[ 28%] Built target panda_ik_generate_messages_eus
+[ 28%] Built target franka_core_msgs_generate_messages_eus
+[ 28%] Built target franka_core_msgs_generate_messages_py
+[ 28%] Built target panda_ik_generate_messages_py
+[ 28%] Built target std_msgs_generate_messages_py
+[ 28%] Built target panda_ik_generate_messages_nodejs
+[ 28%] Built target std_msgs_generate_messages_nodejs
+[ 28%] Built target franka_core_msgs_generate_messages_nodejs
+[ 28%] Built target franka_core_msgs_generate_messages_lisp
+[ 28%] Built target std_msgs_generate_messages_lisp
+[ 28%] Built target panda_ik_generate_messages_lisp
+[ 28%] Built target panda_ik_generate_messages_cpp
+[ 28%] Built target std_msgs_generate_messages_cpp
+[ 28%] Built target franka_core_msgs_generate_messages_cpp
+[ 57%] Built target Make_Trajectory_poly5_test
+[ 85%] Built target Make_Trajectory_poly5
+[100%] Built target make_trajectory_generate_messages_eus
+[100%] Built target make_trajectory_generate_messages_py
+[100%] Built target make_trajectory_generate_messages_nodejs
+[100%] Built target make_trajectory_generate_messages_lisp
+[100%] Built target make_trajectory_generate_messages_cpp
+[100%] Built target make_trajectory_generate_messages

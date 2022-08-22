@@ -257,6 +257,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/MacchinaStati_Bezier.dir/DependInfo.cmake"
   "CMakeFiles/MacchinaStati.dir/DependInfo.cmake"
   "CMakeFiles/make_trajectory_genpy.dir/DependInfo.cmake"
   "CMakeFiles/make_trajectory_generate_messages_py.dir/DependInfo.cmake"

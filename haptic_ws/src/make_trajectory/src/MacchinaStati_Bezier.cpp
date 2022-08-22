@@ -56,7 +56,7 @@ double distance_max(double a,double b,double c) {
 return max ; 
 }
 
-coefficients calc_coefficients(coefficients *coeff,std::vector<double> pos_init,std::vector<double>joint_pos_init,std::vector<double> pos_fin) {
+std::vector<double> PointOnCubicBezier(coefficients *coeff,std::vector<double> pos_init,std::vector<double>joint_pos_init,std::vector<double> pos_fin,float t) {
     if(data) {
                         //Request FK della posizione iniziale
                         fk_srv.request.reference_joints.position=joint_pos_init ;
@@ -95,7 +95,40 @@ coefficients calc_coefficients(coefficients *coeff,std::vector<double> pos_init,
     // POS_CTRL_1 E POS_CTRL_2 SONO LE POSIZIONI DI CONTROLLO 
     //DELLA POLINOMIALE, ANCORA NON DICHIARATE NEL CODICE
 
-    coeff->coefficients_x[2] = 3.0 * pos_ctrl_1[0] 
+    std::vector<double> pos_ctrl_1 ; 
+    std::vector<double> pos_ctrl_2 ; 
+    pos_ctrl_1.resize(NumJointState) ; 
+    pos_ctrl_2.resize(NumJointState) ; 
 
+    coeff->coefficients_x[2] = 3.0 *(pos_ctrl_1[0] - pos_init[0]) ; 
+    coeff->coefficients_x[1] = 3.0 *(pos_ctrl_2[0] - pos_ctrl_1[0]) - coeff->coefficients_x[2] ; 
+    coeff->coefficients_x[0] = pos_fin[0] - pos_init[0] - coeff->coefficients_x[2] - coeff->coefficients_x[1] ; 
+
+    coeff->coefficients_y[2] = 3.0 * (pos_ctrl_1[1] - pos_init[1]) ; 
+    coeff->coefficients_y[1] = 3.0 * (pos_ctrl_2[1] - pos_ctrl_1[1]) - coeff->coefficients_y[2] ; 
+    coeff->coefficients_y[0] = pos_fin[1] - pos_init[1] - coeff->coefficients_y[2] - coeff->coefficients_y[1] ; 
+
+    coeff->coefficients_z[2] = 3.0 * (pos_ctrl_1[2] - pos_init[2]) ; 
+    coeff->coefficients_z[1] = 3.0 * (pos_ctrl_2[2] - pos_ctrl_1[2]) - coeff->coefficients_z[2] ; 
+    coeff->coefficients_z[0] = pos_fin[2] - pos_init[2] - coeff->coefficients_z[2] - coeff->coefficients_z[1] ; 
+
+    //CALCOLO DEL PUNTO DELLA CURVA IN RELAZIONE A t 
+
+    float tSquared = t * t ; 
+    float tCubed = tSquared * t ; 
+
+    std::vector<double> result ; 
+    result.resize(NumJointState) ; 
+
+    result[0] = (coeff->coefficients_x[0] * tCubed) + (coeff->coefficients_x[1] * tSquared) + (coeff->coefficients_x[2] * t) + pos_init[0] ; 
+    result[1] = (coeff->coefficients_y[0] * tCubed) + (coeff->coefficients_y[1] * tSquared) + (coeff->coefficients_y[2] * t) + pos_init[1] ; 
+    result[2] = (coeff->coefficients_z[0] * tCubed) + (coeff->coefficients_z[1] * tSquared) + (coeff->coefficients_z[2] * t) + pos_init[2] ; 
+
+return result ; 
 }
+
+int main(int argc,char **argv) {
+    
+}
+
 

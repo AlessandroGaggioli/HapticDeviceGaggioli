@@ -168,6 +168,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named MacchinaStati_Bezier
+
+# Build rule for target.
+MacchinaStati_Bezier: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 MacchinaStati_Bezier
+.PHONY : MacchinaStati_Bezier
+
+# fast build rule for target.
+MacchinaStati_Bezier/fast:
+	$(MAKE) -f CMakeFiles/MacchinaStati_Bezier.dir/build.make CMakeFiles/MacchinaStati_Bezier.dir/build
+.PHONY : MacchinaStati_Bezier/fast
+
+#=============================================================================
 # Target rules for targets named MacchinaStati
 
 # Build rule for target.
@@ -1221,6 +1234,33 @@ src/MacchinaStati.cpp.s:
 	$(MAKE) -f CMakeFiles/MacchinaStati.dir/build.make CMakeFiles/MacchinaStati.dir/src/MacchinaStati.cpp.s
 .PHONY : src/MacchinaStati.cpp.s
 
+src/MacchinaStati_Bezier.o: src/MacchinaStati_Bezier.cpp.o
+
+.PHONY : src/MacchinaStati_Bezier.o
+
+# target to build an object file
+src/MacchinaStati_Bezier.cpp.o:
+	$(MAKE) -f CMakeFiles/MacchinaStati_Bezier.dir/build.make CMakeFiles/MacchinaStati_Bezier.dir/src/MacchinaStati_Bezier.cpp.o
+.PHONY : src/MacchinaStati_Bezier.cpp.o
+
+src/MacchinaStati_Bezier.i: src/MacchinaStati_Bezier.cpp.i
+
+.PHONY : src/MacchinaStati_Bezier.i
+
+# target to preprocess a source file
+src/MacchinaStati_Bezier.cpp.i:
+	$(MAKE) -f CMakeFiles/MacchinaStati_Bezier.dir/build.make CMakeFiles/MacchinaStati_Bezier.dir/src/MacchinaStati_Bezier.cpp.i
+.PHONY : src/MacchinaStati_Bezier.cpp.i
+
+src/MacchinaStati_Bezier.s: src/MacchinaStati_Bezier.cpp.s
+
+.PHONY : src/MacchinaStati_Bezier.s
+
+# target to generate assembly for a file
+src/MacchinaStati_Bezier.cpp.s:
+	$(MAKE) -f CMakeFiles/MacchinaStati_Bezier.dir/build.make CMakeFiles/MacchinaStati_Bezier.dir/src/MacchinaStati_Bezier.cpp.s
+.PHONY : src/MacchinaStati_Bezier.cpp.s
+
 src/Make_Trajectory_poly5.o: src/Make_Trajectory_poly5.cpp.o
 
 .PHONY : src/Make_Trajectory_poly5.o
@@ -1285,6 +1325,7 @@ help:
 	@echo "... install/local"
 	@echo "... list_install_components"
 	@echo "... test"
+	@echo "... MacchinaStati_Bezier"
 	@echo "... MacchinaStati"
 	@echo "... make_trajectory_genpy"
 	@echo "... make_trajectory_generate_messages_py"
@@ -1370,6 +1411,9 @@ help:
 	@echo "... src/MacchinaStati.o"
 	@echo "... src/MacchinaStati.i"
 	@echo "... src/MacchinaStati.s"
+	@echo "... src/MacchinaStati_Bezier.o"
+	@echo "... src/MacchinaStati_Bezier.i"
+	@echo "... src/MacchinaStati_Bezier.s"
 	@echo "... src/Make_Trajectory_poly5.o"
 	@echo "... src/Make_Trajectory_poly5.i"
 	@echo "... src/Make_Trajectory_poly5.s"

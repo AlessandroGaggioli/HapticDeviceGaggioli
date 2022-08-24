@@ -1,0 +1,17 @@
+[01m[K/home/student/haptic_ws/src/make_trajectory/src/MacchinaStati_Bezier.cpp:[m[K In function ‘[01m[Kstd::vector<std::vector<double> > ComputeBezier(double, std::vector<double>, std::vector<double>)[m[K’:
+[01m[K/home/student/haptic_ws/src/make_trajectory/src/MacchinaStati_Bezier.cpp:126:5:[m[K [01;31m[Kerror: [m[K‘[01m[KBezier[m[K’ was not declared in this scope
+  126 |     [01;31m[KBezier[m[K.resize(Npunti) ;
+      |     [01;31m[K^~~~~~[m[K
+[01m[K/home/student/haptic_ws/src/make_trajectory/src/MacchinaStati_Bezier.cpp:132:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kcoeff[m[K’ was not declared in this scope
+  132 |             target[0] += [01;31m[Kcoeff[m[K.coefficients_x[j]*pow(DeltaT*(i+1),j) ;
+      |                          [01;31m[K^~~~~[m[K
+[01m[K/home/student/haptic_ws/src/make_trajectory/src/MacchinaStati_Bezier.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/student/haptic_ws/src/make_trajectory/src/MacchinaStati_Bezier.cpp:220:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kcoeff_poly5[m[K’ was not declared in this scope
+  220 |                 calc_coefficients(&[01;31m[Kcoeff_poly5[m[K,pos_initial,joint_pos_initial,pos_final) ;
+      |                                    [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/student/haptic_ws/src/make_trajectory/src/MacchinaStati_Bezier.cpp:225:31:[m[K [01;31m[Kerror: [m[K‘[01m[Ktrajectory_points[m[K’ was not declared in this scope
+  225 |                 BezierCurve = [01;31m[Ktrajectory_points[m[K(N_punti,pos_initial,pos_final,coeff_Bezier) ;
+      |                               [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/MacchinaStati_Bezier.dir/build.make:63: CMakeFiles/MacchinaStati_Bezier.dir/src/MacchinaStati_Bezier.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:214: CMakeFiles/MacchinaStati_Bezier.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

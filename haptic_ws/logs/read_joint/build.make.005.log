@@ -1,9 +1,0 @@
-[35m[1mScanning dependencies of target MakeTrajectory_ReadJoint_v2[0m
-[ 50%] [32mBuilding CXX object CMakeFiles/MakeTrajectory_ReadJoint_v2.dir/src/MakeTrajectory_ReadJoint_v2.cpp.o[0m
-[01m[K/home/student/haptic_ws/src/read_joint/src/MakeTrajectory_ReadJoint_v2.cpp:4:10:[m[K [01;31m[Kfatal error: [m[Kpanda_ik/pandaIk.h: No such file or directory
-    4 | #include [01;31m[K"panda_ik/pandaIk.h"[m[K
-      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
-compilation terminated.
-make[2]: *** [CMakeFiles/MakeTrajectory_ReadJoint_v2.dir/build.make:63: CMakeFiles/MakeTrajectory_ReadJoint_v2.dir/src/MakeTrajectory_ReadJoint_v2.cpp.o] Error 1
-make[1]: *** [CMakeFiles/Makefile2:919: CMakeFiles/MakeTrajectory_ReadJoint_v2.dir/all] Error 2
-make: *** [Makefile:141: all] Error 2

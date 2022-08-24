@@ -1,5 +1,0 @@
-geometry_msgs/Pose reference_pose
-sensor_msgs/JointState seed_joints
-----------------------------------
-sensor_msgs/JointState solution
-bool success

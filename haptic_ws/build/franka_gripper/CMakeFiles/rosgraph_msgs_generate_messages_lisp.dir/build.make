@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/student/haptic_ws/src/franka_ros/franka_gripper
+CMAKE_SOURCE_DIR = /home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros/franka_gripper
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/student/haptic_ws/build/franka_gripper
+CMAKE_BINARY_DIR = /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_gripper
 
 # Utility rule file for rosgraph_msgs_generate_messages_lisp.
 
@@ -67,6 +67,6 @@ CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean:
 .PHONY : CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
 
 CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/depend:
-	cd /home/student/haptic_ws/build/franka_gripper && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/student/haptic_ws/src/franka_ros/franka_gripper /home/student/haptic_ws/src/franka_ros/franka_gripper /home/student/haptic_ws/build/franka_gripper /home/student/haptic_ws/build/franka_gripper /home/student/haptic_ws/build/franka_gripper/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_gripper && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros/franka_gripper /home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros/franka_gripper /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_gripper /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_gripper /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_gripper/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/depend
 

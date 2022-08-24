@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/student/haptic_ws/devel/.private/panda_gazebo/lib/libpanda_robot_hw_sim.pdb"
-  "/home/student/haptic_ws/devel/.private/panda_gazebo/lib/libpanda_robot_hw_sim.so"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/panda_gazebo/lib/libpanda_robot_hw_sim.pdb"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/panda_gazebo/lib/libpanda_robot_hw_sim.so"
   "CMakeFiles/panda_robot_hw_sim.dir/src/panda_robot_hw_sim.cpp.o"
 )
 

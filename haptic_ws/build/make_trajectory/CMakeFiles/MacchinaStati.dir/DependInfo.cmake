@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/student/haptic_ws/src/make_trajectory/src/MacchinaStati.cpp" "/home/student/haptic_ws/build/make_trajectory/CMakeFiles/MacchinaStati.dir/src/MacchinaStati.cpp.o"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/src/make_trajectory/src/MacchinaStati.cpp" "/home/student/HapticDeviceGaggioli/haptic_ws/build/make_trajectory/CMakeFiles/MacchinaStati.dir/src/MacchinaStati.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

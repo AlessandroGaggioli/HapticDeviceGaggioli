@@ -6,23 +6,23 @@
 
 #include "sipAPIPyKDL.h"
 
-#line 261 "/home/student/haptic_ws/src/orocos_kinematics_dynamics/python_orocos_kdl/PyKDL/kinfam.sip"
+#line 261 "/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/python_orocos_kdl/PyKDL/kinfam.sip"
 #include <kdl/tree.hpp>
 using namespace KDL;
-#line 13 "/home/student/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart5.cpp"
+#line 13 "/home/student/HapticDeviceGaggioli/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart5.cpp"
 
-#line 21 "/home/student/haptic_ws/src/orocos_kinematics_dynamics/python_orocos_kdl/PyKDL/std_string.sip"
+#line 21 "/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/python_orocos_kdl/PyKDL/std_string.sip"
 #include <string>
-#line 17 "/home/student/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart5.cpp"
-#line 241 "/home/student/haptic_ws/src/orocos_kinematics_dynamics/python_orocos_kdl/PyKDL/kinfam.sip"
+#line 17 "/home/student/HapticDeviceGaggioli/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart5.cpp"
+#line 241 "/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/python_orocos_kdl/PyKDL/kinfam.sip"
 #include <kdl/chain.hpp>
 using namespace KDL;
-#line 21 "/home/student/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart5.cpp"
-#line 211 "/home/student/haptic_ws/src/orocos_kinematics_dynamics/python_orocos_kdl/PyKDL/kinfam.sip"
+#line 21 "/home/student/HapticDeviceGaggioli/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart5.cpp"
+#line 211 "/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/python_orocos_kdl/PyKDL/kinfam.sip"
 #include <kdl/segment.hpp>
 #include <kdl/kinfam_io.hpp>
 using namespace KDL;
-#line 26 "/home/student/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart5.cpp"
+#line 26 "/home/student/HapticDeviceGaggioli/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart5.cpp"
 
 
 PyDoc_STRVAR(doc_Tree_addSegment, "addSegment(self, segment: Segment, hook_name: object) -> bool");
@@ -138,11 +138,11 @@ static PyObject *meth_Tree_getChain(PyObject *sipSelf, PyObject *sipArgs, PyObje
         {
              ::Chain*sipRes = 0;
 
-#line 271 "/home/student/haptic_ws/src/orocos_kinematics_dynamics/python_orocos_kdl/PyKDL/kinfam.sip"
+#line 271 "/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/python_orocos_kdl/PyKDL/kinfam.sip"
     Chain* chain = new Chain();
     sipCpp->getChain(*a0, *a1, *chain);
     sipRes = chain;
-#line 150 "/home/student/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart5.cpp"
+#line 150 "/home/student/HapticDeviceGaggioli/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart5.cpp"
             sipReleaseType(const_cast< ::std::string *>(a0),sipType_std_string,a0State);
             sipReleaseType(const_cast< ::std::string *>(a1),sipType_std_string,a1State);
 
@@ -294,16 +294,16 @@ sipClassTypeDef sipTypeDef_PyKDL_Tree = {
     SIP_NULLPTR
 };
 
-#line 241 "/home/student/haptic_ws/src/orocos_kinematics_dynamics/python_orocos_kdl/PyKDL/kinfam.sip"
+#line 241 "/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/python_orocos_kdl/PyKDL/kinfam.sip"
 #include <kdl/chain.hpp>
 using namespace KDL;
-#line 307 "/home/student/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart5.cpp"
+#line 307 "/home/student/HapticDeviceGaggioli/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart5.cpp"
 
-#line 211 "/home/student/haptic_ws/src/orocos_kinematics_dynamics/python_orocos_kdl/PyKDL/kinfam.sip"
+#line 211 "/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/python_orocos_kdl/PyKDL/kinfam.sip"
 #include <kdl/segment.hpp>
 #include <kdl/kinfam_io.hpp>
 using namespace KDL;
-#line 313 "/home/student/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart5.cpp"
+#line 313 "/home/student/HapticDeviceGaggioli/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart5.cpp"
 
 
 PyDoc_STRVAR(doc_Chain_addSegment, "addSegment(self, segment: Segment)");
@@ -587,37 +587,37 @@ sipClassTypeDef sipTypeDef_PyKDL_Chain = {
     SIP_NULLPTR
 };
 
-#line 211 "/home/student/haptic_ws/src/orocos_kinematics_dynamics/python_orocos_kdl/PyKDL/kinfam.sip"
+#line 211 "/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/python_orocos_kdl/PyKDL/kinfam.sip"
 #include <kdl/segment.hpp>
 #include <kdl/kinfam_io.hpp>
 using namespace KDL;
-#line 608 "/home/student/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart5.cpp"
+#line 608 "/home/student/HapticDeviceGaggioli/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart5.cpp"
 
-#line 21 "/home/student/haptic_ws/src/orocos_kinematics_dynamics/python_orocos_kdl/PyKDL/std_string.sip"
+#line 21 "/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/python_orocos_kdl/PyKDL/std_string.sip"
 #include <string>
-#line 612 "/home/student/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart5.cpp"
-#line 111 "/home/student/haptic_ws/src/orocos_kinematics_dynamics/python_orocos_kdl/PyKDL/kinfam.sip"
+#line 612 "/home/student/HapticDeviceGaggioli/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart5.cpp"
+#line 111 "/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/python_orocos_kdl/PyKDL/kinfam.sip"
 #include <kdl/joint.hpp>
 #include <kdl/kinfam_io.hpp>
 using namespace KDL;
-#line 617 "/home/student/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart5.cpp"
-#line 201 "/home/student/haptic_ws/src/orocos_kinematics_dynamics/python_orocos_kdl/PyKDL/frames.sip"
+#line 617 "/home/student/HapticDeviceGaggioli/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart5.cpp"
+#line 201 "/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/python_orocos_kdl/PyKDL/frames.sip"
 #include <kdl/frames.hpp>
 #include <kdl/frames_io.hpp>
 #include <sstream>
 using namespace KDL;
-#line 623 "/home/student/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart5.cpp"
-#line 189 "/home/student/haptic_ws/src/orocos_kinematics_dynamics/python_orocos_kdl/PyKDL/kinfam.sip"
+#line 623 "/home/student/HapticDeviceGaggioli/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart5.cpp"
+#line 189 "/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/python_orocos_kdl/PyKDL/kinfam.sip"
 #include <kdl/rigidbodyinertia.hpp>
 #include <kdl/kinfam_io.hpp>
 using namespace KDL;
-#line 628 "/home/student/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart5.cpp"
-#line 281 "/home/student/haptic_ws/src/orocos_kinematics_dynamics/python_orocos_kdl/PyKDL/frames.sip"
+#line 628 "/home/student/HapticDeviceGaggioli/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart5.cpp"
+#line 281 "/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/python_orocos_kdl/PyKDL/frames.sip"
 #include <kdl/frames.hpp>
 #include <kdl/frames_io.hpp>
 #include <sstream>
 using namespace KDL;
-#line 634 "/home/student/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart5.cpp"
+#line 634 "/home/student/HapticDeviceGaggioli/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart5.cpp"
 
 
 PyDoc_STRVAR(doc_Segment_getFrameToTip, "getFrameToTip(self) -> Frame");
@@ -838,12 +838,12 @@ static PyObject *slot_Segment___repr__(PyObject *sipSelf)
         {
             const  ::std::string*sipRes = 0;
 
-#line 222 "/home/student/haptic_ws/src/orocos_kinematics_dynamics/python_orocos_kdl/PyKDL/kinfam.sip"
+#line 222 "/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/python_orocos_kdl/PyKDL/kinfam.sip"
     std::stringstream ss;
     ss<<(*sipCpp);
     std::string s(ss.str());
     sipRes=&s;
-#line 867 "/home/student/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart5.cpp"
+#line 867 "/home/student/HapticDeviceGaggioli/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart5.cpp"
 
             return sipConvertFromType(const_cast< ::std::string *>(sipRes),sipType_std_string,SIP_NULLPTR);
         }
@@ -1035,35 +1035,35 @@ sipClassTypeDef sipTypeDef_PyKDL_Segment = {
     SIP_NULLPTR
 };
 
-#line 189 "/home/student/haptic_ws/src/orocos_kinematics_dynamics/python_orocos_kdl/PyKDL/kinfam.sip"
+#line 189 "/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/python_orocos_kdl/PyKDL/kinfam.sip"
 #include <kdl/rigidbodyinertia.hpp>
 #include <kdl/kinfam_io.hpp>
 using namespace KDL;
-#line 1066 "/home/student/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart5.cpp"
+#line 1066 "/home/student/HapticDeviceGaggioli/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart5.cpp"
 
-#line 26 "/home/student/haptic_ws/src/orocos_kinematics_dynamics/python_orocos_kdl/PyKDL/frames.sip"
+#line 26 "/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/python_orocos_kdl/PyKDL/frames.sip"
 #include <kdl/frames.hpp>
 #include <kdl/frames_io.hpp>
 #include <sstream>
 using namespace KDL;
-#line 1073 "/home/student/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart5.cpp"
-#line 153 "/home/student/haptic_ws/src/orocos_kinematics_dynamics/python_orocos_kdl/PyKDL/kinfam.sip"
+#line 1073 "/home/student/HapticDeviceGaggioli/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart5.cpp"
+#line 153 "/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/python_orocos_kdl/PyKDL/kinfam.sip"
 #include <kdl/rotationalinertia.hpp>
 #include <kdl/kinfam_io.hpp>
 using namespace KDL;
-#line 1078 "/home/student/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart5.cpp"
-#line 352 "/home/student/haptic_ws/src/orocos_kinematics_dynamics/python_orocos_kdl/PyKDL/frames.sip"
+#line 1078 "/home/student/HapticDeviceGaggioli/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart5.cpp"
+#line 352 "/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/python_orocos_kdl/PyKDL/frames.sip"
 #include <kdl/frames.hpp>
 #include <kdl/frames_io.hpp>
 #include <sstream>
 using namespace KDL;
-#line 1084 "/home/student/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart5.cpp"
-#line 281 "/home/student/haptic_ws/src/orocos_kinematics_dynamics/python_orocos_kdl/PyKDL/frames.sip"
+#line 1084 "/home/student/HapticDeviceGaggioli/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart5.cpp"
+#line 281 "/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/python_orocos_kdl/PyKDL/frames.sip"
 #include <kdl/frames.hpp>
 #include <kdl/frames_io.hpp>
 #include <sstream>
 using namespace KDL;
-#line 1090 "/home/student/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart5.cpp"
+#line 1090 "/home/student/HapticDeviceGaggioli/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart5.cpp"
 
 
 PyDoc_STRVAR(doc_RigidBodyInertia_Zero, "Zero() -> RigidBodyInertia");
@@ -1423,18 +1423,18 @@ sipClassTypeDef sipTypeDef_PyKDL_RigidBodyInertia = {
     SIP_NULLPTR
 };
 
-#line 153 "/home/student/haptic_ws/src/orocos_kinematics_dynamics/python_orocos_kdl/PyKDL/kinfam.sip"
+#line 153 "/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/python_orocos_kdl/PyKDL/kinfam.sip"
 #include <kdl/rotationalinertia.hpp>
 #include <kdl/kinfam_io.hpp>
 using namespace KDL;
-#line 1461 "/home/student/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart5.cpp"
+#line 1461 "/home/student/HapticDeviceGaggioli/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart5.cpp"
 
-#line 26 "/home/student/haptic_ws/src/orocos_kinematics_dynamics/python_orocos_kdl/PyKDL/frames.sip"
+#line 26 "/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/python_orocos_kdl/PyKDL/frames.sip"
 #include <kdl/frames.hpp>
 #include <kdl/frames_io.hpp>
 #include <sstream>
 using namespace KDL;
-#line 1468 "/home/student/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart5.cpp"
+#line 1468 "/home/student/HapticDeviceGaggioli/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart5.cpp"
 
 
 PyDoc_STRVAR(doc_RotationalInertia_Zero, "Zero() -> RotationalInertia");
@@ -1548,13 +1548,13 @@ static int slot_RotationalInertia___setitem__(PyObject *sipSelf,PyObject *sipArg
 
         if (sipParseArgs(&sipParseErr, sipArgs, "id", &a0, &a1))
         {
-#line 173 "/home/student/haptic_ws/src/orocos_kinematics_dynamics/python_orocos_kdl/PyKDL/kinfam.sip"
+#line 173 "/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/python_orocos_kdl/PyKDL/kinfam.sip"
     if (a0 < 0 || a0 >= 9) {
         PyErr_SetString(PyExc_IndexError, "RotationalInertia index out of range");
         return 0;
     }
     (*sipCpp).data[a0]=a1;
-#line 1589 "/home/student/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart5.cpp"
+#line 1589 "/home/student/HapticDeviceGaggioli/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart5.cpp"
 
             return 0;
         }
@@ -1584,13 +1584,13 @@ static PyObject *slot_RotationalInertia___getitem__(PyObject *sipSelf,PyObject *
         {
             double sipRes = 0;
 
-#line 164 "/home/student/haptic_ws/src/orocos_kinematics_dynamics/python_orocos_kdl/PyKDL/kinfam.sip"
+#line 164 "/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/python_orocos_kdl/PyKDL/kinfam.sip"
     if (a0 < 0 || a0 >= 9) {
         PyErr_SetString(PyExc_IndexError, "RotationalInertia index out of range");
         return 0;
     }
     sipRes=(*sipCpp).data[a0];
-#line 1625 "/home/student/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart5.cpp"
+#line 1625 "/home/student/HapticDeviceGaggioli/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart5.cpp"
 
             return PyFloat_FromDouble(sipRes);
         }
@@ -1754,33 +1754,33 @@ sipClassTypeDef sipTypeDef_PyKDL_RotationalInertia = {
     SIP_NULLPTR
 };
 
-#line 111 "/home/student/haptic_ws/src/orocos_kinematics_dynamics/python_orocos_kdl/PyKDL/kinfam.sip"
+#line 111 "/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/python_orocos_kdl/PyKDL/kinfam.sip"
 #include <kdl/joint.hpp>
 #include <kdl/kinfam_io.hpp>
 using namespace KDL;
-#line 1795 "/home/student/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart5.cpp"
+#line 1795 "/home/student/HapticDeviceGaggioli/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart5.cpp"
 
-#line 21 "/home/student/haptic_ws/src/orocos_kinematics_dynamics/python_orocos_kdl/PyKDL/std_string.sip"
+#line 21 "/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/python_orocos_kdl/PyKDL/std_string.sip"
 #include <string>
-#line 1799 "/home/student/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart5.cpp"
-#line 26 "/home/student/haptic_ws/src/orocos_kinematics_dynamics/python_orocos_kdl/PyKDL/frames.sip"
+#line 1799 "/home/student/HapticDeviceGaggioli/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart5.cpp"
+#line 26 "/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/python_orocos_kdl/PyKDL/frames.sip"
 #include <kdl/frames.hpp>
 #include <kdl/frames_io.hpp>
 #include <sstream>
 using namespace KDL;
-#line 1805 "/home/student/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart5.cpp"
-#line 281 "/home/student/haptic_ws/src/orocos_kinematics_dynamics/python_orocos_kdl/PyKDL/frames.sip"
+#line 1805 "/home/student/HapticDeviceGaggioli/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart5.cpp"
+#line 281 "/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/python_orocos_kdl/PyKDL/frames.sip"
 #include <kdl/frames.hpp>
 #include <kdl/frames_io.hpp>
 #include <sstream>
 using namespace KDL;
-#line 1811 "/home/student/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart5.cpp"
-#line 201 "/home/student/haptic_ws/src/orocos_kinematics_dynamics/python_orocos_kdl/PyKDL/frames.sip"
+#line 1811 "/home/student/HapticDeviceGaggioli/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart5.cpp"
+#line 201 "/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/python_orocos_kdl/PyKDL/frames.sip"
 #include <kdl/frames.hpp>
 #include <kdl/frames_io.hpp>
 #include <sstream>
 using namespace KDL;
-#line 1817 "/home/student/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart5.cpp"
+#line 1817 "/home/student/HapticDeviceGaggioli/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart5.cpp"
 
 
 PyDoc_STRVAR(doc_Joint_pose, "pose(self, q: float) -> Frame");
@@ -2076,12 +2076,12 @@ static PyObject *slot_Joint___repr__(PyObject *sipSelf)
         {
             const  ::std::string*sipRes = 0;
 
-#line 143 "/home/student/haptic_ws/src/orocos_kinematics_dynamics/python_orocos_kdl/PyKDL/kinfam.sip"
+#line 143 "/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/python_orocos_kdl/PyKDL/kinfam.sip"
         std::ostringstream oss;
         oss<<(*sipCpp);
         std::string s(oss.str());
         sipRes=&s;
-#line 2128 "/home/student/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart5.cpp"
+#line 2128 "/home/student/HapticDeviceGaggioli/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart5.cpp"
 
             return sipConvertFromType(const_cast< ::std::string *>(sipRes),sipType_std_string,SIP_NULLPTR);
         }

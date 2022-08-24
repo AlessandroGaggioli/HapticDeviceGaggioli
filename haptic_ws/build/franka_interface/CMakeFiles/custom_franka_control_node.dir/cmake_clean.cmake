@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/student/haptic_ws/devel/.private/franka_interface/lib/franka_interface/custom_franka_control_node"
-  "/home/student/haptic_ws/devel/.private/franka_interface/lib/franka_interface/custom_franka_control_node.pdb"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_interface/lib/franka_interface/custom_franka_control_node"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_interface/lib/franka_interface/custom_franka_control_node.pdb"
   "CMakeFiles/custom_franka_control_node.dir/src/franka_control_node.cpp.o"
   "CMakeFiles/custom_franka_control_node.dir/src/motion_controller_interface.cpp.o"
 )

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/student/haptic_ws/devel/.private/franka_gazebo/lib/franka_gazebo/franka_hw_sim_controller_verifier_test"
-  "/home/student/haptic_ws/devel/.private/franka_gazebo/lib/franka_gazebo/franka_hw_sim_controller_verifier_test.pdb"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gazebo/lib/franka_gazebo/franka_hw_sim_controller_verifier_test"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gazebo/lib/franka_gazebo/franka_hw_sim_controller_verifier_test.pdb"
   "CMakeFiles/franka_hw_sim_controller_verifier_test.dir/controller_verifier_test.cpp.o"
   "CMakeFiles/franka_hw_sim_controller_verifier_test.dir/main.cpp.o"
 )

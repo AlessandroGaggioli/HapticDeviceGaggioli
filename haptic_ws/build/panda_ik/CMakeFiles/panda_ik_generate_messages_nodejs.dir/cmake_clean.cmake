@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/student/haptic_ws/devel/.private/panda_ik/share/gennodejs/ros/panda_ik/srv/pandaFk.js"
-  "/home/student/haptic_ws/devel/.private/panda_ik/share/gennodejs/ros/panda_ik/srv/pandaIk.js"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/panda_ik/share/gennodejs/ros/panda_ik/srv/pandaFk.js"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/panda_ik/share/gennodejs/ros/panda_ik/srv/pandaIk.js"
   "CMakeFiles/panda_ik_generate_messages_nodejs"
 )
 

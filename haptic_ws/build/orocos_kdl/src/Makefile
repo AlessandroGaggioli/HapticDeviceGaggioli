@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl
+CMAKE_SOURCE_DIR = /home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/student/haptic_ws/build/orocos_kdl
+CMAKE_BINARY_DIR = /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/student/haptic_ws/build/orocos_kdl && $(CMAKE_COMMAND) -E cmake_progress_start /home/student/haptic_ws/build/orocos_kdl/CMakeFiles /home/student/haptic_ws/build/orocos_kdl/src/CMakeFiles/progress.marks
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f CMakeFiles/Makefile2 src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/student/haptic_ws/build/orocos_kdl/CMakeFiles 0
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(CMAKE_COMMAND) -E cmake_progress_start /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl/CMakeFiles /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl/src/CMakeFiles/progress.marks
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f CMakeFiles/Makefile2 src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f CMakeFiles/Makefile2 src/clean
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f CMakeFiles/Makefile2 src/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/CMakeFiles/orocos-kdl.dir/rule:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/orocos-kdl.dir/rule
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/orocos-kdl.dir/rule
 .PHONY : src/CMakeFiles/orocos-kdl.dir/rule
 
 # Convenience name for target.
@@ -168,7 +168,7 @@ orocos-kdl: src/CMakeFiles/orocos-kdl.dir/rule
 
 # fast build rule for target.
 orocos-kdl/fast:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/build
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/build
 .PHONY : orocos-kdl/fast
 
 articulatedbodyinertia.o: articulatedbodyinertia.cpp.o
@@ -177,7 +177,7 @@ articulatedbodyinertia.o: articulatedbodyinertia.cpp.o
 
 # target to build an object file
 articulatedbodyinertia.cpp.o:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/articulatedbodyinertia.cpp.o
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/articulatedbodyinertia.cpp.o
 .PHONY : articulatedbodyinertia.cpp.o
 
 articulatedbodyinertia.i: articulatedbodyinertia.cpp.i
@@ -186,7 +186,7 @@ articulatedbodyinertia.i: articulatedbodyinertia.cpp.i
 
 # target to preprocess a source file
 articulatedbodyinertia.cpp.i:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/articulatedbodyinertia.cpp.i
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/articulatedbodyinertia.cpp.i
 .PHONY : articulatedbodyinertia.cpp.i
 
 articulatedbodyinertia.s: articulatedbodyinertia.cpp.s
@@ -195,7 +195,7 @@ articulatedbodyinertia.s: articulatedbodyinertia.cpp.s
 
 # target to generate assembly for a file
 articulatedbodyinertia.cpp.s:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/articulatedbodyinertia.cpp.s
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/articulatedbodyinertia.cpp.s
 .PHONY : articulatedbodyinertia.cpp.s
 
 chain.o: chain.cpp.o
@@ -204,7 +204,7 @@ chain.o: chain.cpp.o
 
 # target to build an object file
 chain.cpp.o:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/chain.cpp.o
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/chain.cpp.o
 .PHONY : chain.cpp.o
 
 chain.i: chain.cpp.i
@@ -213,7 +213,7 @@ chain.i: chain.cpp.i
 
 # target to preprocess a source file
 chain.cpp.i:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/chain.cpp.i
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/chain.cpp.i
 .PHONY : chain.cpp.i
 
 chain.s: chain.cpp.s
@@ -222,7 +222,7 @@ chain.s: chain.cpp.s
 
 # target to generate assembly for a file
 chain.cpp.s:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/chain.cpp.s
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/chain.cpp.s
 .PHONY : chain.cpp.s
 
 chaindynparam.o: chaindynparam.cpp.o
@@ -231,7 +231,7 @@ chaindynparam.o: chaindynparam.cpp.o
 
 # target to build an object file
 chaindynparam.cpp.o:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/chaindynparam.cpp.o
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/chaindynparam.cpp.o
 .PHONY : chaindynparam.cpp.o
 
 chaindynparam.i: chaindynparam.cpp.i
@@ -240,7 +240,7 @@ chaindynparam.i: chaindynparam.cpp.i
 
 # target to preprocess a source file
 chaindynparam.cpp.i:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/chaindynparam.cpp.i
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/chaindynparam.cpp.i
 .PHONY : chaindynparam.cpp.i
 
 chaindynparam.s: chaindynparam.cpp.s
@@ -249,7 +249,7 @@ chaindynparam.s: chaindynparam.cpp.s
 
 # target to generate assembly for a file
 chaindynparam.cpp.s:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/chaindynparam.cpp.s
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/chaindynparam.cpp.s
 .PHONY : chaindynparam.cpp.s
 
 chainfdsolver_recursive_newton_euler.o: chainfdsolver_recursive_newton_euler.cpp.o
@@ -258,7 +258,7 @@ chainfdsolver_recursive_newton_euler.o: chainfdsolver_recursive_newton_euler.cpp
 
 # target to build an object file
 chainfdsolver_recursive_newton_euler.cpp.o:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/chainfdsolver_recursive_newton_euler.cpp.o
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/chainfdsolver_recursive_newton_euler.cpp.o
 .PHONY : chainfdsolver_recursive_newton_euler.cpp.o
 
 chainfdsolver_recursive_newton_euler.i: chainfdsolver_recursive_newton_euler.cpp.i
@@ -267,7 +267,7 @@ chainfdsolver_recursive_newton_euler.i: chainfdsolver_recursive_newton_euler.cpp
 
 # target to preprocess a source file
 chainfdsolver_recursive_newton_euler.cpp.i:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/chainfdsolver_recursive_newton_euler.cpp.i
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/chainfdsolver_recursive_newton_euler.cpp.i
 .PHONY : chainfdsolver_recursive_newton_euler.cpp.i
 
 chainfdsolver_recursive_newton_euler.s: chainfdsolver_recursive_newton_euler.cpp.s
@@ -276,7 +276,7 @@ chainfdsolver_recursive_newton_euler.s: chainfdsolver_recursive_newton_euler.cpp
 
 # target to generate assembly for a file
 chainfdsolver_recursive_newton_euler.cpp.s:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/chainfdsolver_recursive_newton_euler.cpp.s
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/chainfdsolver_recursive_newton_euler.cpp.s
 .PHONY : chainfdsolver_recursive_newton_euler.cpp.s
 
 chainfksolverpos_recursive.o: chainfksolverpos_recursive.cpp.o
@@ -285,7 +285,7 @@ chainfksolverpos_recursive.o: chainfksolverpos_recursive.cpp.o
 
 # target to build an object file
 chainfksolverpos_recursive.cpp.o:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/chainfksolverpos_recursive.cpp.o
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/chainfksolverpos_recursive.cpp.o
 .PHONY : chainfksolverpos_recursive.cpp.o
 
 chainfksolverpos_recursive.i: chainfksolverpos_recursive.cpp.i
@@ -294,7 +294,7 @@ chainfksolverpos_recursive.i: chainfksolverpos_recursive.cpp.i
 
 # target to preprocess a source file
 chainfksolverpos_recursive.cpp.i:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/chainfksolverpos_recursive.cpp.i
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/chainfksolverpos_recursive.cpp.i
 .PHONY : chainfksolverpos_recursive.cpp.i
 
 chainfksolverpos_recursive.s: chainfksolverpos_recursive.cpp.s
@@ -303,7 +303,7 @@ chainfksolverpos_recursive.s: chainfksolverpos_recursive.cpp.s
 
 # target to generate assembly for a file
 chainfksolverpos_recursive.cpp.s:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/chainfksolverpos_recursive.cpp.s
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/chainfksolverpos_recursive.cpp.s
 .PHONY : chainfksolverpos_recursive.cpp.s
 
 chainfksolvervel_recursive.o: chainfksolvervel_recursive.cpp.o
@@ -312,7 +312,7 @@ chainfksolvervel_recursive.o: chainfksolvervel_recursive.cpp.o
 
 # target to build an object file
 chainfksolvervel_recursive.cpp.o:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/chainfksolvervel_recursive.cpp.o
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/chainfksolvervel_recursive.cpp.o
 .PHONY : chainfksolvervel_recursive.cpp.o
 
 chainfksolvervel_recursive.i: chainfksolvervel_recursive.cpp.i
@@ -321,7 +321,7 @@ chainfksolvervel_recursive.i: chainfksolvervel_recursive.cpp.i
 
 # target to preprocess a source file
 chainfksolvervel_recursive.cpp.i:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/chainfksolvervel_recursive.cpp.i
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/chainfksolvervel_recursive.cpp.i
 .PHONY : chainfksolvervel_recursive.cpp.i
 
 chainfksolvervel_recursive.s: chainfksolvervel_recursive.cpp.s
@@ -330,7 +330,7 @@ chainfksolvervel_recursive.s: chainfksolvervel_recursive.cpp.s
 
 # target to generate assembly for a file
 chainfksolvervel_recursive.cpp.s:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/chainfksolvervel_recursive.cpp.s
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/chainfksolvervel_recursive.cpp.s
 .PHONY : chainfksolvervel_recursive.cpp.s
 
 chainidsolver_recursive_newton_euler.o: chainidsolver_recursive_newton_euler.cpp.o
@@ -339,7 +339,7 @@ chainidsolver_recursive_newton_euler.o: chainidsolver_recursive_newton_euler.cpp
 
 # target to build an object file
 chainidsolver_recursive_newton_euler.cpp.o:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/chainidsolver_recursive_newton_euler.cpp.o
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/chainidsolver_recursive_newton_euler.cpp.o
 .PHONY : chainidsolver_recursive_newton_euler.cpp.o
 
 chainidsolver_recursive_newton_euler.i: chainidsolver_recursive_newton_euler.cpp.i
@@ -348,7 +348,7 @@ chainidsolver_recursive_newton_euler.i: chainidsolver_recursive_newton_euler.cpp
 
 # target to preprocess a source file
 chainidsolver_recursive_newton_euler.cpp.i:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/chainidsolver_recursive_newton_euler.cpp.i
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/chainidsolver_recursive_newton_euler.cpp.i
 .PHONY : chainidsolver_recursive_newton_euler.cpp.i
 
 chainidsolver_recursive_newton_euler.s: chainidsolver_recursive_newton_euler.cpp.s
@@ -357,7 +357,7 @@ chainidsolver_recursive_newton_euler.s: chainidsolver_recursive_newton_euler.cpp
 
 # target to generate assembly for a file
 chainidsolver_recursive_newton_euler.cpp.s:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/chainidsolver_recursive_newton_euler.cpp.s
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/chainidsolver_recursive_newton_euler.cpp.s
 .PHONY : chainidsolver_recursive_newton_euler.cpp.s
 
 chainidsolver_vereshchagin.o: chainidsolver_vereshchagin.cpp.o
@@ -366,7 +366,7 @@ chainidsolver_vereshchagin.o: chainidsolver_vereshchagin.cpp.o
 
 # target to build an object file
 chainidsolver_vereshchagin.cpp.o:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/chainidsolver_vereshchagin.cpp.o
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/chainidsolver_vereshchagin.cpp.o
 .PHONY : chainidsolver_vereshchagin.cpp.o
 
 chainidsolver_vereshchagin.i: chainidsolver_vereshchagin.cpp.i
@@ -375,7 +375,7 @@ chainidsolver_vereshchagin.i: chainidsolver_vereshchagin.cpp.i
 
 # target to preprocess a source file
 chainidsolver_vereshchagin.cpp.i:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/chainidsolver_vereshchagin.cpp.i
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/chainidsolver_vereshchagin.cpp.i
 .PHONY : chainidsolver_vereshchagin.cpp.i
 
 chainidsolver_vereshchagin.s: chainidsolver_vereshchagin.cpp.s
@@ -384,7 +384,7 @@ chainidsolver_vereshchagin.s: chainidsolver_vereshchagin.cpp.s
 
 # target to generate assembly for a file
 chainidsolver_vereshchagin.cpp.s:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/chainidsolver_vereshchagin.cpp.s
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/chainidsolver_vereshchagin.cpp.s
 .PHONY : chainidsolver_vereshchagin.cpp.s
 
 chainiksolverpos_lma.o: chainiksolverpos_lma.cpp.o
@@ -393,7 +393,7 @@ chainiksolverpos_lma.o: chainiksolverpos_lma.cpp.o
 
 # target to build an object file
 chainiksolverpos_lma.cpp.o:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/chainiksolverpos_lma.cpp.o
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/chainiksolverpos_lma.cpp.o
 .PHONY : chainiksolverpos_lma.cpp.o
 
 chainiksolverpos_lma.i: chainiksolverpos_lma.cpp.i
@@ -402,7 +402,7 @@ chainiksolverpos_lma.i: chainiksolverpos_lma.cpp.i
 
 # target to preprocess a source file
 chainiksolverpos_lma.cpp.i:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/chainiksolverpos_lma.cpp.i
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/chainiksolverpos_lma.cpp.i
 .PHONY : chainiksolverpos_lma.cpp.i
 
 chainiksolverpos_lma.s: chainiksolverpos_lma.cpp.s
@@ -411,7 +411,7 @@ chainiksolverpos_lma.s: chainiksolverpos_lma.cpp.s
 
 # target to generate assembly for a file
 chainiksolverpos_lma.cpp.s:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/chainiksolverpos_lma.cpp.s
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/chainiksolverpos_lma.cpp.s
 .PHONY : chainiksolverpos_lma.cpp.s
 
 chainiksolverpos_nr.o: chainiksolverpos_nr.cpp.o
@@ -420,7 +420,7 @@ chainiksolverpos_nr.o: chainiksolverpos_nr.cpp.o
 
 # target to build an object file
 chainiksolverpos_nr.cpp.o:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/chainiksolverpos_nr.cpp.o
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/chainiksolverpos_nr.cpp.o
 .PHONY : chainiksolverpos_nr.cpp.o
 
 chainiksolverpos_nr.i: chainiksolverpos_nr.cpp.i
@@ -429,7 +429,7 @@ chainiksolverpos_nr.i: chainiksolverpos_nr.cpp.i
 
 # target to preprocess a source file
 chainiksolverpos_nr.cpp.i:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/chainiksolverpos_nr.cpp.i
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/chainiksolverpos_nr.cpp.i
 .PHONY : chainiksolverpos_nr.cpp.i
 
 chainiksolverpos_nr.s: chainiksolverpos_nr.cpp.s
@@ -438,7 +438,7 @@ chainiksolverpos_nr.s: chainiksolverpos_nr.cpp.s
 
 # target to generate assembly for a file
 chainiksolverpos_nr.cpp.s:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/chainiksolverpos_nr.cpp.s
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/chainiksolverpos_nr.cpp.s
 .PHONY : chainiksolverpos_nr.cpp.s
 
 chainiksolverpos_nr_jl.o: chainiksolverpos_nr_jl.cpp.o
@@ -447,7 +447,7 @@ chainiksolverpos_nr_jl.o: chainiksolverpos_nr_jl.cpp.o
 
 # target to build an object file
 chainiksolverpos_nr_jl.cpp.o:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/chainiksolverpos_nr_jl.cpp.o
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/chainiksolverpos_nr_jl.cpp.o
 .PHONY : chainiksolverpos_nr_jl.cpp.o
 
 chainiksolverpos_nr_jl.i: chainiksolverpos_nr_jl.cpp.i
@@ -456,7 +456,7 @@ chainiksolverpos_nr_jl.i: chainiksolverpos_nr_jl.cpp.i
 
 # target to preprocess a source file
 chainiksolverpos_nr_jl.cpp.i:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/chainiksolverpos_nr_jl.cpp.i
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/chainiksolverpos_nr_jl.cpp.i
 .PHONY : chainiksolverpos_nr_jl.cpp.i
 
 chainiksolverpos_nr_jl.s: chainiksolverpos_nr_jl.cpp.s
@@ -465,7 +465,7 @@ chainiksolverpos_nr_jl.s: chainiksolverpos_nr_jl.cpp.s
 
 # target to generate assembly for a file
 chainiksolverpos_nr_jl.cpp.s:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/chainiksolverpos_nr_jl.cpp.s
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/chainiksolverpos_nr_jl.cpp.s
 .PHONY : chainiksolverpos_nr_jl.cpp.s
 
 chainiksolvervel_pinv.o: chainiksolvervel_pinv.cpp.o
@@ -474,7 +474,7 @@ chainiksolvervel_pinv.o: chainiksolvervel_pinv.cpp.o
 
 # target to build an object file
 chainiksolvervel_pinv.cpp.o:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/chainiksolvervel_pinv.cpp.o
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/chainiksolvervel_pinv.cpp.o
 .PHONY : chainiksolvervel_pinv.cpp.o
 
 chainiksolvervel_pinv.i: chainiksolvervel_pinv.cpp.i
@@ -483,7 +483,7 @@ chainiksolvervel_pinv.i: chainiksolvervel_pinv.cpp.i
 
 # target to preprocess a source file
 chainiksolvervel_pinv.cpp.i:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/chainiksolvervel_pinv.cpp.i
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/chainiksolvervel_pinv.cpp.i
 .PHONY : chainiksolvervel_pinv.cpp.i
 
 chainiksolvervel_pinv.s: chainiksolvervel_pinv.cpp.s
@@ -492,7 +492,7 @@ chainiksolvervel_pinv.s: chainiksolvervel_pinv.cpp.s
 
 # target to generate assembly for a file
 chainiksolvervel_pinv.cpp.s:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/chainiksolvervel_pinv.cpp.s
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/chainiksolvervel_pinv.cpp.s
 .PHONY : chainiksolvervel_pinv.cpp.s
 
 chainiksolvervel_pinv_givens.o: chainiksolvervel_pinv_givens.cpp.o
@@ -501,7 +501,7 @@ chainiksolvervel_pinv_givens.o: chainiksolvervel_pinv_givens.cpp.o
 
 # target to build an object file
 chainiksolvervel_pinv_givens.cpp.o:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/chainiksolvervel_pinv_givens.cpp.o
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/chainiksolvervel_pinv_givens.cpp.o
 .PHONY : chainiksolvervel_pinv_givens.cpp.o
 
 chainiksolvervel_pinv_givens.i: chainiksolvervel_pinv_givens.cpp.i
@@ -510,7 +510,7 @@ chainiksolvervel_pinv_givens.i: chainiksolvervel_pinv_givens.cpp.i
 
 # target to preprocess a source file
 chainiksolvervel_pinv_givens.cpp.i:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/chainiksolvervel_pinv_givens.cpp.i
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/chainiksolvervel_pinv_givens.cpp.i
 .PHONY : chainiksolvervel_pinv_givens.cpp.i
 
 chainiksolvervel_pinv_givens.s: chainiksolvervel_pinv_givens.cpp.s
@@ -519,7 +519,7 @@ chainiksolvervel_pinv_givens.s: chainiksolvervel_pinv_givens.cpp.s
 
 # target to generate assembly for a file
 chainiksolvervel_pinv_givens.cpp.s:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/chainiksolvervel_pinv_givens.cpp.s
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/chainiksolvervel_pinv_givens.cpp.s
 .PHONY : chainiksolvervel_pinv_givens.cpp.s
 
 chainiksolvervel_pinv_nso.o: chainiksolvervel_pinv_nso.cpp.o
@@ -528,7 +528,7 @@ chainiksolvervel_pinv_nso.o: chainiksolvervel_pinv_nso.cpp.o
 
 # target to build an object file
 chainiksolvervel_pinv_nso.cpp.o:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/chainiksolvervel_pinv_nso.cpp.o
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/chainiksolvervel_pinv_nso.cpp.o
 .PHONY : chainiksolvervel_pinv_nso.cpp.o
 
 chainiksolvervel_pinv_nso.i: chainiksolvervel_pinv_nso.cpp.i
@@ -537,7 +537,7 @@ chainiksolvervel_pinv_nso.i: chainiksolvervel_pinv_nso.cpp.i
 
 # target to preprocess a source file
 chainiksolvervel_pinv_nso.cpp.i:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/chainiksolvervel_pinv_nso.cpp.i
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/chainiksolvervel_pinv_nso.cpp.i
 .PHONY : chainiksolvervel_pinv_nso.cpp.i
 
 chainiksolvervel_pinv_nso.s: chainiksolvervel_pinv_nso.cpp.s
@@ -546,7 +546,7 @@ chainiksolvervel_pinv_nso.s: chainiksolvervel_pinv_nso.cpp.s
 
 # target to generate assembly for a file
 chainiksolvervel_pinv_nso.cpp.s:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/chainiksolvervel_pinv_nso.cpp.s
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/chainiksolvervel_pinv_nso.cpp.s
 .PHONY : chainiksolvervel_pinv_nso.cpp.s
 
 chainiksolvervel_wdls.o: chainiksolvervel_wdls.cpp.o
@@ -555,7 +555,7 @@ chainiksolvervel_wdls.o: chainiksolvervel_wdls.cpp.o
 
 # target to build an object file
 chainiksolvervel_wdls.cpp.o:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/chainiksolvervel_wdls.cpp.o
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/chainiksolvervel_wdls.cpp.o
 .PHONY : chainiksolvervel_wdls.cpp.o
 
 chainiksolvervel_wdls.i: chainiksolvervel_wdls.cpp.i
@@ -564,7 +564,7 @@ chainiksolvervel_wdls.i: chainiksolvervel_wdls.cpp.i
 
 # target to preprocess a source file
 chainiksolvervel_wdls.cpp.i:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/chainiksolvervel_wdls.cpp.i
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/chainiksolvervel_wdls.cpp.i
 .PHONY : chainiksolvervel_wdls.cpp.i
 
 chainiksolvervel_wdls.s: chainiksolvervel_wdls.cpp.s
@@ -573,7 +573,7 @@ chainiksolvervel_wdls.s: chainiksolvervel_wdls.cpp.s
 
 # target to generate assembly for a file
 chainiksolvervel_wdls.cpp.s:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/chainiksolvervel_wdls.cpp.s
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/chainiksolvervel_wdls.cpp.s
 .PHONY : chainiksolvervel_wdls.cpp.s
 
 chainjnttojacdotsolver.o: chainjnttojacdotsolver.cpp.o
@@ -582,7 +582,7 @@ chainjnttojacdotsolver.o: chainjnttojacdotsolver.cpp.o
 
 # target to build an object file
 chainjnttojacdotsolver.cpp.o:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/chainjnttojacdotsolver.cpp.o
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/chainjnttojacdotsolver.cpp.o
 .PHONY : chainjnttojacdotsolver.cpp.o
 
 chainjnttojacdotsolver.i: chainjnttojacdotsolver.cpp.i
@@ -591,7 +591,7 @@ chainjnttojacdotsolver.i: chainjnttojacdotsolver.cpp.i
 
 # target to preprocess a source file
 chainjnttojacdotsolver.cpp.i:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/chainjnttojacdotsolver.cpp.i
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/chainjnttojacdotsolver.cpp.i
 .PHONY : chainjnttojacdotsolver.cpp.i
 
 chainjnttojacdotsolver.s: chainjnttojacdotsolver.cpp.s
@@ -600,7 +600,7 @@ chainjnttojacdotsolver.s: chainjnttojacdotsolver.cpp.s
 
 # target to generate assembly for a file
 chainjnttojacdotsolver.cpp.s:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/chainjnttojacdotsolver.cpp.s
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/chainjnttojacdotsolver.cpp.s
 .PHONY : chainjnttojacdotsolver.cpp.s
 
 chainjnttojacsolver.o: chainjnttojacsolver.cpp.o
@@ -609,7 +609,7 @@ chainjnttojacsolver.o: chainjnttojacsolver.cpp.o
 
 # target to build an object file
 chainjnttojacsolver.cpp.o:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/chainjnttojacsolver.cpp.o
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/chainjnttojacsolver.cpp.o
 .PHONY : chainjnttojacsolver.cpp.o
 
 chainjnttojacsolver.i: chainjnttojacsolver.cpp.i
@@ -618,7 +618,7 @@ chainjnttojacsolver.i: chainjnttojacsolver.cpp.i
 
 # target to preprocess a source file
 chainjnttojacsolver.cpp.i:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/chainjnttojacsolver.cpp.i
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/chainjnttojacsolver.cpp.i
 .PHONY : chainjnttojacsolver.cpp.i
 
 chainjnttojacsolver.s: chainjnttojacsolver.cpp.s
@@ -627,7 +627,7 @@ chainjnttojacsolver.s: chainjnttojacsolver.cpp.s
 
 # target to generate assembly for a file
 chainjnttojacsolver.cpp.s:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/chainjnttojacsolver.cpp.s
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/chainjnttojacsolver.cpp.s
 .PHONY : chainjnttojacsolver.cpp.s
 
 frameacc.o: frameacc.cpp.o
@@ -636,7 +636,7 @@ frameacc.o: frameacc.cpp.o
 
 # target to build an object file
 frameacc.cpp.o:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/frameacc.cpp.o
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/frameacc.cpp.o
 .PHONY : frameacc.cpp.o
 
 frameacc.i: frameacc.cpp.i
@@ -645,7 +645,7 @@ frameacc.i: frameacc.cpp.i
 
 # target to preprocess a source file
 frameacc.cpp.i:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/frameacc.cpp.i
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/frameacc.cpp.i
 .PHONY : frameacc.cpp.i
 
 frameacc.s: frameacc.cpp.s
@@ -654,7 +654,7 @@ frameacc.s: frameacc.cpp.s
 
 # target to generate assembly for a file
 frameacc.cpp.s:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/frameacc.cpp.s
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/frameacc.cpp.s
 .PHONY : frameacc.cpp.s
 
 frames.o: frames.cpp.o
@@ -663,7 +663,7 @@ frames.o: frames.cpp.o
 
 # target to build an object file
 frames.cpp.o:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/frames.cpp.o
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/frames.cpp.o
 .PHONY : frames.cpp.o
 
 frames.i: frames.cpp.i
@@ -672,7 +672,7 @@ frames.i: frames.cpp.i
 
 # target to preprocess a source file
 frames.cpp.i:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/frames.cpp.i
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/frames.cpp.i
 .PHONY : frames.cpp.i
 
 frames.s: frames.cpp.s
@@ -681,7 +681,7 @@ frames.s: frames.cpp.s
 
 # target to generate assembly for a file
 frames.cpp.s:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/frames.cpp.s
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/frames.cpp.s
 .PHONY : frames.cpp.s
 
 frames_io.o: frames_io.cpp.o
@@ -690,7 +690,7 @@ frames_io.o: frames_io.cpp.o
 
 # target to build an object file
 frames_io.cpp.o:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/frames_io.cpp.o
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/frames_io.cpp.o
 .PHONY : frames_io.cpp.o
 
 frames_io.i: frames_io.cpp.i
@@ -699,7 +699,7 @@ frames_io.i: frames_io.cpp.i
 
 # target to preprocess a source file
 frames_io.cpp.i:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/frames_io.cpp.i
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/frames_io.cpp.i
 .PHONY : frames_io.cpp.i
 
 frames_io.s: frames_io.cpp.s
@@ -708,7 +708,7 @@ frames_io.s: frames_io.cpp.s
 
 # target to generate assembly for a file
 frames_io.cpp.s:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/frames_io.cpp.s
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/frames_io.cpp.s
 .PHONY : frames_io.cpp.s
 
 framevel.o: framevel.cpp.o
@@ -717,7 +717,7 @@ framevel.o: framevel.cpp.o
 
 # target to build an object file
 framevel.cpp.o:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/framevel.cpp.o
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/framevel.cpp.o
 .PHONY : framevel.cpp.o
 
 framevel.i: framevel.cpp.i
@@ -726,7 +726,7 @@ framevel.i: framevel.cpp.i
 
 # target to preprocess a source file
 framevel.cpp.i:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/framevel.cpp.i
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/framevel.cpp.i
 .PHONY : framevel.cpp.i
 
 framevel.s: framevel.cpp.s
@@ -735,7 +735,7 @@ framevel.s: framevel.cpp.s
 
 # target to generate assembly for a file
 framevel.cpp.s:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/framevel.cpp.s
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/framevel.cpp.s
 .PHONY : framevel.cpp.s
 
 jacobian.o: jacobian.cpp.o
@@ -744,7 +744,7 @@ jacobian.o: jacobian.cpp.o
 
 # target to build an object file
 jacobian.cpp.o:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/jacobian.cpp.o
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/jacobian.cpp.o
 .PHONY : jacobian.cpp.o
 
 jacobian.i: jacobian.cpp.i
@@ -753,7 +753,7 @@ jacobian.i: jacobian.cpp.i
 
 # target to preprocess a source file
 jacobian.cpp.i:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/jacobian.cpp.i
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/jacobian.cpp.i
 .PHONY : jacobian.cpp.i
 
 jacobian.s: jacobian.cpp.s
@@ -762,7 +762,7 @@ jacobian.s: jacobian.cpp.s
 
 # target to generate assembly for a file
 jacobian.cpp.s:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/jacobian.cpp.s
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/jacobian.cpp.s
 .PHONY : jacobian.cpp.s
 
 jntarray.o: jntarray.cpp.o
@@ -771,7 +771,7 @@ jntarray.o: jntarray.cpp.o
 
 # target to build an object file
 jntarray.cpp.o:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/jntarray.cpp.o
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/jntarray.cpp.o
 .PHONY : jntarray.cpp.o
 
 jntarray.i: jntarray.cpp.i
@@ -780,7 +780,7 @@ jntarray.i: jntarray.cpp.i
 
 # target to preprocess a source file
 jntarray.cpp.i:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/jntarray.cpp.i
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/jntarray.cpp.i
 .PHONY : jntarray.cpp.i
 
 jntarray.s: jntarray.cpp.s
@@ -789,7 +789,7 @@ jntarray.s: jntarray.cpp.s
 
 # target to generate assembly for a file
 jntarray.cpp.s:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/jntarray.cpp.s
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/jntarray.cpp.s
 .PHONY : jntarray.cpp.s
 
 jntarrayacc.o: jntarrayacc.cpp.o
@@ -798,7 +798,7 @@ jntarrayacc.o: jntarrayacc.cpp.o
 
 # target to build an object file
 jntarrayacc.cpp.o:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/jntarrayacc.cpp.o
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/jntarrayacc.cpp.o
 .PHONY : jntarrayacc.cpp.o
 
 jntarrayacc.i: jntarrayacc.cpp.i
@@ -807,7 +807,7 @@ jntarrayacc.i: jntarrayacc.cpp.i
 
 # target to preprocess a source file
 jntarrayacc.cpp.i:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/jntarrayacc.cpp.i
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/jntarrayacc.cpp.i
 .PHONY : jntarrayacc.cpp.i
 
 jntarrayacc.s: jntarrayacc.cpp.s
@@ -816,7 +816,7 @@ jntarrayacc.s: jntarrayacc.cpp.s
 
 # target to generate assembly for a file
 jntarrayacc.cpp.s:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/jntarrayacc.cpp.s
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/jntarrayacc.cpp.s
 .PHONY : jntarrayacc.cpp.s
 
 jntarrayvel.o: jntarrayvel.cpp.o
@@ -825,7 +825,7 @@ jntarrayvel.o: jntarrayvel.cpp.o
 
 # target to build an object file
 jntarrayvel.cpp.o:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/jntarrayvel.cpp.o
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/jntarrayvel.cpp.o
 .PHONY : jntarrayvel.cpp.o
 
 jntarrayvel.i: jntarrayvel.cpp.i
@@ -834,7 +834,7 @@ jntarrayvel.i: jntarrayvel.cpp.i
 
 # target to preprocess a source file
 jntarrayvel.cpp.i:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/jntarrayvel.cpp.i
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/jntarrayvel.cpp.i
 .PHONY : jntarrayvel.cpp.i
 
 jntarrayvel.s: jntarrayvel.cpp.s
@@ -843,7 +843,7 @@ jntarrayvel.s: jntarrayvel.cpp.s
 
 # target to generate assembly for a file
 jntarrayvel.cpp.s:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/jntarrayvel.cpp.s
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/jntarrayvel.cpp.s
 .PHONY : jntarrayvel.cpp.s
 
 jntspaceinertiamatrix.o: jntspaceinertiamatrix.cpp.o
@@ -852,7 +852,7 @@ jntspaceinertiamatrix.o: jntspaceinertiamatrix.cpp.o
 
 # target to build an object file
 jntspaceinertiamatrix.cpp.o:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/jntspaceinertiamatrix.cpp.o
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/jntspaceinertiamatrix.cpp.o
 .PHONY : jntspaceinertiamatrix.cpp.o
 
 jntspaceinertiamatrix.i: jntspaceinertiamatrix.cpp.i
@@ -861,7 +861,7 @@ jntspaceinertiamatrix.i: jntspaceinertiamatrix.cpp.i
 
 # target to preprocess a source file
 jntspaceinertiamatrix.cpp.i:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/jntspaceinertiamatrix.cpp.i
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/jntspaceinertiamatrix.cpp.i
 .PHONY : jntspaceinertiamatrix.cpp.i
 
 jntspaceinertiamatrix.s: jntspaceinertiamatrix.cpp.s
@@ -870,7 +870,7 @@ jntspaceinertiamatrix.s: jntspaceinertiamatrix.cpp.s
 
 # target to generate assembly for a file
 jntspaceinertiamatrix.cpp.s:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/jntspaceinertiamatrix.cpp.s
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/jntspaceinertiamatrix.cpp.s
 .PHONY : jntspaceinertiamatrix.cpp.s
 
 joint.o: joint.cpp.o
@@ -879,7 +879,7 @@ joint.o: joint.cpp.o
 
 # target to build an object file
 joint.cpp.o:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/joint.cpp.o
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/joint.cpp.o
 .PHONY : joint.cpp.o
 
 joint.i: joint.cpp.i
@@ -888,7 +888,7 @@ joint.i: joint.cpp.i
 
 # target to preprocess a source file
 joint.cpp.i:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/joint.cpp.i
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/joint.cpp.i
 .PHONY : joint.cpp.i
 
 joint.s: joint.cpp.s
@@ -897,7 +897,7 @@ joint.s: joint.cpp.s
 
 # target to generate assembly for a file
 joint.cpp.s:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/joint.cpp.s
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/joint.cpp.s
 .PHONY : joint.cpp.s
 
 kinfam_io.o: kinfam_io.cpp.o
@@ -906,7 +906,7 @@ kinfam_io.o: kinfam_io.cpp.o
 
 # target to build an object file
 kinfam_io.cpp.o:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/kinfam_io.cpp.o
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/kinfam_io.cpp.o
 .PHONY : kinfam_io.cpp.o
 
 kinfam_io.i: kinfam_io.cpp.i
@@ -915,7 +915,7 @@ kinfam_io.i: kinfam_io.cpp.i
 
 # target to preprocess a source file
 kinfam_io.cpp.i:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/kinfam_io.cpp.i
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/kinfam_io.cpp.i
 .PHONY : kinfam_io.cpp.i
 
 kinfam_io.s: kinfam_io.cpp.s
@@ -924,7 +924,7 @@ kinfam_io.s: kinfam_io.cpp.s
 
 # target to generate assembly for a file
 kinfam_io.cpp.s:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/kinfam_io.cpp.s
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/kinfam_io.cpp.s
 .PHONY : kinfam_io.cpp.s
 
 path.o: path.cpp.o
@@ -933,7 +933,7 @@ path.o: path.cpp.o
 
 # target to build an object file
 path.cpp.o:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/path.cpp.o
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/path.cpp.o
 .PHONY : path.cpp.o
 
 path.i: path.cpp.i
@@ -942,7 +942,7 @@ path.i: path.cpp.i
 
 # target to preprocess a source file
 path.cpp.i:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/path.cpp.i
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/path.cpp.i
 .PHONY : path.cpp.i
 
 path.s: path.cpp.s
@@ -951,7 +951,7 @@ path.s: path.cpp.s
 
 # target to generate assembly for a file
 path.cpp.s:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/path.cpp.s
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/path.cpp.s
 .PHONY : path.cpp.s
 
 path_circle.o: path_circle.cpp.o
@@ -960,7 +960,7 @@ path_circle.o: path_circle.cpp.o
 
 # target to build an object file
 path_circle.cpp.o:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/path_circle.cpp.o
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/path_circle.cpp.o
 .PHONY : path_circle.cpp.o
 
 path_circle.i: path_circle.cpp.i
@@ -969,7 +969,7 @@ path_circle.i: path_circle.cpp.i
 
 # target to preprocess a source file
 path_circle.cpp.i:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/path_circle.cpp.i
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/path_circle.cpp.i
 .PHONY : path_circle.cpp.i
 
 path_circle.s: path_circle.cpp.s
@@ -978,7 +978,7 @@ path_circle.s: path_circle.cpp.s
 
 # target to generate assembly for a file
 path_circle.cpp.s:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/path_circle.cpp.s
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/path_circle.cpp.s
 .PHONY : path_circle.cpp.s
 
 path_composite.o: path_composite.cpp.o
@@ -987,7 +987,7 @@ path_composite.o: path_composite.cpp.o
 
 # target to build an object file
 path_composite.cpp.o:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/path_composite.cpp.o
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/path_composite.cpp.o
 .PHONY : path_composite.cpp.o
 
 path_composite.i: path_composite.cpp.i
@@ -996,7 +996,7 @@ path_composite.i: path_composite.cpp.i
 
 # target to preprocess a source file
 path_composite.cpp.i:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/path_composite.cpp.i
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/path_composite.cpp.i
 .PHONY : path_composite.cpp.i
 
 path_composite.s: path_composite.cpp.s
@@ -1005,7 +1005,7 @@ path_composite.s: path_composite.cpp.s
 
 # target to generate assembly for a file
 path_composite.cpp.s:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/path_composite.cpp.s
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/path_composite.cpp.s
 .PHONY : path_composite.cpp.s
 
 path_cyclic_closed.o: path_cyclic_closed.cpp.o
@@ -1014,7 +1014,7 @@ path_cyclic_closed.o: path_cyclic_closed.cpp.o
 
 # target to build an object file
 path_cyclic_closed.cpp.o:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/path_cyclic_closed.cpp.o
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/path_cyclic_closed.cpp.o
 .PHONY : path_cyclic_closed.cpp.o
 
 path_cyclic_closed.i: path_cyclic_closed.cpp.i
@@ -1023,7 +1023,7 @@ path_cyclic_closed.i: path_cyclic_closed.cpp.i
 
 # target to preprocess a source file
 path_cyclic_closed.cpp.i:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/path_cyclic_closed.cpp.i
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/path_cyclic_closed.cpp.i
 .PHONY : path_cyclic_closed.cpp.i
 
 path_cyclic_closed.s: path_cyclic_closed.cpp.s
@@ -1032,7 +1032,7 @@ path_cyclic_closed.s: path_cyclic_closed.cpp.s
 
 # target to generate assembly for a file
 path_cyclic_closed.cpp.s:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/path_cyclic_closed.cpp.s
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/path_cyclic_closed.cpp.s
 .PHONY : path_cyclic_closed.cpp.s
 
 path_line.o: path_line.cpp.o
@@ -1041,7 +1041,7 @@ path_line.o: path_line.cpp.o
 
 # target to build an object file
 path_line.cpp.o:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/path_line.cpp.o
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/path_line.cpp.o
 .PHONY : path_line.cpp.o
 
 path_line.i: path_line.cpp.i
@@ -1050,7 +1050,7 @@ path_line.i: path_line.cpp.i
 
 # target to preprocess a source file
 path_line.cpp.i:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/path_line.cpp.i
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/path_line.cpp.i
 .PHONY : path_line.cpp.i
 
 path_line.s: path_line.cpp.s
@@ -1059,7 +1059,7 @@ path_line.s: path_line.cpp.s
 
 # target to generate assembly for a file
 path_line.cpp.s:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/path_line.cpp.s
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/path_line.cpp.s
 .PHONY : path_line.cpp.s
 
 path_point.o: path_point.cpp.o
@@ -1068,7 +1068,7 @@ path_point.o: path_point.cpp.o
 
 # target to build an object file
 path_point.cpp.o:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/path_point.cpp.o
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/path_point.cpp.o
 .PHONY : path_point.cpp.o
 
 path_point.i: path_point.cpp.i
@@ -1077,7 +1077,7 @@ path_point.i: path_point.cpp.i
 
 # target to preprocess a source file
 path_point.cpp.i:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/path_point.cpp.i
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/path_point.cpp.i
 .PHONY : path_point.cpp.i
 
 path_point.s: path_point.cpp.s
@@ -1086,7 +1086,7 @@ path_point.s: path_point.cpp.s
 
 # target to generate assembly for a file
 path_point.cpp.s:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/path_point.cpp.s
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/path_point.cpp.s
 .PHONY : path_point.cpp.s
 
 path_roundedcomposite.o: path_roundedcomposite.cpp.o
@@ -1095,7 +1095,7 @@ path_roundedcomposite.o: path_roundedcomposite.cpp.o
 
 # target to build an object file
 path_roundedcomposite.cpp.o:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/path_roundedcomposite.cpp.o
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/path_roundedcomposite.cpp.o
 .PHONY : path_roundedcomposite.cpp.o
 
 path_roundedcomposite.i: path_roundedcomposite.cpp.i
@@ -1104,7 +1104,7 @@ path_roundedcomposite.i: path_roundedcomposite.cpp.i
 
 # target to preprocess a source file
 path_roundedcomposite.cpp.i:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/path_roundedcomposite.cpp.i
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/path_roundedcomposite.cpp.i
 .PHONY : path_roundedcomposite.cpp.i
 
 path_roundedcomposite.s: path_roundedcomposite.cpp.s
@@ -1113,7 +1113,7 @@ path_roundedcomposite.s: path_roundedcomposite.cpp.s
 
 # target to generate assembly for a file
 path_roundedcomposite.cpp.s:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/path_roundedcomposite.cpp.s
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/path_roundedcomposite.cpp.s
 .PHONY : path_roundedcomposite.cpp.s
 
 rigidbodyinertia.o: rigidbodyinertia.cpp.o
@@ -1122,7 +1122,7 @@ rigidbodyinertia.o: rigidbodyinertia.cpp.o
 
 # target to build an object file
 rigidbodyinertia.cpp.o:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/rigidbodyinertia.cpp.o
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/rigidbodyinertia.cpp.o
 .PHONY : rigidbodyinertia.cpp.o
 
 rigidbodyinertia.i: rigidbodyinertia.cpp.i
@@ -1131,7 +1131,7 @@ rigidbodyinertia.i: rigidbodyinertia.cpp.i
 
 # target to preprocess a source file
 rigidbodyinertia.cpp.i:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/rigidbodyinertia.cpp.i
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/rigidbodyinertia.cpp.i
 .PHONY : rigidbodyinertia.cpp.i
 
 rigidbodyinertia.s: rigidbodyinertia.cpp.s
@@ -1140,7 +1140,7 @@ rigidbodyinertia.s: rigidbodyinertia.cpp.s
 
 # target to generate assembly for a file
 rigidbodyinertia.cpp.s:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/rigidbodyinertia.cpp.s
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/rigidbodyinertia.cpp.s
 .PHONY : rigidbodyinertia.cpp.s
 
 rotational_interpolation.o: rotational_interpolation.cpp.o
@@ -1149,7 +1149,7 @@ rotational_interpolation.o: rotational_interpolation.cpp.o
 
 # target to build an object file
 rotational_interpolation.cpp.o:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/rotational_interpolation.cpp.o
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/rotational_interpolation.cpp.o
 .PHONY : rotational_interpolation.cpp.o
 
 rotational_interpolation.i: rotational_interpolation.cpp.i
@@ -1158,7 +1158,7 @@ rotational_interpolation.i: rotational_interpolation.cpp.i
 
 # target to preprocess a source file
 rotational_interpolation.cpp.i:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/rotational_interpolation.cpp.i
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/rotational_interpolation.cpp.i
 .PHONY : rotational_interpolation.cpp.i
 
 rotational_interpolation.s: rotational_interpolation.cpp.s
@@ -1167,7 +1167,7 @@ rotational_interpolation.s: rotational_interpolation.cpp.s
 
 # target to generate assembly for a file
 rotational_interpolation.cpp.s:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/rotational_interpolation.cpp.s
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/rotational_interpolation.cpp.s
 .PHONY : rotational_interpolation.cpp.s
 
 rotational_interpolation_sa.o: rotational_interpolation_sa.cpp.o
@@ -1176,7 +1176,7 @@ rotational_interpolation_sa.o: rotational_interpolation_sa.cpp.o
 
 # target to build an object file
 rotational_interpolation_sa.cpp.o:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/rotational_interpolation_sa.cpp.o
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/rotational_interpolation_sa.cpp.o
 .PHONY : rotational_interpolation_sa.cpp.o
 
 rotational_interpolation_sa.i: rotational_interpolation_sa.cpp.i
@@ -1185,7 +1185,7 @@ rotational_interpolation_sa.i: rotational_interpolation_sa.cpp.i
 
 # target to preprocess a source file
 rotational_interpolation_sa.cpp.i:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/rotational_interpolation_sa.cpp.i
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/rotational_interpolation_sa.cpp.i
 .PHONY : rotational_interpolation_sa.cpp.i
 
 rotational_interpolation_sa.s: rotational_interpolation_sa.cpp.s
@@ -1194,7 +1194,7 @@ rotational_interpolation_sa.s: rotational_interpolation_sa.cpp.s
 
 # target to generate assembly for a file
 rotational_interpolation_sa.cpp.s:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/rotational_interpolation_sa.cpp.s
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/rotational_interpolation_sa.cpp.s
 .PHONY : rotational_interpolation_sa.cpp.s
 
 rotationalinertia.o: rotationalinertia.cpp.o
@@ -1203,7 +1203,7 @@ rotationalinertia.o: rotationalinertia.cpp.o
 
 # target to build an object file
 rotationalinertia.cpp.o:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/rotationalinertia.cpp.o
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/rotationalinertia.cpp.o
 .PHONY : rotationalinertia.cpp.o
 
 rotationalinertia.i: rotationalinertia.cpp.i
@@ -1212,7 +1212,7 @@ rotationalinertia.i: rotationalinertia.cpp.i
 
 # target to preprocess a source file
 rotationalinertia.cpp.i:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/rotationalinertia.cpp.i
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/rotationalinertia.cpp.i
 .PHONY : rotationalinertia.cpp.i
 
 rotationalinertia.s: rotationalinertia.cpp.s
@@ -1221,7 +1221,7 @@ rotationalinertia.s: rotationalinertia.cpp.s
 
 # target to generate assembly for a file
 rotationalinertia.cpp.s:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/rotationalinertia.cpp.s
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/rotationalinertia.cpp.s
 .PHONY : rotationalinertia.cpp.s
 
 segment.o: segment.cpp.o
@@ -1230,7 +1230,7 @@ segment.o: segment.cpp.o
 
 # target to build an object file
 segment.cpp.o:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/segment.cpp.o
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/segment.cpp.o
 .PHONY : segment.cpp.o
 
 segment.i: segment.cpp.i
@@ -1239,7 +1239,7 @@ segment.i: segment.cpp.i
 
 # target to preprocess a source file
 segment.cpp.i:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/segment.cpp.i
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/segment.cpp.i
 .PHONY : segment.cpp.i
 
 segment.s: segment.cpp.s
@@ -1248,7 +1248,7 @@ segment.s: segment.cpp.s
 
 # target to generate assembly for a file
 segment.cpp.s:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/segment.cpp.s
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/segment.cpp.s
 .PHONY : segment.cpp.s
 
 trajectory.o: trajectory.cpp.o
@@ -1257,7 +1257,7 @@ trajectory.o: trajectory.cpp.o
 
 # target to build an object file
 trajectory.cpp.o:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/trajectory.cpp.o
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/trajectory.cpp.o
 .PHONY : trajectory.cpp.o
 
 trajectory.i: trajectory.cpp.i
@@ -1266,7 +1266,7 @@ trajectory.i: trajectory.cpp.i
 
 # target to preprocess a source file
 trajectory.cpp.i:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/trajectory.cpp.i
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/trajectory.cpp.i
 .PHONY : trajectory.cpp.i
 
 trajectory.s: trajectory.cpp.s
@@ -1275,7 +1275,7 @@ trajectory.s: trajectory.cpp.s
 
 # target to generate assembly for a file
 trajectory.cpp.s:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/trajectory.cpp.s
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/trajectory.cpp.s
 .PHONY : trajectory.cpp.s
 
 trajectory_composite.o: trajectory_composite.cpp.o
@@ -1284,7 +1284,7 @@ trajectory_composite.o: trajectory_composite.cpp.o
 
 # target to build an object file
 trajectory_composite.cpp.o:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/trajectory_composite.cpp.o
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/trajectory_composite.cpp.o
 .PHONY : trajectory_composite.cpp.o
 
 trajectory_composite.i: trajectory_composite.cpp.i
@@ -1293,7 +1293,7 @@ trajectory_composite.i: trajectory_composite.cpp.i
 
 # target to preprocess a source file
 trajectory_composite.cpp.i:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/trajectory_composite.cpp.i
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/trajectory_composite.cpp.i
 .PHONY : trajectory_composite.cpp.i
 
 trajectory_composite.s: trajectory_composite.cpp.s
@@ -1302,7 +1302,7 @@ trajectory_composite.s: trajectory_composite.cpp.s
 
 # target to generate assembly for a file
 trajectory_composite.cpp.s:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/trajectory_composite.cpp.s
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/trajectory_composite.cpp.s
 .PHONY : trajectory_composite.cpp.s
 
 trajectory_segment.o: trajectory_segment.cpp.o
@@ -1311,7 +1311,7 @@ trajectory_segment.o: trajectory_segment.cpp.o
 
 # target to build an object file
 trajectory_segment.cpp.o:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/trajectory_segment.cpp.o
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/trajectory_segment.cpp.o
 .PHONY : trajectory_segment.cpp.o
 
 trajectory_segment.i: trajectory_segment.cpp.i
@@ -1320,7 +1320,7 @@ trajectory_segment.i: trajectory_segment.cpp.i
 
 # target to preprocess a source file
 trajectory_segment.cpp.i:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/trajectory_segment.cpp.i
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/trajectory_segment.cpp.i
 .PHONY : trajectory_segment.cpp.i
 
 trajectory_segment.s: trajectory_segment.cpp.s
@@ -1329,7 +1329,7 @@ trajectory_segment.s: trajectory_segment.cpp.s
 
 # target to generate assembly for a file
 trajectory_segment.cpp.s:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/trajectory_segment.cpp.s
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/trajectory_segment.cpp.s
 .PHONY : trajectory_segment.cpp.s
 
 trajectory_stationary.o: trajectory_stationary.cpp.o
@@ -1338,7 +1338,7 @@ trajectory_stationary.o: trajectory_stationary.cpp.o
 
 # target to build an object file
 trajectory_stationary.cpp.o:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/trajectory_stationary.cpp.o
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/trajectory_stationary.cpp.o
 .PHONY : trajectory_stationary.cpp.o
 
 trajectory_stationary.i: trajectory_stationary.cpp.i
@@ -1347,7 +1347,7 @@ trajectory_stationary.i: trajectory_stationary.cpp.i
 
 # target to preprocess a source file
 trajectory_stationary.cpp.i:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/trajectory_stationary.cpp.i
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/trajectory_stationary.cpp.i
 .PHONY : trajectory_stationary.cpp.i
 
 trajectory_stationary.s: trajectory_stationary.cpp.s
@@ -1356,7 +1356,7 @@ trajectory_stationary.s: trajectory_stationary.cpp.s
 
 # target to generate assembly for a file
 trajectory_stationary.cpp.s:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/trajectory_stationary.cpp.s
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/trajectory_stationary.cpp.s
 .PHONY : trajectory_stationary.cpp.s
 
 tree.o: tree.cpp.o
@@ -1365,7 +1365,7 @@ tree.o: tree.cpp.o
 
 # target to build an object file
 tree.cpp.o:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/tree.cpp.o
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/tree.cpp.o
 .PHONY : tree.cpp.o
 
 tree.i: tree.cpp.i
@@ -1374,7 +1374,7 @@ tree.i: tree.cpp.i
 
 # target to preprocess a source file
 tree.cpp.i:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/tree.cpp.i
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/tree.cpp.i
 .PHONY : tree.cpp.i
 
 tree.s: tree.cpp.s
@@ -1383,7 +1383,7 @@ tree.s: tree.cpp.s
 
 # target to generate assembly for a file
 tree.cpp.s:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/tree.cpp.s
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/tree.cpp.s
 .PHONY : tree.cpp.s
 
 treefksolverpos_recursive.o: treefksolverpos_recursive.cpp.o
@@ -1392,7 +1392,7 @@ treefksolverpos_recursive.o: treefksolverpos_recursive.cpp.o
 
 # target to build an object file
 treefksolverpos_recursive.cpp.o:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/treefksolverpos_recursive.cpp.o
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/treefksolverpos_recursive.cpp.o
 .PHONY : treefksolverpos_recursive.cpp.o
 
 treefksolverpos_recursive.i: treefksolverpos_recursive.cpp.i
@@ -1401,7 +1401,7 @@ treefksolverpos_recursive.i: treefksolverpos_recursive.cpp.i
 
 # target to preprocess a source file
 treefksolverpos_recursive.cpp.i:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/treefksolverpos_recursive.cpp.i
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/treefksolverpos_recursive.cpp.i
 .PHONY : treefksolverpos_recursive.cpp.i
 
 treefksolverpos_recursive.s: treefksolverpos_recursive.cpp.s
@@ -1410,7 +1410,7 @@ treefksolverpos_recursive.s: treefksolverpos_recursive.cpp.s
 
 # target to generate assembly for a file
 treefksolverpos_recursive.cpp.s:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/treefksolverpos_recursive.cpp.s
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/treefksolverpos_recursive.cpp.s
 .PHONY : treefksolverpos_recursive.cpp.s
 
 treeidsolver_recursive_newton_euler.o: treeidsolver_recursive_newton_euler.cpp.o
@@ -1419,7 +1419,7 @@ treeidsolver_recursive_newton_euler.o: treeidsolver_recursive_newton_euler.cpp.o
 
 # target to build an object file
 treeidsolver_recursive_newton_euler.cpp.o:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/treeidsolver_recursive_newton_euler.cpp.o
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/treeidsolver_recursive_newton_euler.cpp.o
 .PHONY : treeidsolver_recursive_newton_euler.cpp.o
 
 treeidsolver_recursive_newton_euler.i: treeidsolver_recursive_newton_euler.cpp.i
@@ -1428,7 +1428,7 @@ treeidsolver_recursive_newton_euler.i: treeidsolver_recursive_newton_euler.cpp.i
 
 # target to preprocess a source file
 treeidsolver_recursive_newton_euler.cpp.i:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/treeidsolver_recursive_newton_euler.cpp.i
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/treeidsolver_recursive_newton_euler.cpp.i
 .PHONY : treeidsolver_recursive_newton_euler.cpp.i
 
 treeidsolver_recursive_newton_euler.s: treeidsolver_recursive_newton_euler.cpp.s
@@ -1437,7 +1437,7 @@ treeidsolver_recursive_newton_euler.s: treeidsolver_recursive_newton_euler.cpp.s
 
 # target to generate assembly for a file
 treeidsolver_recursive_newton_euler.cpp.s:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/treeidsolver_recursive_newton_euler.cpp.s
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/treeidsolver_recursive_newton_euler.cpp.s
 .PHONY : treeidsolver_recursive_newton_euler.cpp.s
 
 treeiksolverpos_nr_jl.o: treeiksolverpos_nr_jl.cpp.o
@@ -1446,7 +1446,7 @@ treeiksolverpos_nr_jl.o: treeiksolverpos_nr_jl.cpp.o
 
 # target to build an object file
 treeiksolverpos_nr_jl.cpp.o:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/treeiksolverpos_nr_jl.cpp.o
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/treeiksolverpos_nr_jl.cpp.o
 .PHONY : treeiksolverpos_nr_jl.cpp.o
 
 treeiksolverpos_nr_jl.i: treeiksolverpos_nr_jl.cpp.i
@@ -1455,7 +1455,7 @@ treeiksolverpos_nr_jl.i: treeiksolverpos_nr_jl.cpp.i
 
 # target to preprocess a source file
 treeiksolverpos_nr_jl.cpp.i:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/treeiksolverpos_nr_jl.cpp.i
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/treeiksolverpos_nr_jl.cpp.i
 .PHONY : treeiksolverpos_nr_jl.cpp.i
 
 treeiksolverpos_nr_jl.s: treeiksolverpos_nr_jl.cpp.s
@@ -1464,7 +1464,7 @@ treeiksolverpos_nr_jl.s: treeiksolverpos_nr_jl.cpp.s
 
 # target to generate assembly for a file
 treeiksolverpos_nr_jl.cpp.s:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/treeiksolverpos_nr_jl.cpp.s
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/treeiksolverpos_nr_jl.cpp.s
 .PHONY : treeiksolverpos_nr_jl.cpp.s
 
 treeiksolverpos_online.o: treeiksolverpos_online.cpp.o
@@ -1473,7 +1473,7 @@ treeiksolverpos_online.o: treeiksolverpos_online.cpp.o
 
 # target to build an object file
 treeiksolverpos_online.cpp.o:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/treeiksolverpos_online.cpp.o
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/treeiksolverpos_online.cpp.o
 .PHONY : treeiksolverpos_online.cpp.o
 
 treeiksolverpos_online.i: treeiksolverpos_online.cpp.i
@@ -1482,7 +1482,7 @@ treeiksolverpos_online.i: treeiksolverpos_online.cpp.i
 
 # target to preprocess a source file
 treeiksolverpos_online.cpp.i:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/treeiksolverpos_online.cpp.i
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/treeiksolverpos_online.cpp.i
 .PHONY : treeiksolverpos_online.cpp.i
 
 treeiksolverpos_online.s: treeiksolverpos_online.cpp.s
@@ -1491,7 +1491,7 @@ treeiksolverpos_online.s: treeiksolverpos_online.cpp.s
 
 # target to generate assembly for a file
 treeiksolverpos_online.cpp.s:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/treeiksolverpos_online.cpp.s
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/treeiksolverpos_online.cpp.s
 .PHONY : treeiksolverpos_online.cpp.s
 
 treeiksolvervel_wdls.o: treeiksolvervel_wdls.cpp.o
@@ -1500,7 +1500,7 @@ treeiksolvervel_wdls.o: treeiksolvervel_wdls.cpp.o
 
 # target to build an object file
 treeiksolvervel_wdls.cpp.o:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/treeiksolvervel_wdls.cpp.o
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/treeiksolvervel_wdls.cpp.o
 .PHONY : treeiksolvervel_wdls.cpp.o
 
 treeiksolvervel_wdls.i: treeiksolvervel_wdls.cpp.i
@@ -1509,7 +1509,7 @@ treeiksolvervel_wdls.i: treeiksolvervel_wdls.cpp.i
 
 # target to preprocess a source file
 treeiksolvervel_wdls.cpp.i:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/treeiksolvervel_wdls.cpp.i
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/treeiksolvervel_wdls.cpp.i
 .PHONY : treeiksolvervel_wdls.cpp.i
 
 treeiksolvervel_wdls.s: treeiksolvervel_wdls.cpp.s
@@ -1518,7 +1518,7 @@ treeiksolvervel_wdls.s: treeiksolvervel_wdls.cpp.s
 
 # target to generate assembly for a file
 treeiksolvervel_wdls.cpp.s:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/treeiksolvervel_wdls.cpp.s
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/treeiksolvervel_wdls.cpp.s
 .PHONY : treeiksolvervel_wdls.cpp.s
 
 treejnttojacsolver.o: treejnttojacsolver.cpp.o
@@ -1527,7 +1527,7 @@ treejnttojacsolver.o: treejnttojacsolver.cpp.o
 
 # target to build an object file
 treejnttojacsolver.cpp.o:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/treejnttojacsolver.cpp.o
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/treejnttojacsolver.cpp.o
 .PHONY : treejnttojacsolver.cpp.o
 
 treejnttojacsolver.i: treejnttojacsolver.cpp.i
@@ -1536,7 +1536,7 @@ treejnttojacsolver.i: treejnttojacsolver.cpp.i
 
 # target to preprocess a source file
 treejnttojacsolver.cpp.i:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/treejnttojacsolver.cpp.i
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/treejnttojacsolver.cpp.i
 .PHONY : treejnttojacsolver.cpp.i
 
 treejnttojacsolver.s: treejnttojacsolver.cpp.s
@@ -1545,7 +1545,7 @@ treejnttojacsolver.s: treejnttojacsolver.cpp.s
 
 # target to generate assembly for a file
 treejnttojacsolver.cpp.s:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/treejnttojacsolver.cpp.s
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/treejnttojacsolver.cpp.s
 .PHONY : treejnttojacsolver.cpp.s
 
 utilities/error_stack.o: utilities/error_stack.cxx.o
@@ -1554,7 +1554,7 @@ utilities/error_stack.o: utilities/error_stack.cxx.o
 
 # target to build an object file
 utilities/error_stack.cxx.o:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/utilities/error_stack.cxx.o
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/utilities/error_stack.cxx.o
 .PHONY : utilities/error_stack.cxx.o
 
 utilities/error_stack.i: utilities/error_stack.cxx.i
@@ -1563,7 +1563,7 @@ utilities/error_stack.i: utilities/error_stack.cxx.i
 
 # target to preprocess a source file
 utilities/error_stack.cxx.i:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/utilities/error_stack.cxx.i
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/utilities/error_stack.cxx.i
 .PHONY : utilities/error_stack.cxx.i
 
 utilities/error_stack.s: utilities/error_stack.cxx.s
@@ -1572,7 +1572,7 @@ utilities/error_stack.s: utilities/error_stack.cxx.s
 
 # target to generate assembly for a file
 utilities/error_stack.cxx.s:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/utilities/error_stack.cxx.s
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/utilities/error_stack.cxx.s
 .PHONY : utilities/error_stack.cxx.s
 
 utilities/ldl_solver_eigen.o: utilities/ldl_solver_eigen.cpp.o
@@ -1581,7 +1581,7 @@ utilities/ldl_solver_eigen.o: utilities/ldl_solver_eigen.cpp.o
 
 # target to build an object file
 utilities/ldl_solver_eigen.cpp.o:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/utilities/ldl_solver_eigen.cpp.o
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/utilities/ldl_solver_eigen.cpp.o
 .PHONY : utilities/ldl_solver_eigen.cpp.o
 
 utilities/ldl_solver_eigen.i: utilities/ldl_solver_eigen.cpp.i
@@ -1590,7 +1590,7 @@ utilities/ldl_solver_eigen.i: utilities/ldl_solver_eigen.cpp.i
 
 # target to preprocess a source file
 utilities/ldl_solver_eigen.cpp.i:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/utilities/ldl_solver_eigen.cpp.i
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/utilities/ldl_solver_eigen.cpp.i
 .PHONY : utilities/ldl_solver_eigen.cpp.i
 
 utilities/ldl_solver_eigen.s: utilities/ldl_solver_eigen.cpp.s
@@ -1599,7 +1599,7 @@ utilities/ldl_solver_eigen.s: utilities/ldl_solver_eigen.cpp.s
 
 # target to generate assembly for a file
 utilities/ldl_solver_eigen.cpp.s:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/utilities/ldl_solver_eigen.cpp.s
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/utilities/ldl_solver_eigen.cpp.s
 .PHONY : utilities/ldl_solver_eigen.cpp.s
 
 utilities/svd_HH.o: utilities/svd_HH.cpp.o
@@ -1608,7 +1608,7 @@ utilities/svd_HH.o: utilities/svd_HH.cpp.o
 
 # target to build an object file
 utilities/svd_HH.cpp.o:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/utilities/svd_HH.cpp.o
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/utilities/svd_HH.cpp.o
 .PHONY : utilities/svd_HH.cpp.o
 
 utilities/svd_HH.i: utilities/svd_HH.cpp.i
@@ -1617,7 +1617,7 @@ utilities/svd_HH.i: utilities/svd_HH.cpp.i
 
 # target to preprocess a source file
 utilities/svd_HH.cpp.i:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/utilities/svd_HH.cpp.i
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/utilities/svd_HH.cpp.i
 .PHONY : utilities/svd_HH.cpp.i
 
 utilities/svd_HH.s: utilities/svd_HH.cpp.s
@@ -1626,7 +1626,7 @@ utilities/svd_HH.s: utilities/svd_HH.cpp.s
 
 # target to generate assembly for a file
 utilities/svd_HH.cpp.s:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/utilities/svd_HH.cpp.s
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/utilities/svd_HH.cpp.s
 .PHONY : utilities/svd_HH.cpp.s
 
 utilities/svd_eigen_HH.o: utilities/svd_eigen_HH.cpp.o
@@ -1635,7 +1635,7 @@ utilities/svd_eigen_HH.o: utilities/svd_eigen_HH.cpp.o
 
 # target to build an object file
 utilities/svd_eigen_HH.cpp.o:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/utilities/svd_eigen_HH.cpp.o
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/utilities/svd_eigen_HH.cpp.o
 .PHONY : utilities/svd_eigen_HH.cpp.o
 
 utilities/svd_eigen_HH.i: utilities/svd_eigen_HH.cpp.i
@@ -1644,7 +1644,7 @@ utilities/svd_eigen_HH.i: utilities/svd_eigen_HH.cpp.i
 
 # target to preprocess a source file
 utilities/svd_eigen_HH.cpp.i:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/utilities/svd_eigen_HH.cpp.i
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/utilities/svd_eigen_HH.cpp.i
 .PHONY : utilities/svd_eigen_HH.cpp.i
 
 utilities/svd_eigen_HH.s: utilities/svd_eigen_HH.cpp.s
@@ -1653,7 +1653,7 @@ utilities/svd_eigen_HH.s: utilities/svd_eigen_HH.cpp.s
 
 # target to generate assembly for a file
 utilities/svd_eigen_HH.cpp.s:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/utilities/svd_eigen_HH.cpp.s
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/utilities/svd_eigen_HH.cpp.s
 .PHONY : utilities/svd_eigen_HH.cpp.s
 
 utilities/svd_eigen_Macie.o: utilities/svd_eigen_Macie.cpp.o
@@ -1662,7 +1662,7 @@ utilities/svd_eigen_Macie.o: utilities/svd_eigen_Macie.cpp.o
 
 # target to build an object file
 utilities/svd_eigen_Macie.cpp.o:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/utilities/svd_eigen_Macie.cpp.o
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/utilities/svd_eigen_Macie.cpp.o
 .PHONY : utilities/svd_eigen_Macie.cpp.o
 
 utilities/svd_eigen_Macie.i: utilities/svd_eigen_Macie.cpp.i
@@ -1671,7 +1671,7 @@ utilities/svd_eigen_Macie.i: utilities/svd_eigen_Macie.cpp.i
 
 # target to preprocess a source file
 utilities/svd_eigen_Macie.cpp.i:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/utilities/svd_eigen_Macie.cpp.i
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/utilities/svd_eigen_Macie.cpp.i
 .PHONY : utilities/svd_eigen_Macie.cpp.i
 
 utilities/svd_eigen_Macie.s: utilities/svd_eigen_Macie.cpp.s
@@ -1680,7 +1680,7 @@ utilities/svd_eigen_Macie.s: utilities/svd_eigen_Macie.cpp.s
 
 # target to generate assembly for a file
 utilities/svd_eigen_Macie.cpp.s:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/utilities/svd_eigen_Macie.cpp.s
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/utilities/svd_eigen_Macie.cpp.s
 .PHONY : utilities/svd_eigen_Macie.cpp.s
 
 utilities/utility.o: utilities/utility.cxx.o
@@ -1689,7 +1689,7 @@ utilities/utility.o: utilities/utility.cxx.o
 
 # target to build an object file
 utilities/utility.cxx.o:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/utilities/utility.cxx.o
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/utilities/utility.cxx.o
 .PHONY : utilities/utility.cxx.o
 
 utilities/utility.i: utilities/utility.cxx.i
@@ -1698,7 +1698,7 @@ utilities/utility.i: utilities/utility.cxx.i
 
 # target to preprocess a source file
 utilities/utility.cxx.i:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/utilities/utility.cxx.i
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/utilities/utility.cxx.i
 .PHONY : utilities/utility.cxx.i
 
 utilities/utility.s: utilities/utility.cxx.s
@@ -1707,7 +1707,7 @@ utilities/utility.s: utilities/utility.cxx.s
 
 # target to generate assembly for a file
 utilities/utility.cxx.s:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/utilities/utility.cxx.s
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/utilities/utility.cxx.s
 .PHONY : utilities/utility.cxx.s
 
 utilities/utility_io.o: utilities/utility_io.cxx.o
@@ -1716,7 +1716,7 @@ utilities/utility_io.o: utilities/utility_io.cxx.o
 
 # target to build an object file
 utilities/utility_io.cxx.o:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/utilities/utility_io.cxx.o
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/utilities/utility_io.cxx.o
 .PHONY : utilities/utility_io.cxx.o
 
 utilities/utility_io.i: utilities/utility_io.cxx.i
@@ -1725,7 +1725,7 @@ utilities/utility_io.i: utilities/utility_io.cxx.i
 
 # target to preprocess a source file
 utilities/utility_io.cxx.i:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/utilities/utility_io.cxx.i
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/utilities/utility_io.cxx.i
 .PHONY : utilities/utility_io.cxx.i
 
 utilities/utility_io.s: utilities/utility_io.cxx.s
@@ -1734,7 +1734,7 @@ utilities/utility_io.s: utilities/utility_io.cxx.s
 
 # target to generate assembly for a file
 utilities/utility_io.cxx.s:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/utilities/utility_io.cxx.s
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/utilities/utility_io.cxx.s
 .PHONY : utilities/utility_io.cxx.s
 
 velocityprofile.o: velocityprofile.cpp.o
@@ -1743,7 +1743,7 @@ velocityprofile.o: velocityprofile.cpp.o
 
 # target to build an object file
 velocityprofile.cpp.o:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/velocityprofile.cpp.o
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/velocityprofile.cpp.o
 .PHONY : velocityprofile.cpp.o
 
 velocityprofile.i: velocityprofile.cpp.i
@@ -1752,7 +1752,7 @@ velocityprofile.i: velocityprofile.cpp.i
 
 # target to preprocess a source file
 velocityprofile.cpp.i:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/velocityprofile.cpp.i
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/velocityprofile.cpp.i
 .PHONY : velocityprofile.cpp.i
 
 velocityprofile.s: velocityprofile.cpp.s
@@ -1761,7 +1761,7 @@ velocityprofile.s: velocityprofile.cpp.s
 
 # target to generate assembly for a file
 velocityprofile.cpp.s:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/velocityprofile.cpp.s
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/velocityprofile.cpp.s
 .PHONY : velocityprofile.cpp.s
 
 velocityprofile_dirac.o: velocityprofile_dirac.cpp.o
@@ -1770,7 +1770,7 @@ velocityprofile_dirac.o: velocityprofile_dirac.cpp.o
 
 # target to build an object file
 velocityprofile_dirac.cpp.o:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/velocityprofile_dirac.cpp.o
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/velocityprofile_dirac.cpp.o
 .PHONY : velocityprofile_dirac.cpp.o
 
 velocityprofile_dirac.i: velocityprofile_dirac.cpp.i
@@ -1779,7 +1779,7 @@ velocityprofile_dirac.i: velocityprofile_dirac.cpp.i
 
 # target to preprocess a source file
 velocityprofile_dirac.cpp.i:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/velocityprofile_dirac.cpp.i
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/velocityprofile_dirac.cpp.i
 .PHONY : velocityprofile_dirac.cpp.i
 
 velocityprofile_dirac.s: velocityprofile_dirac.cpp.s
@@ -1788,7 +1788,7 @@ velocityprofile_dirac.s: velocityprofile_dirac.cpp.s
 
 # target to generate assembly for a file
 velocityprofile_dirac.cpp.s:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/velocityprofile_dirac.cpp.s
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/velocityprofile_dirac.cpp.s
 .PHONY : velocityprofile_dirac.cpp.s
 
 velocityprofile_rect.o: velocityprofile_rect.cpp.o
@@ -1797,7 +1797,7 @@ velocityprofile_rect.o: velocityprofile_rect.cpp.o
 
 # target to build an object file
 velocityprofile_rect.cpp.o:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/velocityprofile_rect.cpp.o
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/velocityprofile_rect.cpp.o
 .PHONY : velocityprofile_rect.cpp.o
 
 velocityprofile_rect.i: velocityprofile_rect.cpp.i
@@ -1806,7 +1806,7 @@ velocityprofile_rect.i: velocityprofile_rect.cpp.i
 
 # target to preprocess a source file
 velocityprofile_rect.cpp.i:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/velocityprofile_rect.cpp.i
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/velocityprofile_rect.cpp.i
 .PHONY : velocityprofile_rect.cpp.i
 
 velocityprofile_rect.s: velocityprofile_rect.cpp.s
@@ -1815,7 +1815,7 @@ velocityprofile_rect.s: velocityprofile_rect.cpp.s
 
 # target to generate assembly for a file
 velocityprofile_rect.cpp.s:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/velocityprofile_rect.cpp.s
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/velocityprofile_rect.cpp.s
 .PHONY : velocityprofile_rect.cpp.s
 
 velocityprofile_spline.o: velocityprofile_spline.cpp.o
@@ -1824,7 +1824,7 @@ velocityprofile_spline.o: velocityprofile_spline.cpp.o
 
 # target to build an object file
 velocityprofile_spline.cpp.o:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/velocityprofile_spline.cpp.o
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/velocityprofile_spline.cpp.o
 .PHONY : velocityprofile_spline.cpp.o
 
 velocityprofile_spline.i: velocityprofile_spline.cpp.i
@@ -1833,7 +1833,7 @@ velocityprofile_spline.i: velocityprofile_spline.cpp.i
 
 # target to preprocess a source file
 velocityprofile_spline.cpp.i:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/velocityprofile_spline.cpp.i
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/velocityprofile_spline.cpp.i
 .PHONY : velocityprofile_spline.cpp.i
 
 velocityprofile_spline.s: velocityprofile_spline.cpp.s
@@ -1842,7 +1842,7 @@ velocityprofile_spline.s: velocityprofile_spline.cpp.s
 
 # target to generate assembly for a file
 velocityprofile_spline.cpp.s:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/velocityprofile_spline.cpp.s
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/velocityprofile_spline.cpp.s
 .PHONY : velocityprofile_spline.cpp.s
 
 velocityprofile_trap.o: velocityprofile_trap.cpp.o
@@ -1851,7 +1851,7 @@ velocityprofile_trap.o: velocityprofile_trap.cpp.o
 
 # target to build an object file
 velocityprofile_trap.cpp.o:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/velocityprofile_trap.cpp.o
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/velocityprofile_trap.cpp.o
 .PHONY : velocityprofile_trap.cpp.o
 
 velocityprofile_trap.i: velocityprofile_trap.cpp.i
@@ -1860,7 +1860,7 @@ velocityprofile_trap.i: velocityprofile_trap.cpp.i
 
 # target to preprocess a source file
 velocityprofile_trap.cpp.i:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/velocityprofile_trap.cpp.i
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/velocityprofile_trap.cpp.i
 .PHONY : velocityprofile_trap.cpp.i
 
 velocityprofile_trap.s: velocityprofile_trap.cpp.s
@@ -1869,7 +1869,7 @@ velocityprofile_trap.s: velocityprofile_trap.cpp.s
 
 # target to generate assembly for a file
 velocityprofile_trap.cpp.s:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/velocityprofile_trap.cpp.s
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/velocityprofile_trap.cpp.s
 .PHONY : velocityprofile_trap.cpp.s
 
 velocityprofile_traphalf.o: velocityprofile_traphalf.cpp.o
@@ -1878,7 +1878,7 @@ velocityprofile_traphalf.o: velocityprofile_traphalf.cpp.o
 
 # target to build an object file
 velocityprofile_traphalf.cpp.o:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/velocityprofile_traphalf.cpp.o
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/velocityprofile_traphalf.cpp.o
 .PHONY : velocityprofile_traphalf.cpp.o
 
 velocityprofile_traphalf.i: velocityprofile_traphalf.cpp.i
@@ -1887,7 +1887,7 @@ velocityprofile_traphalf.i: velocityprofile_traphalf.cpp.i
 
 # target to preprocess a source file
 velocityprofile_traphalf.cpp.i:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/velocityprofile_traphalf.cpp.i
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/velocityprofile_traphalf.cpp.i
 .PHONY : velocityprofile_traphalf.cpp.i
 
 velocityprofile_traphalf.s: velocityprofile_traphalf.cpp.s
@@ -1896,7 +1896,7 @@ velocityprofile_traphalf.s: velocityprofile_traphalf.cpp.s
 
 # target to generate assembly for a file
 velocityprofile_traphalf.cpp.s:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/velocityprofile_traphalf.cpp.s
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/velocityprofile_traphalf.cpp.s
 .PHONY : velocityprofile_traphalf.cpp.s
 
 # Help Target
@@ -2115,6 +2115,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

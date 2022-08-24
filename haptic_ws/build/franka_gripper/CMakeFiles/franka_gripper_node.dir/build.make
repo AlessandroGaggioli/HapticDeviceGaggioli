@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/student/haptic_ws/src/franka_ros/franka_gripper
+CMAKE_SOURCE_DIR = /home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros/franka_gripper
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/student/haptic_ws/build/franka_gripper
+CMAKE_BINARY_DIR = /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_gripper
 
 # Include any dependencies generated for this target.
 include CMakeFiles/franka_gripper_node.dir/depend.make
@@ -58,17 +58,17 @@ include CMakeFiles/franka_gripper_node.dir/progress.make
 include CMakeFiles/franka_gripper_node.dir/flags.make
 
 CMakeFiles/franka_gripper_node.dir/src/franka_gripper_node.cpp.o: CMakeFiles/franka_gripper_node.dir/flags.make
-CMakeFiles/franka_gripper_node.dir/src/franka_gripper_node.cpp.o: /home/student/haptic_ws/src/franka_ros/franka_gripper/src/franka_gripper_node.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/student/haptic_ws/build/franka_gripper/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/franka_gripper_node.dir/src/franka_gripper_node.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/franka_gripper_node.dir/src/franka_gripper_node.cpp.o -c /home/student/haptic_ws/src/franka_ros/franka_gripper/src/franka_gripper_node.cpp
+CMakeFiles/franka_gripper_node.dir/src/franka_gripper_node.cpp.o: /home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros/franka_gripper/src/franka_gripper_node.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/student/HapticDeviceGaggioli/haptic_ws/build/franka_gripper/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/franka_gripper_node.dir/src/franka_gripper_node.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/franka_gripper_node.dir/src/franka_gripper_node.cpp.o -c /home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros/franka_gripper/src/franka_gripper_node.cpp
 
 CMakeFiles/franka_gripper_node.dir/src/franka_gripper_node.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/franka_gripper_node.dir/src/franka_gripper_node.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/student/haptic_ws/src/franka_ros/franka_gripper/src/franka_gripper_node.cpp > CMakeFiles/franka_gripper_node.dir/src/franka_gripper_node.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros/franka_gripper/src/franka_gripper_node.cpp > CMakeFiles/franka_gripper_node.dir/src/franka_gripper_node.cpp.i
 
 CMakeFiles/franka_gripper_node.dir/src/franka_gripper_node.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/franka_gripper_node.dir/src/franka_gripper_node.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/student/haptic_ws/src/franka_ros/franka_gripper/src/franka_gripper_node.cpp -o CMakeFiles/franka_gripper_node.dir/src/franka_gripper_node.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros/franka_gripper/src/franka_gripper_node.cpp -o CMakeFiles/franka_gripper_node.dir/src/franka_gripper_node.cpp.s
 
 # Object files for target franka_gripper_node
 franka_gripper_node_OBJECTS = \
@@ -77,52 +77,52 @@ franka_gripper_node_OBJECTS = \
 # External object files for target franka_gripper_node
 franka_gripper_node_EXTERNAL_OBJECTS =
 
-/home/student/haptic_ws/devel/.private/franka_gripper/lib/franka_gripper/franka_gripper_node: CMakeFiles/franka_gripper_node.dir/src/franka_gripper_node.cpp.o
-/home/student/haptic_ws/devel/.private/franka_gripper/lib/franka_gripper/franka_gripper_node: CMakeFiles/franka_gripper_node.dir/build.make
-/home/student/haptic_ws/devel/.private/franka_gripper/lib/franka_gripper/franka_gripper_node: /opt/ros/noetic/lib/libactionlib.so
-/home/student/haptic_ws/devel/.private/franka_gripper/lib/franka_gripper/franka_gripper_node: /opt/ros/noetic/lib/libroscpp.so
-/home/student/haptic_ws/devel/.private/franka_gripper/lib/franka_gripper/franka_gripper_node: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/student/haptic_ws/devel/.private/franka_gripper/lib/franka_gripper/franka_gripper_node: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0
-/home/student/haptic_ws/devel/.private/franka_gripper/lib/franka_gripper/franka_gripper_node: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
-/home/student/haptic_ws/devel/.private/franka_gripper/lib/franka_gripper/franka_gripper_node: /opt/ros/noetic/lib/librosconsole.so
-/home/student/haptic_ws/devel/.private/franka_gripper/lib/franka_gripper/franka_gripper_node: /opt/ros/noetic/lib/librosconsole_log4cxx.so
-/home/student/haptic_ws/devel/.private/franka_gripper/lib/franka_gripper/franka_gripper_node: /opt/ros/noetic/lib/librosconsole_backend_interface.so
-/home/student/haptic_ws/devel/.private/franka_gripper/lib/franka_gripper/franka_gripper_node: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/student/haptic_ws/devel/.private/franka_gripper/lib/franka_gripper/franka_gripper_node: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
-/home/student/haptic_ws/devel/.private/franka_gripper/lib/franka_gripper/franka_gripper_node: /opt/ros/noetic/lib/libxmlrpcpp.so
-/home/student/haptic_ws/devel/.private/franka_gripper/lib/franka_gripper/franka_gripper_node: /opt/ros/noetic/lib/libroscpp_serialization.so
-/home/student/haptic_ws/devel/.private/franka_gripper/lib/franka_gripper/franka_gripper_node: /opt/ros/noetic/lib/librostime.so
-/home/student/haptic_ws/devel/.private/franka_gripper/lib/franka_gripper/franka_gripper_node: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
-/home/student/haptic_ws/devel/.private/franka_gripper/lib/franka_gripper/franka_gripper_node: /opt/ros/noetic/lib/libcpp_common.so
-/home/student/haptic_ws/devel/.private/franka_gripper/lib/franka_gripper/franka_gripper_node: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
-/home/student/haptic_ws/devel/.private/franka_gripper/lib/franka_gripper/franka_gripper_node: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
-/home/student/haptic_ws/devel/.private/franka_gripper/lib/franka_gripper/franka_gripper_node: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/home/student/haptic_ws/devel/.private/franka_gripper/lib/franka_gripper/franka_gripper_node: /home/student/haptic_ws/devel/.private/franka_gripper/lib/libfranka_gripper.so
-/home/student/haptic_ws/devel/.private/franka_gripper/lib/franka_gripper/franka_gripper_node: /opt/ros/noetic/lib/libactionlib.so
-/home/student/haptic_ws/devel/.private/franka_gripper/lib/franka_gripper/franka_gripper_node: /opt/ros/noetic/lib/libroscpp.so
-/home/student/haptic_ws/devel/.private/franka_gripper/lib/franka_gripper/franka_gripper_node: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/student/haptic_ws/devel/.private/franka_gripper/lib/franka_gripper/franka_gripper_node: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0
-/home/student/haptic_ws/devel/.private/franka_gripper/lib/franka_gripper/franka_gripper_node: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
-/home/student/haptic_ws/devel/.private/franka_gripper/lib/franka_gripper/franka_gripper_node: /opt/ros/noetic/lib/librosconsole.so
-/home/student/haptic_ws/devel/.private/franka_gripper/lib/franka_gripper/franka_gripper_node: /opt/ros/noetic/lib/librosconsole_log4cxx.so
-/home/student/haptic_ws/devel/.private/franka_gripper/lib/franka_gripper/franka_gripper_node: /opt/ros/noetic/lib/librosconsole_backend_interface.so
-/home/student/haptic_ws/devel/.private/franka_gripper/lib/franka_gripper/franka_gripper_node: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/student/haptic_ws/devel/.private/franka_gripper/lib/franka_gripper/franka_gripper_node: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
-/home/student/haptic_ws/devel/.private/franka_gripper/lib/franka_gripper/franka_gripper_node: /opt/ros/noetic/lib/libxmlrpcpp.so
-/home/student/haptic_ws/devel/.private/franka_gripper/lib/franka_gripper/franka_gripper_node: /opt/ros/noetic/lib/libroscpp_serialization.so
-/home/student/haptic_ws/devel/.private/franka_gripper/lib/franka_gripper/franka_gripper_node: /opt/ros/noetic/lib/librostime.so
-/home/student/haptic_ws/devel/.private/franka_gripper/lib/franka_gripper/franka_gripper_node: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
-/home/student/haptic_ws/devel/.private/franka_gripper/lib/franka_gripper/franka_gripper_node: /opt/ros/noetic/lib/libcpp_common.so
-/home/student/haptic_ws/devel/.private/franka_gripper/lib/franka_gripper/franka_gripper_node: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
-/home/student/haptic_ws/devel/.private/franka_gripper/lib/franka_gripper/franka_gripper_node: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
-/home/student/haptic_ws/devel/.private/franka_gripper/lib/franka_gripper/franka_gripper_node: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/home/student/haptic_ws/devel/.private/franka_gripper/lib/franka_gripper/franka_gripper_node: /opt/ros/noetic/lib/libfranka.so.0.9.0
-/home/student/haptic_ws/devel/.private/franka_gripper/lib/franka_gripper/franka_gripper_node: CMakeFiles/franka_gripper_node.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/student/haptic_ws/build/franka_gripper/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/student/haptic_ws/devel/.private/franka_gripper/lib/franka_gripper/franka_gripper_node"
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/lib/franka_gripper/franka_gripper_node: CMakeFiles/franka_gripper_node.dir/src/franka_gripper_node.cpp.o
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/lib/franka_gripper/franka_gripper_node: CMakeFiles/franka_gripper_node.dir/build.make
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/lib/franka_gripper/franka_gripper_node: /opt/ros/noetic/lib/libactionlib.so
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/lib/franka_gripper/franka_gripper_node: /opt/ros/noetic/lib/libroscpp.so
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/lib/franka_gripper/franka_gripper_node: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/lib/franka_gripper/franka_gripper_node: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/lib/franka_gripper/franka_gripper_node: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/lib/franka_gripper/franka_gripper_node: /opt/ros/noetic/lib/librosconsole.so
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/lib/franka_gripper/franka_gripper_node: /opt/ros/noetic/lib/librosconsole_log4cxx.so
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/lib/franka_gripper/franka_gripper_node: /opt/ros/noetic/lib/librosconsole_backend_interface.so
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/lib/franka_gripper/franka_gripper_node: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/lib/franka_gripper/franka_gripper_node: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/lib/franka_gripper/franka_gripper_node: /opt/ros/noetic/lib/libxmlrpcpp.so
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/lib/franka_gripper/franka_gripper_node: /opt/ros/noetic/lib/libroscpp_serialization.so
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/lib/franka_gripper/franka_gripper_node: /opt/ros/noetic/lib/librostime.so
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/lib/franka_gripper/franka_gripper_node: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/lib/franka_gripper/franka_gripper_node: /opt/ros/noetic/lib/libcpp_common.so
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/lib/franka_gripper/franka_gripper_node: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/lib/franka_gripper/franka_gripper_node: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/lib/franka_gripper/franka_gripper_node: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/lib/franka_gripper/franka_gripper_node: /home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/lib/libfranka_gripper.so
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/lib/franka_gripper/franka_gripper_node: /opt/ros/noetic/lib/libactionlib.so
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/lib/franka_gripper/franka_gripper_node: /opt/ros/noetic/lib/libroscpp.so
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/lib/franka_gripper/franka_gripper_node: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/lib/franka_gripper/franka_gripper_node: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/lib/franka_gripper/franka_gripper_node: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/lib/franka_gripper/franka_gripper_node: /opt/ros/noetic/lib/librosconsole.so
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/lib/franka_gripper/franka_gripper_node: /opt/ros/noetic/lib/librosconsole_log4cxx.so
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/lib/franka_gripper/franka_gripper_node: /opt/ros/noetic/lib/librosconsole_backend_interface.so
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/lib/franka_gripper/franka_gripper_node: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/lib/franka_gripper/franka_gripper_node: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/lib/franka_gripper/franka_gripper_node: /opt/ros/noetic/lib/libxmlrpcpp.so
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/lib/franka_gripper/franka_gripper_node: /opt/ros/noetic/lib/libroscpp_serialization.so
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/lib/franka_gripper/franka_gripper_node: /opt/ros/noetic/lib/librostime.so
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/lib/franka_gripper/franka_gripper_node: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/lib/franka_gripper/franka_gripper_node: /opt/ros/noetic/lib/libcpp_common.so
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/lib/franka_gripper/franka_gripper_node: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/lib/franka_gripper/franka_gripper_node: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/lib/franka_gripper/franka_gripper_node: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/lib/franka_gripper/franka_gripper_node: /opt/ros/noetic/lib/libfranka.so.0.9.0
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/lib/franka_gripper/franka_gripper_node: CMakeFiles/franka_gripper_node.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/student/HapticDeviceGaggioli/haptic_ws/build/franka_gripper/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/lib/franka_gripper/franka_gripper_node"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/franka_gripper_node.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/franka_gripper_node.dir/build: /home/student/haptic_ws/devel/.private/franka_gripper/lib/franka_gripper/franka_gripper_node
+CMakeFiles/franka_gripper_node.dir/build: /home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/lib/franka_gripper/franka_gripper_node
 
 .PHONY : CMakeFiles/franka_gripper_node.dir/build
 
@@ -131,6 +131,6 @@ CMakeFiles/franka_gripper_node.dir/clean:
 .PHONY : CMakeFiles/franka_gripper_node.dir/clean
 
 CMakeFiles/franka_gripper_node.dir/depend:
-	cd /home/student/haptic_ws/build/franka_gripper && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/student/haptic_ws/src/franka_ros/franka_gripper /home/student/haptic_ws/src/franka_ros/franka_gripper /home/student/haptic_ws/build/franka_gripper /home/student/haptic_ws/build/franka_gripper /home/student/haptic_ws/build/franka_gripper/CMakeFiles/franka_gripper_node.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_gripper && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros/franka_gripper /home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros/franka_gripper /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_gripper /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_gripper /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_gripper/CMakeFiles/franka_gripper_node.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/franka_gripper_node.dir/depend
 

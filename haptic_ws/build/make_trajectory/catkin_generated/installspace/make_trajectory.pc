@@ -1,4 +1,4 @@
-prefix=/home/student/haptic_ws/install
+prefix=/home/student/HapticDeviceGaggioli/haptic_ws/install
 
 Name: make_trajectory
 Description: Description of make_trajectory

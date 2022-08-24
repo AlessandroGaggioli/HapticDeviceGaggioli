@@ -1,0 +1,12 @@
+Warning: Cannot symlink from /home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_hw/share/franka_hw/cmake/franka_hwConfig.cmake to existing file /home/student/HapticDeviceGaggioli/haptic_ws/devel/share/franka_hw/cmake/franka_hwConfig.cmake
+Warning: Source hash: a71188ff7275dd39dbe82e9314d76ef1
+Warning: Dest hash: bca0aac8d4dd10ff74ec356b51425ed1
+Warning: Cannot symlink from /home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_hw/lib/libfranka_control_services.so to existing file /home/student/HapticDeviceGaggioli/haptic_ws/devel/lib/libfranka_control_services.so
+Warning: Source hash: 6939584ccc00723426e7a4df77790086
+Warning: Dest hash: b5c1c5a023a20843c91ada7183ef7f37
+Warning: Cannot symlink from /home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_hw/lib/libfranka_hw.so to existing file /home/student/HapticDeviceGaggioli/haptic_ws/devel/lib/libfranka_hw.so
+Warning: Source hash: a082cedcf077577e07981ef7792d2b77
+Warning: Dest hash: 2e0fbbbcd77bfe764ec5e9b7971806e2
+Warning: Cannot symlink from /home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_hw/lib/pkgconfig/franka_hw.pc to existing file /home/student/HapticDeviceGaggioli/haptic_ws/devel/lib/pkgconfig/franka_hw.pc
+Warning: Source hash: 8c017986a9fbbaf00bca691f74df14d4
+Warning: Dest hash: ced4db942d34018edd3e7f1b92f67a36

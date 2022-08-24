@@ -6,6 +6,24 @@
 
 #IncludeRegexTransform: 
 
+/home/student/HapticDeviceGaggioli/haptic_ws/src/make_trajectory/src/Make_Trajectory_poly5_test.cpp
+ros/ros.h
+/home/student/HapticDeviceGaggioli/haptic_ws/src/make_trajectory/src/ros/ros.h
+sensor_msgs/JointState.h
+/home/student/HapticDeviceGaggioli/haptic_ws/src/make_trajectory/src/sensor_msgs/JointState.h
+franka_core_msgs/JointCommand.h
+/home/student/HapticDeviceGaggioli/haptic_ws/src/make_trajectory/src/franka_core_msgs/JointCommand.h
+panda_ik/pandaIk.h
+/home/student/HapticDeviceGaggioli/haptic_ws/src/make_trajectory/src/panda_ik/pandaIk.h
+panda_ik/pandaFk.h
+/home/student/HapticDeviceGaggioli/haptic_ws/src/make_trajectory/src/panda_ik/pandaFk.h
+iostream
+-
+string
+-
+cmath
+-
+
 /home/student/haptic_ws/devel/.private/franka_core_msgs/include/franka_core_msgs/JointCommand.h
 string
 -
@@ -112,24 +130,6 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 sensor_msgs/JointState.h
--
-
-/home/student/haptic_ws/src/make_trajectory/src/Make_Trajectory_poly5_test.cpp
-ros/ros.h
-/home/student/haptic_ws/src/make_trajectory/src/ros/ros.h
-sensor_msgs/JointState.h
-/home/student/haptic_ws/src/make_trajectory/src/sensor_msgs/JointState.h
-franka_core_msgs/JointCommand.h
-/home/student/haptic_ws/src/make_trajectory/src/franka_core_msgs/JointCommand.h
-panda_ik/pandaIk.h
-/home/student/haptic_ws/src/make_trajectory/src/panda_ik/pandaIk.h
-panda_ik/pandaFk.h
-/home/student/haptic_ws/src/make_trajectory/src/panda_ik/pandaFk.h
-iostream
--
-string
--
-cmath
 -
 
 /opt/ros/noetic/include/geometry_msgs/Point.h

@@ -1,2 +1,2 @@
 - setup-file:
-    local-name: /home/student/haptic_ws/devel/.private/panda_sim_controllers/setup.sh
+    local-name: /home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/panda_sim_controllers/setup.sh

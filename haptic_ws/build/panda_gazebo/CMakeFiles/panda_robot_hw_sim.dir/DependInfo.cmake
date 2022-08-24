@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/student/haptic_ws/src/panda_simulator/panda_gazebo/src/panda_robot_hw_sim.cpp" "/home/student/haptic_ws/build/panda_gazebo/CMakeFiles/panda_robot_hw_sim.dir/src/panda_robot_hw_sim.cpp.o"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/src/panda_simulator/panda_gazebo/src/panda_robot_hw_sim.cpp" "/home/student/HapticDeviceGaggioli/haptic_ws/build/panda_gazebo/CMakeFiles/panda_robot_hw_sim.dir/src/panda_robot_hw_sim.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -30,10 +30,10 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/student/haptic_ws/src/panda_simulator/panda_gazebo/include"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/src/panda_simulator/panda_gazebo/include"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/share/orocos_kdl/cmake/../../../include"
   "/home/student/haptic_ws/devel/.private/franka_core_msgs/include"
   "/home/student/haptic_ws/devel/.private/franka_msgs/include"
-  "/home/student/haptic_ws/devel/share/orocos_kdl/cmake/../../../include"
   "/home/student/haptic_ws/devel/.private/panda_sim_custom_action_server/include"
   "/home/student/haptic_ws/src/franka_ros/franka_hw/include"
   "/home/student/haptic_ws/src/franka_ros/franka_control/include"

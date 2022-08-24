@@ -6,5 +6,5 @@ CXX_FLAGS = -O3 -DNDEBUG -fPIC     -I/usr/include/eigen3
 
 CXX_DEFINES = -Dorocos_kdl_EXPORTS
 
-CXX_INCLUDES = -I/usr/include/eigen3 -I/home/student/haptic_ws/build/orocos_kdl/src 
+CXX_INCLUDES = -I/usr/include/eigen3 -I/home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl/src 
 

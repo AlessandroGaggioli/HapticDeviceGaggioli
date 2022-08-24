@@ -1,14 +1,14 @@
 franka_ros_interface/franka_interface
-/home/student/haptic_ws/devel/.private/franka_interface/cmake.lock /home/student/haptic_ws/devel/./cmake.lock
-/home/student/haptic_ws/devel/.private/franka_interface/share/franka_interface/cmake/franka_interfaceConfig.cmake /home/student/haptic_ws/devel/share/franka_interface/cmake/franka_interfaceConfig.cmake
-/home/student/haptic_ws/devel/.private/franka_interface/share/franka_interface/cmake/franka_interfaceConfig-version.cmake /home/student/haptic_ws/devel/share/franka_interface/cmake/franka_interfaceConfig-version.cmake
-/home/student/haptic_ws/devel/.private/franka_interface/lib/libcustom_franka_state_controller.so /home/student/haptic_ws/devel/lib/libcustom_franka_state_controller.so
-/home/student/haptic_ws/devel/.private/franka_interface/lib/python3/dist-packages/franka_dataflow/__init__.py /home/student/haptic_ws/devel/lib/python3/dist-packages/franka_dataflow/__init__.py
-/home/student/haptic_ws/devel/.private/franka_interface/lib/python3/dist-packages/franka_interface/__init__.py /home/student/haptic_ws/devel/lib/python3/dist-packages/franka_interface/__init__.py
-/home/student/haptic_ws/devel/.private/franka_interface/lib/pkgconfig/franka_interface.pc /home/student/haptic_ws/devel/lib/pkgconfig/franka_interface.pc
-/home/student/haptic_ws/devel/.private/franka_interface/lib/franka_interface/move_to_neutral.py /home/student/haptic_ws/devel/lib/franka_interface/move_to_neutral.py
-/home/student/haptic_ws/devel/.private/franka_interface/lib/franka_interface/custom_franka_control_node /home/student/haptic_ws/devel/lib/franka_interface/custom_franka_control_node
-/home/student/haptic_ws/devel/.private/franka_interface/lib/franka_interface/cmake.lock /home/student/haptic_ws/devel/lib/franka_interface/cmake.lock
-/home/student/haptic_ws/devel/.private/franka_interface/lib/franka_interface/simple_gripper.py /home/student/haptic_ws/devel/lib/franka_interface/simple_gripper.py
-/home/student/haptic_ws/devel/.private/franka_interface/lib/franka_interface/enable_robot.py /home/student/haptic_ws/devel/lib/franka_interface/enable_robot.py
-/home/student/haptic_ws/devel/.private/franka_interface/lib/franka_interface/demo_joint_positions_keyboard.py /home/student/haptic_ws/devel/lib/franka_interface/demo_joint_positions_keyboard.py
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_interface/cmake.lock /home/student/HapticDeviceGaggioli/haptic_ws/devel/./cmake.lock
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_interface/share/franka_interface/cmake/franka_interfaceConfig.cmake /home/student/HapticDeviceGaggioli/haptic_ws/devel/share/franka_interface/cmake/franka_interfaceConfig.cmake
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_interface/share/franka_interface/cmake/franka_interfaceConfig-version.cmake /home/student/HapticDeviceGaggioli/haptic_ws/devel/share/franka_interface/cmake/franka_interfaceConfig-version.cmake
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_interface/lib/libcustom_franka_state_controller.so /home/student/HapticDeviceGaggioli/haptic_ws/devel/lib/libcustom_franka_state_controller.so
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_interface/lib/python3/dist-packages/franka_dataflow/__init__.py /home/student/HapticDeviceGaggioli/haptic_ws/devel/lib/python3/dist-packages/franka_dataflow/__init__.py
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_interface/lib/python3/dist-packages/franka_interface/__init__.py /home/student/HapticDeviceGaggioli/haptic_ws/devel/lib/python3/dist-packages/franka_interface/__init__.py
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_interface/lib/pkgconfig/franka_interface.pc /home/student/HapticDeviceGaggioli/haptic_ws/devel/lib/pkgconfig/franka_interface.pc
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_interface/lib/franka_interface/move_to_neutral.py /home/student/HapticDeviceGaggioli/haptic_ws/devel/lib/franka_interface/move_to_neutral.py
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_interface/lib/franka_interface/custom_franka_control_node /home/student/HapticDeviceGaggioli/haptic_ws/devel/lib/franka_interface/custom_franka_control_node
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_interface/lib/franka_interface/cmake.lock /home/student/HapticDeviceGaggioli/haptic_ws/devel/lib/franka_interface/cmake.lock
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_interface/lib/franka_interface/simple_gripper.py /home/student/HapticDeviceGaggioli/haptic_ws/devel/lib/franka_interface/simple_gripper.py
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_interface/lib/franka_interface/enable_robot.py /home/student/HapticDeviceGaggioli/haptic_ws/devel/lib/franka_interface/enable_robot.py
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_interface/lib/franka_interface/demo_joint_positions_keyboard.py /home/student/HapticDeviceGaggioli/haptic_ws/devel/lib/franka_interface/demo_joint_positions_keyboard.py

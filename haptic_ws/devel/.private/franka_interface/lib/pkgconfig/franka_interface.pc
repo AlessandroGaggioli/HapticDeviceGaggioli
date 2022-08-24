@@ -1,4 +1,4 @@
-prefix=/home/student/haptic_ws/devel/.private/franka_interface
+prefix=/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_interface
 
 Name: franka_interface
 Description: Description of franka_interface

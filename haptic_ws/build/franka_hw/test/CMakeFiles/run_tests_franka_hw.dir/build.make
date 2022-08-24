@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/student/haptic_ws/src/franka_ros/franka_hw
+CMAKE_SOURCE_DIR = /home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros/franka_hw
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/student/haptic_ws/build/franka_hw
+CMAKE_BINARY_DIR = /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_hw
 
 # Utility rule file for run_tests_franka_hw.
 
@@ -63,10 +63,10 @@ test/CMakeFiles/run_tests_franka_hw.dir/build: run_tests_franka_hw
 .PHONY : test/CMakeFiles/run_tests_franka_hw.dir/build
 
 test/CMakeFiles/run_tests_franka_hw.dir/clean:
-	cd /home/student/haptic_ws/build/franka_hw/test && $(CMAKE_COMMAND) -P CMakeFiles/run_tests_franka_hw.dir/cmake_clean.cmake
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_hw/test && $(CMAKE_COMMAND) -P CMakeFiles/run_tests_franka_hw.dir/cmake_clean.cmake
 .PHONY : test/CMakeFiles/run_tests_franka_hw.dir/clean
 
 test/CMakeFiles/run_tests_franka_hw.dir/depend:
-	cd /home/student/haptic_ws/build/franka_hw && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/student/haptic_ws/src/franka_ros/franka_hw /home/student/haptic_ws/src/franka_ros/franka_hw/test /home/student/haptic_ws/build/franka_hw /home/student/haptic_ws/build/franka_hw/test /home/student/haptic_ws/build/franka_hw/test/CMakeFiles/run_tests_franka_hw.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_hw && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros/franka_hw /home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros/franka_hw/test /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_hw /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_hw/test /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_hw/test/CMakeFiles/run_tests_franka_hw.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : test/CMakeFiles/run_tests_franka_hw.dir/depend
 

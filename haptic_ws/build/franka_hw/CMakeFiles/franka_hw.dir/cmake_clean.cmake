@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/student/haptic_ws/devel/.private/franka_hw/lib/libfranka_hw.pdb"
-  "/home/student/haptic_ws/devel/.private/franka_hw/lib/libfranka_hw.so"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_hw/lib/libfranka_hw.pdb"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_hw/lib/libfranka_hw.so"
   "CMakeFiles/franka_hw.dir/src/control_mode.cpp.o"
   "CMakeFiles/franka_hw.dir/src/franka_combinable_hw.cpp.o"
   "CMakeFiles/franka_hw.dir/src/franka_combined_hw.cpp.o"

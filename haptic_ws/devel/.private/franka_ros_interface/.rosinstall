@@ -1,2 +1,2 @@
 - setup-file:
-    local-name: /home/student/haptic_ws/devel/.private/franka_ros_interface/setup.sh
+    local-name: /home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_ros_interface/setup.sh

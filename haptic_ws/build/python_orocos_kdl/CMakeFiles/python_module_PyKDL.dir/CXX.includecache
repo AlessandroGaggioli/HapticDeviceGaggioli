@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/student/haptic_ws/build/python_orocos_kdl/PyKDL/sipAPIPyKDL.h
+/home/student/HapticDeviceGaggioli/haptic_ws/build/python_orocos_kdl/PyKDL/sipAPIPyKDL.h
 sip.h
 -
 
-/home/student/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart0.cpp
+/home/student/HapticDeviceGaggioli/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart0.cpp
 sipAPIPyKDL.h
-/home/student/haptic_ws/build/python_orocos_kdl/PyKDL/sipAPIPyKDL.h
+/home/student/HapticDeviceGaggioli/haptic_ws/build/python_orocos_kdl/PyKDL/sipAPIPyKDL.h
 kdl/jntarray.hpp
 -
 kdl/frames.hpp
@@ -146,9 +146,9 @@ sstream
 kdl/framevel.hpp
 -
 
-/home/student/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart1.cpp
+/home/student/HapticDeviceGaggioli/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart1.cpp
 sipAPIPyKDL.h
-/home/student/haptic_ws/build/python_orocos_kdl/PyKDL/sipAPIPyKDL.h
+/home/student/HapticDeviceGaggioli/haptic_ws/build/python_orocos_kdl/PyKDL/sipAPIPyKDL.h
 kdl/framevel.hpp
 -
 kdl/frames.hpp
@@ -232,9 +232,9 @@ kdl/jntarrayvel.hpp
 kdl/jntarray.hpp
 -
 
-/home/student/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart2.cpp
+/home/student/HapticDeviceGaggioli/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart2.cpp
 sipAPIPyKDL.h
-/home/student/haptic_ws/build/python_orocos_kdl/PyKDL/sipAPIPyKDL.h
+/home/student/HapticDeviceGaggioli/haptic_ws/build/python_orocos_kdl/PyKDL/sipAPIPyKDL.h
 kdl/chainjnttojacsolver.hpp
 -
 kdl/chain.hpp
@@ -304,9 +304,9 @@ kdl/frames_io.hpp
 sstream
 -
 
-/home/student/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart3.cpp
+/home/student/HapticDeviceGaggioli/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart3.cpp
 sipAPIPyKDL.h
-/home/student/haptic_ws/build/python_orocos_kdl/PyKDL/sipAPIPyKDL.h
+/home/student/HapticDeviceGaggioli/haptic_ws/build/python_orocos_kdl/PyKDL/sipAPIPyKDL.h
 kdl/chainiksolverpos_nr_jl.hpp
 -
 kdl/chain.hpp
@@ -384,9 +384,9 @@ kdl/frames_io.hpp
 sstream
 -
 
-/home/student/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart4.cpp
+/home/student/HapticDeviceGaggioli/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart4.cpp
 sipAPIPyKDL.h
-/home/student/haptic_ws/build/python_orocos_kdl/PyKDL/sipAPIPyKDL.h
+/home/student/HapticDeviceGaggioli/haptic_ws/build/python_orocos_kdl/PyKDL/sipAPIPyKDL.h
 kdl/chainfksolver.hpp
 -
 kdl/jntarrayvel.hpp
@@ -442,9 +442,9 @@ kdl/jntarray.hpp
 string
 -
 
-/home/student/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart5.cpp
+/home/student/HapticDeviceGaggioli/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart5.cpp
 sipAPIPyKDL.h
-/home/student/haptic_ws/build/python_orocos_kdl/PyKDL/sipAPIPyKDL.h
+/home/student/HapticDeviceGaggioli/haptic_ws/build/python_orocos_kdl/PyKDL/sipAPIPyKDL.h
 kdl/tree.hpp
 -
 string
@@ -548,9 +548,9 @@ kdl/frames_io.hpp
 sstream
 -
 
-/home/student/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart6.cpp
+/home/student/HapticDeviceGaggioli/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart6.cpp
 sipAPIPyKDL.h
-/home/student/haptic_ws/build/python_orocos_kdl/PyKDL/sipAPIPyKDL.h
+/home/student/HapticDeviceGaggioli/haptic_ws/build/python_orocos_kdl/PyKDL/sipAPIPyKDL.h
 kdl/frames.hpp
 -
 kdl/frames_io.hpp
@@ -664,317 +664,317 @@ string
 string
 -
 
-/home/student/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart7.cpp
+/home/student/HapticDeviceGaggioli/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart7.cpp
 
-/home/student/haptic_ws/devel/include/kdl/articulatedbodyinertia.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/articulatedbodyinertia.hpp
 frames.hpp
-/home/student/haptic_ws/devel/include/kdl/frames.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/frames.hpp
 rotationalinertia.hpp
-/home/student/haptic_ws/devel/include/kdl/rotationalinertia.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/rotationalinertia.hpp
 rigidbodyinertia.hpp
-/home/student/haptic_ws/devel/include/kdl/rigidbodyinertia.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/rigidbodyinertia.hpp
 Eigen/Core
 -
 
-/home/student/haptic_ws/devel/include/kdl/chain.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/chain.hpp
 segment.hpp
-/home/student/haptic_ws/devel/include/kdl/segment.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/segment.hpp
 string
 -
 
-/home/student/haptic_ws/devel/include/kdl/chaindynparam.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/chaindynparam.hpp
 chainidsolver_recursive_newton_euler.hpp
-/home/student/haptic_ws/devel/include/kdl/chainidsolver_recursive_newton_euler.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/chainidsolver_recursive_newton_euler.hpp
 articulatedbodyinertia.hpp
-/home/student/haptic_ws/devel/include/kdl/articulatedbodyinertia.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/articulatedbodyinertia.hpp
 jntspaceinertiamatrix.hpp
-/home/student/haptic_ws/devel/include/kdl/jntspaceinertiamatrix.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/jntspaceinertiamatrix.hpp
 Eigen/StdVector
 -
 
-/home/student/haptic_ws/devel/include/kdl/chainfksolver.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/chainfksolver.hpp
 chain.hpp
-/home/student/haptic_ws/devel/include/kdl/chain.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/chain.hpp
 framevel.hpp
-/home/student/haptic_ws/devel/include/kdl/framevel.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/framevel.hpp
 frameacc.hpp
-/home/student/haptic_ws/devel/include/kdl/frameacc.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/frameacc.hpp
 jntarray.hpp
-/home/student/haptic_ws/devel/include/kdl/jntarray.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/jntarray.hpp
 jntarrayvel.hpp
-/home/student/haptic_ws/devel/include/kdl/jntarrayvel.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/jntarrayvel.hpp
 jntarrayacc.hpp
-/home/student/haptic_ws/devel/include/kdl/jntarrayacc.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/jntarrayacc.hpp
 solveri.hpp
-/home/student/haptic_ws/devel/include/kdl/solveri.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/solveri.hpp
 
-/home/student/haptic_ws/devel/include/kdl/chainfksolverpos_recursive.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/chainfksolverpos_recursive.hpp
 chainfksolver.hpp
-/home/student/haptic_ws/devel/include/kdl/chainfksolver.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/chainfksolver.hpp
 
-/home/student/haptic_ws/devel/include/kdl/chainfksolvervel_recursive.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/chainfksolvervel_recursive.hpp
 chainfksolver.hpp
-/home/student/haptic_ws/devel/include/kdl/chainfksolver.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/chainfksolver.hpp
 
-/home/student/haptic_ws/devel/include/kdl/chainidsolver.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/chainidsolver.hpp
 chain.hpp
-/home/student/haptic_ws/devel/include/kdl/chain.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/chain.hpp
 frames.hpp
-/home/student/haptic_ws/devel/include/kdl/frames.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/frames.hpp
 jntarray.hpp
-/home/student/haptic_ws/devel/include/kdl/jntarray.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/jntarray.hpp
 solveri.hpp
-/home/student/haptic_ws/devel/include/kdl/solveri.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/solveri.hpp
 
-/home/student/haptic_ws/devel/include/kdl/chainidsolver_recursive_newton_euler.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/chainidsolver_recursive_newton_euler.hpp
 chainidsolver.hpp
-/home/student/haptic_ws/devel/include/kdl/chainidsolver.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/chainidsolver.hpp
 
-/home/student/haptic_ws/devel/include/kdl/chainiksolver.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/chainiksolver.hpp
 chain.hpp
-/home/student/haptic_ws/devel/include/kdl/chain.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/chain.hpp
 frames.hpp
-/home/student/haptic_ws/devel/include/kdl/frames.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/frames.hpp
 framevel.hpp
-/home/student/haptic_ws/devel/include/kdl/framevel.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/framevel.hpp
 frameacc.hpp
-/home/student/haptic_ws/devel/include/kdl/frameacc.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/frameacc.hpp
 jntarray.hpp
-/home/student/haptic_ws/devel/include/kdl/jntarray.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/jntarray.hpp
 jntarrayvel.hpp
-/home/student/haptic_ws/devel/include/kdl/jntarrayvel.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/jntarrayvel.hpp
 jntarrayacc.hpp
-/home/student/haptic_ws/devel/include/kdl/jntarrayacc.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/jntarrayacc.hpp
 solveri.hpp
-/home/student/haptic_ws/devel/include/kdl/solveri.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/solveri.hpp
 
-/home/student/haptic_ws/devel/include/kdl/chainiksolverpos_lma.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/chainiksolverpos_lma.hpp
 chainiksolver.hpp
-/home/student/haptic_ws/devel/include/kdl/chainiksolver.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/chainiksolver.hpp
 chain.hpp
-/home/student/haptic_ws/devel/include/kdl/chain.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/chain.hpp
 Eigen/Dense
 -
 
-/home/student/haptic_ws/devel/include/kdl/chainiksolverpos_nr.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/chainiksolverpos_nr.hpp
 chainiksolver.hpp
-/home/student/haptic_ws/devel/include/kdl/chainiksolver.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/chainiksolver.hpp
 chainfksolver.hpp
-/home/student/haptic_ws/devel/include/kdl/chainfksolver.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/chainfksolver.hpp
 
-/home/student/haptic_ws/devel/include/kdl/chainiksolverpos_nr_jl.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/chainiksolverpos_nr_jl.hpp
 chainiksolver.hpp
-/home/student/haptic_ws/devel/include/kdl/chainiksolver.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/chainiksolver.hpp
 chainfksolver.hpp
-/home/student/haptic_ws/devel/include/kdl/chainfksolver.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/chainfksolver.hpp
 
-/home/student/haptic_ws/devel/include/kdl/chainiksolvervel_pinv.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/chainiksolvervel_pinv.hpp
 chainiksolver.hpp
-/home/student/haptic_ws/devel/include/kdl/chainiksolver.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/chainiksolver.hpp
 chainjnttojacsolver.hpp
-/home/student/haptic_ws/devel/include/kdl/chainjnttojacsolver.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/chainjnttojacsolver.hpp
 utilities/svd_HH.hpp
-/home/student/haptic_ws/devel/include/kdl/utilities/svd_HH.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/utilities/svd_HH.hpp
 
-/home/student/haptic_ws/devel/include/kdl/chainiksolvervel_pinv_givens.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/chainiksolvervel_pinv_givens.hpp
 chainiksolver.hpp
-/home/student/haptic_ws/devel/include/kdl/chainiksolver.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/chainiksolver.hpp
 chainjnttojacsolver.hpp
-/home/student/haptic_ws/devel/include/kdl/chainjnttojacsolver.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/chainjnttojacsolver.hpp
 Eigen/Core
 -
 
-/home/student/haptic_ws/devel/include/kdl/chainiksolvervel_pinv_nso.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/chainiksolvervel_pinv_nso.hpp
 chainiksolver.hpp
-/home/student/haptic_ws/devel/include/kdl/chainiksolver.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/chainiksolver.hpp
 chainjnttojacsolver.hpp
-/home/student/haptic_ws/devel/include/kdl/chainjnttojacsolver.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/chainjnttojacsolver.hpp
 Eigen/Core
 -
 
-/home/student/haptic_ws/devel/include/kdl/chainiksolvervel_wdls.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/chainiksolvervel_wdls.hpp
 chainiksolver.hpp
-/home/student/haptic_ws/devel/include/kdl/chainiksolver.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/chainiksolver.hpp
 chainjnttojacsolver.hpp
-/home/student/haptic_ws/devel/include/kdl/chainjnttojacsolver.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/chainjnttojacsolver.hpp
 Eigen/Core
 -
 
-/home/student/haptic_ws/devel/include/kdl/chainjnttojacdotsolver.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/chainjnttojacdotsolver.hpp
 solveri.hpp
-/home/student/haptic_ws/devel/include/kdl/solveri.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/solveri.hpp
 frames.hpp
-/home/student/haptic_ws/devel/include/kdl/frames.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/frames.hpp
 jntarrayvel.hpp
-/home/student/haptic_ws/devel/include/kdl/jntarrayvel.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/jntarrayvel.hpp
 jacobian.hpp
-/home/student/haptic_ws/devel/include/kdl/jacobian.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/jacobian.hpp
 chain.hpp
-/home/student/haptic_ws/devel/include/kdl/chain.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/chain.hpp
 framevel.hpp
-/home/student/haptic_ws/devel/include/kdl/framevel.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/framevel.hpp
 chainjnttojacsolver.hpp
-/home/student/haptic_ws/devel/include/kdl/chainjnttojacsolver.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/chainjnttojacsolver.hpp
 chainfksolverpos_recursive.hpp
-/home/student/haptic_ws/devel/include/kdl/chainfksolverpos_recursive.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/chainfksolverpos_recursive.hpp
 
-/home/student/haptic_ws/devel/include/kdl/chainjnttojacsolver.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/chainjnttojacsolver.hpp
 solveri.hpp
-/home/student/haptic_ws/devel/include/kdl/solveri.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/solveri.hpp
 frames.hpp
-/home/student/haptic_ws/devel/include/kdl/frames.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/frames.hpp
 jacobian.hpp
-/home/student/haptic_ws/devel/include/kdl/jacobian.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/jacobian.hpp
 jntarray.hpp
-/home/student/haptic_ws/devel/include/kdl/jntarray.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/jntarray.hpp
 chain.hpp
-/home/student/haptic_ws/devel/include/kdl/chain.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/chain.hpp
 
-/home/student/haptic_ws/devel/include/kdl/config.h
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/config.h
 
-/home/student/haptic_ws/devel/include/kdl/frameacc.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/frameacc.hpp
 utilities/rall2d.h
-/home/student/haptic_ws/devel/include/kdl/utilities/rall2d.h
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/utilities/rall2d.h
 frames.hpp
-/home/student/haptic_ws/devel/include/kdl/frames.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/frames.hpp
 frameacc.inl
-/home/student/haptic_ws/devel/include/kdl/frameacc.inl
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/frameacc.inl
 
-/home/student/haptic_ws/devel/include/kdl/frameacc.inl
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/frameacc.inl
 
-/home/student/haptic_ws/devel/include/kdl/frames.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/frames.hpp
 utilities/kdl-config.h
-/home/student/haptic_ws/devel/include/kdl/utilities/kdl-config.h
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/utilities/kdl-config.h
 utilities/utility.h
-/home/student/haptic_ws/devel/include/kdl/utilities/utility.h
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/utilities/utility.h
 frames.inl
-/home/student/haptic_ws/devel/include/kdl/frames.inl
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/frames.inl
 
-/home/student/haptic_ws/devel/include/kdl/frames.inl
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/frames.inl
 
-/home/student/haptic_ws/devel/include/kdl/frames_io.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/frames_io.hpp
 utilities/utility_io.h
-/home/student/haptic_ws/devel/include/kdl/utilities/utility_io.h
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/utilities/utility_io.h
 frames.hpp
-/home/student/haptic_ws/devel/include/kdl/frames.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/frames.hpp
 jntarray.hpp
-/home/student/haptic_ws/devel/include/kdl/jntarray.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/jntarray.hpp
 jacobian.hpp
-/home/student/haptic_ws/devel/include/kdl/jacobian.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/jacobian.hpp
 
-/home/student/haptic_ws/devel/include/kdl/framevel.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/framevel.hpp
 utilities/utility.h
-/home/student/haptic_ws/devel/include/kdl/utilities/utility.h
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/utilities/utility.h
 utilities/rall1d.h
-/home/student/haptic_ws/devel/include/kdl/utilities/rall1d.h
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/utilities/rall1d.h
 utilities/traits.h
-/home/student/haptic_ws/devel/include/kdl/utilities/traits.h
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/utilities/traits.h
 frames.hpp
-/home/student/haptic_ws/devel/include/kdl/frames.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/frames.hpp
 framevel.inl
-/home/student/haptic_ws/devel/include/kdl/framevel.inl
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/framevel.inl
 
-/home/student/haptic_ws/devel/include/kdl/framevel.inl
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/framevel.inl
 
-/home/student/haptic_ws/devel/include/kdl/jacobian.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/jacobian.hpp
 frames.hpp
-/home/student/haptic_ws/devel/include/kdl/frames.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/frames.hpp
 Eigen/Core
 -
 
-/home/student/haptic_ws/devel/include/kdl/jntarray.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/jntarray.hpp
 frames.hpp
-/home/student/haptic_ws/devel/include/kdl/frames.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/frames.hpp
 jacobian.hpp
-/home/student/haptic_ws/devel/include/kdl/jacobian.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/jacobian.hpp
 Eigen/Core
 -
 
-/home/student/haptic_ws/devel/include/kdl/jntarrayacc.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/jntarrayacc.hpp
 utilities/utility.h
-/home/student/haptic_ws/devel/include/kdl/utilities/utility.h
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/utilities/utility.h
 jntarray.hpp
-/home/student/haptic_ws/devel/include/kdl/jntarray.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/jntarray.hpp
 jntarrayvel.hpp
-/home/student/haptic_ws/devel/include/kdl/jntarrayvel.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/jntarrayvel.hpp
 frameacc.hpp
-/home/student/haptic_ws/devel/include/kdl/frameacc.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/frameacc.hpp
 
-/home/student/haptic_ws/devel/include/kdl/jntarrayvel.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/jntarrayvel.hpp
 utilities/utility.h
-/home/student/haptic_ws/devel/include/kdl/utilities/utility.h
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/utilities/utility.h
 jntarray.hpp
-/home/student/haptic_ws/devel/include/kdl/jntarray.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/jntarray.hpp
 framevel.hpp
-/home/student/haptic_ws/devel/include/kdl/framevel.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/framevel.hpp
 
-/home/student/haptic_ws/devel/include/kdl/jntspaceinertiamatrix.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/jntspaceinertiamatrix.hpp
 frames.hpp
-/home/student/haptic_ws/devel/include/kdl/frames.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/frames.hpp
 jacobian.hpp
-/home/student/haptic_ws/devel/include/kdl/jacobian.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/jacobian.hpp
 jntarray.hpp
-/home/student/haptic_ws/devel/include/kdl/jntarray.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/jntarray.hpp
 Eigen/Core
 -
 
-/home/student/haptic_ws/devel/include/kdl/joint.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/joint.hpp
 frames.hpp
-/home/student/haptic_ws/devel/include/kdl/frames.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/frames.hpp
 string
 -
 exception
 -
 
-/home/student/haptic_ws/devel/include/kdl/kinfam_io.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/kinfam_io.hpp
 iostream
 -
 fstream
 -
 joint.hpp
-/home/student/haptic_ws/devel/include/kdl/joint.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/joint.hpp
 segment.hpp
-/home/student/haptic_ws/devel/include/kdl/segment.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/segment.hpp
 chain.hpp
-/home/student/haptic_ws/devel/include/kdl/chain.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/chain.hpp
 jntarray.hpp
-/home/student/haptic_ws/devel/include/kdl/jntarray.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/jntarray.hpp
 jacobian.hpp
-/home/student/haptic_ws/devel/include/kdl/jacobian.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/jacobian.hpp
 tree.hpp
-/home/student/haptic_ws/devel/include/kdl/tree.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/tree.hpp
 jntspaceinertiamatrix.hpp
-/home/student/haptic_ws/devel/include/kdl/jntspaceinertiamatrix.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/jntspaceinertiamatrix.hpp
 
-/home/student/haptic_ws/devel/include/kdl/rigidbodyinertia.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/rigidbodyinertia.hpp
 frames.hpp
-/home/student/haptic_ws/devel/include/kdl/frames.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/frames.hpp
 rotationalinertia.hpp
-/home/student/haptic_ws/devel/include/kdl/rotationalinertia.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/rotationalinertia.hpp
 
-/home/student/haptic_ws/devel/include/kdl/rotationalinertia.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/rotationalinertia.hpp
 frames.hpp
-/home/student/haptic_ws/devel/include/kdl/frames.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/frames.hpp
 
-/home/student/haptic_ws/devel/include/kdl/segment.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/segment.hpp
 frames.hpp
-/home/student/haptic_ws/devel/include/kdl/frames.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/frames.hpp
 rigidbodyinertia.hpp
-/home/student/haptic_ws/devel/include/kdl/rigidbodyinertia.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/rigidbodyinertia.hpp
 joint.hpp
-/home/student/haptic_ws/devel/include/kdl/joint.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/joint.hpp
 vector
 -
 
-/home/student/haptic_ws/devel/include/kdl/solveri.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/solveri.hpp
 
-/home/student/haptic_ws/devel/include/kdl/tree.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/tree.hpp
 config.h
-/home/student/haptic_ws/devel/include/kdl/config.h
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/config.h
 segment.hpp
-/home/student/haptic_ws/devel/include/kdl/segment.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/segment.hpp
 chain.hpp
-/home/student/haptic_ws/devel/include/kdl/chain.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/chain.hpp
 string
 -
 map
@@ -982,37 +982,37 @@ map
 boost/shared_ptr.hpp
 -
 
-/home/student/haptic_ws/devel/include/kdl/utilities/kdl-config.h
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/utilities/kdl-config.h
 
-/home/student/haptic_ws/devel/include/kdl/utilities/rall1d.h
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/utilities/rall1d.h
 assert.h
 -
 utility.h
-/home/student/haptic_ws/devel/include/kdl/utilities/utility.h
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/utilities/utility.h
 
-/home/student/haptic_ws/devel/include/kdl/utilities/rall2d.h
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/utilities/rall2d.h
 math.h
 -
 assert.h
 -
 utility.h
-/home/student/haptic_ws/devel/include/kdl/utilities/utility.h
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/utilities/utility.h
 
-/home/student/haptic_ws/devel/include/kdl/utilities/svd_HH.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/utilities/svd_HH.hpp
 ../jacobian.hpp
-/home/student/haptic_ws/devel/include/kdl/jacobian.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/jacobian.hpp
 ../jntarray.hpp
-/home/student/haptic_ws/devel/include/kdl/jntarray.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/jntarray.hpp
 vector
 -
 
-/home/student/haptic_ws/devel/include/kdl/utilities/traits.h
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/utilities/traits.h
 utility.h
-/home/student/haptic_ws/devel/include/kdl/utilities/utility.h
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/utilities/utility.h
 
-/home/student/haptic_ws/devel/include/kdl/utilities/utility.h
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/utilities/utility.h
 kdl-config.h
-/home/student/haptic_ws/devel/include/kdl/utilities/kdl-config.h
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/utilities/kdl-config.h
 cstdlib
 -
 cassert
@@ -1020,7 +1020,7 @@ cassert
 cmath
 -
 
-/home/student/haptic_ws/devel/include/kdl/utilities/utility_io.h
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/include/kdl/utilities/utility_io.h
 iostream
 -
 iomanip

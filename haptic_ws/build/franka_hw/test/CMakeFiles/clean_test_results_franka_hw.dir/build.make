@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/student/haptic_ws/src/franka_ros/franka_hw
+CMAKE_SOURCE_DIR = /home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros/franka_hw
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/student/haptic_ws/build/franka_hw
+CMAKE_BINARY_DIR = /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_hw
 
 # Utility rule file for clean_test_results_franka_hw.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/student/haptic_ws/build/franka_hw
 include test/CMakeFiles/clean_test_results_franka_hw.dir/progress.make
 
 test/CMakeFiles/clean_test_results_franka_hw:
-	cd /home/student/haptic_ws/build/franka_hw/test && /usr/bin/python3 /opt/ros/noetic/share/catkin/cmake/test/remove_test_results.py /home/student/haptic_ws/build/franka_hw/test_results/franka_hw
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_hw/test && /usr/bin/python3 /opt/ros/noetic/share/catkin/cmake/test/remove_test_results.py /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_hw/test_results/franka_hw
 
 clean_test_results_franka_hw: test/CMakeFiles/clean_test_results_franka_hw
 clean_test_results_franka_hw: test/CMakeFiles/clean_test_results_franka_hw.dir/build.make
@@ -67,10 +67,10 @@ test/CMakeFiles/clean_test_results_franka_hw.dir/build: clean_test_results_frank
 .PHONY : test/CMakeFiles/clean_test_results_franka_hw.dir/build
 
 test/CMakeFiles/clean_test_results_franka_hw.dir/clean:
-	cd /home/student/haptic_ws/build/franka_hw/test && $(CMAKE_COMMAND) -P CMakeFiles/clean_test_results_franka_hw.dir/cmake_clean.cmake
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_hw/test && $(CMAKE_COMMAND) -P CMakeFiles/clean_test_results_franka_hw.dir/cmake_clean.cmake
 .PHONY : test/CMakeFiles/clean_test_results_franka_hw.dir/clean
 
 test/CMakeFiles/clean_test_results_franka_hw.dir/depend:
-	cd /home/student/haptic_ws/build/franka_hw && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/student/haptic_ws/src/franka_ros/franka_hw /home/student/haptic_ws/src/franka_ros/franka_hw/test /home/student/haptic_ws/build/franka_hw /home/student/haptic_ws/build/franka_hw/test /home/student/haptic_ws/build/franka_hw/test/CMakeFiles/clean_test_results_franka_hw.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_hw && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros/franka_hw /home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros/franka_hw/test /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_hw /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_hw/test /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_hw/test/CMakeFiles/clean_test_results_franka_hw.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : test/CMakeFiles/clean_test_results_franka_hw.dir/depend
 

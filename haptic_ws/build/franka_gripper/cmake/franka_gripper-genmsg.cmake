@@ -2,7 +2,7 @@
 
 message(STATUS "franka_gripper: 29 messages, 0 services")
 
-set(MSG_I_FLAGS "-Ifranka_gripper:/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg;-Ifranka_gripper:/home/student/haptic_ws/src/franka_ros/franka_gripper/msg;-Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg;-Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg")
+set(MSG_I_FLAGS "-Ifranka_gripper:/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg;-Ifranka_gripper:/home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros/franka_gripper/msg;-Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg;-Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg")
 
 # Find all generators
 find_package(gencpp REQUIRED)
@@ -17,149 +17,149 @@ add_custom_target(franka_gripper_generate_messages ALL)
 
 
 
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspAction.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspAction.msg" NAME_WE)
 add_custom_target(_franka_gripper_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "franka_gripper" "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspAction.msg" "franka_gripper/GraspEpsilon:actionlib_msgs/GoalID:franka_gripper/GraspResult:franka_gripper/GraspFeedback:franka_gripper/GraspActionGoal:franka_gripper/GraspActionResult:franka_gripper/GraspActionFeedback:franka_gripper/GraspGoal:std_msgs/Header:actionlib_msgs/GoalStatus"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "franka_gripper" "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspAction.msg" "franka_gripper/GraspFeedback:franka_gripper/GraspActionGoal:std_msgs/Header:franka_gripper/GraspGoal:franka_gripper/GraspActionResult:actionlib_msgs/GoalStatus:franka_gripper/GraspActionFeedback:franka_gripper/GraspEpsilon:actionlib_msgs/GoalID:franka_gripper/GraspResult"
 )
 
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspActionGoal.msg" NAME_WE)
 add_custom_target(_franka_gripper_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "franka_gripper" "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspActionGoal.msg" "franka_gripper/GraspEpsilon:franka_gripper/GraspGoal:std_msgs/Header:actionlib_msgs/GoalID"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "franka_gripper" "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspActionGoal.msg" "std_msgs/Header:actionlib_msgs/GoalID:franka_gripper/GraspEpsilon:franka_gripper/GraspGoal"
 )
 
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspActionResult.msg" NAME_WE)
 add_custom_target(_franka_gripper_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "franka_gripper" "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspActionResult.msg" "actionlib_msgs/GoalID:franka_gripper/GraspResult:std_msgs/Header:actionlib_msgs/GoalStatus"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "franka_gripper" "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspActionResult.msg" "std_msgs/Header:actionlib_msgs/GoalID:actionlib_msgs/GoalStatus:franka_gripper/GraspResult"
 )
 
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspActionFeedback.msg" NAME_WE)
 add_custom_target(_franka_gripper_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "franka_gripper" "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspActionFeedback.msg" "actionlib_msgs/GoalID:franka_gripper/GraspFeedback:std_msgs/Header:actionlib_msgs/GoalStatus"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "franka_gripper" "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspActionFeedback.msg" "std_msgs/Header:actionlib_msgs/GoalID:actionlib_msgs/GoalStatus:franka_gripper/GraspFeedback"
 )
 
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspGoal.msg" NAME_WE)
 add_custom_target(_franka_gripper_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "franka_gripper" "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspGoal.msg" "franka_gripper/GraspEpsilon"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "franka_gripper" "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspGoal.msg" "franka_gripper/GraspEpsilon"
 )
 
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspResult.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspResult.msg" NAME_WE)
 add_custom_target(_franka_gripper_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "franka_gripper" "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspResult.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "franka_gripper" "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspResult.msg" ""
 )
 
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspFeedback.msg" NAME_WE)
 add_custom_target(_franka_gripper_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "franka_gripper" "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspFeedback.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "franka_gripper" "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspFeedback.msg" ""
 )
 
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingAction.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingAction.msg" NAME_WE)
 add_custom_target(_franka_gripper_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "franka_gripper" "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingAction.msg" "franka_gripper/HomingActionGoal:actionlib_msgs/GoalID:franka_gripper/HomingActionResult:franka_gripper/HomingResult:franka_gripper/HomingGoal:franka_gripper/HomingActionFeedback:franka_gripper/HomingFeedback:std_msgs/Header:actionlib_msgs/GoalStatus"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "franka_gripper" "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingAction.msg" "franka_gripper/HomingActionResult:franka_gripper/HomingResult:std_msgs/Header:actionlib_msgs/GoalStatus:franka_gripper/HomingActionFeedback:franka_gripper/HomingGoal:actionlib_msgs/GoalID:franka_gripper/HomingActionGoal:franka_gripper/HomingFeedback"
 )
 
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingActionGoal.msg" NAME_WE)
 add_custom_target(_franka_gripper_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "franka_gripper" "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingActionGoal.msg" "std_msgs/Header:actionlib_msgs/GoalID:franka_gripper/HomingGoal"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "franka_gripper" "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingActionGoal.msg" "std_msgs/Header:actionlib_msgs/GoalID:franka_gripper/HomingGoal"
 )
 
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingActionResult.msg" NAME_WE)
 add_custom_target(_franka_gripper_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "franka_gripper" "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingActionResult.msg" "actionlib_msgs/GoalID:franka_gripper/HomingResult:std_msgs/Header:actionlib_msgs/GoalStatus"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "franka_gripper" "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingActionResult.msg" "std_msgs/Header:actionlib_msgs/GoalID:actionlib_msgs/GoalStatus:franka_gripper/HomingResult"
 )
 
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingActionFeedback.msg" NAME_WE)
 add_custom_target(_franka_gripper_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "franka_gripper" "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingActionFeedback.msg" "actionlib_msgs/GoalID:std_msgs/Header:actionlib_msgs/GoalStatus:franka_gripper/HomingFeedback"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "franka_gripper" "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingActionFeedback.msg" "std_msgs/Header:actionlib_msgs/GoalID:actionlib_msgs/GoalStatus:franka_gripper/HomingFeedback"
 )
 
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingGoal.msg" NAME_WE)
 add_custom_target(_franka_gripper_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "franka_gripper" "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingGoal.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "franka_gripper" "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingGoal.msg" ""
 )
 
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingResult.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingResult.msg" NAME_WE)
 add_custom_target(_franka_gripper_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "franka_gripper" "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingResult.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "franka_gripper" "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingResult.msg" ""
 )
 
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingFeedback.msg" NAME_WE)
 add_custom_target(_franka_gripper_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "franka_gripper" "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingFeedback.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "franka_gripper" "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingFeedback.msg" ""
 )
 
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopAction.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopAction.msg" NAME_WE)
 add_custom_target(_franka_gripper_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "franka_gripper" "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopAction.msg" "franka_gripper/StopFeedback:actionlib_msgs/GoalID:franka_gripper/StopGoal:franka_gripper/StopActionResult:franka_gripper/StopActionFeedback:std_msgs/Header:actionlib_msgs/GoalStatus:franka_gripper/StopActionGoal:franka_gripper/StopResult"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "franka_gripper" "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopAction.msg" "franka_gripper/StopGoal:std_msgs/Header:actionlib_msgs/GoalStatus:franka_gripper/StopResult:franka_gripper/StopFeedback:franka_gripper/StopActionResult:actionlib_msgs/GoalID:franka_gripper/StopActionFeedback:franka_gripper/StopActionGoal"
 )
 
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopActionGoal.msg" NAME_WE)
 add_custom_target(_franka_gripper_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "franka_gripper" "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopActionGoal.msg" "franka_gripper/StopGoal:std_msgs/Header:actionlib_msgs/GoalID"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "franka_gripper" "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopActionGoal.msg" "franka_gripper/StopGoal:std_msgs/Header:actionlib_msgs/GoalID"
 )
 
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopActionResult.msg" NAME_WE)
 add_custom_target(_franka_gripper_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "franka_gripper" "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopActionResult.msg" "actionlib_msgs/GoalID:std_msgs/Header:actionlib_msgs/GoalStatus:franka_gripper/StopResult"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "franka_gripper" "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopActionResult.msg" "franka_gripper/StopResult:std_msgs/Header:actionlib_msgs/GoalID:actionlib_msgs/GoalStatus"
 )
 
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopActionFeedback.msg" NAME_WE)
 add_custom_target(_franka_gripper_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "franka_gripper" "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopActionFeedback.msg" "actionlib_msgs/GoalID:franka_gripper/StopFeedback:std_msgs/Header:actionlib_msgs/GoalStatus"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "franka_gripper" "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopActionFeedback.msg" "std_msgs/Header:actionlib_msgs/GoalID:actionlib_msgs/GoalStatus:franka_gripper/StopFeedback"
 )
 
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopGoal.msg" NAME_WE)
 add_custom_target(_franka_gripper_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "franka_gripper" "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopGoal.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "franka_gripper" "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopGoal.msg" ""
 )
 
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopResult.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopResult.msg" NAME_WE)
 add_custom_target(_franka_gripper_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "franka_gripper" "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopResult.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "franka_gripper" "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopResult.msg" ""
 )
 
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopFeedback.msg" NAME_WE)
 add_custom_target(_franka_gripper_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "franka_gripper" "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopFeedback.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "franka_gripper" "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopFeedback.msg" ""
 )
 
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveAction.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveAction.msg" NAME_WE)
 add_custom_target(_franka_gripper_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "franka_gripper" "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveAction.msg" "actionlib_msgs/GoalID:franka_gripper/MoveActionGoal:franka_gripper/MoveActionResult:franka_gripper/MoveActionFeedback:franka_gripper/MoveFeedback:franka_gripper/MoveGoal:franka_gripper/MoveResult:std_msgs/Header:actionlib_msgs/GoalStatus"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "franka_gripper" "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveAction.msg" "franka_gripper/MoveActionFeedback:franka_gripper/MoveActionGoal:franka_gripper/MoveFeedback:std_msgs/Header:franka_gripper/MoveActionResult:actionlib_msgs/GoalStatus:franka_gripper/MoveGoal:actionlib_msgs/GoalID:franka_gripper/MoveResult"
 )
 
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveActionGoal.msg" NAME_WE)
 add_custom_target(_franka_gripper_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "franka_gripper" "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveActionGoal.msg" "franka_gripper/MoveGoal:std_msgs/Header:actionlib_msgs/GoalID"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "franka_gripper" "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveActionGoal.msg" "franka_gripper/MoveGoal:std_msgs/Header:actionlib_msgs/GoalID"
 )
 
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveActionResult.msg" NAME_WE)
 add_custom_target(_franka_gripper_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "franka_gripper" "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveActionResult.msg" "actionlib_msgs/GoalID:franka_gripper/MoveResult:std_msgs/Header:actionlib_msgs/GoalStatus"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "franka_gripper" "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveActionResult.msg" "std_msgs/Header:actionlib_msgs/GoalID:actionlib_msgs/GoalStatus:franka_gripper/MoveResult"
 )
 
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveActionFeedback.msg" NAME_WE)
 add_custom_target(_franka_gripper_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "franka_gripper" "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveActionFeedback.msg" "actionlib_msgs/GoalID:std_msgs/Header:actionlib_msgs/GoalStatus:franka_gripper/MoveFeedback"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "franka_gripper" "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveActionFeedback.msg" "franka_gripper/MoveFeedback:std_msgs/Header:actionlib_msgs/GoalID:actionlib_msgs/GoalStatus"
 )
 
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveGoal.msg" NAME_WE)
 add_custom_target(_franka_gripper_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "franka_gripper" "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveGoal.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "franka_gripper" "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveGoal.msg" ""
 )
 
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveResult.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveResult.msg" NAME_WE)
 add_custom_target(_franka_gripper_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "franka_gripper" "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveResult.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "franka_gripper" "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveResult.msg" ""
 )
 
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveFeedback.msg" NAME_WE)
 add_custom_target(_franka_gripper_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "franka_gripper" "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveFeedback.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "franka_gripper" "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveFeedback.msg" ""
 )
 
-get_filename_component(_filename "/home/student/haptic_ws/src/franka_ros/franka_gripper/msg/GraspEpsilon.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros/franka_gripper/msg/GraspEpsilon.msg" NAME_WE)
 add_custom_target(_franka_gripper_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "franka_gripper" "/home/student/haptic_ws/src/franka_ros/franka_gripper/msg/GraspEpsilon.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "franka_gripper" "/home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros/franka_gripper/msg/GraspEpsilon.msg" ""
 )
 
 #
@@ -169,175 +169,175 @@ add_custom_target(_franka_gripper_generate_messages_check_deps_${_filename}
 ### Section generating for lang: gencpp
 ### Generating Messages
 _generate_msg_cpp(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspAction.msg"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/student/haptic_ws/src/franka_ros/franka_gripper/msg/GraspEpsilon.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspResult.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspFeedback.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspActionGoal.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspActionResult.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspActionFeedback.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspFeedback.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspActionGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspGoal.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspActionResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspActionFeedback.msg;/home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros/franka_gripper/msg/GraspEpsilon.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspResult.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/franka_gripper
 )
 _generate_msg_cpp(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspActionGoal.msg"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/student/haptic_ws/src/franka_ros/franka_gripper/msg/GraspEpsilon.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros/franka_gripper/msg/GraspEpsilon.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspGoal.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/franka_gripper
 )
 _generate_msg_cpp(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspActionResult.msg"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspResult.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/franka_gripper
 )
 _generate_msg_cpp(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspActionFeedback.msg"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspFeedback.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/franka_gripper
 )
 _generate_msg_cpp(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspGoal.msg"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/student/haptic_ws/src/franka_ros/franka_gripper/msg/GraspEpsilon.msg"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros/franka_gripper/msg/GraspEpsilon.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/franka_gripper
 )
 _generate_msg_cpp(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspResult.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/franka_gripper
-)
-_generate_msg_cpp(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspFeedback.msg"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspResult.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/franka_gripper
 )
 _generate_msg_cpp(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingAction.msg"
-  "${MSG_I_FLAGS}"
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingActionGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingActionResult.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingResult.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingGoal.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingActionFeedback.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/franka_gripper
-)
-_generate_msg_cpp(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingActionGoal.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingGoal.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/franka_gripper
-)
-_generate_msg_cpp(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingActionResult.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/franka_gripper
-)
-_generate_msg_cpp(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingActionFeedback.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingFeedback.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/franka_gripper
-)
-_generate_msg_cpp(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingGoal.msg"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspFeedback.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/franka_gripper
 )
 _generate_msg_cpp(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingResult.msg"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingAction.msg"
+  "${MSG_I_FLAGS}"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingActionResult.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingActionFeedback.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingActionGoal.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingFeedback.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/franka_gripper
+)
+_generate_msg_cpp(franka_gripper
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingActionGoal.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingGoal.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/franka_gripper
+)
+_generate_msg_cpp(franka_gripper
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingActionResult.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingResult.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/franka_gripper
+)
+_generate_msg_cpp(franka_gripper
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingActionFeedback.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingFeedback.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/franka_gripper
+)
+_generate_msg_cpp(franka_gripper
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingGoal.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/franka_gripper
 )
 _generate_msg_cpp(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingFeedback.msg"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingResult.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/franka_gripper
 )
 _generate_msg_cpp(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopAction.msg"
-  "${MSG_I_FLAGS}"
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopGoal.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopActionResult.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopActionFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopActionGoal.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopResult.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/franka_gripper
-)
-_generate_msg_cpp(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopActionGoal.msg"
-  "${MSG_I_FLAGS}"
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/franka_gripper
-)
-_generate_msg_cpp(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopActionResult.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopResult.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/franka_gripper
-)
-_generate_msg_cpp(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopActionFeedback.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/franka_gripper
-)
-_generate_msg_cpp(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopGoal.msg"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingFeedback.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/franka_gripper
 )
 _generate_msg_cpp(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopResult.msg"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopAction.msg"
+  "${MSG_I_FLAGS}"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopResult.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopFeedback.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopActionResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopActionFeedback.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopActionGoal.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/franka_gripper
+)
+_generate_msg_cpp(franka_gripper
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopActionGoal.msg"
+  "${MSG_I_FLAGS}"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/franka_gripper
+)
+_generate_msg_cpp(franka_gripper
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopActionResult.msg"
+  "${MSG_I_FLAGS}"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/franka_gripper
+)
+_generate_msg_cpp(franka_gripper
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopActionFeedback.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopFeedback.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/franka_gripper
+)
+_generate_msg_cpp(franka_gripper
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopGoal.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/franka_gripper
 )
 _generate_msg_cpp(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopFeedback.msg"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopResult.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/franka_gripper
 )
 _generate_msg_cpp(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveAction.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveActionGoal.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveActionResult.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveActionFeedback.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveFeedback.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveGoal.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/franka_gripper
-)
-_generate_msg_cpp(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveActionGoal.msg"
-  "${MSG_I_FLAGS}"
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/franka_gripper
-)
-_generate_msg_cpp(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveActionResult.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/franka_gripper
-)
-_generate_msg_cpp(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveActionFeedback.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveFeedback.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/franka_gripper
-)
-_generate_msg_cpp(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveGoal.msg"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopFeedback.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/franka_gripper
 )
 _generate_msg_cpp(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveResult.msg"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveAction.msg"
+  "${MSG_I_FLAGS}"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveActionFeedback.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveActionGoal.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveActionResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveResult.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/franka_gripper
+)
+_generate_msg_cpp(franka_gripper
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveActionGoal.msg"
+  "${MSG_I_FLAGS}"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/franka_gripper
+)
+_generate_msg_cpp(franka_gripper
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveActionResult.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveResult.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/franka_gripper
+)
+_generate_msg_cpp(franka_gripper
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveActionFeedback.msg"
+  "${MSG_I_FLAGS}"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/franka_gripper
+)
+_generate_msg_cpp(franka_gripper
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveGoal.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/franka_gripper
 )
 _generate_msg_cpp(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveFeedback.msg"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveResult.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/franka_gripper
 )
 _generate_msg_cpp(franka_gripper
-  "/home/student/haptic_ws/src/franka_ros/franka_gripper/msg/GraspEpsilon.msg"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveFeedback.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/franka_gripper
+)
+_generate_msg_cpp(franka_gripper
+  "/home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros/franka_gripper/msg/GraspEpsilon.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/franka_gripper
@@ -357,63 +357,63 @@ add_custom_target(franka_gripper_generate_messages_cpp
 add_dependencies(franka_gripper_generate_messages franka_gripper_generate_messages_cpp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspAction.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspAction.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_cpp _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspActionGoal.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_cpp _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspActionResult.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_cpp _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspActionFeedback.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_cpp _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspGoal.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_cpp _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspResult.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspResult.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_cpp _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspFeedback.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_cpp _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingAction.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingAction.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_cpp _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingActionGoal.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_cpp _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingActionResult.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_cpp _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingActionFeedback.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_cpp _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingGoal.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_cpp _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingResult.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingResult.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_cpp _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingFeedback.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_cpp _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopAction.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopAction.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_cpp _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopActionGoal.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_cpp _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopActionResult.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_cpp _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopActionFeedback.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_cpp _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopGoal.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_cpp _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopResult.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopResult.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_cpp _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopFeedback.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_cpp _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveAction.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveAction.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_cpp _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveActionGoal.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_cpp _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveActionResult.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_cpp _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveActionFeedback.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_cpp _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveGoal.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_cpp _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveResult.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveResult.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_cpp _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveFeedback.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_cpp _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/src/franka_ros/franka_gripper/msg/GraspEpsilon.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros/franka_gripper/msg/GraspEpsilon.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_cpp _franka_gripper_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -426,175 +426,175 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS franka_gripper_generate_messages_cp
 ### Section generating for lang: geneus
 ### Generating Messages
 _generate_msg_eus(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspAction.msg"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/student/haptic_ws/src/franka_ros/franka_gripper/msg/GraspEpsilon.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspResult.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspFeedback.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspActionGoal.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspActionResult.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspActionFeedback.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspFeedback.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspActionGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspGoal.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspActionResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspActionFeedback.msg;/home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros/franka_gripper/msg/GraspEpsilon.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspResult.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/franka_gripper
 )
 _generate_msg_eus(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspActionGoal.msg"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/student/haptic_ws/src/franka_ros/franka_gripper/msg/GraspEpsilon.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros/franka_gripper/msg/GraspEpsilon.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspGoal.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/franka_gripper
 )
 _generate_msg_eus(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspActionResult.msg"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspResult.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/franka_gripper
 )
 _generate_msg_eus(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspActionFeedback.msg"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspFeedback.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/franka_gripper
 )
 _generate_msg_eus(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspGoal.msg"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/student/haptic_ws/src/franka_ros/franka_gripper/msg/GraspEpsilon.msg"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros/franka_gripper/msg/GraspEpsilon.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/franka_gripper
 )
 _generate_msg_eus(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspResult.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/franka_gripper
-)
-_generate_msg_eus(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspFeedback.msg"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspResult.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/franka_gripper
 )
 _generate_msg_eus(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingAction.msg"
-  "${MSG_I_FLAGS}"
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingActionGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingActionResult.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingResult.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingGoal.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingActionFeedback.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
-  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/franka_gripper
-)
-_generate_msg_eus(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingActionGoal.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingGoal.msg"
-  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/franka_gripper
-)
-_generate_msg_eus(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingActionResult.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
-  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/franka_gripper
-)
-_generate_msg_eus(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingActionFeedback.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingFeedback.msg"
-  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/franka_gripper
-)
-_generate_msg_eus(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingGoal.msg"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspFeedback.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/franka_gripper
 )
 _generate_msg_eus(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingResult.msg"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingAction.msg"
+  "${MSG_I_FLAGS}"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingActionResult.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingActionFeedback.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingActionGoal.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingFeedback.msg"
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/franka_gripper
+)
+_generate_msg_eus(franka_gripper
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingActionGoal.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingGoal.msg"
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/franka_gripper
+)
+_generate_msg_eus(franka_gripper
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingActionResult.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingResult.msg"
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/franka_gripper
+)
+_generate_msg_eus(franka_gripper
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingActionFeedback.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingFeedback.msg"
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/franka_gripper
+)
+_generate_msg_eus(franka_gripper
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingGoal.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/franka_gripper
 )
 _generate_msg_eus(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingFeedback.msg"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingResult.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/franka_gripper
 )
 _generate_msg_eus(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopAction.msg"
-  "${MSG_I_FLAGS}"
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopGoal.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopActionResult.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopActionFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopActionGoal.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopResult.msg"
-  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/franka_gripper
-)
-_generate_msg_eus(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopActionGoal.msg"
-  "${MSG_I_FLAGS}"
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
-  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/franka_gripper
-)
-_generate_msg_eus(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopActionResult.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopResult.msg"
-  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/franka_gripper
-)
-_generate_msg_eus(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopActionFeedback.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
-  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/franka_gripper
-)
-_generate_msg_eus(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopGoal.msg"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingFeedback.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/franka_gripper
 )
 _generate_msg_eus(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopResult.msg"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopAction.msg"
+  "${MSG_I_FLAGS}"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopResult.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopFeedback.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopActionResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopActionFeedback.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopActionGoal.msg"
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/franka_gripper
+)
+_generate_msg_eus(franka_gripper
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopActionGoal.msg"
+  "${MSG_I_FLAGS}"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/franka_gripper
+)
+_generate_msg_eus(franka_gripper
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopActionResult.msg"
+  "${MSG_I_FLAGS}"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/franka_gripper
+)
+_generate_msg_eus(franka_gripper
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopActionFeedback.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopFeedback.msg"
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/franka_gripper
+)
+_generate_msg_eus(franka_gripper
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopGoal.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/franka_gripper
 )
 _generate_msg_eus(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopFeedback.msg"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopResult.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/franka_gripper
 )
 _generate_msg_eus(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveAction.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveActionGoal.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveActionResult.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveActionFeedback.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveFeedback.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveGoal.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
-  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/franka_gripper
-)
-_generate_msg_eus(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveActionGoal.msg"
-  "${MSG_I_FLAGS}"
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
-  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/franka_gripper
-)
-_generate_msg_eus(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveActionResult.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
-  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/franka_gripper
-)
-_generate_msg_eus(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveActionFeedback.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveFeedback.msg"
-  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/franka_gripper
-)
-_generate_msg_eus(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveGoal.msg"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopFeedback.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/franka_gripper
 )
 _generate_msg_eus(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveResult.msg"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveAction.msg"
+  "${MSG_I_FLAGS}"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveActionFeedback.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveActionGoal.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveActionResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveResult.msg"
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/franka_gripper
+)
+_generate_msg_eus(franka_gripper
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveActionGoal.msg"
+  "${MSG_I_FLAGS}"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/franka_gripper
+)
+_generate_msg_eus(franka_gripper
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveActionResult.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveResult.msg"
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/franka_gripper
+)
+_generate_msg_eus(franka_gripper
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveActionFeedback.msg"
+  "${MSG_I_FLAGS}"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/franka_gripper
+)
+_generate_msg_eus(franka_gripper
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveGoal.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/franka_gripper
 )
 _generate_msg_eus(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveFeedback.msg"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveResult.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/franka_gripper
 )
 _generate_msg_eus(franka_gripper
-  "/home/student/haptic_ws/src/franka_ros/franka_gripper/msg/GraspEpsilon.msg"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveFeedback.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/franka_gripper
+)
+_generate_msg_eus(franka_gripper
+  "/home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros/franka_gripper/msg/GraspEpsilon.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/franka_gripper
@@ -614,63 +614,63 @@ add_custom_target(franka_gripper_generate_messages_eus
 add_dependencies(franka_gripper_generate_messages franka_gripper_generate_messages_eus)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspAction.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspAction.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_eus _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspActionGoal.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_eus _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspActionResult.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_eus _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspActionFeedback.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_eus _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspGoal.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_eus _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspResult.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspResult.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_eus _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspFeedback.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_eus _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingAction.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingAction.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_eus _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingActionGoal.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_eus _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingActionResult.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_eus _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingActionFeedback.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_eus _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingGoal.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_eus _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingResult.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingResult.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_eus _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingFeedback.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_eus _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopAction.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopAction.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_eus _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopActionGoal.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_eus _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopActionResult.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_eus _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopActionFeedback.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_eus _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopGoal.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_eus _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopResult.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopResult.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_eus _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopFeedback.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_eus _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveAction.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveAction.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_eus _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveActionGoal.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_eus _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveActionResult.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_eus _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveActionFeedback.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_eus _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveGoal.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_eus _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveResult.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveResult.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_eus _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveFeedback.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_eus _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/src/franka_ros/franka_gripper/msg/GraspEpsilon.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros/franka_gripper/msg/GraspEpsilon.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_eus _franka_gripper_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -683,175 +683,175 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS franka_gripper_generate_messages_eu
 ### Section generating for lang: genlisp
 ### Generating Messages
 _generate_msg_lisp(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspAction.msg"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/student/haptic_ws/src/franka_ros/franka_gripper/msg/GraspEpsilon.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspResult.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspFeedback.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspActionGoal.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspActionResult.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspActionFeedback.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspFeedback.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspActionGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspGoal.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspActionResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspActionFeedback.msg;/home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros/franka_gripper/msg/GraspEpsilon.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspResult.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/franka_gripper
 )
 _generate_msg_lisp(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspActionGoal.msg"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/student/haptic_ws/src/franka_ros/franka_gripper/msg/GraspEpsilon.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros/franka_gripper/msg/GraspEpsilon.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspGoal.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/franka_gripper
 )
 _generate_msg_lisp(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspActionResult.msg"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspResult.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/franka_gripper
 )
 _generate_msg_lisp(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspActionFeedback.msg"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspFeedback.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/franka_gripper
 )
 _generate_msg_lisp(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspGoal.msg"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/student/haptic_ws/src/franka_ros/franka_gripper/msg/GraspEpsilon.msg"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros/franka_gripper/msg/GraspEpsilon.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/franka_gripper
 )
 _generate_msg_lisp(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspResult.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/franka_gripper
-)
-_generate_msg_lisp(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspFeedback.msg"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspResult.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/franka_gripper
 )
 _generate_msg_lisp(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingAction.msg"
-  "${MSG_I_FLAGS}"
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingActionGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingActionResult.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingResult.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingGoal.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingActionFeedback.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/franka_gripper
-)
-_generate_msg_lisp(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingActionGoal.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingGoal.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/franka_gripper
-)
-_generate_msg_lisp(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingActionResult.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/franka_gripper
-)
-_generate_msg_lisp(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingActionFeedback.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingFeedback.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/franka_gripper
-)
-_generate_msg_lisp(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingGoal.msg"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspFeedback.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/franka_gripper
 )
 _generate_msg_lisp(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingResult.msg"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingAction.msg"
+  "${MSG_I_FLAGS}"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingActionResult.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingActionFeedback.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingActionGoal.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingFeedback.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/franka_gripper
+)
+_generate_msg_lisp(franka_gripper
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingActionGoal.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingGoal.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/franka_gripper
+)
+_generate_msg_lisp(franka_gripper
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingActionResult.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingResult.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/franka_gripper
+)
+_generate_msg_lisp(franka_gripper
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingActionFeedback.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingFeedback.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/franka_gripper
+)
+_generate_msg_lisp(franka_gripper
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingGoal.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/franka_gripper
 )
 _generate_msg_lisp(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingFeedback.msg"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingResult.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/franka_gripper
 )
 _generate_msg_lisp(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopAction.msg"
-  "${MSG_I_FLAGS}"
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopGoal.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopActionResult.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopActionFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopActionGoal.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopResult.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/franka_gripper
-)
-_generate_msg_lisp(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopActionGoal.msg"
-  "${MSG_I_FLAGS}"
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/franka_gripper
-)
-_generate_msg_lisp(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopActionResult.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopResult.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/franka_gripper
-)
-_generate_msg_lisp(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopActionFeedback.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/franka_gripper
-)
-_generate_msg_lisp(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopGoal.msg"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingFeedback.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/franka_gripper
 )
 _generate_msg_lisp(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopResult.msg"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopAction.msg"
+  "${MSG_I_FLAGS}"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopResult.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopFeedback.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopActionResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopActionFeedback.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopActionGoal.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/franka_gripper
+)
+_generate_msg_lisp(franka_gripper
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopActionGoal.msg"
+  "${MSG_I_FLAGS}"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/franka_gripper
+)
+_generate_msg_lisp(franka_gripper
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopActionResult.msg"
+  "${MSG_I_FLAGS}"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/franka_gripper
+)
+_generate_msg_lisp(franka_gripper
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopActionFeedback.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopFeedback.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/franka_gripper
+)
+_generate_msg_lisp(franka_gripper
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopGoal.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/franka_gripper
 )
 _generate_msg_lisp(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopFeedback.msg"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopResult.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/franka_gripper
 )
 _generate_msg_lisp(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveAction.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveActionGoal.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveActionResult.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveActionFeedback.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveFeedback.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveGoal.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/franka_gripper
-)
-_generate_msg_lisp(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveActionGoal.msg"
-  "${MSG_I_FLAGS}"
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/franka_gripper
-)
-_generate_msg_lisp(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveActionResult.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/franka_gripper
-)
-_generate_msg_lisp(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveActionFeedback.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveFeedback.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/franka_gripper
-)
-_generate_msg_lisp(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveGoal.msg"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopFeedback.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/franka_gripper
 )
 _generate_msg_lisp(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveResult.msg"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveAction.msg"
+  "${MSG_I_FLAGS}"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveActionFeedback.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveActionGoal.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveActionResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveResult.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/franka_gripper
+)
+_generate_msg_lisp(franka_gripper
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveActionGoal.msg"
+  "${MSG_I_FLAGS}"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/franka_gripper
+)
+_generate_msg_lisp(franka_gripper
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveActionResult.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveResult.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/franka_gripper
+)
+_generate_msg_lisp(franka_gripper
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveActionFeedback.msg"
+  "${MSG_I_FLAGS}"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/franka_gripper
+)
+_generate_msg_lisp(franka_gripper
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveGoal.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/franka_gripper
 )
 _generate_msg_lisp(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveFeedback.msg"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveResult.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/franka_gripper
 )
 _generate_msg_lisp(franka_gripper
-  "/home/student/haptic_ws/src/franka_ros/franka_gripper/msg/GraspEpsilon.msg"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveFeedback.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/franka_gripper
+)
+_generate_msg_lisp(franka_gripper
+  "/home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros/franka_gripper/msg/GraspEpsilon.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/franka_gripper
@@ -871,63 +871,63 @@ add_custom_target(franka_gripper_generate_messages_lisp
 add_dependencies(franka_gripper_generate_messages franka_gripper_generate_messages_lisp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspAction.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspAction.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_lisp _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspActionGoal.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_lisp _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspActionResult.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_lisp _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspActionFeedback.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_lisp _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspGoal.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_lisp _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspResult.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspResult.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_lisp _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspFeedback.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_lisp _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingAction.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingAction.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_lisp _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingActionGoal.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_lisp _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingActionResult.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_lisp _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingActionFeedback.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_lisp _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingGoal.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_lisp _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingResult.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingResult.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_lisp _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingFeedback.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_lisp _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopAction.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopAction.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_lisp _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopActionGoal.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_lisp _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopActionResult.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_lisp _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopActionFeedback.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_lisp _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopGoal.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_lisp _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopResult.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopResult.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_lisp _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopFeedback.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_lisp _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveAction.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveAction.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_lisp _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveActionGoal.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_lisp _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveActionResult.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_lisp _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveActionFeedback.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_lisp _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveGoal.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_lisp _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveResult.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveResult.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_lisp _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveFeedback.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_lisp _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/src/franka_ros/franka_gripper/msg/GraspEpsilon.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros/franka_gripper/msg/GraspEpsilon.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_lisp _franka_gripper_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -940,175 +940,175 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS franka_gripper_generate_messages_li
 ### Section generating for lang: gennodejs
 ### Generating Messages
 _generate_msg_nodejs(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspAction.msg"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/student/haptic_ws/src/franka_ros/franka_gripper/msg/GraspEpsilon.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspResult.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspFeedback.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspActionGoal.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspActionResult.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspActionFeedback.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspFeedback.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspActionGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspGoal.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspActionResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspActionFeedback.msg;/home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros/franka_gripper/msg/GraspEpsilon.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspResult.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/franka_gripper
 )
 _generate_msg_nodejs(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspActionGoal.msg"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/student/haptic_ws/src/franka_ros/franka_gripper/msg/GraspEpsilon.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros/franka_gripper/msg/GraspEpsilon.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspGoal.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/franka_gripper
 )
 _generate_msg_nodejs(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspActionResult.msg"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspResult.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/franka_gripper
 )
 _generate_msg_nodejs(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspActionFeedback.msg"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspFeedback.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/franka_gripper
 )
 _generate_msg_nodejs(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspGoal.msg"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/student/haptic_ws/src/franka_ros/franka_gripper/msg/GraspEpsilon.msg"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros/franka_gripper/msg/GraspEpsilon.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/franka_gripper
 )
 _generate_msg_nodejs(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspResult.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/franka_gripper
-)
-_generate_msg_nodejs(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspFeedback.msg"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspResult.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/franka_gripper
 )
 _generate_msg_nodejs(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingAction.msg"
-  "${MSG_I_FLAGS}"
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingActionGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingActionResult.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingResult.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingGoal.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingActionFeedback.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/franka_gripper
-)
-_generate_msg_nodejs(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingActionGoal.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingGoal.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/franka_gripper
-)
-_generate_msg_nodejs(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingActionResult.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/franka_gripper
-)
-_generate_msg_nodejs(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingActionFeedback.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingFeedback.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/franka_gripper
-)
-_generate_msg_nodejs(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingGoal.msg"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspFeedback.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/franka_gripper
 )
 _generate_msg_nodejs(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingResult.msg"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingAction.msg"
+  "${MSG_I_FLAGS}"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingActionResult.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingActionFeedback.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingActionGoal.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingFeedback.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/franka_gripper
+)
+_generate_msg_nodejs(franka_gripper
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingActionGoal.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingGoal.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/franka_gripper
+)
+_generate_msg_nodejs(franka_gripper
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingActionResult.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingResult.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/franka_gripper
+)
+_generate_msg_nodejs(franka_gripper
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingActionFeedback.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingFeedback.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/franka_gripper
+)
+_generate_msg_nodejs(franka_gripper
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingGoal.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/franka_gripper
 )
 _generate_msg_nodejs(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingFeedback.msg"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingResult.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/franka_gripper
 )
 _generate_msg_nodejs(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopAction.msg"
-  "${MSG_I_FLAGS}"
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopGoal.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopActionResult.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopActionFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopActionGoal.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopResult.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/franka_gripper
-)
-_generate_msg_nodejs(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopActionGoal.msg"
-  "${MSG_I_FLAGS}"
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/franka_gripper
-)
-_generate_msg_nodejs(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopActionResult.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopResult.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/franka_gripper
-)
-_generate_msg_nodejs(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopActionFeedback.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/franka_gripper
-)
-_generate_msg_nodejs(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopGoal.msg"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingFeedback.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/franka_gripper
 )
 _generate_msg_nodejs(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopResult.msg"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopAction.msg"
+  "${MSG_I_FLAGS}"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopResult.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopFeedback.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopActionResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopActionFeedback.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopActionGoal.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/franka_gripper
+)
+_generate_msg_nodejs(franka_gripper
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopActionGoal.msg"
+  "${MSG_I_FLAGS}"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/franka_gripper
+)
+_generate_msg_nodejs(franka_gripper
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopActionResult.msg"
+  "${MSG_I_FLAGS}"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/franka_gripper
+)
+_generate_msg_nodejs(franka_gripper
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopActionFeedback.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopFeedback.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/franka_gripper
+)
+_generate_msg_nodejs(franka_gripper
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopGoal.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/franka_gripper
 )
 _generate_msg_nodejs(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopFeedback.msg"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopResult.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/franka_gripper
 )
 _generate_msg_nodejs(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveAction.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveActionGoal.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveActionResult.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveActionFeedback.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveFeedback.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveGoal.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/franka_gripper
-)
-_generate_msg_nodejs(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveActionGoal.msg"
-  "${MSG_I_FLAGS}"
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/franka_gripper
-)
-_generate_msg_nodejs(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveActionResult.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/franka_gripper
-)
-_generate_msg_nodejs(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveActionFeedback.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveFeedback.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/franka_gripper
-)
-_generate_msg_nodejs(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveGoal.msg"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopFeedback.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/franka_gripper
 )
 _generate_msg_nodejs(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveResult.msg"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveAction.msg"
+  "${MSG_I_FLAGS}"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveActionFeedback.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveActionGoal.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveActionResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveResult.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/franka_gripper
+)
+_generate_msg_nodejs(franka_gripper
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveActionGoal.msg"
+  "${MSG_I_FLAGS}"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/franka_gripper
+)
+_generate_msg_nodejs(franka_gripper
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveActionResult.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveResult.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/franka_gripper
+)
+_generate_msg_nodejs(franka_gripper
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveActionFeedback.msg"
+  "${MSG_I_FLAGS}"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/franka_gripper
+)
+_generate_msg_nodejs(franka_gripper
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveGoal.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/franka_gripper
 )
 _generate_msg_nodejs(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveFeedback.msg"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveResult.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/franka_gripper
 )
 _generate_msg_nodejs(franka_gripper
-  "/home/student/haptic_ws/src/franka_ros/franka_gripper/msg/GraspEpsilon.msg"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveFeedback.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/franka_gripper
+)
+_generate_msg_nodejs(franka_gripper
+  "/home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros/franka_gripper/msg/GraspEpsilon.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/franka_gripper
@@ -1128,63 +1128,63 @@ add_custom_target(franka_gripper_generate_messages_nodejs
 add_dependencies(franka_gripper_generate_messages franka_gripper_generate_messages_nodejs)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspAction.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspAction.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_nodejs _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspActionGoal.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_nodejs _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspActionResult.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_nodejs _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspActionFeedback.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_nodejs _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspGoal.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_nodejs _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspResult.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspResult.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_nodejs _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspFeedback.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_nodejs _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingAction.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingAction.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_nodejs _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingActionGoal.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_nodejs _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingActionResult.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_nodejs _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingActionFeedback.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_nodejs _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingGoal.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_nodejs _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingResult.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingResult.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_nodejs _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingFeedback.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_nodejs _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopAction.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopAction.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_nodejs _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopActionGoal.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_nodejs _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopActionResult.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_nodejs _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopActionFeedback.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_nodejs _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopGoal.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_nodejs _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopResult.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopResult.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_nodejs _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopFeedback.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_nodejs _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveAction.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveAction.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_nodejs _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveActionGoal.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_nodejs _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveActionResult.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_nodejs _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveActionFeedback.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_nodejs _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveGoal.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_nodejs _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveResult.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveResult.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_nodejs _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveFeedback.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_nodejs _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/src/franka_ros/franka_gripper/msg/GraspEpsilon.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros/franka_gripper/msg/GraspEpsilon.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_nodejs _franka_gripper_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -1197,175 +1197,175 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS franka_gripper_generate_messages_no
 ### Section generating for lang: genpy
 ### Generating Messages
 _generate_msg_py(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspAction.msg"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/student/haptic_ws/src/franka_ros/franka_gripper/msg/GraspEpsilon.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspResult.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspFeedback.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspActionGoal.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspActionResult.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspActionFeedback.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspFeedback.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspActionGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspGoal.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspActionResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspActionFeedback.msg;/home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros/franka_gripper/msg/GraspEpsilon.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspResult.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/franka_gripper
 )
 _generate_msg_py(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspActionGoal.msg"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/student/haptic_ws/src/franka_ros/franka_gripper/msg/GraspEpsilon.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros/franka_gripper/msg/GraspEpsilon.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspGoal.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/franka_gripper
 )
 _generate_msg_py(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspActionResult.msg"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspResult.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/franka_gripper
 )
 _generate_msg_py(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspActionFeedback.msg"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspFeedback.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/franka_gripper
 )
 _generate_msg_py(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspGoal.msg"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/student/haptic_ws/src/franka_ros/franka_gripper/msg/GraspEpsilon.msg"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros/franka_gripper/msg/GraspEpsilon.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/franka_gripper
 )
 _generate_msg_py(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspResult.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/franka_gripper
-)
-_generate_msg_py(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspFeedback.msg"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspResult.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/franka_gripper
 )
 _generate_msg_py(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingAction.msg"
-  "${MSG_I_FLAGS}"
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingActionGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingActionResult.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingResult.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingGoal.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingActionFeedback.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/franka_gripper
-)
-_generate_msg_py(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingActionGoal.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingGoal.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/franka_gripper
-)
-_generate_msg_py(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingActionResult.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/franka_gripper
-)
-_generate_msg_py(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingActionFeedback.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingFeedback.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/franka_gripper
-)
-_generate_msg_py(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingGoal.msg"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspFeedback.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/franka_gripper
 )
 _generate_msg_py(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingResult.msg"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingAction.msg"
+  "${MSG_I_FLAGS}"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingActionResult.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingActionFeedback.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingActionGoal.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingFeedback.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/franka_gripper
+)
+_generate_msg_py(franka_gripper
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingActionGoal.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingGoal.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/franka_gripper
+)
+_generate_msg_py(franka_gripper
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingActionResult.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingResult.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/franka_gripper
+)
+_generate_msg_py(franka_gripper
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingActionFeedback.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingFeedback.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/franka_gripper
+)
+_generate_msg_py(franka_gripper
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingGoal.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/franka_gripper
 )
 _generate_msg_py(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingFeedback.msg"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingResult.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/franka_gripper
 )
 _generate_msg_py(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopAction.msg"
-  "${MSG_I_FLAGS}"
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopGoal.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopActionResult.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopActionFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopActionGoal.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopResult.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/franka_gripper
-)
-_generate_msg_py(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopActionGoal.msg"
-  "${MSG_I_FLAGS}"
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/franka_gripper
-)
-_generate_msg_py(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopActionResult.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopResult.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/franka_gripper
-)
-_generate_msg_py(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopActionFeedback.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/franka_gripper
-)
-_generate_msg_py(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopGoal.msg"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingFeedback.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/franka_gripper
 )
 _generate_msg_py(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopResult.msg"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopAction.msg"
+  "${MSG_I_FLAGS}"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopResult.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopFeedback.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopActionResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopActionFeedback.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopActionGoal.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/franka_gripper
+)
+_generate_msg_py(franka_gripper
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopActionGoal.msg"
+  "${MSG_I_FLAGS}"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/franka_gripper
+)
+_generate_msg_py(franka_gripper
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopActionResult.msg"
+  "${MSG_I_FLAGS}"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/franka_gripper
+)
+_generate_msg_py(franka_gripper
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopActionFeedback.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopFeedback.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/franka_gripper
+)
+_generate_msg_py(franka_gripper
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopGoal.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/franka_gripper
 )
 _generate_msg_py(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopFeedback.msg"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopResult.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/franka_gripper
 )
 _generate_msg_py(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveAction.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveActionGoal.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveActionResult.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveActionFeedback.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveFeedback.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveGoal.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/franka_gripper
-)
-_generate_msg_py(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveActionGoal.msg"
-  "${MSG_I_FLAGS}"
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/franka_gripper
-)
-_generate_msg_py(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveActionResult.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/franka_gripper
-)
-_generate_msg_py(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveActionFeedback.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveFeedback.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/franka_gripper
-)
-_generate_msg_py(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveGoal.msg"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopFeedback.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/franka_gripper
 )
 _generate_msg_py(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveResult.msg"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveAction.msg"
+  "${MSG_I_FLAGS}"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveActionFeedback.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveActionGoal.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveActionResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveResult.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/franka_gripper
+)
+_generate_msg_py(franka_gripper
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveActionGoal.msg"
+  "${MSG_I_FLAGS}"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/franka_gripper
+)
+_generate_msg_py(franka_gripper
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveActionResult.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveResult.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/franka_gripper
+)
+_generate_msg_py(franka_gripper
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveActionFeedback.msg"
+  "${MSG_I_FLAGS}"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/franka_gripper
+)
+_generate_msg_py(franka_gripper
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveGoal.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/franka_gripper
 )
 _generate_msg_py(franka_gripper
-  "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveFeedback.msg"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveResult.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/franka_gripper
 )
 _generate_msg_py(franka_gripper
-  "/home/student/haptic_ws/src/franka_ros/franka_gripper/msg/GraspEpsilon.msg"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveFeedback.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/franka_gripper
+)
+_generate_msg_py(franka_gripper
+  "/home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros/franka_gripper/msg/GraspEpsilon.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/franka_gripper
@@ -1385,63 +1385,63 @@ add_custom_target(franka_gripper_generate_messages_py
 add_dependencies(franka_gripper_generate_messages franka_gripper_generate_messages_py)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspAction.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspAction.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_py _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspActionGoal.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_py _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspActionResult.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_py _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspActionFeedback.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_py _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspGoal.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_py _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspResult.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspResult.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_py _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspFeedback.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_py _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingAction.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingAction.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_py _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingActionGoal.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_py _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingActionResult.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_py _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingActionFeedback.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_py _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingGoal.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_py _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingResult.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingResult.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_py _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingFeedback.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_py _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopAction.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopAction.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_py _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopActionGoal.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_py _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopActionResult.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_py _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopActionFeedback.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_py _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopGoal.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_py _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopResult.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopResult.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_py _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/StopFeedback.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_py _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveAction.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveAction.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_py _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveActionGoal.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_py _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveActionResult.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_py _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveActionFeedback.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_py _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveGoal.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_py _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveResult.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveResult.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_py _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/MoveFeedback.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_py _franka_gripper_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/src/franka_ros/franka_gripper/msg/GraspEpsilon.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros/franka_gripper/msg/GraspEpsilon.msg" NAME_WE)
 add_dependencies(franka_gripper_generate_messages_py _franka_gripper_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility

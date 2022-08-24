@@ -1,8 +1,8 @@
-# Install script for directory: /home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/doc
+# Install script for directory: /home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/doc
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/student/haptic_ws/devel")
+  set(CMAKE_INSTALL_PREFIX "/home/student/HapticDeviceGaggioli/haptic_ws/devel")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,6 +38,6 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/doc/liborocos-kdl" TYPE FILE OPTIONAL FILES "/home/student/haptic_ws/build/orocos_kdl/doc/kdl.tag")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/doc/liborocos-kdl" TYPE FILE OPTIONAL FILES "/home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl/doc/kdl.tag")
 endif()
 

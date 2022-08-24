@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/student/haptic_ws/src/panda_simulator/panda_gazebo/include/panda_gazebo/panda_robot_hw_sim.h
+/home/student/HapticDeviceGaggioli/haptic_ws/src/panda_simulator/panda_gazebo/include/panda_gazebo/panda_robot_hw_sim.h
 gazebo_ros_control/default_robot_hw_sim.h
 -
 panda_hardware_interface/sum_command_interface.h
@@ -14,7 +14,7 @@ panda_hardware_interface/sum_command_interface.h
 panda_hardware_interface/shared_joint_interface.h
 -
 
-/home/student/haptic_ws/src/panda_simulator/panda_gazebo/src/panda_robot_hw_sim.cpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/panda_simulator/panda_gazebo/src/panda_robot_hw_sim.cpp
 panda_gazebo/panda_robot_hw_sim.h
 -
 

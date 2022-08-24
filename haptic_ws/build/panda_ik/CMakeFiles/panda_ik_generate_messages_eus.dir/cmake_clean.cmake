@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "/home/student/haptic_ws/devel/.private/panda_ik/share/roseus/ros/panda_ik/manifest.l"
-  "/home/student/haptic_ws/devel/.private/panda_ik/share/roseus/ros/panda_ik/srv/pandaFk.l"
-  "/home/student/haptic_ws/devel/.private/panda_ik/share/roseus/ros/panda_ik/srv/pandaIk.l"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/panda_ik/share/roseus/ros/panda_ik/manifest.l"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/panda_ik/share/roseus/ros/panda_ik/srv/pandaFk.l"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/panda_ik/share/roseus/ros/panda_ik/srv/pandaIk.l"
   "CMakeFiles/panda_ik_generate_messages_eus"
 )
 

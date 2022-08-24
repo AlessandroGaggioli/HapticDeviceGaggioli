@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/student/haptic_ws/src/franka_ros_interface/franka_interface/src/franka_control_node.cpp" "/home/student/haptic_ws/build/franka_interface/CMakeFiles/custom_franka_control_node.dir/src/franka_control_node.cpp.o"
-  "/home/student/haptic_ws/src/franka_ros_interface/franka_interface/src/motion_controller_interface.cpp" "/home/student/haptic_ws/build/franka_interface/CMakeFiles/custom_franka_control_node.dir/src/motion_controller_interface.cpp.o"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros_interface/franka_interface/src/franka_control_node.cpp" "/home/student/HapticDeviceGaggioli/haptic_ws/build/franka_interface/CMakeFiles/custom_franka_control_node.dir/src/franka_control_node.cpp.o"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros_interface/franka_interface/src/motion_controller_interface.cpp" "/home/student/HapticDeviceGaggioli/haptic_ws/build/franka_interface/CMakeFiles/custom_franka_control_node.dir/src/motion_controller_interface.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -25,7 +25,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/home/student/haptic_ws/src/franka_ros/franka_control/include"
   "/opt/ros/noetic/include"
   "/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
-  "/home/student/haptic_ws/src/franka_ros_interface/franka_interface/include"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros_interface/franka_interface/include"
   )
 
 # Targets to which this target links.

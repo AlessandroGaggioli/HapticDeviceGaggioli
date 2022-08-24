@@ -47,7 +47,7 @@ add_library(orocos-kdl SHARED IMPORTED)
 # Import target "orocos-kdl" for configuration "Release"
 set_property(TARGET orocos-kdl APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(orocos-kdl PROPERTIES
-  IMPORTED_LOCATION_RELEASE "/home/student/haptic_ws/build/orocos_kdl/src/liborocos-kdl.so.1.4.0"
+  IMPORTED_LOCATION_RELEASE "/home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl/src/liborocos-kdl.so.1.4.0"
   IMPORTED_SONAME_RELEASE "liborocos-kdl.so.1.4"
   )
 

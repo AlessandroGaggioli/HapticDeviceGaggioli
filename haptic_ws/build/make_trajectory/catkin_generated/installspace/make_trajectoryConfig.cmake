@@ -67,14 +67,14 @@ set(make_trajectory_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(make_trajectory_SOURCE_PREFIX /home/student/haptic_ws/src/make_trajectory)
-  set(make_trajectory_DEVEL_PREFIX /home/student/haptic_ws/devel/.private/make_trajectory)
+  set(make_trajectory_SOURCE_PREFIX /home/student/HapticDeviceGaggioli/haptic_ws/src/make_trajectory)
+  set(make_trajectory_DEVEL_PREFIX /home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/make_trajectory)
   set(make_trajectory_INSTALL_PREFIX "")
   set(make_trajectory_PREFIX ${make_trajectory_DEVEL_PREFIX})
 else()
   set(make_trajectory_SOURCE_PREFIX "")
   set(make_trajectory_DEVEL_PREFIX "")
-  set(make_trajectory_INSTALL_PREFIX /home/student/haptic_ws/install)
+  set(make_trajectory_INSTALL_PREFIX /home/student/HapticDeviceGaggioli/haptic_ws/install)
   set(make_trajectory_PREFIX ${make_trajectory_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/student/haptic_ws/install/lib;/home/student/haptic_ws/devel/lib;/home/student/turtle_ws/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/student/HapticDeviceGaggioli/haptic_ws/install/lib;/home/student/HapticDeviceGaggioli/haptic_ws/devel/lib;/home/student/haptic_ws/devel/lib;/home/student/turtle_ws/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

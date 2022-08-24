@@ -6,5 +6,5 @@ CXX_FLAGS = -fPIC   -std=gnu++14
 
 CXX_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"franka_gripper\" -Dfranka_gripper_EXPORTS
 
-CXX_INCLUDES = -I/home/student/haptic_ws/devel/.private/franka_gripper/include -I/home/student/haptic_ws/src/franka_ros/franka_gripper/include -isystem /opt/ros/noetic/include/libfranka -isystem /opt/ros/noetic/include -isystem /opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp 
+CXX_INCLUDES = -I/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/include -I/home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros/franka_gripper/include -isystem /opt/ros/noetic/include/libfranka -isystem /opt/ros/noetic/include -isystem /opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp 
 

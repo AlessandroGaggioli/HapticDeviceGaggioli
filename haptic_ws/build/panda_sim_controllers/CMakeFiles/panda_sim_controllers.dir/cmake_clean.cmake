@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/student/haptic_ws/devel/.private/panda_sim_controllers/lib/libpanda_sim_controllers.pdb"
-  "/home/student/haptic_ws/devel/.private/panda_sim_controllers/lib/libpanda_sim_controllers.so"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/panda_sim_controllers/lib/libpanda_sim_controllers.pdb"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/panda_sim_controllers/lib/libpanda_sim_controllers.so"
   "CMakeFiles/panda_sim_controllers.dir/src/panda_effort_controller.cpp.o"
   "CMakeFiles/panda_sim_controllers.dir/src/panda_gravity_controller.cpp.o"
   "CMakeFiles/panda_sim_controllers.dir/src/panda_gripper_controller.cpp.o"

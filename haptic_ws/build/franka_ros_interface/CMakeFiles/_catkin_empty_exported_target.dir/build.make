@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/student/haptic_ws/src/franka_ros_interface/franka_ros_interface
+CMAKE_SOURCE_DIR = /home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros_interface/franka_ros_interface
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/student/haptic_ws/build/franka_ros_interface
+CMAKE_BINARY_DIR = /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_ros_interface
 
 # Utility rule file for _catkin_empty_exported_target.
 
@@ -67,6 +67,6 @@ CMakeFiles/_catkin_empty_exported_target.dir/clean:
 .PHONY : CMakeFiles/_catkin_empty_exported_target.dir/clean
 
 CMakeFiles/_catkin_empty_exported_target.dir/depend:
-	cd /home/student/haptic_ws/build/franka_ros_interface && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/student/haptic_ws/src/franka_ros_interface/franka_ros_interface /home/student/haptic_ws/src/franka_ros_interface/franka_ros_interface /home/student/haptic_ws/build/franka_ros_interface /home/student/haptic_ws/build/franka_ros_interface /home/student/haptic_ws/build/franka_ros_interface/CMakeFiles/_catkin_empty_exported_target.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_ros_interface && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros_interface/franka_ros_interface /home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros_interface/franka_ros_interface /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_ros_interface /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_ros_interface /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_ros_interface/CMakeFiles/_catkin_empty_exported_target.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/_catkin_empty_exported_target.dir/depend
 

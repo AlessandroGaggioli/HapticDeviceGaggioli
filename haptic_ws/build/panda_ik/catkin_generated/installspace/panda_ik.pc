@@ -1,4 +1,4 @@
-prefix=/home/student/haptic_ws/install
+prefix=/home/student/HapticDeviceGaggioli/haptic_ws/install
 
 Name: panda_ik
 Description: Description of panda_ik

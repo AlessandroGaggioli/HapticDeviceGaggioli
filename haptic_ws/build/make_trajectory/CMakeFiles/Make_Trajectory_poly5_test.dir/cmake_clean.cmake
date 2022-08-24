@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/student/haptic_ws/devel/.private/make_trajectory/lib/make_trajectory/Make_Trajectory_poly5_test"
-  "/home/student/haptic_ws/devel/.private/make_trajectory/lib/make_trajectory/Make_Trajectory_poly5_test.pdb"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/make_trajectory/lib/make_trajectory/Make_Trajectory_poly5_test"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/make_trajectory/lib/make_trajectory/Make_Trajectory_poly5_test.pdb"
   "CMakeFiles/Make_Trajectory_poly5_test.dir/src/Make_Trajectory_poly5_test.cpp.o"
 )
 

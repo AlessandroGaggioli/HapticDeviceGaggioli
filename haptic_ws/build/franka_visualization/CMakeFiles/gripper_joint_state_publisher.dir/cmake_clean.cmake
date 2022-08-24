@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/student/haptic_ws/devel/.private/franka_visualization/lib/franka_visualization/gripper_joint_state_publisher"
-  "/home/student/haptic_ws/devel/.private/franka_visualization/lib/franka_visualization/gripper_joint_state_publisher.pdb"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_visualization/lib/franka_visualization/gripper_joint_state_publisher"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_visualization/lib/franka_visualization/gripper_joint_state_publisher.pdb"
   "CMakeFiles/gripper_joint_state_publisher.dir/src/gripper_joint_state_publisher.cpp.o"
 )
 

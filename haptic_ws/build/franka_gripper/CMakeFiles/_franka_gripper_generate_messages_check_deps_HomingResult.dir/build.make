@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/student/haptic_ws/src/franka_ros/franka_gripper
+CMAKE_SOURCE_DIR = /home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros/franka_gripper
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/student/haptic_ws/build/franka_gripper
+CMAKE_BINARY_DIR = /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_gripper
 
 # Utility rule file for _franka_gripper_generate_messages_check_deps_HomingResult.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/student/haptic_ws/build/franka_gripper
 include CMakeFiles/_franka_gripper_generate_messages_check_deps_HomingResult.dir/progress.make
 
 CMakeFiles/_franka_gripper_generate_messages_check_deps_HomingResult:
-	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py franka_gripper /home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingResult.msg 
+	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py franka_gripper /home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/HomingResult.msg 
 
 _franka_gripper_generate_messages_check_deps_HomingResult: CMakeFiles/_franka_gripper_generate_messages_check_deps_HomingResult
 _franka_gripper_generate_messages_check_deps_HomingResult: CMakeFiles/_franka_gripper_generate_messages_check_deps_HomingResult.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/_franka_gripper_generate_messages_check_deps_HomingResult.dir/clean:
 .PHONY : CMakeFiles/_franka_gripper_generate_messages_check_deps_HomingResult.dir/clean
 
 CMakeFiles/_franka_gripper_generate_messages_check_deps_HomingResult.dir/depend:
-	cd /home/student/haptic_ws/build/franka_gripper && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/student/haptic_ws/src/franka_ros/franka_gripper /home/student/haptic_ws/src/franka_ros/franka_gripper /home/student/haptic_ws/build/franka_gripper /home/student/haptic_ws/build/franka_gripper /home/student/haptic_ws/build/franka_gripper/CMakeFiles/_franka_gripper_generate_messages_check_deps_HomingResult.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_gripper && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros/franka_gripper /home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros/franka_gripper /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_gripper /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_gripper /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_gripper/CMakeFiles/_franka_gripper_generate_messages_check_deps_HomingResult.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/_franka_gripper_generate_messages_check_deps_HomingResult.dir/depend
 

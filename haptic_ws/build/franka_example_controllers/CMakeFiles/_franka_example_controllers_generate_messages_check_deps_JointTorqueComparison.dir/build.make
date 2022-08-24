@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/student/haptic_ws/src/franka_ros/franka_example_controllers
+CMAKE_SOURCE_DIR = /home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros/franka_example_controllers
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/student/haptic_ws/build/franka_example_controllers
+CMAKE_BINARY_DIR = /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_example_controllers
 
 # Utility rule file for _franka_example_controllers_generate_messages_check_deps_JointTorqueComparison.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/student/haptic_ws/build/franka_example_controllers
 include CMakeFiles/_franka_example_controllers_generate_messages_check_deps_JointTorqueComparison.dir/progress.make
 
 CMakeFiles/_franka_example_controllers_generate_messages_check_deps_JointTorqueComparison:
-	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py franka_example_controllers /home/student/haptic_ws/src/franka_ros/franka_example_controllers/msg/JointTorqueComparison.msg 
+	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py franka_example_controllers /home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros/franka_example_controllers/msg/JointTorqueComparison.msg 
 
 _franka_example_controllers_generate_messages_check_deps_JointTorqueComparison: CMakeFiles/_franka_example_controllers_generate_messages_check_deps_JointTorqueComparison
 _franka_example_controllers_generate_messages_check_deps_JointTorqueComparison: CMakeFiles/_franka_example_controllers_generate_messages_check_deps_JointTorqueComparison.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/_franka_example_controllers_generate_messages_check_deps_JointTorqueC
 .PHONY : CMakeFiles/_franka_example_controllers_generate_messages_check_deps_JointTorqueComparison.dir/clean
 
 CMakeFiles/_franka_example_controllers_generate_messages_check_deps_JointTorqueComparison.dir/depend:
-	cd /home/student/haptic_ws/build/franka_example_controllers && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/student/haptic_ws/src/franka_ros/franka_example_controllers /home/student/haptic_ws/src/franka_ros/franka_example_controllers /home/student/haptic_ws/build/franka_example_controllers /home/student/haptic_ws/build/franka_example_controllers /home/student/haptic_ws/build/franka_example_controllers/CMakeFiles/_franka_example_controllers_generate_messages_check_deps_JointTorqueComparison.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_example_controllers && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros/franka_example_controllers /home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros/franka_example_controllers /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_example_controllers /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_example_controllers /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_example_controllers/CMakeFiles/_franka_example_controllers_generate_messages_check_deps_JointTorqueComparison.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/_franka_example_controllers_generate_messages_check_deps_JointTorqueComparison.dir/depend
 

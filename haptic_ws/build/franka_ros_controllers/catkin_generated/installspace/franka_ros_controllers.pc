@@ -1,4 +1,4 @@
-prefix=/home/student/haptic_ws/install
+prefix=/home/student/HapticDeviceGaggioli/haptic_ws/install
 
 Name: franka_ros_controllers
 Description: Description of franka_ros_controllers

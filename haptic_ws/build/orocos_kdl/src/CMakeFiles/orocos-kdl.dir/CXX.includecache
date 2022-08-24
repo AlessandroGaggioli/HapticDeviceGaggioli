@@ -6,341 +6,341 @@
 
 #IncludeRegexTransform: 
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/articulatedbodyinertia.cpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/articulatedbodyinertia.cpp
 articulatedbodyinertia.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/articulatedbodyinertia.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/articulatedbodyinertia.hpp
 Eigen/Core
 -
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/articulatedbodyinertia.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/articulatedbodyinertia.hpp
 frames.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/frames.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/frames.hpp
 rotationalinertia.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/rotationalinertia.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/rotationalinertia.hpp
 rigidbodyinertia.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/rigidbodyinertia.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/rigidbodyinertia.hpp
 Eigen/Core
 -
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chain.cpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chain.cpp
 chain.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chain.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chain.hpp
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chain.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chain.hpp
 segment.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/segment.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/segment.hpp
 string
 -
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chaindynparam.cpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chaindynparam.cpp
 chaindynparam.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chaindynparam.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chaindynparam.hpp
 frames_io.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/frames_io.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/frames_io.hpp
 iostream
 -
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chaindynparam.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chaindynparam.hpp
 chainidsolver_recursive_newton_euler.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainidsolver_recursive_newton_euler.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainidsolver_recursive_newton_euler.hpp
 articulatedbodyinertia.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/articulatedbodyinertia.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/articulatedbodyinertia.hpp
 jntspaceinertiamatrix.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/jntspaceinertiamatrix.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/jntspaceinertiamatrix.hpp
 Eigen/StdVector
 -
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainfdsolver.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainfdsolver.hpp
 chain.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chain.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chain.hpp
 frames.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/frames.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/frames.hpp
 jntarray.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/jntarray.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/jntarray.hpp
 solveri.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/solveri.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/solveri.hpp
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainfdsolver_recursive_newton_euler.cpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainfdsolver_recursive_newton_euler.cpp
 chainfdsolver_recursive_newton_euler.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainfdsolver_recursive_newton_euler.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainfdsolver_recursive_newton_euler.hpp
 utilities/ldl_solver_eigen.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/ldl_solver_eigen.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/ldl_solver_eigen.hpp
 frames_io.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/frames_io.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/frames_io.hpp
 kinfam_io.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/kinfam_io.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/kinfam_io.hpp
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainfdsolver_recursive_newton_euler.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainfdsolver_recursive_newton_euler.hpp
 chainfdsolver.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainfdsolver.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainfdsolver.hpp
 chainidsolver_recursive_newton_euler.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainidsolver_recursive_newton_euler.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainidsolver_recursive_newton_euler.hpp
 chaindynparam.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chaindynparam.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chaindynparam.hpp
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainfksolver.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainfksolver.hpp
 chain.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chain.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chain.hpp
 framevel.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/framevel.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/framevel.hpp
 frameacc.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/frameacc.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/frameacc.hpp
 jntarray.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/jntarray.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/jntarray.hpp
 jntarrayvel.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/jntarrayvel.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/jntarrayvel.hpp
 jntarrayacc.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/jntarrayacc.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/jntarrayacc.hpp
 solveri.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/solveri.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/solveri.hpp
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainfksolverpos_recursive.cpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainfksolverpos_recursive.cpp
 chainfksolverpos_recursive.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainfksolverpos_recursive.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainfksolverpos_recursive.hpp
 iostream
 -
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainfksolverpos_recursive.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainfksolverpos_recursive.hpp
 chainfksolver.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainfksolver.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainfksolver.hpp
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainfksolvervel_recursive.cpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainfksolvervel_recursive.cpp
 chainfksolvervel_recursive.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainfksolvervel_recursive.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainfksolvervel_recursive.hpp
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainfksolvervel_recursive.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainfksolvervel_recursive.hpp
 chainfksolver.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainfksolver.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainfksolver.hpp
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainidsolver.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainidsolver.hpp
 chain.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chain.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chain.hpp
 frames.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/frames.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/frames.hpp
 jntarray.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/jntarray.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/jntarray.hpp
 solveri.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/solveri.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/solveri.hpp
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainidsolver_recursive_newton_euler.cpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainidsolver_recursive_newton_euler.cpp
 chainidsolver_recursive_newton_euler.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainidsolver_recursive_newton_euler.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainidsolver_recursive_newton_euler.hpp
 frames_io.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/frames_io.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/frames_io.hpp
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainidsolver_recursive_newton_euler.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainidsolver_recursive_newton_euler.hpp
 chainidsolver.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainidsolver.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainidsolver.hpp
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainidsolver_vereshchagin.cpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainidsolver_vereshchagin.cpp
 chainidsolver_vereshchagin.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainidsolver_vereshchagin.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainidsolver_vereshchagin.hpp
 frames_io.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/frames_io.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/frames_io.hpp
 utilities/svd_eigen_HH.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/svd_eigen_HH.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/svd_eigen_HH.hpp
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainidsolver_vereshchagin.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainidsolver_vereshchagin.hpp
 chainidsolver.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainidsolver.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainidsolver.hpp
 frames.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/frames.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/frames.hpp
 articulatedbodyinertia.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/articulatedbodyinertia.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/articulatedbodyinertia.hpp
 Eigen/StdVector
 -
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainiksolver.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainiksolver.hpp
 chain.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chain.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chain.hpp
 frames.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/frames.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/frames.hpp
 framevel.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/framevel.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/framevel.hpp
 frameacc.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/frameacc.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/frameacc.hpp
 jntarray.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/jntarray.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/jntarray.hpp
 jntarrayvel.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/jntarrayvel.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/jntarrayvel.hpp
 jntarrayacc.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/jntarrayacc.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/jntarrayacc.hpp
 solveri.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/solveri.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/solveri.hpp
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainiksolverpos_lma.cpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainiksolverpos_lma.cpp
 chainiksolverpos_lma.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainiksolverpos_lma.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainiksolverpos_lma.hpp
 iostream
 -
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainiksolverpos_lma.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainiksolverpos_lma.hpp
 chainiksolver.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainiksolver.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainiksolver.hpp
 chain.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chain.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chain.hpp
 Eigen/Dense
 -
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainiksolverpos_nr.cpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainiksolverpos_nr.cpp
 chainiksolverpos_nr.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainiksolverpos_nr.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainiksolverpos_nr.hpp
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainiksolverpos_nr.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainiksolverpos_nr.hpp
 chainiksolver.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainiksolver.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainiksolver.hpp
 chainfksolver.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainfksolver.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainfksolver.hpp
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainiksolverpos_nr_jl.cpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainiksolverpos_nr_jl.cpp
 chainiksolverpos_nr_jl.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainiksolverpos_nr_jl.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainiksolverpos_nr_jl.hpp
 limits
 -
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainiksolverpos_nr_jl.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainiksolverpos_nr_jl.hpp
 chainiksolver.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainiksolver.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainiksolver.hpp
 chainfksolver.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainfksolver.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainfksolver.hpp
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainiksolvervel_pinv.cpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainiksolvervel_pinv.cpp
 chainiksolvervel_pinv.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainiksolvervel_pinv.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainiksolvervel_pinv.hpp
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainiksolvervel_pinv.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainiksolvervel_pinv.hpp
 chainiksolver.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainiksolver.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainiksolver.hpp
 chainjnttojacsolver.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainjnttojacsolver.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainjnttojacsolver.hpp
 utilities/svd_HH.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/svd_HH.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/svd_HH.hpp
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainiksolvervel_pinv_givens.cpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainiksolvervel_pinv_givens.cpp
 chainiksolvervel_pinv_givens.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainiksolvervel_pinv_givens.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainiksolvervel_pinv_givens.hpp
 utilities/svd_eigen_Macie.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/svd_eigen_Macie.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/svd_eigen_Macie.hpp
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainiksolvervel_pinv_givens.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainiksolvervel_pinv_givens.hpp
 chainiksolver.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainiksolver.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainiksolver.hpp
 chainjnttojacsolver.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainjnttojacsolver.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainjnttojacsolver.hpp
 Eigen/Core
 -
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainiksolvervel_pinv_nso.cpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainiksolvervel_pinv_nso.cpp
 chainiksolvervel_pinv_nso.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainiksolvervel_pinv_nso.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainiksolvervel_pinv_nso.hpp
 utilities/svd_eigen_HH.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/svd_eigen_HH.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/svd_eigen_HH.hpp
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainiksolvervel_pinv_nso.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainiksolvervel_pinv_nso.hpp
 chainiksolver.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainiksolver.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainiksolver.hpp
 chainjnttojacsolver.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainjnttojacsolver.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainjnttojacsolver.hpp
 Eigen/Core
 -
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainiksolvervel_wdls.cpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainiksolvervel_wdls.cpp
 chainiksolvervel_wdls.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainiksolvervel_wdls.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainiksolvervel_wdls.hpp
 utilities/svd_eigen_HH.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/svd_eigen_HH.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/svd_eigen_HH.hpp
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainiksolvervel_wdls.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainiksolvervel_wdls.hpp
 chainiksolver.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainiksolver.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainiksolver.hpp
 chainjnttojacsolver.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainjnttojacsolver.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainjnttojacsolver.hpp
 Eigen/Core
 -
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainjnttojacdotsolver.cpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainjnttojacdotsolver.cpp
 chainjnttojacdotsolver.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainjnttojacdotsolver.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainjnttojacdotsolver.hpp
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainjnttojacdotsolver.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainjnttojacdotsolver.hpp
 solveri.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/solveri.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/solveri.hpp
 frames.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/frames.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/frames.hpp
 jntarrayvel.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/jntarrayvel.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/jntarrayvel.hpp
 jacobian.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/jacobian.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/jacobian.hpp
 chain.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chain.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chain.hpp
 framevel.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/framevel.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/framevel.hpp
 chainjnttojacsolver.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainjnttojacsolver.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainjnttojacsolver.hpp
 chainfksolverpos_recursive.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainfksolverpos_recursive.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainfksolverpos_recursive.hpp
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainjnttojacsolver.cpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainjnttojacsolver.cpp
 chainjnttojacsolver.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainjnttojacsolver.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainjnttojacsolver.hpp
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainjnttojacsolver.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chainjnttojacsolver.hpp
 solveri.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/solveri.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/solveri.hpp
 frames.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/frames.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/frames.hpp
 jacobian.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/jacobian.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/jacobian.hpp
 jntarray.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/jntarray.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/jntarray.hpp
 chain.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chain.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chain.hpp
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/frameacc.cpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/frameacc.cpp
 frameacc.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/frameacc.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/frameacc.hpp
 frameacc.inl
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/frameacc.inl
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/frameacc.inl
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/frameacc.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/frameacc.hpp
 utilities/rall2d.h
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/rall2d.h
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/rall2d.h
 frames.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/frames.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/frames.hpp
 frameacc.inl
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/frameacc.inl
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/frameacc.inl
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/frameacc.inl
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/frameacc.inl
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/frames.cpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/frames.cpp
 frames.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/frames.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/frames.hpp
 math.h
 -
 algorithm
 -
 frames.inl
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/frames.inl
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/frames.inl
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/frames.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/frames.hpp
 utilities/kdl-config.h
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/kdl-config.h
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/kdl-config.h
 utilities/utility.h
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/utility.h
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/utility.h
 frames.inl
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/frames.inl
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/frames.inl
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/frames.inl
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/frames.inl
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/frames_io.cpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/frames_io.cpp
 utilities/error.h
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/error.h
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/error.h
 utilities/error_stack.h
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/error_stack.h
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/error_stack.h
 frames.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/frames.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/frames.hpp
 frames_io.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/frames_io.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/frames_io.hpp
 stdlib.h
 -
 ctype.h
@@ -350,413 +350,413 @@ string.h
 iostream
 -
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/frames_io.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/frames_io.hpp
 utilities/utility_io.h
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/utility_io.h
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/utility_io.h
 frames.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/frames.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/frames.hpp
 jntarray.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/jntarray.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/jntarray.hpp
 jacobian.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/jacobian.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/jacobian.hpp
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/framevel.cpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/framevel.cpp
 framevel.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/framevel.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/framevel.hpp
 framevel.inl
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/framevel.inl
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/framevel.inl
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/framevel.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/framevel.hpp
 utilities/utility.h
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/utility.h
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/utility.h
 utilities/rall1d.h
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/rall1d.h
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/rall1d.h
 utilities/traits.h
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/traits.h
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/traits.h
 frames.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/frames.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/frames.hpp
 framevel.inl
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/framevel.inl
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/framevel.inl
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/framevel.inl
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/framevel.inl
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/jacobian.cpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/jacobian.cpp
 jacobian.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/jacobian.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/jacobian.hpp
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/jacobian.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/jacobian.hpp
 frames.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/frames.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/frames.hpp
 Eigen/Core
 -
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/jntarray.cpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/jntarray.cpp
 jntarray.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/jntarray.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/jntarray.hpp
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/jntarray.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/jntarray.hpp
 frames.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/frames.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/frames.hpp
 jacobian.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/jacobian.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/jacobian.hpp
 Eigen/Core
 -
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/jntarrayacc.cpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/jntarrayacc.cpp
 jntarrayacc.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/jntarrayacc.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/jntarrayacc.hpp
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/jntarrayacc.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/jntarrayacc.hpp
 utilities/utility.h
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/utility.h
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/utility.h
 jntarray.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/jntarray.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/jntarray.hpp
 jntarrayvel.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/jntarrayvel.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/jntarrayvel.hpp
 frameacc.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/frameacc.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/frameacc.hpp
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/jntarrayvel.cpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/jntarrayvel.cpp
 jntarrayacc.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/jntarrayacc.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/jntarrayacc.hpp
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/jntarrayvel.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/jntarrayvel.hpp
 utilities/utility.h
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/utility.h
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/utility.h
 jntarray.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/jntarray.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/jntarray.hpp
 framevel.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/framevel.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/framevel.hpp
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/jntspaceinertiamatrix.cpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/jntspaceinertiamatrix.cpp
 jntspaceinertiamatrix.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/jntspaceinertiamatrix.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/jntspaceinertiamatrix.hpp
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/jntspaceinertiamatrix.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/jntspaceinertiamatrix.hpp
 frames.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/frames.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/frames.hpp
 jacobian.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/jacobian.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/jacobian.hpp
 jntarray.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/jntarray.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/jntarray.hpp
 Eigen/Core
 -
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/joint.cpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/joint.cpp
 joint.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/joint.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/joint.hpp
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/joint.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/joint.hpp
 frames.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/frames.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/frames.hpp
 string
 -
 exception
 -
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/kinfam_io.cpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/kinfam_io.cpp
 kinfam_io.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/kinfam_io.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/kinfam_io.hpp
 frames_io.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/frames_io.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/frames_io.hpp
 sstream
 -
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/kinfam_io.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/kinfam_io.hpp
 iostream
 -
 fstream
 -
 joint.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/joint.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/joint.hpp
 segment.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/segment.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/segment.hpp
 chain.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chain.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chain.hpp
 jntarray.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/jntarray.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/jntarray.hpp
 jacobian.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/jacobian.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/jacobian.hpp
 tree.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/tree.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/tree.hpp
 jntspaceinertiamatrix.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/jntspaceinertiamatrix.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/jntspaceinertiamatrix.hpp
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/path.cpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/path.cpp
 utilities/error.h
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/error.h
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/error.h
 utilities/error_stack.h
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/error_stack.h
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/error_stack.h
 utilities/scoped_ptr.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/scoped_ptr.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/scoped_ptr.hpp
 path.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/path.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/path.hpp
 path_line.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/path_line.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/path_line.hpp
 path_point.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/path_point.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/path_point.hpp
 path_circle.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/path_circle.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/path_circle.hpp
 path_composite.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/path_composite.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/path_composite.hpp
 path_roundedcomposite.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/path_roundedcomposite.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/path_roundedcomposite.hpp
 path_cyclic_closed.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/path_cyclic_closed.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/path_cyclic_closed.hpp
 memory
 -
 string.h
 -
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/path.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/path.hpp
 frames.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/frames.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/frames.hpp
 vector
 -
 frames_io.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/frames_io.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/frames_io.hpp
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/path_circle.cpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/path_circle.cpp
 path_circle.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/path_circle.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/path_circle.hpp
 utilities/error.h
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/error.h
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/error.h
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/path_circle.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/path_circle.hpp
 path.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/path.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/path.hpp
 rotational_interpolation.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/rotational_interpolation.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/rotational_interpolation.hpp
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/path_composite.cpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/path_composite.cpp
 path_composite.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/path_composite.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/path_composite.hpp
 utilities/error.h
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/error.h
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/error.h
 utilities/scoped_ptr.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/scoped_ptr.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/scoped_ptr.hpp
 memory
 -
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/path_composite.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/path_composite.hpp
 frames.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/frames.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/frames.hpp
 frames_io.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/frames_io.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/frames_io.hpp
 path.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/path.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/path.hpp
 vector
 -
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/path_cyclic_closed.cpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/path_cyclic_closed.cpp
 path_cyclic_closed.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/path_cyclic_closed.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/path_cyclic_closed.hpp
 utilities/error.h
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/error.h
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/error.h
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/path_cyclic_closed.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/path_cyclic_closed.hpp
 frames.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/frames.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/frames.hpp
 frames_io.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/frames_io.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/frames_io.hpp
 path.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/path.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/path.hpp
 vector
 -
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/path_line.cpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/path_line.cpp
 path_line.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/path_line.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/path_line.hpp
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/path_line.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/path_line.hpp
 path.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/path.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/path.hpp
 rotational_interpolation.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/rotational_interpolation.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/rotational_interpolation.hpp
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/path_point.cpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/path_point.cpp
 path_point.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/path_point.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/path_point.hpp
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/path_point.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/path_point.hpp
 path.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/path.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/path.hpp
 rotational_interpolation.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/rotational_interpolation.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/rotational_interpolation.hpp
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/path_roundedcomposite.cpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/path_roundedcomposite.cpp
 path_roundedcomposite.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/path_roundedcomposite.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/path_roundedcomposite.hpp
 path_line.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/path_line.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/path_line.hpp
 path_circle.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/path_circle.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/path_circle.hpp
 utilities/error.h
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/error.h
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/error.h
 utilities/scoped_ptr.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/scoped_ptr.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/scoped_ptr.hpp
 memory
 -
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/path_roundedcomposite.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/path_roundedcomposite.hpp
 path.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/path.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/path.hpp
 path_composite.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/path_composite.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/path_composite.hpp
 rotational_interpolation.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/rotational_interpolation.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/rotational_interpolation.hpp
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/rigidbodyinertia.cpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/rigidbodyinertia.cpp
 rigidbodyinertia.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/rigidbodyinertia.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/rigidbodyinertia.hpp
 Eigen/Core
 -
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/rigidbodyinertia.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/rigidbodyinertia.hpp
 frames.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/frames.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/frames.hpp
 rotationalinertia.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/rotationalinertia.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/rotationalinertia.hpp
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/rotational_interpolation.cpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/rotational_interpolation.cpp
 utilities/error.h
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/error.h
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/error.h
 utilities/error_stack.h
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/error_stack.h
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/error_stack.h
 rotational_interpolation.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/rotational_interpolation.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/rotational_interpolation.hpp
 rotational_interpolation_sa.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/rotational_interpolation_sa.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/rotational_interpolation_sa.hpp
 memory
 -
 cstring
 -
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/rotational_interpolation.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/rotational_interpolation.hpp
 frames.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/frames.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/frames.hpp
 frames_io.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/frames_io.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/frames_io.hpp
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/rotational_interpolation_sa.cpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/rotational_interpolation_sa.cpp
 rotational_interpolation_sa.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/rotational_interpolation_sa.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/rotational_interpolation_sa.hpp
 trajectory.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/trajectory.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/trajectory.hpp
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/rotational_interpolation_sa.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/rotational_interpolation_sa.hpp
 frames.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/frames.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/frames.hpp
 frames_io.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/frames_io.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/frames_io.hpp
 rotational_interpolation.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/rotational_interpolation.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/rotational_interpolation.hpp
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/rotationalinertia.cpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/rotationalinertia.cpp
 rotationalinertia.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/rotationalinertia.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/rotationalinertia.hpp
 Eigen/Core
 -
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/rotationalinertia.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/rotationalinertia.hpp
 frames.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/frames.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/frames.hpp
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/segment.cpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/segment.cpp
 segment.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/segment.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/segment.hpp
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/segment.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/segment.hpp
 frames.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/frames.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/frames.hpp
 rigidbodyinertia.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/rigidbodyinertia.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/rigidbodyinertia.hpp
 joint.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/joint.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/joint.hpp
 vector
 -
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/solveri.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/solveri.hpp
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/trajectory.cpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/trajectory.cpp
 utilities/error.h
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/error.h
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/error.h
 utilities/error_stack.h
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/error_stack.h
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/error_stack.h
 utilities/scoped_ptr.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/scoped_ptr.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/scoped_ptr.hpp
 trajectory.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/trajectory.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/trajectory.hpp
 path.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/path.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/path.hpp
 trajectory_segment.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/trajectory_segment.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/trajectory_segment.hpp
 memory
 -
 cstring
 -
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/trajectory.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/trajectory.hpp
 frames.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/frames.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/frames.hpp
 frames_io.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/frames_io.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/frames_io.hpp
 path.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/path.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/path.hpp
 velocityprofile.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/velocityprofile.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/velocityprofile.hpp
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/trajectory_composite.cpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/trajectory_composite.cpp
 trajectory_composite.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/trajectory_composite.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/trajectory_composite.hpp
 path_composite.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/path_composite.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/path_composite.hpp
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/trajectory_composite.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/trajectory_composite.hpp
 trajectory.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/trajectory.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/trajectory.hpp
 path_composite.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/path_composite.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/path_composite.hpp
 vector
 -
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/trajectory_segment.cpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/trajectory_segment.cpp
 trajectory_segment.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/trajectory_segment.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/trajectory_segment.hpp
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/trajectory_segment.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/trajectory_segment.hpp
 frames.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/frames.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/frames.hpp
 frames_io.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/frames_io.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/frames_io.hpp
 trajectory.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/trajectory.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/trajectory.hpp
 path.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/path.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/path.hpp
 velocityprofile.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/velocityprofile.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/velocityprofile.hpp
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/trajectory_stationary.cpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/trajectory_stationary.cpp
 trajectory_stationary.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/trajectory_stationary.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/trajectory_stationary.hpp
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/trajectory_stationary.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/trajectory_stationary.hpp
 trajectory.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/trajectory.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/trajectory.hpp
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/tree.cpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/tree.cpp
 tree.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/tree.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/tree.hpp
 sstream
 -
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/tree.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/tree.hpp
 config.h
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/config.h
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/config.h
 segment.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/segment.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/segment.hpp
 chain.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chain.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/chain.hpp
 string
 -
 map
@@ -764,125 +764,125 @@ map
 boost/shared_ptr.hpp
 -
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/treefksolver.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/treefksolver.hpp
 string
 -
 tree.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/tree.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/tree.hpp
 jntarray.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/jntarray.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/jntarray.hpp
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/treefksolverpos_recursive.cpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/treefksolverpos_recursive.cpp
 treefksolverpos_recursive.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/treefksolverpos_recursive.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/treefksolverpos_recursive.hpp
 iostream
 -
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/treefksolverpos_recursive.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/treefksolverpos_recursive.hpp
 treefksolver.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/treefksolver.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/treefksolver.hpp
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/treeidsolver.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/treeidsolver.hpp
 tree.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/tree.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/tree.hpp
 frames.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/frames.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/frames.hpp
 jntarray.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/jntarray.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/jntarray.hpp
 solveri.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/solveri.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/solveri.hpp
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/treeidsolver_recursive_newton_euler.cpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/treeidsolver_recursive_newton_euler.cpp
 treeidsolver_recursive_newton_euler.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/treeidsolver_recursive_newton_euler.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/treeidsolver_recursive_newton_euler.hpp
 frames_io.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/frames_io.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/frames_io.hpp
 stdexcept
 -
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/treeidsolver_recursive_newton_euler.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/treeidsolver_recursive_newton_euler.hpp
 treeidsolver.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/treeidsolver.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/treeidsolver.hpp
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/treeiksolver.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/treeiksolver.hpp
 tree.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/tree.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/tree.hpp
 jntarray.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/jntarray.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/jntarray.hpp
 frames.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/frames.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/frames.hpp
 map
 -
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/treeiksolverpos_nr_jl.cpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/treeiksolverpos_nr_jl.cpp
 treeiksolverpos_nr_jl.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/treeiksolverpos_nr_jl.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/treeiksolverpos_nr_jl.hpp
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/treeiksolverpos_nr_jl.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/treeiksolverpos_nr_jl.hpp
 treeiksolver.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/treeiksolver.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/treeiksolver.hpp
 treefksolver.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/treefksolver.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/treefksolver.hpp
 vector
 -
 string
 -
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/treeiksolverpos_online.cpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/treeiksolverpos_online.cpp
 treeiksolverpos_online.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/treeiksolverpos_online.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/treeiksolverpos_online.hpp
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/treeiksolverpos_online.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/treeiksolverpos_online.hpp
 vector
 -
 string
 -
 treeiksolver.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/treeiksolver.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/treeiksolver.hpp
 treefksolver.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/treefksolver.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/treefksolver.hpp
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/treeiksolvervel_wdls.cpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/treeiksolvervel_wdls.cpp
 treeiksolvervel_wdls.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/treeiksolvervel_wdls.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/treeiksolvervel_wdls.hpp
 utilities/svd_eigen_HH.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/svd_eigen_HH.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/svd_eigen_HH.hpp
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/treeiksolvervel_wdls.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/treeiksolvervel_wdls.hpp
 treeiksolver.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/treeiksolver.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/treeiksolver.hpp
 treejnttojacsolver.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/treejnttojacsolver.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/treejnttojacsolver.hpp
 Eigen/Core
 -
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/treejnttojacsolver.cpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/treejnttojacsolver.cpp
 treejnttojacsolver.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/treejnttojacsolver.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/treejnttojacsolver.hpp
 iostream
 -
 kinfam_io.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/kinfam_io.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/kinfam_io.hpp
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/treejnttojacsolver.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/treejnttojacsolver.hpp
 tree.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/tree.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/tree.hpp
 jacobian.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/jacobian.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/jacobian.hpp
 jntarray.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/jntarray.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/jntarray.hpp
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/error.h
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/error.h
 utility.h
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/utility.h
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/utility.h
 string.h
 -
 string
 -
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/error_stack.cxx
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/error_stack.cxx
 error_stack.h
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/error_stack.h
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/error_stack.h
 stack
 -
 vector
@@ -892,87 +892,87 @@ string
 cstring
 -
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/error_stack.h
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/error_stack.h
 utility.h
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/utility.h
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/utility.h
 utility_io.h
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/utility_io.h
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/utility_io.h
 string
 -
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/kdl-config.h
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/kdl-config.h
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/ldl_solver_eigen.cpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/ldl_solver_eigen.cpp
 ldl_solver_eigen.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/ldl_solver_eigen.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/ldl_solver_eigen.hpp
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/ldl_solver_eigen.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/ldl_solver_eigen.hpp
 Eigen/Core
 -
 ../solveri.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/solveri.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/solveri.hpp
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/rall1d.h
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/rall1d.h
 assert.h
 -
 utility.h
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/utility.h
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/utility.h
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/rall2d.h
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/rall2d.h
 math.h
 -
 assert.h
 -
 utility.h
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/utility.h
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/utility.h
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/scoped_ptr.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/scoped_ptr.hpp
 utility
 -
 algorithm
 -
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/svd_HH.cpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/svd_HH.cpp
 svd_HH.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/svd_HH.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/svd_HH.hpp
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/svd_HH.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/svd_HH.hpp
 ../jacobian.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/jacobian.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/jacobian.hpp
 ../jntarray.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/jntarray.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/jntarray.hpp
 vector
 -
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/svd_eigen_HH.cpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/svd_eigen_HH.cpp
 svd_eigen_HH.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/svd_eigen_HH.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/svd_eigen_HH.hpp
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/svd_eigen_HH.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/svd_eigen_HH.hpp
 Eigen/Core
 -
 algorithm
 -
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/svd_eigen_Macie.cpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/svd_eigen_Macie.cpp
 svd_eigen_Macie.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/svd_eigen_Macie.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/svd_eigen_Macie.hpp
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/svd_eigen_Macie.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/svd_eigen_Macie.hpp
 Eigen/Core
 -
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/traits.h
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/traits.h
 utility.h
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/utility.h
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/utility.h
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/utility.cxx
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/utility.cxx
 utility.h
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/utility.h
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/utility.h
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/utility.h
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/utility.h
 kdl-config.h
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/kdl-config.h
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/kdl-config.h
 cstdlib
 -
 cassert
@@ -980,11 +980,11 @@ cassert
 cmath
 -
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/utility_io.cxx
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/utility_io.cxx
 utility_io.h
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/utility_io.h
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/utility_io.h
 error.h
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/error.h
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/error.h
 stdlib.h
 -
 ctype.h
@@ -992,7 +992,7 @@ ctype.h
 string.h
 -
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/utility_io.h
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/utility_io.h
 iostream
 -
 iomanip
@@ -1000,75 +1000,75 @@ iomanip
 fstream
 -
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/velocityprofile.cpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/velocityprofile.cpp
 utilities/error.h
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/error.h
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/error.h
 utilities/error_stack.h
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/error_stack.h
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/error_stack.h
 velocityprofile_rect.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/velocityprofile_rect.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/velocityprofile_rect.hpp
 velocityprofile_dirac.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/velocityprofile_dirac.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/velocityprofile_dirac.hpp
 velocityprofile_trap.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/velocityprofile_trap.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/velocityprofile_trap.hpp
 velocityprofile_traphalf.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/velocityprofile_traphalf.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/velocityprofile_traphalf.hpp
 string.h
 -
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/velocityprofile.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/velocityprofile.hpp
 utilities/utility.h
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/utility.h
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/utility.h
 utilities/utility_io.h
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/utility_io.h
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/utility_io.h
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/velocityprofile_dirac.cpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/velocityprofile_dirac.cpp
 utilities/error.h
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/error.h
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/error.h
 velocityprofile_dirac.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/velocityprofile_dirac.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/velocityprofile_dirac.hpp
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/velocityprofile_dirac.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/velocityprofile_dirac.hpp
 velocityprofile.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/velocityprofile.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/velocityprofile.hpp
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/velocityprofile_rect.cpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/velocityprofile_rect.cpp
 utilities/error.h
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/error.h
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/error.h
 velocityprofile_rect.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/velocityprofile_rect.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/velocityprofile_rect.hpp
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/velocityprofile_rect.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/velocityprofile_rect.hpp
 velocityprofile.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/velocityprofile.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/velocityprofile.hpp
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/velocityprofile_spline.cpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/velocityprofile_spline.cpp
 limits
 -
 velocityprofile_spline.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/velocityprofile_spline.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/velocityprofile_spline.hpp
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/velocityprofile_spline.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/velocityprofile_spline.hpp
 velocityprofile.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/velocityprofile.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/velocityprofile.hpp
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/velocityprofile_trap.cpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/velocityprofile_trap.cpp
 velocityprofile_trap.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/velocityprofile_trap.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/velocityprofile_trap.hpp
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/velocityprofile_trap.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/velocityprofile_trap.hpp
 velocityprofile.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/velocityprofile.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/velocityprofile.hpp
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/velocityprofile_traphalf.cpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/velocityprofile_traphalf.cpp
 velocityprofile_traphalf.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/velocityprofile_traphalf.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/velocityprofile_traphalf.hpp
 algorithm
 -
 
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/velocityprofile_traphalf.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/velocityprofile_traphalf.hpp
 velocityprofile.hpp
-/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/velocityprofile.hpp
+/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/velocityprofile.hpp
 
 /usr/include/eigen3/Eigen/Cholesky
 Core

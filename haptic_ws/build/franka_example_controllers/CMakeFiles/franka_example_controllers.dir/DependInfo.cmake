@@ -4,17 +4,17 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/student/haptic_ws/src/franka_ros/franka_example_controllers/src/cartesian_impedance_example_controller.cpp" "/home/student/haptic_ws/build/franka_example_controllers/CMakeFiles/franka_example_controllers.dir/src/cartesian_impedance_example_controller.cpp.o"
-  "/home/student/haptic_ws/src/franka_ros/franka_example_controllers/src/cartesian_pose_example_controller.cpp" "/home/student/haptic_ws/build/franka_example_controllers/CMakeFiles/franka_example_controllers.dir/src/cartesian_pose_example_controller.cpp.o"
-  "/home/student/haptic_ws/src/franka_ros/franka_example_controllers/src/cartesian_velocity_example_controller.cpp" "/home/student/haptic_ws/build/franka_example_controllers/CMakeFiles/franka_example_controllers.dir/src/cartesian_velocity_example_controller.cpp.o"
-  "/home/student/haptic_ws/src/franka_ros/franka_example_controllers/src/dual_arm_cartesian_impedance_example_controller.cpp" "/home/student/haptic_ws/build/franka_example_controllers/CMakeFiles/franka_example_controllers.dir/src/dual_arm_cartesian_impedance_example_controller.cpp.o"
-  "/home/student/haptic_ws/src/franka_ros/franka_example_controllers/src/elbow_example_controller.cpp" "/home/student/haptic_ws/build/franka_example_controllers/CMakeFiles/franka_example_controllers.dir/src/elbow_example_controller.cpp.o"
-  "/home/student/haptic_ws/src/franka_ros/franka_example_controllers/src/force_example_controller.cpp" "/home/student/haptic_ws/build/franka_example_controllers/CMakeFiles/franka_example_controllers.dir/src/force_example_controller.cpp.o"
-  "/home/student/haptic_ws/src/franka_ros/franka_example_controllers/src/joint_impedance_example_controller.cpp" "/home/student/haptic_ws/build/franka_example_controllers/CMakeFiles/franka_example_controllers.dir/src/joint_impedance_example_controller.cpp.o"
-  "/home/student/haptic_ws/src/franka_ros/franka_example_controllers/src/joint_position_example_controller.cpp" "/home/student/haptic_ws/build/franka_example_controllers/CMakeFiles/franka_example_controllers.dir/src/joint_position_example_controller.cpp.o"
-  "/home/student/haptic_ws/src/franka_ros/franka_example_controllers/src/joint_velocity_example_controller.cpp" "/home/student/haptic_ws/build/franka_example_controllers/CMakeFiles/franka_example_controllers.dir/src/joint_velocity_example_controller.cpp.o"
-  "/home/student/haptic_ws/src/franka_ros/franka_example_controllers/src/model_example_controller.cpp" "/home/student/haptic_ws/build/franka_example_controllers/CMakeFiles/franka_example_controllers.dir/src/model_example_controller.cpp.o"
-  "/home/student/haptic_ws/src/franka_ros/franka_example_controllers/src/teleop_joint_pd_example_controller.cpp" "/home/student/haptic_ws/build/franka_example_controllers/CMakeFiles/franka_example_controllers.dir/src/teleop_joint_pd_example_controller.cpp.o"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros/franka_example_controllers/src/cartesian_impedance_example_controller.cpp" "/home/student/HapticDeviceGaggioli/haptic_ws/build/franka_example_controllers/CMakeFiles/franka_example_controllers.dir/src/cartesian_impedance_example_controller.cpp.o"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros/franka_example_controllers/src/cartesian_pose_example_controller.cpp" "/home/student/HapticDeviceGaggioli/haptic_ws/build/franka_example_controllers/CMakeFiles/franka_example_controllers.dir/src/cartesian_pose_example_controller.cpp.o"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros/franka_example_controllers/src/cartesian_velocity_example_controller.cpp" "/home/student/HapticDeviceGaggioli/haptic_ws/build/franka_example_controllers/CMakeFiles/franka_example_controllers.dir/src/cartesian_velocity_example_controller.cpp.o"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros/franka_example_controllers/src/dual_arm_cartesian_impedance_example_controller.cpp" "/home/student/HapticDeviceGaggioli/haptic_ws/build/franka_example_controllers/CMakeFiles/franka_example_controllers.dir/src/dual_arm_cartesian_impedance_example_controller.cpp.o"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros/franka_example_controllers/src/elbow_example_controller.cpp" "/home/student/HapticDeviceGaggioli/haptic_ws/build/franka_example_controllers/CMakeFiles/franka_example_controllers.dir/src/elbow_example_controller.cpp.o"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros/franka_example_controllers/src/force_example_controller.cpp" "/home/student/HapticDeviceGaggioli/haptic_ws/build/franka_example_controllers/CMakeFiles/franka_example_controllers.dir/src/force_example_controller.cpp.o"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros/franka_example_controllers/src/joint_impedance_example_controller.cpp" "/home/student/HapticDeviceGaggioli/haptic_ws/build/franka_example_controllers/CMakeFiles/franka_example_controllers.dir/src/joint_impedance_example_controller.cpp.o"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros/franka_example_controllers/src/joint_position_example_controller.cpp" "/home/student/HapticDeviceGaggioli/haptic_ws/build/franka_example_controllers/CMakeFiles/franka_example_controllers.dir/src/joint_position_example_controller.cpp.o"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros/franka_example_controllers/src/joint_velocity_example_controller.cpp" "/home/student/HapticDeviceGaggioli/haptic_ws/build/franka_example_controllers/CMakeFiles/franka_example_controllers.dir/src/joint_velocity_example_controller.cpp.o"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros/franka_example_controllers/src/model_example_controller.cpp" "/home/student/HapticDeviceGaggioli/haptic_ws/build/franka_example_controllers/CMakeFiles/franka_example_controllers.dir/src/model_example_controller.cpp.o"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros/franka_example_controllers/src/teleop_joint_pd_example_controller.cpp" "/home/student/HapticDeviceGaggioli/haptic_ws/build/franka_example_controllers/CMakeFiles/franka_example_controllers.dir/src/teleop_joint_pd_example_controller.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -28,8 +28,8 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/student/haptic_ws/devel/.private/franka_example_controllers/include"
-  "/home/student/haptic_ws/src/franka_ros/franka_example_controllers/include"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_example_controllers/include"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros/franka_example_controllers/include"
   "/opt/ros/noetic/include/libfranka"
   "/usr/include/eigen3"
   "/home/student/haptic_ws/devel/.private/franka_msgs/include"

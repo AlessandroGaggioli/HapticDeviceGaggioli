@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/student/haptic_ws/src/franka_ros_interface/franka_interface
+CMAKE_SOURCE_DIR = /home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros_interface/franka_interface
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/student/haptic_ws/build/franka_interface
+CMAKE_BINARY_DIR = /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_interface
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,9 +137,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/student/haptic_ws/build/franka_interface/CMakeFiles /home/student/haptic_ws/build/franka_interface/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_interface/CMakeFiles /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_interface/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/student/haptic_ws/build/franka_interface/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_interface/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

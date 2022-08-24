@@ -1,9 +1,9 @@
 file(REMOVE_RECURSE
-  "/home/student/haptic_ws/devel/.private/franka_core_msgs/include/franka_core_msgs/EndPointState.h"
-  "/home/student/haptic_ws/devel/.private/franka_core_msgs/include/franka_core_msgs/JointCommand.h"
-  "/home/student/haptic_ws/devel/.private/franka_core_msgs/include/franka_core_msgs/JointControllerStates.h"
-  "/home/student/haptic_ws/devel/.private/franka_core_msgs/include/franka_core_msgs/JointLimits.h"
-  "/home/student/haptic_ws/devel/.private/franka_core_msgs/include/franka_core_msgs/RobotState.h"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_core_msgs/include/franka_core_msgs/EndPointState.h"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_core_msgs/include/franka_core_msgs/JointCommand.h"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_core_msgs/include/franka_core_msgs/JointControllerStates.h"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_core_msgs/include/franka_core_msgs/JointLimits.h"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_core_msgs/include/franka_core_msgs/RobotState.h"
   "CMakeFiles/franka_core_msgs_generate_messages_cpp"
 )
 

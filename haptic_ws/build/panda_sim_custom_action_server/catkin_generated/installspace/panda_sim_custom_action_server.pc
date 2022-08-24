@@ -1,4 +1,4 @@
-prefix=/home/student/haptic_ws/install
+prefix=/home/student/HapticDeviceGaggioli/haptic_ws/install
 
 Name: panda_sim_custom_action_server
 Description: Description of panda_sim_custom_action_server

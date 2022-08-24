@@ -6,5 +6,5 @@ CXX_FLAGS = -fPIC
 
 CXX_DEFINES = -DROS_BUILD_SHARED_LIBS=1 -Dpython_module_PyKDL_EXPORTS
 
-CXX_INCLUDES = -I/home/student/haptic_ws/devel/share/orocos_kdl/cmake/../../../include -I/usr/include/eigen3 -I/usr/include/python3.8 
+CXX_INCLUDES = -I/home/student/HapticDeviceGaggioli/haptic_ws/devel/share/orocos_kdl/cmake/../../../include -I/usr/include/eigen3 -I/usr/include/python3.8 
 

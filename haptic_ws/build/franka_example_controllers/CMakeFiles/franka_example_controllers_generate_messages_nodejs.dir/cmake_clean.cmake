@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/student/haptic_ws/devel/.private/franka_example_controllers/share/gennodejs/ros/franka_example_controllers/msg/JointTorqueComparison.js"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_example_controllers/share/gennodejs/ros/franka_example_controllers/msg/JointTorqueComparison.js"
   "CMakeFiles/franka_example_controllers_generate_messages_nodejs"
 )
 

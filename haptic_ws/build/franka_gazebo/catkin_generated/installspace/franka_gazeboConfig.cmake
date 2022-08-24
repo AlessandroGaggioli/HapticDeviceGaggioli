@@ -67,14 +67,14 @@ set(franka_gazebo_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(franka_gazebo_SOURCE_PREFIX /home/student/haptic_ws/src/franka_ros/franka_gazebo)
-  set(franka_gazebo_DEVEL_PREFIX /home/student/haptic_ws/devel/.private/franka_gazebo)
+  set(franka_gazebo_SOURCE_PREFIX /home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros/franka_gazebo)
+  set(franka_gazebo_DEVEL_PREFIX /home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gazebo)
   set(franka_gazebo_INSTALL_PREFIX "")
   set(franka_gazebo_PREFIX ${franka_gazebo_DEVEL_PREFIX})
 else()
   set(franka_gazebo_SOURCE_PREFIX "")
   set(franka_gazebo_DEVEL_PREFIX "")
-  set(franka_gazebo_INSTALL_PREFIX /home/student/haptic_ws/install)
+  set(franka_gazebo_INSTALL_PREFIX /home/student/HapticDeviceGaggioli/haptic_ws/install)
   set(franka_gazebo_PREFIX ${franka_gazebo_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(franka_gazebo_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "include;/opt/ros/noetic/include/libfranka;/home/student/haptic_ws/devel/share/orocos_kdl/cmake/../../../include;/usr/include/eigen3 " STREQUAL " ")
+if(NOT "include;/opt/ros/noetic/include/libfranka;/home/student/HapticDeviceGaggioli/haptic_ws/devel/share/orocos_kdl/cmake/../../../include;/usr/include/eigen3 " STREQUAL " ")
   set(franka_gazebo_INCLUDE_DIRS "")
-  set(_include_dirs "include;/opt/ros/noetic/include/libfranka;/home/student/haptic_ws/devel/share/orocos_kdl/cmake/../../../include;/usr/include/eigen3")
+  set(_include_dirs "include;/opt/ros/noetic/include/libfranka;/home/student/HapticDeviceGaggioli/haptic_ws/devel/share/orocos_kdl/cmake/../../../include;/usr/include/eigen3")
   if(NOT "https://github.com/frankaemika/franka_ros/issues " STREQUAL " ")
     set(_report "Check the issue tracker 'https://github.com/frankaemika/franka_ros/issues' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT "http://wiki.ros.org/franka_gazebo " STREQUAL " ")
@@ -116,7 +116,7 @@ if(NOT "include;/opt/ros/noetic/include/libfranka;/home/student/haptic_ws/devel/
   endforeach()
 endif()
 
-set(libraries "franka_hw_sim;franka_gripper_sim;/opt/ros/noetic/lib/libfranka.so.0.9.0;/home/student/haptic_ws/devel/lib/liborocos-kdl.so.1.4.0")
+set(libraries "franka_hw_sim;franka_gripper_sim;/opt/ros/noetic/lib/libfranka.so.0.9.0;/home/student/HapticDeviceGaggioli/haptic_ws/devel/lib/liborocos-kdl.so.1.4.0")
 foreach(library ${libraries})
   # keep build configuration keywords, target names and absolute libraries as-is
   if("${library}" MATCHES "^(debug|optimized|general)$")
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/student/haptic_ws/install/lib;/home/student/haptic_ws/devel/lib;/home/student/turtle_ws/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/student/HapticDeviceGaggioli/haptic_ws/install/lib;/home/student/HapticDeviceGaggioli/haptic_ws/devel/lib;/home/student/haptic_ws/devel/lib;/home/student/turtle_ws/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

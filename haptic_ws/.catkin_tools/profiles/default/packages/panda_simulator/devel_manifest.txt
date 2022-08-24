@@ -1,2 +1,2 @@
 panda_simulator/panda_simulator
-/home/student/haptic_ws/devel/.private/panda_simulator/cmake.lock /home/student/haptic_ws/devel/./cmake.lock
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/panda_simulator/cmake.lock /home/student/HapticDeviceGaggioli/haptic_ws/devel/./cmake.lock

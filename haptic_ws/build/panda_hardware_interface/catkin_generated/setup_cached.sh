@@ -7,6 +7,9 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/student/haptic_ws/devel/.private/panda_hardware_interface:$CMAKE_PREFIX_PATH"
-export PWD='/home/student/haptic_ws/build/panda_hardware_interface'
-export ROS_PACKAGE_PATH="/home/student/haptic_ws/src/panda_simulator/panda_hardware_interface:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/panda_hardware_interface:$CMAKE_PREFIX_PATH"
+export LD_LIBRARY_PATH="/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/panda_hardware_interface/lib:$LD_LIBRARY_PATH"
+export PKG_CONFIG_PATH="/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/panda_hardware_interface/lib/pkgconfig:$PKG_CONFIG_PATH"
+export PWD='/home/student/HapticDeviceGaggioli/haptic_ws/build/panda_hardware_interface'
+export ROSLISP_PACKAGE_DIRECTORIES="/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/panda_hardware_interface/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/home/student/haptic_ws/src/panda_simulator/panda_hardware_interface:/home/student/HapticDeviceGaggioli/haptic_ws/src/panda_simulator/panda_hardware_interface:$ROS_PACKAGE_PATH"

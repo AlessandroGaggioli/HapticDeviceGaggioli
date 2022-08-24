@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/student/haptic_ws/src/franka_ros/franka_hw
+CMAKE_SOURCE_DIR = /home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros/franka_hw
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/student/haptic_ws/build/franka_hw
+CMAKE_BINARY_DIR = /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_hw
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,14 +137,14 @@ install/local/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/student/haptic_ws/build/franka_hw && $(CMAKE_COMMAND) -E cmake_progress_start /home/student/haptic_ws/build/franka_hw/CMakeFiles /home/student/haptic_ws/build/franka_hw/test/CMakeFiles/progress.marks
-	cd /home/student/haptic_ws/build/franka_hw && $(MAKE) -f CMakeFiles/Makefile2 test/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/student/haptic_ws/build/franka_hw/CMakeFiles 0
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_hw && $(CMAKE_COMMAND) -E cmake_progress_start /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_hw/CMakeFiles /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_hw/test/CMakeFiles/progress.marks
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_hw && $(MAKE) -f CMakeFiles/Makefile2 test/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_hw/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/student/haptic_ws/build/franka_hw && $(MAKE) -f CMakeFiles/Makefile2 test/clean
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_hw && $(MAKE) -f CMakeFiles/Makefile2 test/clean
 .PHONY : clean
 
 # The main clean target
@@ -154,22 +154,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/student/haptic_ws/build/franka_hw && $(MAKE) -f CMakeFiles/Makefile2 test/preinstall
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_hw && $(MAKE) -f CMakeFiles/Makefile2 test/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/student/haptic_ws/build/franka_hw && $(MAKE) -f CMakeFiles/Makefile2 test/preinstall
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_hw && $(MAKE) -f CMakeFiles/Makefile2 test/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/student/haptic_ws/build/franka_hw && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_hw && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 test/CMakeFiles/run_tests_franka_hw.dir/rule:
-	cd /home/student/haptic_ws/build/franka_hw && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/run_tests_franka_hw.dir/rule
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_hw && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/run_tests_franka_hw.dir/rule
 .PHONY : test/CMakeFiles/run_tests_franka_hw.dir/rule
 
 # Convenience name for target.
@@ -179,12 +179,12 @@ run_tests_franka_hw: test/CMakeFiles/run_tests_franka_hw.dir/rule
 
 # fast build rule for target.
 run_tests_franka_hw/fast:
-	cd /home/student/haptic_ws/build/franka_hw && $(MAKE) -f test/CMakeFiles/run_tests_franka_hw.dir/build.make test/CMakeFiles/run_tests_franka_hw.dir/build
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_hw && $(MAKE) -f test/CMakeFiles/run_tests_franka_hw.dir/build.make test/CMakeFiles/run_tests_franka_hw.dir/build
 .PHONY : run_tests_franka_hw/fast
 
 # Convenience name for target.
 test/CMakeFiles/run_tests_franka_hw_rostest_test_launch_franka_hw_test.test.dir/rule:
-	cd /home/student/haptic_ws/build/franka_hw && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/run_tests_franka_hw_rostest_test_launch_franka_hw_test.test.dir/rule
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_hw && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/run_tests_franka_hw_rostest_test_launch_franka_hw_test.test.dir/rule
 .PHONY : test/CMakeFiles/run_tests_franka_hw_rostest_test_launch_franka_hw_test.test.dir/rule
 
 # Convenience name for target.
@@ -194,12 +194,12 @@ run_tests_franka_hw_rostest_test_launch_franka_hw_test.test: test/CMakeFiles/run
 
 # fast build rule for target.
 run_tests_franka_hw_rostest_test_launch_franka_hw_test.test/fast:
-	cd /home/student/haptic_ws/build/franka_hw && $(MAKE) -f test/CMakeFiles/run_tests_franka_hw_rostest_test_launch_franka_hw_test.test.dir/build.make test/CMakeFiles/run_tests_franka_hw_rostest_test_launch_franka_hw_test.test.dir/build
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_hw && $(MAKE) -f test/CMakeFiles/run_tests_franka_hw_rostest_test_launch_franka_hw_test.test.dir/build.make test/CMakeFiles/run_tests_franka_hw_rostest_test_launch_franka_hw_test.test.dir/build
 .PHONY : run_tests_franka_hw_rostest_test_launch_franka_hw_test.test/fast
 
 # Convenience name for target.
 test/CMakeFiles/_run_tests_franka_hw.dir/rule:
-	cd /home/student/haptic_ws/build/franka_hw && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/_run_tests_franka_hw.dir/rule
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_hw && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/_run_tests_franka_hw.dir/rule
 .PHONY : test/CMakeFiles/_run_tests_franka_hw.dir/rule
 
 # Convenience name for target.
@@ -209,12 +209,12 @@ _run_tests_franka_hw: test/CMakeFiles/_run_tests_franka_hw.dir/rule
 
 # fast build rule for target.
 _run_tests_franka_hw/fast:
-	cd /home/student/haptic_ws/build/franka_hw && $(MAKE) -f test/CMakeFiles/_run_tests_franka_hw.dir/build.make test/CMakeFiles/_run_tests_franka_hw.dir/build
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_hw && $(MAKE) -f test/CMakeFiles/_run_tests_franka_hw.dir/build.make test/CMakeFiles/_run_tests_franka_hw.dir/build
 .PHONY : _run_tests_franka_hw/fast
 
 # Convenience name for target.
 test/CMakeFiles/franka_hw_test.dir/rule:
-	cd /home/student/haptic_ws/build/franka_hw && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/franka_hw_test.dir/rule
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_hw && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/franka_hw_test.dir/rule
 .PHONY : test/CMakeFiles/franka_hw_test.dir/rule
 
 # Convenience name for target.
@@ -224,12 +224,12 @@ franka_hw_test: test/CMakeFiles/franka_hw_test.dir/rule
 
 # fast build rule for target.
 franka_hw_test/fast:
-	cd /home/student/haptic_ws/build/franka_hw && $(MAKE) -f test/CMakeFiles/franka_hw_test.dir/build.make test/CMakeFiles/franka_hw_test.dir/build
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_hw && $(MAKE) -f test/CMakeFiles/franka_hw_test.dir/build.make test/CMakeFiles/franka_hw_test.dir/build
 .PHONY : franka_hw_test/fast
 
 # Convenience name for target.
 test/CMakeFiles/run_tests_franka_hw_rostest.dir/rule:
-	cd /home/student/haptic_ws/build/franka_hw && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/run_tests_franka_hw_rostest.dir/rule
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_hw && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/run_tests_franka_hw_rostest.dir/rule
 .PHONY : test/CMakeFiles/run_tests_franka_hw_rostest.dir/rule
 
 # Convenience name for target.
@@ -239,12 +239,12 @@ run_tests_franka_hw_rostest: test/CMakeFiles/run_tests_franka_hw_rostest.dir/rul
 
 # fast build rule for target.
 run_tests_franka_hw_rostest/fast:
-	cd /home/student/haptic_ws/build/franka_hw && $(MAKE) -f test/CMakeFiles/run_tests_franka_hw_rostest.dir/build.make test/CMakeFiles/run_tests_franka_hw_rostest.dir/build
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_hw && $(MAKE) -f test/CMakeFiles/run_tests_franka_hw_rostest.dir/build.make test/CMakeFiles/run_tests_franka_hw_rostest.dir/build
 .PHONY : run_tests_franka_hw_rostest/fast
 
 # Convenience name for target.
 test/CMakeFiles/_run_tests_franka_hw_rostest.dir/rule:
-	cd /home/student/haptic_ws/build/franka_hw && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/_run_tests_franka_hw_rostest.dir/rule
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_hw && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/_run_tests_franka_hw_rostest.dir/rule
 .PHONY : test/CMakeFiles/_run_tests_franka_hw_rostest.dir/rule
 
 # Convenience name for target.
@@ -254,12 +254,12 @@ _run_tests_franka_hw_rostest: test/CMakeFiles/_run_tests_franka_hw_rostest.dir/r
 
 # fast build rule for target.
 _run_tests_franka_hw_rostest/fast:
-	cd /home/student/haptic_ws/build/franka_hw && $(MAKE) -f test/CMakeFiles/_run_tests_franka_hw_rostest.dir/build.make test/CMakeFiles/_run_tests_franka_hw_rostest.dir/build
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_hw && $(MAKE) -f test/CMakeFiles/_run_tests_franka_hw_rostest.dir/build.make test/CMakeFiles/_run_tests_franka_hw_rostest.dir/build
 .PHONY : _run_tests_franka_hw_rostest/fast
 
 # Convenience name for target.
 test/CMakeFiles/_run_tests_franka_hw_rostest_test_launch_franka_hw_test.test.dir/rule:
-	cd /home/student/haptic_ws/build/franka_hw && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/_run_tests_franka_hw_rostest_test_launch_franka_hw_test.test.dir/rule
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_hw && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/_run_tests_franka_hw_rostest_test_launch_franka_hw_test.test.dir/rule
 .PHONY : test/CMakeFiles/_run_tests_franka_hw_rostest_test_launch_franka_hw_test.test.dir/rule
 
 # Convenience name for target.
@@ -269,12 +269,12 @@ _run_tests_franka_hw_rostest_test_launch_franka_hw_test.test: test/CMakeFiles/_r
 
 # fast build rule for target.
 _run_tests_franka_hw_rostest_test_launch_franka_hw_test.test/fast:
-	cd /home/student/haptic_ws/build/franka_hw && $(MAKE) -f test/CMakeFiles/_run_tests_franka_hw_rostest_test_launch_franka_hw_test.test.dir/build.make test/CMakeFiles/_run_tests_franka_hw_rostest_test_launch_franka_hw_test.test.dir/build
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_hw && $(MAKE) -f test/CMakeFiles/_run_tests_franka_hw_rostest_test_launch_franka_hw_test.test.dir/build.make test/CMakeFiles/_run_tests_franka_hw_rostest_test_launch_franka_hw_test.test.dir/build
 .PHONY : _run_tests_franka_hw_rostest_test_launch_franka_hw_test.test/fast
 
 # Convenience name for target.
 test/CMakeFiles/clean_test_results_franka_hw.dir/rule:
-	cd /home/student/haptic_ws/build/franka_hw && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/clean_test_results_franka_hw.dir/rule
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_hw && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/clean_test_results_franka_hw.dir/rule
 .PHONY : test/CMakeFiles/clean_test_results_franka_hw.dir/rule
 
 # Convenience name for target.
@@ -284,7 +284,7 @@ clean_test_results_franka_hw: test/CMakeFiles/clean_test_results_franka_hw.dir/r
 
 # fast build rule for target.
 clean_test_results_franka_hw/fast:
-	cd /home/student/haptic_ws/build/franka_hw && $(MAKE) -f test/CMakeFiles/clean_test_results_franka_hw.dir/build.make test/CMakeFiles/clean_test_results_franka_hw.dir/build
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_hw && $(MAKE) -f test/CMakeFiles/clean_test_results_franka_hw.dir/build.make test/CMakeFiles/clean_test_results_franka_hw.dir/build
 .PHONY : clean_test_results_franka_hw/fast
 
 franka_combinable_hw_controller_switching_test.o: franka_combinable_hw_controller_switching_test.cpp.o
@@ -293,7 +293,7 @@ franka_combinable_hw_controller_switching_test.o: franka_combinable_hw_controlle
 
 # target to build an object file
 franka_combinable_hw_controller_switching_test.cpp.o:
-	cd /home/student/haptic_ws/build/franka_hw && $(MAKE) -f test/CMakeFiles/franka_hw_test.dir/build.make test/CMakeFiles/franka_hw_test.dir/franka_combinable_hw_controller_switching_test.cpp.o
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_hw && $(MAKE) -f test/CMakeFiles/franka_hw_test.dir/build.make test/CMakeFiles/franka_hw_test.dir/franka_combinable_hw_controller_switching_test.cpp.o
 .PHONY : franka_combinable_hw_controller_switching_test.cpp.o
 
 franka_combinable_hw_controller_switching_test.i: franka_combinable_hw_controller_switching_test.cpp.i
@@ -302,7 +302,7 @@ franka_combinable_hw_controller_switching_test.i: franka_combinable_hw_controlle
 
 # target to preprocess a source file
 franka_combinable_hw_controller_switching_test.cpp.i:
-	cd /home/student/haptic_ws/build/franka_hw && $(MAKE) -f test/CMakeFiles/franka_hw_test.dir/build.make test/CMakeFiles/franka_hw_test.dir/franka_combinable_hw_controller_switching_test.cpp.i
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_hw && $(MAKE) -f test/CMakeFiles/franka_hw_test.dir/build.make test/CMakeFiles/franka_hw_test.dir/franka_combinable_hw_controller_switching_test.cpp.i
 .PHONY : franka_combinable_hw_controller_switching_test.cpp.i
 
 franka_combinable_hw_controller_switching_test.s: franka_combinable_hw_controller_switching_test.cpp.s
@@ -311,7 +311,7 @@ franka_combinable_hw_controller_switching_test.s: franka_combinable_hw_controlle
 
 # target to generate assembly for a file
 franka_combinable_hw_controller_switching_test.cpp.s:
-	cd /home/student/haptic_ws/build/franka_hw && $(MAKE) -f test/CMakeFiles/franka_hw_test.dir/build.make test/CMakeFiles/franka_hw_test.dir/franka_combinable_hw_controller_switching_test.cpp.s
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_hw && $(MAKE) -f test/CMakeFiles/franka_hw_test.dir/build.make test/CMakeFiles/franka_hw_test.dir/franka_combinable_hw_controller_switching_test.cpp.s
 .PHONY : franka_combinable_hw_controller_switching_test.cpp.s
 
 franka_hw_controller_switching_test.o: franka_hw_controller_switching_test.cpp.o
@@ -320,7 +320,7 @@ franka_hw_controller_switching_test.o: franka_hw_controller_switching_test.cpp.o
 
 # target to build an object file
 franka_hw_controller_switching_test.cpp.o:
-	cd /home/student/haptic_ws/build/franka_hw && $(MAKE) -f test/CMakeFiles/franka_hw_test.dir/build.make test/CMakeFiles/franka_hw_test.dir/franka_hw_controller_switching_test.cpp.o
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_hw && $(MAKE) -f test/CMakeFiles/franka_hw_test.dir/build.make test/CMakeFiles/franka_hw_test.dir/franka_hw_controller_switching_test.cpp.o
 .PHONY : franka_hw_controller_switching_test.cpp.o
 
 franka_hw_controller_switching_test.i: franka_hw_controller_switching_test.cpp.i
@@ -329,7 +329,7 @@ franka_hw_controller_switching_test.i: franka_hw_controller_switching_test.cpp.i
 
 # target to preprocess a source file
 franka_hw_controller_switching_test.cpp.i:
-	cd /home/student/haptic_ws/build/franka_hw && $(MAKE) -f test/CMakeFiles/franka_hw_test.dir/build.make test/CMakeFiles/franka_hw_test.dir/franka_hw_controller_switching_test.cpp.i
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_hw && $(MAKE) -f test/CMakeFiles/franka_hw_test.dir/build.make test/CMakeFiles/franka_hw_test.dir/franka_hw_controller_switching_test.cpp.i
 .PHONY : franka_hw_controller_switching_test.cpp.i
 
 franka_hw_controller_switching_test.s: franka_hw_controller_switching_test.cpp.s
@@ -338,7 +338,7 @@ franka_hw_controller_switching_test.s: franka_hw_controller_switching_test.cpp.s
 
 # target to generate assembly for a file
 franka_hw_controller_switching_test.cpp.s:
-	cd /home/student/haptic_ws/build/franka_hw && $(MAKE) -f test/CMakeFiles/franka_hw_test.dir/build.make test/CMakeFiles/franka_hw_test.dir/franka_hw_controller_switching_test.cpp.s
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_hw && $(MAKE) -f test/CMakeFiles/franka_hw_test.dir/build.make test/CMakeFiles/franka_hw_test.dir/franka_hw_controller_switching_test.cpp.s
 .PHONY : franka_hw_controller_switching_test.cpp.s
 
 franka_hw_interfaces_test.o: franka_hw_interfaces_test.cpp.o
@@ -347,7 +347,7 @@ franka_hw_interfaces_test.o: franka_hw_interfaces_test.cpp.o
 
 # target to build an object file
 franka_hw_interfaces_test.cpp.o:
-	cd /home/student/haptic_ws/build/franka_hw && $(MAKE) -f test/CMakeFiles/franka_hw_test.dir/build.make test/CMakeFiles/franka_hw_test.dir/franka_hw_interfaces_test.cpp.o
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_hw && $(MAKE) -f test/CMakeFiles/franka_hw_test.dir/build.make test/CMakeFiles/franka_hw_test.dir/franka_hw_interfaces_test.cpp.o
 .PHONY : franka_hw_interfaces_test.cpp.o
 
 franka_hw_interfaces_test.i: franka_hw_interfaces_test.cpp.i
@@ -356,7 +356,7 @@ franka_hw_interfaces_test.i: franka_hw_interfaces_test.cpp.i
 
 # target to preprocess a source file
 franka_hw_interfaces_test.cpp.i:
-	cd /home/student/haptic_ws/build/franka_hw && $(MAKE) -f test/CMakeFiles/franka_hw_test.dir/build.make test/CMakeFiles/franka_hw_test.dir/franka_hw_interfaces_test.cpp.i
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_hw && $(MAKE) -f test/CMakeFiles/franka_hw_test.dir/build.make test/CMakeFiles/franka_hw_test.dir/franka_hw_interfaces_test.cpp.i
 .PHONY : franka_hw_interfaces_test.cpp.i
 
 franka_hw_interfaces_test.s: franka_hw_interfaces_test.cpp.s
@@ -365,7 +365,7 @@ franka_hw_interfaces_test.s: franka_hw_interfaces_test.cpp.s
 
 # target to generate assembly for a file
 franka_hw_interfaces_test.cpp.s:
-	cd /home/student/haptic_ws/build/franka_hw && $(MAKE) -f test/CMakeFiles/franka_hw_test.dir/build.make test/CMakeFiles/franka_hw_test.dir/franka_hw_interfaces_test.cpp.s
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_hw && $(MAKE) -f test/CMakeFiles/franka_hw_test.dir/build.make test/CMakeFiles/franka_hw_test.dir/franka_hw_interfaces_test.cpp.s
 .PHONY : franka_hw_interfaces_test.cpp.s
 
 main.o: main.cpp.o
@@ -374,7 +374,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	cd /home/student/haptic_ws/build/franka_hw && $(MAKE) -f test/CMakeFiles/franka_hw_test.dir/build.make test/CMakeFiles/franka_hw_test.dir/main.cpp.o
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_hw && $(MAKE) -f test/CMakeFiles/franka_hw_test.dir/build.make test/CMakeFiles/franka_hw_test.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -383,7 +383,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /home/student/haptic_ws/build/franka_hw && $(MAKE) -f test/CMakeFiles/franka_hw_test.dir/build.make test/CMakeFiles/franka_hw_test.dir/main.cpp.i
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_hw && $(MAKE) -f test/CMakeFiles/franka_hw_test.dir/build.make test/CMakeFiles/franka_hw_test.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -392,7 +392,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /home/student/haptic_ws/build/franka_hw && $(MAKE) -f test/CMakeFiles/franka_hw_test.dir/build.make test/CMakeFiles/franka_hw_test.dir/main.cpp.s
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_hw && $(MAKE) -f test/CMakeFiles/franka_hw_test.dir/build.make test/CMakeFiles/franka_hw_test.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -439,6 +439,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/student/haptic_ws/build/franka_hw && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_hw && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

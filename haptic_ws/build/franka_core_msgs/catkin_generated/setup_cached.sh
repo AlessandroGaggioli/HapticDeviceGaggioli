@@ -7,6 +7,10 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/student/haptic_ws/devel/.private/franka_core_msgs:$CMAKE_PREFIX_PATH"
-export PWD='/home/student/haptic_ws/build/franka_core_msgs'
-export ROS_PACKAGE_PATH="/home/student/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_core_msgs:$CMAKE_PREFIX_PATH"
+export LD_LIBRARY_PATH="/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_core_msgs/lib:$LD_LIBRARY_PATH"
+export PKG_CONFIG_PATH="/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_core_msgs/lib/pkgconfig:$PKG_CONFIG_PATH"
+export PWD='/home/student/HapticDeviceGaggioli/haptic_ws/build/franka_core_msgs'
+export PYTHONPATH="/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_core_msgs/lib/python3/dist-packages:$PYTHONPATH"
+export ROSLISP_PACKAGE_DIRECTORIES="/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_core_msgs/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/home/student/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs:/home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs:$ROS_PACKAGE_PATH"

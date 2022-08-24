@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/student/haptic_ws/src/franka_ros/franka_hw
+CMAKE_SOURCE_DIR = /home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros/franka_hw
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/student/haptic_ws/build/franka_hw
+CMAKE_BINARY_DIR = /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_hw
 
 # Utility rule file for _run_tests_franka_hw_rostest.
 
@@ -63,10 +63,10 @@ test/CMakeFiles/_run_tests_franka_hw_rostest.dir/build: _run_tests_franka_hw_ros
 .PHONY : test/CMakeFiles/_run_tests_franka_hw_rostest.dir/build
 
 test/CMakeFiles/_run_tests_franka_hw_rostest.dir/clean:
-	cd /home/student/haptic_ws/build/franka_hw/test && $(CMAKE_COMMAND) -P CMakeFiles/_run_tests_franka_hw_rostest.dir/cmake_clean.cmake
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_hw/test && $(CMAKE_COMMAND) -P CMakeFiles/_run_tests_franka_hw_rostest.dir/cmake_clean.cmake
 .PHONY : test/CMakeFiles/_run_tests_franka_hw_rostest.dir/clean
 
 test/CMakeFiles/_run_tests_franka_hw_rostest.dir/depend:
-	cd /home/student/haptic_ws/build/franka_hw && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/student/haptic_ws/src/franka_ros/franka_hw /home/student/haptic_ws/src/franka_ros/franka_hw/test /home/student/haptic_ws/build/franka_hw /home/student/haptic_ws/build/franka_hw/test /home/student/haptic_ws/build/franka_hw/test/CMakeFiles/_run_tests_franka_hw_rostest.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_hw && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros/franka_hw /home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros/franka_hw/test /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_hw /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_hw/test /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_hw/test/CMakeFiles/_run_tests_franka_hw_rostest.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : test/CMakeFiles/_run_tests_franka_hw_rostest.dir/depend
 

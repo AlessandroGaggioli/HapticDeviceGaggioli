@@ -1,9 +1,9 @@
 file(REMOVE_RECURSE
-  "/home/student/haptic_ws/devel/.private/franka_core_msgs/share/gennodejs/ros/franka_core_msgs/msg/EndPointState.js"
-  "/home/student/haptic_ws/devel/.private/franka_core_msgs/share/gennodejs/ros/franka_core_msgs/msg/JointCommand.js"
-  "/home/student/haptic_ws/devel/.private/franka_core_msgs/share/gennodejs/ros/franka_core_msgs/msg/JointControllerStates.js"
-  "/home/student/haptic_ws/devel/.private/franka_core_msgs/share/gennodejs/ros/franka_core_msgs/msg/JointLimits.js"
-  "/home/student/haptic_ws/devel/.private/franka_core_msgs/share/gennodejs/ros/franka_core_msgs/msg/RobotState.js"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_core_msgs/share/gennodejs/ros/franka_core_msgs/msg/EndPointState.js"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_core_msgs/share/gennodejs/ros/franka_core_msgs/msg/JointCommand.js"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_core_msgs/share/gennodejs/ros/franka_core_msgs/msg/JointControllerStates.js"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_core_msgs/share/gennodejs/ros/franka_core_msgs/msg/JointLimits.js"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_core_msgs/share/gennodejs/ros/franka_core_msgs/msg/RobotState.js"
   "CMakeFiles/franka_core_msgs_generate_messages_nodejs"
 )
 

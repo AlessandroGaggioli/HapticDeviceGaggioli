@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/student/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs
+CMAKE_SOURCE_DIR = /home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/student/haptic_ws/build/franka_core_msgs
+CMAKE_BINARY_DIR = /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_core_msgs
 
 # Utility rule file for _franka_core_msgs_generate_messages_check_deps_JointLimits.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/student/haptic_ws/build/franka_core_msgs
 include CMakeFiles/_franka_core_msgs_generate_messages_check_deps_JointLimits.dir/progress.make
 
 CMakeFiles/_franka_core_msgs_generate_messages_check_deps_JointLimits:
-	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py franka_core_msgs /home/student/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs/msg/JointLimits.msg 
+	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py franka_core_msgs /home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs/msg/JointLimits.msg 
 
 _franka_core_msgs_generate_messages_check_deps_JointLimits: CMakeFiles/_franka_core_msgs_generate_messages_check_deps_JointLimits
 _franka_core_msgs_generate_messages_check_deps_JointLimits: CMakeFiles/_franka_core_msgs_generate_messages_check_deps_JointLimits.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/_franka_core_msgs_generate_messages_check_deps_JointLimits.dir/clean:
 .PHONY : CMakeFiles/_franka_core_msgs_generate_messages_check_deps_JointLimits.dir/clean
 
 CMakeFiles/_franka_core_msgs_generate_messages_check_deps_JointLimits.dir/depend:
-	cd /home/student/haptic_ws/build/franka_core_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/student/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs /home/student/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs /home/student/haptic_ws/build/franka_core_msgs /home/student/haptic_ws/build/franka_core_msgs /home/student/haptic_ws/build/franka_core_msgs/CMakeFiles/_franka_core_msgs_generate_messages_check_deps_JointLimits.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_core_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs /home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_core_msgs /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_core_msgs /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_core_msgs/CMakeFiles/_franka_core_msgs_generate_messages_check_deps_JointLimits.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/_franka_core_msgs_generate_messages_check_deps_JointLimits.dir/depend
 

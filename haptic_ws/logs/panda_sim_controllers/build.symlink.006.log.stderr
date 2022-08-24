@@ -1,0 +1,9 @@
+Warning: Cannot symlink from /home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/panda_sim_controllers/share/panda_sim_controllers/cmake/panda_sim_controllersConfig.cmake to existing file /home/student/HapticDeviceGaggioli/haptic_ws/devel/share/panda_sim_controllers/cmake/panda_sim_controllersConfig.cmake
+Warning: Source hash: 36caeaeee07975d2dcebcf821d2604dc
+Warning: Dest hash: e8d3d8b47285a7921d24dc0f197c0f3c
+Warning: Cannot symlink from /home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/panda_sim_controllers/lib/libpanda_sim_controllers.so to existing file /home/student/HapticDeviceGaggioli/haptic_ws/devel/lib/libpanda_sim_controllers.so
+Warning: Source hash: 47b5806eb35b777873981cd67d9785ad
+Warning: Dest hash: da227f462b7405d22baf68b0f57909d4
+Warning: Cannot symlink from /home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/panda_sim_controllers/lib/pkgconfig/panda_sim_controllers.pc to existing file /home/student/HapticDeviceGaggioli/haptic_ws/devel/lib/pkgconfig/panda_sim_controllers.pc
+Warning: Source hash: 8acfa7da77f59a63c189def32bc95f33
+Warning: Dest hash: 5774fdbc16ebbecee80aaf3e1dfc0b0a

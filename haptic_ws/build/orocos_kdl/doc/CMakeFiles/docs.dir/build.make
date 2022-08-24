@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl
+CMAKE_SOURCE_DIR = /home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/student/haptic_ws/build/orocos_kdl
+CMAKE_BINARY_DIR = /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl
 
 # Utility rule file for docs.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/student/haptic_ws/build/orocos_kdl
 include doc/CMakeFiles/docs.dir/progress.make
 
 doc/CMakeFiles/docs:
-	cd /home/student/haptic_ws/build/orocos_kdl/doc && doxygen Doxyfile
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl/doc && doxygen Doxyfile
 
 docs: doc/CMakeFiles/docs
 docs: doc/CMakeFiles/docs.dir/build.make
@@ -67,10 +67,10 @@ doc/CMakeFiles/docs.dir/build: docs
 .PHONY : doc/CMakeFiles/docs.dir/build
 
 doc/CMakeFiles/docs.dir/clean:
-	cd /home/student/haptic_ws/build/orocos_kdl/doc && $(CMAKE_COMMAND) -P CMakeFiles/docs.dir/cmake_clean.cmake
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl/doc && $(CMAKE_COMMAND) -P CMakeFiles/docs.dir/cmake_clean.cmake
 .PHONY : doc/CMakeFiles/docs.dir/clean
 
 doc/CMakeFiles/docs.dir/depend:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl /home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/doc /home/student/haptic_ws/build/orocos_kdl /home/student/haptic_ws/build/orocos_kdl/doc /home/student/haptic_ws/build/orocos_kdl/doc/CMakeFiles/docs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl /home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/doc /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl/doc /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl/doc/CMakeFiles/docs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : doc/CMakeFiles/docs.dir/depend
 

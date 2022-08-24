@@ -1,8 +1,8 @@
-# Install script for directory: /home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl
+# Install script for directory: /home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/student/haptic_ws/devel")
+  set(CMAKE_INSTALL_PREFIX "/home/student/HapticDeviceGaggioli/haptic_ws/devel")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,18 +38,18 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/orocos_kdl/cmake" TYPE FILE FILES "/home/student/haptic_ws/build/orocos_kdl/orocos_kdl-config.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/orocos_kdl/cmake" TYPE FILE FILES "/home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl/orocos_kdl-config.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/orocos_kdl/cmake" TYPE FILE FILES "/home/student/haptic_ws/build/orocos_kdl/orocos_kdl-config-version.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/orocos_kdl/cmake" TYPE FILE FILES "/home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl/orocos_kdl-config-version.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/orocos_kdl/cmake/OrocosKDLTargets.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/orocos_kdl/cmake/OrocosKDLTargets.cmake"
-         "/home/student/haptic_ws/build/orocos_kdl/CMakeFiles/Export/share/orocos_kdl/cmake/OrocosKDLTargets.cmake")
+         "/home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl/CMakeFiles/Export/share/orocos_kdl/cmake/OrocosKDLTargets.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/orocos_kdl/cmake/OrocosKDLTargets-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -58,23 +58,23 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
       endif()
     endif()
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/orocos_kdl/cmake" TYPE FILE FILES "/home/student/haptic_ws/build/orocos_kdl/CMakeFiles/Export/share/orocos_kdl/cmake/OrocosKDLTargets.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/orocos_kdl/cmake" TYPE FILE FILES "/home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl/CMakeFiles/Export/share/orocos_kdl/cmake/OrocosKDLTargets.cmake")
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/orocos_kdl/cmake" TYPE FILE FILES "/home/student/haptic_ws/build/orocos_kdl/CMakeFiles/Export/share/orocos_kdl/cmake/OrocosKDLTargets-release.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/orocos_kdl/cmake" TYPE FILE FILES "/home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl/CMakeFiles/Export/share/orocos_kdl/cmake/OrocosKDLTargets-release.cmake")
   endif()
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/orocos_kdl" TYPE FILE FILES "/home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/orocos_kdl" TYPE FILE FILES "/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/student/haptic_ws/build/orocos_kdl/doc/cmake_install.cmake")
-  include("/home/student/haptic_ws/build/orocos_kdl/src/cmake_install.cmake")
-  include("/home/student/haptic_ws/build/orocos_kdl/tests/cmake_install.cmake")
-  include("/home/student/haptic_ws/build/orocos_kdl/models/cmake_install.cmake")
-  include("/home/student/haptic_ws/build/orocos_kdl/examples/cmake_install.cmake")
+  include("/home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl/doc/cmake_install.cmake")
+  include("/home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl/src/cmake_install.cmake")
+  include("/home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl/tests/cmake_install.cmake")
+  include("/home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl/models/cmake_install.cmake")
+  include("/home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl/examples/cmake_install.cmake")
 
 endif()
 
@@ -86,5 +86,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/student/haptic_ws/build/orocos_kdl/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

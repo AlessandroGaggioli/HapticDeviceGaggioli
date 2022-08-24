@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/student/haptic_ws/devel/.private/make_trajectory/lib/make_trajectory/MacchinaStati"
-  "/home/student/haptic_ws/devel/.private/make_trajectory/lib/make_trajectory/MacchinaStati.pdb"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/make_trajectory/lib/make_trajectory/MacchinaStati"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/make_trajectory/lib/make_trajectory/MacchinaStati.pdb"
   "CMakeFiles/MacchinaStati.dir/src/MacchinaStati.cpp.o"
 )
 

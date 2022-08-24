@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/student/haptic_ws/src/panda_ik
+CMAKE_SOURCE_DIR = /home/student/HapticDeviceGaggioli/haptic_ws/src/panda_ik
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/student/haptic_ws/build/panda_ik
+CMAKE_BINARY_DIR = /home/student/HapticDeviceGaggioli/haptic_ws/build/panda_ik
 
 # Utility rule file for roscpp_generate_messages_lisp.
 
@@ -67,6 +67,6 @@ CMakeFiles/roscpp_generate_messages_lisp.dir/clean:
 .PHONY : CMakeFiles/roscpp_generate_messages_lisp.dir/clean
 
 CMakeFiles/roscpp_generate_messages_lisp.dir/depend:
-	cd /home/student/haptic_ws/build/panda_ik && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/student/haptic_ws/src/panda_ik /home/student/haptic_ws/src/panda_ik /home/student/haptic_ws/build/panda_ik /home/student/haptic_ws/build/panda_ik /home/student/haptic_ws/build/panda_ik/CMakeFiles/roscpp_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/panda_ik && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/student/HapticDeviceGaggioli/haptic_ws/src/panda_ik /home/student/HapticDeviceGaggioli/haptic_ws/src/panda_ik /home/student/HapticDeviceGaggioli/haptic_ws/build/panda_ik /home/student/HapticDeviceGaggioli/haptic_ws/build/panda_ik /home/student/HapticDeviceGaggioli/haptic_ws/build/panda_ik/CMakeFiles/roscpp_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/roscpp_generate_messages_lisp.dir/depend
 

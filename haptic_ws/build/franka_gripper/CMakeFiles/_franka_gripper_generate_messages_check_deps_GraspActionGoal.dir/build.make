@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/student/haptic_ws/src/franka_ros/franka_gripper
+CMAKE_SOURCE_DIR = /home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros/franka_gripper
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/student/haptic_ws/build/franka_gripper
+CMAKE_BINARY_DIR = /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_gripper
 
 # Utility rule file for _franka_gripper_generate_messages_check_deps_GraspActionGoal.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/student/haptic_ws/build/franka_gripper
 include CMakeFiles/_franka_gripper_generate_messages_check_deps_GraspActionGoal.dir/progress.make
 
 CMakeFiles/_franka_gripper_generate_messages_check_deps_GraspActionGoal:
-	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py franka_gripper /home/student/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspActionGoal.msg franka_gripper/GraspEpsilon:franka_gripper/GraspGoal:std_msgs/Header:actionlib_msgs/GoalID
+	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py franka_gripper /home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/share/franka_gripper/msg/GraspActionGoal.msg std_msgs/Header:actionlib_msgs/GoalID:franka_gripper/GraspEpsilon:franka_gripper/GraspGoal
 
 _franka_gripper_generate_messages_check_deps_GraspActionGoal: CMakeFiles/_franka_gripper_generate_messages_check_deps_GraspActionGoal
 _franka_gripper_generate_messages_check_deps_GraspActionGoal: CMakeFiles/_franka_gripper_generate_messages_check_deps_GraspActionGoal.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/_franka_gripper_generate_messages_check_deps_GraspActionGoal.dir/clea
 .PHONY : CMakeFiles/_franka_gripper_generate_messages_check_deps_GraspActionGoal.dir/clean
 
 CMakeFiles/_franka_gripper_generate_messages_check_deps_GraspActionGoal.dir/depend:
-	cd /home/student/haptic_ws/build/franka_gripper && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/student/haptic_ws/src/franka_ros/franka_gripper /home/student/haptic_ws/src/franka_ros/franka_gripper /home/student/haptic_ws/build/franka_gripper /home/student/haptic_ws/build/franka_gripper /home/student/haptic_ws/build/franka_gripper/CMakeFiles/_franka_gripper_generate_messages_check_deps_GraspActionGoal.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_gripper && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros/franka_gripper /home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros/franka_gripper /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_gripper /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_gripper /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_gripper/CMakeFiles/_franka_gripper_generate_messages_check_deps_GraspActionGoal.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/_franka_gripper_generate_messages_check_deps_GraspActionGoal.dir/depend
 

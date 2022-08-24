@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl
+CMAKE_SOURCE_DIR = /home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/student/haptic_ws/build/orocos_kdl
+CMAKE_BINARY_DIR = /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/student/haptic_ws/build/orocos_kdl && $(CMAKE_COMMAND) -E cmake_progress_start /home/student/haptic_ws/build/orocos_kdl/CMakeFiles /home/student/haptic_ws/build/orocos_kdl/models/CMakeFiles/progress.marks
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f CMakeFiles/Makefile2 models/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/student/haptic_ws/build/orocos_kdl/CMakeFiles 0
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(CMAKE_COMMAND) -E cmake_progress_start /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl/CMakeFiles /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl/models/CMakeFiles/progress.marks
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f CMakeFiles/Makefile2 models/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f CMakeFiles/Makefile2 models/clean
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f CMakeFiles/Makefile2 models/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,17 +143,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f CMakeFiles/Makefile2 models/preinstall
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f CMakeFiles/Makefile2 models/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(MAKE) -f CMakeFiles/Makefile2 models/preinstall
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(MAKE) -f CMakeFiles/Makefile2 models/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Help Target
@@ -179,6 +179,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/student/haptic_ws/build/orocos_kdl && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

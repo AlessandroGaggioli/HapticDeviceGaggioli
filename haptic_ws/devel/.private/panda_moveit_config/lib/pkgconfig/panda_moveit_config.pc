@@ -1,4 +1,4 @@
-prefix=/home/student/haptic_ws/devel/.private/panda_moveit_config
+prefix=/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/panda_moveit_config
 
 Name: panda_moveit_config
 Description: Description of panda_moveit_config

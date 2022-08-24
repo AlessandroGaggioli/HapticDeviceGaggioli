@@ -1,0 +1,97 @@
+Warning: Cannot symlink from /home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_core_msgs/share/franka_core_msgs/cmake/franka_core_msgs-msg-extras.cmake to existing file /home/student/HapticDeviceGaggioli/haptic_ws/devel/share/franka_core_msgs/cmake/franka_core_msgs-msg-extras.cmake
+Warning: Source hash: 44bcfd26d5e8d358043c48dcca5eaab9
+Warning: Dest hash: c2112aee77c521733c2c48b19b7b95fb
+Warning: Cannot symlink from /home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_core_msgs/share/franka_core_msgs/cmake/franka_core_msgs-msg-paths.cmake to existing file /home/student/HapticDeviceGaggioli/haptic_ws/devel/share/franka_core_msgs/cmake/franka_core_msgs-msg-paths.cmake
+Warning: Source hash: 26b68452e5748da513221025e8460ec6
+Warning: Dest hash: f9542682cf8ed205ef4a2f0ce2f7af7e
+Warning: Cannot symlink from /home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_core_msgs/share/franka_core_msgs/cmake/franka_core_msgsConfig.cmake to existing file /home/student/HapticDeviceGaggioli/haptic_ws/devel/share/franka_core_msgs/cmake/franka_core_msgsConfig.cmake
+Warning: Source hash: 5f4aec86158a664c47cbad65a00aa9a7
+Warning: Dest hash: c08ccfa21598174b49b5397ecd167147
+Warning: Cannot symlink from /home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_core_msgs/lib/pkgconfig/franka_core_msgs.pc to existing file /home/student/HapticDeviceGaggioli/haptic_ws/devel/lib/pkgconfig/franka_core_msgs.pc
+Warning: Source hash: 8c49c3b808f684aba1cf6892bf8462d4
+Warning: Dest hash: bb765c084a17a14c131de2cd47d0ceb2
+Cleaning: (/home/student/haptic_ws/devel/.private/franka_core_msgs/cmake.lock, /home/student/haptic_ws/devel/./cmake.lock)
+Cleaning: (/home/student/haptic_ws/devel/.private/franka_core_msgs/share/franka_core_msgs/cmake/franka_core_msgs-msg-extras.cmake, /home/student/haptic_ws/devel/share/franka_core_msgs/cmake/franka_core_msgs-msg-extras.cmake)
+Cleaning: (/home/student/haptic_ws/devel/.private/franka_core_msgs/share/franka_core_msgs/cmake/franka_core_msgs-msg-paths.cmake, /home/student/haptic_ws/devel/share/franka_core_msgs/cmake/franka_core_msgs-msg-paths.cmake)
+Cleaning: (/home/student/haptic_ws/devel/.private/franka_core_msgs/share/franka_core_msgs/cmake/franka_core_msgsConfig.cmake, /home/student/haptic_ws/devel/share/franka_core_msgs/cmake/franka_core_msgsConfig.cmake)
+Cleaning: (/home/student/haptic_ws/devel/.private/franka_core_msgs/share/franka_core_msgs/cmake/franka_core_msgsConfig-version.cmake, /home/student/haptic_ws/devel/share/franka_core_msgs/cmake/franka_core_msgsConfig-version.cmake)
+Cleaning: (/home/student/haptic_ws/devel/.private/franka_core_msgs/share/common-lisp/ros/franka_core_msgs/msg/_package_RobotState.lisp, /home/student/haptic_ws/devel/share/common-lisp/ros/franka_core_msgs/msg/_package_RobotState.lisp)
+Cleaning: (/home/student/haptic_ws/devel/.private/franka_core_msgs/share/common-lisp/ros/franka_core_msgs/msg/_package_EndPointState.lisp, /home/student/haptic_ws/devel/share/common-lisp/ros/franka_core_msgs/msg/_package_EndPointState.lisp)
+Cleaning: (/home/student/haptic_ws/devel/.private/franka_core_msgs/share/common-lisp/ros/franka_core_msgs/msg/JointLimits.lisp, /home/student/haptic_ws/devel/share/common-lisp/ros/franka_core_msgs/msg/JointLimits.lisp)
+Cleaning: (/home/student/haptic_ws/devel/.private/franka_core_msgs/share/common-lisp/ros/franka_core_msgs/msg/JointControllerStates.lisp, /home/student/haptic_ws/devel/share/common-lisp/ros/franka_core_msgs/msg/JointControllerStates.lisp)
+Cleaning: (/home/student/haptic_ws/devel/.private/franka_core_msgs/share/common-lisp/ros/franka_core_msgs/msg/JointCommand.lisp, /home/student/haptic_ws/devel/share/common-lisp/ros/franka_core_msgs/msg/JointCommand.lisp)
+Cleaning: (/home/student/haptic_ws/devel/.private/franka_core_msgs/share/common-lisp/ros/franka_core_msgs/msg/_package_JointCommand.lisp, /home/student/haptic_ws/devel/share/common-lisp/ros/franka_core_msgs/msg/_package_JointCommand.lisp)
+Cleaning: (/home/student/haptic_ws/devel/.private/franka_core_msgs/share/common-lisp/ros/franka_core_msgs/msg/_package.lisp, /home/student/haptic_ws/devel/share/common-lisp/ros/franka_core_msgs/msg/_package.lisp)
+Cleaning: (/home/student/haptic_ws/devel/.private/franka_core_msgs/share/common-lisp/ros/franka_core_msgs/msg/RobotState.lisp, /home/student/haptic_ws/devel/share/common-lisp/ros/franka_core_msgs/msg/RobotState.lisp)
+Cleaning: (/home/student/haptic_ws/devel/.private/franka_core_msgs/share/common-lisp/ros/franka_core_msgs/msg/EndPointState.lisp, /home/student/haptic_ws/devel/share/common-lisp/ros/franka_core_msgs/msg/EndPointState.lisp)
+Cleaning: (/home/student/haptic_ws/devel/.private/franka_core_msgs/share/common-lisp/ros/franka_core_msgs/msg/_package_JointLimits.lisp, /home/student/haptic_ws/devel/share/common-lisp/ros/franka_core_msgs/msg/_package_JointLimits.lisp)
+Cleaning: (/home/student/haptic_ws/devel/.private/franka_core_msgs/share/common-lisp/ros/franka_core_msgs/msg/_package_JointControllerStates.lisp, /home/student/haptic_ws/devel/share/common-lisp/ros/franka_core_msgs/msg/_package_JointControllerStates.lisp)
+Cleaning: (/home/student/haptic_ws/devel/.private/franka_core_msgs/share/common-lisp/ros/franka_core_msgs/msg/franka_core_msgs-msg.asd, /home/student/haptic_ws/devel/share/common-lisp/ros/franka_core_msgs/msg/franka_core_msgs-msg.asd)
+Cleaning: (/home/student/haptic_ws/devel/.private/franka_core_msgs/share/roseus/ros/franka_core_msgs/manifest.l, /home/student/haptic_ws/devel/share/roseus/ros/franka_core_msgs/manifest.l)
+Cleaning: (/home/student/haptic_ws/devel/.private/franka_core_msgs/share/roseus/ros/franka_core_msgs/msg/JointLimits.l, /home/student/haptic_ws/devel/share/roseus/ros/franka_core_msgs/msg/JointLimits.l)
+Cleaning: (/home/student/haptic_ws/devel/.private/franka_core_msgs/share/roseus/ros/franka_core_msgs/msg/EndPointState.l, /home/student/haptic_ws/devel/share/roseus/ros/franka_core_msgs/msg/EndPointState.l)
+Cleaning: (/home/student/haptic_ws/devel/.private/franka_core_msgs/share/roseus/ros/franka_core_msgs/msg/JointControllerStates.l, /home/student/haptic_ws/devel/share/roseus/ros/franka_core_msgs/msg/JointControllerStates.l)
+Cleaning: (/home/student/haptic_ws/devel/.private/franka_core_msgs/share/roseus/ros/franka_core_msgs/msg/RobotState.l, /home/student/haptic_ws/devel/share/roseus/ros/franka_core_msgs/msg/RobotState.l)
+Cleaning: (/home/student/haptic_ws/devel/.private/franka_core_msgs/share/roseus/ros/franka_core_msgs/msg/JointCommand.l, /home/student/haptic_ws/devel/share/roseus/ros/franka_core_msgs/msg/JointCommand.l)
+Cleaning: (/home/student/haptic_ws/devel/.private/franka_core_msgs/share/gennodejs/ros/franka_core_msgs/_index.js, /home/student/haptic_ws/devel/share/gennodejs/ros/franka_core_msgs/_index.js)
+Cleaning: (/home/student/haptic_ws/devel/.private/franka_core_msgs/share/gennodejs/ros/franka_core_msgs/msg/EndPointState.js, /home/student/haptic_ws/devel/share/gennodejs/ros/franka_core_msgs/msg/EndPointState.js)
+Cleaning: (/home/student/haptic_ws/devel/.private/franka_core_msgs/share/gennodejs/ros/franka_core_msgs/msg/RobotState.js, /home/student/haptic_ws/devel/share/gennodejs/ros/franka_core_msgs/msg/RobotState.js)
+Cleaning: (/home/student/haptic_ws/devel/.private/franka_core_msgs/share/gennodejs/ros/franka_core_msgs/msg/JointCommand.js, /home/student/haptic_ws/devel/share/gennodejs/ros/franka_core_msgs/msg/JointCommand.js)
+Cleaning: (/home/student/haptic_ws/devel/.private/franka_core_msgs/share/gennodejs/ros/franka_core_msgs/msg/JointControllerStates.js, /home/student/haptic_ws/devel/share/gennodejs/ros/franka_core_msgs/msg/JointControllerStates.js)
+Cleaning: (/home/student/haptic_ws/devel/.private/franka_core_msgs/share/gennodejs/ros/franka_core_msgs/msg/_index.js, /home/student/haptic_ws/devel/share/gennodejs/ros/franka_core_msgs/msg/_index.js)
+Cleaning: (/home/student/haptic_ws/devel/.private/franka_core_msgs/share/gennodejs/ros/franka_core_msgs/msg/JointLimits.js, /home/student/haptic_ws/devel/share/gennodejs/ros/franka_core_msgs/msg/JointLimits.js)
+Cleaning: (/home/student/haptic_ws/devel/.private/franka_core_msgs/lib/python3/dist-packages/franka_core_msgs/__init__.py, /home/student/haptic_ws/devel/lib/python3/dist-packages/franka_core_msgs/__init__.py)
+Cleaning: (/home/student/haptic_ws/devel/.private/franka_core_msgs/lib/python3/dist-packages/franka_core_msgs/msg/_EndPointState.py, /home/student/haptic_ws/devel/lib/python3/dist-packages/franka_core_msgs/msg/_EndPointState.py)
+Cleaning: (/home/student/haptic_ws/devel/.private/franka_core_msgs/lib/python3/dist-packages/franka_core_msgs/msg/_JointControllerStates.py, /home/student/haptic_ws/devel/lib/python3/dist-packages/franka_core_msgs/msg/_JointControllerStates.py)
+Cleaning: (/home/student/haptic_ws/devel/.private/franka_core_msgs/lib/python3/dist-packages/franka_core_msgs/msg/_JointCommand.py, /home/student/haptic_ws/devel/lib/python3/dist-packages/franka_core_msgs/msg/_JointCommand.py)
+Cleaning: (/home/student/haptic_ws/devel/.private/franka_core_msgs/lib/python3/dist-packages/franka_core_msgs/msg/__init__.py, /home/student/haptic_ws/devel/lib/python3/dist-packages/franka_core_msgs/msg/__init__.py)
+Cleaning: (/home/student/haptic_ws/devel/.private/franka_core_msgs/lib/python3/dist-packages/franka_core_msgs/msg/_JointLimits.py, /home/student/haptic_ws/devel/lib/python3/dist-packages/franka_core_msgs/msg/_JointLimits.py)
+Cleaning: (/home/student/haptic_ws/devel/.private/franka_core_msgs/lib/python3/dist-packages/franka_core_msgs/msg/_RobotState.py, /home/student/haptic_ws/devel/lib/python3/dist-packages/franka_core_msgs/msg/_RobotState.py)
+Cleaning: (/home/student/haptic_ws/devel/.private/franka_core_msgs/lib/pkgconfig/franka_core_msgs.pc, /home/student/haptic_ws/devel/lib/pkgconfig/franka_core_msgs.pc)
+Cleaning: (/home/student/haptic_ws/devel/.private/franka_core_msgs/include/franka_core_msgs/JointLimits.h, /home/student/haptic_ws/devel/include/franka_core_msgs/JointLimits.h)
+Cleaning: (/home/student/haptic_ws/devel/.private/franka_core_msgs/include/franka_core_msgs/JointCommand.h, /home/student/haptic_ws/devel/include/franka_core_msgs/JointCommand.h)
+Cleaning: (/home/student/haptic_ws/devel/.private/franka_core_msgs/include/franka_core_msgs/EndPointState.h, /home/student/haptic_ws/devel/include/franka_core_msgs/EndPointState.h)
+Cleaning: (/home/student/haptic_ws/devel/.private/franka_core_msgs/include/franka_core_msgs/JointControllerStates.h, /home/student/haptic_ws/devel/include/franka_core_msgs/JointControllerStates.h)
+Cleaning: (/home/student/haptic_ws/devel/.private/franka_core_msgs/include/franka_core_msgs/RobotState.h, /home/student/haptic_ws/devel/include/franka_core_msgs/RobotState.h)
+Unlinking: /home/student/haptic_ws/devel/share/franka_core_msgs/cmake/franka_core_msgs-msg-extras.cmake
+Unlinking: /home/student/haptic_ws/devel/share/franka_core_msgs/cmake/franka_core_msgs-msg-paths.cmake
+Unlinking: /home/student/haptic_ws/devel/share/franka_core_msgs/cmake/franka_core_msgsConfig.cmake
+Unlinking: /home/student/haptic_ws/devel/share/franka_core_msgs/cmake/franka_core_msgsConfig-version.cmake
+Unlinking: /home/student/haptic_ws/devel/share/common-lisp/ros/franka_core_msgs/msg/_package_RobotState.lisp
+Unlinking: /home/student/haptic_ws/devel/share/common-lisp/ros/franka_core_msgs/msg/_package_EndPointState.lisp
+Unlinking: /home/student/haptic_ws/devel/share/common-lisp/ros/franka_core_msgs/msg/JointLimits.lisp
+Unlinking: /home/student/haptic_ws/devel/share/common-lisp/ros/franka_core_msgs/msg/JointControllerStates.lisp
+Unlinking: /home/student/haptic_ws/devel/share/common-lisp/ros/franka_core_msgs/msg/JointCommand.lisp
+Unlinking: /home/student/haptic_ws/devel/share/common-lisp/ros/franka_core_msgs/msg/_package_JointCommand.lisp
+Unlinking: /home/student/haptic_ws/devel/share/common-lisp/ros/franka_core_msgs/msg/_package.lisp
+Unlinking: /home/student/haptic_ws/devel/share/common-lisp/ros/franka_core_msgs/msg/RobotState.lisp
+Unlinking: /home/student/haptic_ws/devel/share/common-lisp/ros/franka_core_msgs/msg/EndPointState.lisp
+Unlinking: /home/student/haptic_ws/devel/share/common-lisp/ros/franka_core_msgs/msg/_package_JointLimits.lisp
+Unlinking: /home/student/haptic_ws/devel/share/common-lisp/ros/franka_core_msgs/msg/_package_JointControllerStates.lisp
+Unlinking: /home/student/haptic_ws/devel/share/common-lisp/ros/franka_core_msgs/msg/franka_core_msgs-msg.asd
+Unlinking: /home/student/haptic_ws/devel/share/roseus/ros/franka_core_msgs/manifest.l
+Unlinking: /home/student/haptic_ws/devel/share/roseus/ros/franka_core_msgs/msg/JointLimits.l
+Unlinking: /home/student/haptic_ws/devel/share/roseus/ros/franka_core_msgs/msg/EndPointState.l
+Unlinking: /home/student/haptic_ws/devel/share/roseus/ros/franka_core_msgs/msg/JointControllerStates.l
+Unlinking: /home/student/haptic_ws/devel/share/roseus/ros/franka_core_msgs/msg/RobotState.l
+Unlinking: /home/student/haptic_ws/devel/share/roseus/ros/franka_core_msgs/msg/JointCommand.l
+Unlinking: /home/student/haptic_ws/devel/share/gennodejs/ros/franka_core_msgs/_index.js
+Unlinking: /home/student/haptic_ws/devel/share/gennodejs/ros/franka_core_msgs/msg/EndPointState.js
+Unlinking: /home/student/haptic_ws/devel/share/gennodejs/ros/franka_core_msgs/msg/RobotState.js
+Unlinking: /home/student/haptic_ws/devel/share/gennodejs/ros/franka_core_msgs/msg/JointCommand.js
+Unlinking: /home/student/haptic_ws/devel/share/gennodejs/ros/franka_core_msgs/msg/JointControllerStates.js
+Unlinking: /home/student/haptic_ws/devel/share/gennodejs/ros/franka_core_msgs/msg/_index.js
+Unlinking: /home/student/haptic_ws/devel/share/gennodejs/ros/franka_core_msgs/msg/JointLimits.js
+Unlinking: /home/student/haptic_ws/devel/lib/python3/dist-packages/franka_core_msgs/__init__.py
+Unlinking: /home/student/haptic_ws/devel/lib/python3/dist-packages/franka_core_msgs/msg/_EndPointState.py
+Unlinking: /home/student/haptic_ws/devel/lib/python3/dist-packages/franka_core_msgs/msg/_JointControllerStates.py
+Unlinking: /home/student/haptic_ws/devel/lib/python3/dist-packages/franka_core_msgs/msg/_JointCommand.py
+Unlinking: /home/student/haptic_ws/devel/lib/python3/dist-packages/franka_core_msgs/msg/__init__.py
+Unlinking: /home/student/haptic_ws/devel/lib/python3/dist-packages/franka_core_msgs/msg/_JointLimits.py
+Unlinking: /home/student/haptic_ws/devel/lib/python3/dist-packages/franka_core_msgs/msg/_RobotState.py
+Unlinking: /home/student/haptic_ws/devel/lib/pkgconfig/franka_core_msgs.pc
+Unlinking: /home/student/haptic_ws/devel/include/franka_core_msgs/JointLimits.h
+Unlinking: /home/student/haptic_ws/devel/include/franka_core_msgs/JointCommand.h
+Unlinking: /home/student/haptic_ws/devel/include/franka_core_msgs/EndPointState.h
+Unlinking: /home/student/haptic_ws/devel/include/franka_core_msgs/JointControllerStates.h
+Unlinking: /home/student/haptic_ws/devel/include/franka_core_msgs/RobotState.h

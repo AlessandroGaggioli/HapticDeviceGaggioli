@@ -1,0 +1,69 @@
+Warning: Cannot symlink from /home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/panda_ik/share/panda_ik/cmake/panda_ik-msg-extras.cmake to existing file /home/student/HapticDeviceGaggioli/haptic_ws/devel/share/panda_ik/cmake/panda_ik-msg-extras.cmake
+Warning: Source hash: 3b02eb0b1d4e83d6a666a54af7e80801
+Warning: Dest hash: c82cd389946d94146876c94f25d3e549
+Warning: Cannot symlink from /home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/panda_ik/share/panda_ik/cmake/panda_ikConfig.cmake to existing file /home/student/HapticDeviceGaggioli/haptic_ws/devel/share/panda_ik/cmake/panda_ikConfig.cmake
+Warning: Source hash: 8f9903fd221c784d00d11abcebb58b87
+Warning: Dest hash: d706c1e0a091332db9eaffe32e578c35
+Warning: Cannot symlink from /home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/panda_ik/lib/python3/dist-packages/panda_ik/__init__.py to existing file /home/student/HapticDeviceGaggioli/haptic_ws/devel/lib/python3/dist-packages/panda_ik/__init__.py
+Warning: Source hash: 75d68d52d87f68e989176b8c7ab9dded
+Warning: Dest hash: b67ce290e63a004c8542e0c1877560db
+Warning: Cannot symlink from /home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/panda_ik/lib/pkgconfig/panda_ik.pc to existing file /home/student/HapticDeviceGaggioli/haptic_ws/devel/lib/pkgconfig/panda_ik.pc
+Warning: Source hash: e707279c8494604b58b82beb5b0e8320
+Warning: Dest hash: 9dd6c5ef57578413e93d457d02892565
+Cleaning: (/home/student/haptic_ws/devel/.private/panda_ik/cmake.lock, /home/student/haptic_ws/devel/./cmake.lock)
+Cleaning: (/home/student/haptic_ws/devel/.private/panda_ik/share/common-lisp/ros/panda_ik/srv/panda_ik-srv.asd, /home/student/haptic_ws/devel/share/common-lisp/ros/panda_ik/srv/panda_ik-srv.asd)
+Cleaning: (/home/student/haptic_ws/devel/.private/panda_ik/share/common-lisp/ros/panda_ik/srv/_package_pandaIk.lisp, /home/student/haptic_ws/devel/share/common-lisp/ros/panda_ik/srv/_package_pandaIk.lisp)
+Cleaning: (/home/student/haptic_ws/devel/.private/panda_ik/share/common-lisp/ros/panda_ik/srv/_package_pandaFk.lisp, /home/student/haptic_ws/devel/share/common-lisp/ros/panda_ik/srv/_package_pandaFk.lisp)
+Cleaning: (/home/student/haptic_ws/devel/.private/panda_ik/share/common-lisp/ros/panda_ik/srv/pandaIk.lisp, /home/student/haptic_ws/devel/share/common-lisp/ros/panda_ik/srv/pandaIk.lisp)
+Cleaning: (/home/student/haptic_ws/devel/.private/panda_ik/share/common-lisp/ros/panda_ik/srv/_package.lisp, /home/student/haptic_ws/devel/share/common-lisp/ros/panda_ik/srv/_package.lisp)
+Cleaning: (/home/student/haptic_ws/devel/.private/panda_ik/share/common-lisp/ros/panda_ik/srv/pandaFk.lisp, /home/student/haptic_ws/devel/share/common-lisp/ros/panda_ik/srv/pandaFk.lisp)
+Cleaning: (/home/student/haptic_ws/devel/.private/panda_ik/share/panda_ik/cmake/panda_ik-msg-extras.cmake, /home/student/haptic_ws/devel/share/panda_ik/cmake/panda_ik-msg-extras.cmake)
+Cleaning: (/home/student/haptic_ws/devel/.private/panda_ik/share/panda_ik/cmake/panda_ikConfig.cmake, /home/student/haptic_ws/devel/share/panda_ik/cmake/panda_ikConfig.cmake)
+Cleaning: (/home/student/haptic_ws/devel/.private/panda_ik/share/panda_ik/cmake/panda_ikConfig-version.cmake, /home/student/haptic_ws/devel/share/panda_ik/cmake/panda_ikConfig-version.cmake)
+Cleaning: (/home/student/haptic_ws/devel/.private/panda_ik/share/panda_ik/cmake/panda_ik-msg-paths.cmake, /home/student/haptic_ws/devel/share/panda_ik/cmake/panda_ik-msg-paths.cmake)
+Cleaning: (/home/student/haptic_ws/devel/.private/panda_ik/share/roseus/ros/panda_ik/manifest.l, /home/student/haptic_ws/devel/share/roseus/ros/panda_ik/manifest.l)
+Cleaning: (/home/student/haptic_ws/devel/.private/panda_ik/share/roseus/ros/panda_ik/srv/pandaFk.l, /home/student/haptic_ws/devel/share/roseus/ros/panda_ik/srv/pandaFk.l)
+Cleaning: (/home/student/haptic_ws/devel/.private/panda_ik/share/roseus/ros/panda_ik/srv/pandaIk.l, /home/student/haptic_ws/devel/share/roseus/ros/panda_ik/srv/pandaIk.l)
+Cleaning: (/home/student/haptic_ws/devel/.private/panda_ik/share/gennodejs/ros/panda_ik/_index.js, /home/student/haptic_ws/devel/share/gennodejs/ros/panda_ik/_index.js)
+Cleaning: (/home/student/haptic_ws/devel/.private/panda_ik/share/gennodejs/ros/panda_ik/srv/pandaFk.js, /home/student/haptic_ws/devel/share/gennodejs/ros/panda_ik/srv/pandaFk.js)
+Cleaning: (/home/student/haptic_ws/devel/.private/panda_ik/share/gennodejs/ros/panda_ik/srv/pandaIk.js, /home/student/haptic_ws/devel/share/gennodejs/ros/panda_ik/srv/pandaIk.js)
+Cleaning: (/home/student/haptic_ws/devel/.private/panda_ik/share/gennodejs/ros/panda_ik/srv/_index.js, /home/student/haptic_ws/devel/share/gennodejs/ros/panda_ik/srv/_index.js)
+Cleaning: (/home/student/haptic_ws/devel/.private/panda_ik/lib/python3/dist-packages/panda_ik/__init__.py, /home/student/haptic_ws/devel/lib/python3/dist-packages/panda_ik/__init__.py)
+Cleaning: (/home/student/haptic_ws/devel/.private/panda_ik/lib/python3/dist-packages/panda_ik/srv/__init__.py, /home/student/haptic_ws/devel/lib/python3/dist-packages/panda_ik/srv/__init__.py)
+Cleaning: (/home/student/haptic_ws/devel/.private/panda_ik/lib/python3/dist-packages/panda_ik/srv/_pandaFk.py, /home/student/haptic_ws/devel/lib/python3/dist-packages/panda_ik/srv/_pandaFk.py)
+Cleaning: (/home/student/haptic_ws/devel/.private/panda_ik/lib/python3/dist-packages/panda_ik/srv/_pandaIk.py, /home/student/haptic_ws/devel/lib/python3/dist-packages/panda_ik/srv/_pandaIk.py)
+Cleaning: (/home/student/haptic_ws/devel/.private/panda_ik/lib/pkgconfig/panda_ik.pc, /home/student/haptic_ws/devel/lib/pkgconfig/panda_ik.pc)
+Cleaning: (/home/student/haptic_ws/devel/.private/panda_ik/include/panda_ik/pandaIkRequest.h, /home/student/haptic_ws/devel/include/panda_ik/pandaIkRequest.h)
+Cleaning: (/home/student/haptic_ws/devel/.private/panda_ik/include/panda_ik/pandaFk.h, /home/student/haptic_ws/devel/include/panda_ik/pandaFk.h)
+Cleaning: (/home/student/haptic_ws/devel/.private/panda_ik/include/panda_ik/pandaFkRequest.h, /home/student/haptic_ws/devel/include/panda_ik/pandaFkRequest.h)
+Cleaning: (/home/student/haptic_ws/devel/.private/panda_ik/include/panda_ik/pandaIk.h, /home/student/haptic_ws/devel/include/panda_ik/pandaIk.h)
+Cleaning: (/home/student/haptic_ws/devel/.private/panda_ik/include/panda_ik/pandaFkResponse.h, /home/student/haptic_ws/devel/include/panda_ik/pandaFkResponse.h)
+Cleaning: (/home/student/haptic_ws/devel/.private/panda_ik/include/panda_ik/pandaIkResponse.h, /home/student/haptic_ws/devel/include/panda_ik/pandaIkResponse.h)
+Unlinking: /home/student/haptic_ws/devel/share/common-lisp/ros/panda_ik/srv/panda_ik-srv.asd
+Unlinking: /home/student/haptic_ws/devel/share/common-lisp/ros/panda_ik/srv/_package_pandaIk.lisp
+Unlinking: /home/student/haptic_ws/devel/share/common-lisp/ros/panda_ik/srv/_package_pandaFk.lisp
+Unlinking: /home/student/haptic_ws/devel/share/common-lisp/ros/panda_ik/srv/pandaIk.lisp
+Unlinking: /home/student/haptic_ws/devel/share/common-lisp/ros/panda_ik/srv/_package.lisp
+Unlinking: /home/student/haptic_ws/devel/share/common-lisp/ros/panda_ik/srv/pandaFk.lisp
+Unlinking: /home/student/haptic_ws/devel/share/panda_ik/cmake/panda_ik-msg-extras.cmake
+Unlinking: /home/student/haptic_ws/devel/share/panda_ik/cmake/panda_ikConfig.cmake
+Unlinking: /home/student/haptic_ws/devel/share/panda_ik/cmake/panda_ikConfig-version.cmake
+Unlinking: /home/student/haptic_ws/devel/share/panda_ik/cmake/panda_ik-msg-paths.cmake
+Unlinking: /home/student/haptic_ws/devel/share/roseus/ros/panda_ik/manifest.l
+Unlinking: /home/student/haptic_ws/devel/share/roseus/ros/panda_ik/srv/pandaFk.l
+Unlinking: /home/student/haptic_ws/devel/share/roseus/ros/panda_ik/srv/pandaIk.l
+Unlinking: /home/student/haptic_ws/devel/share/gennodejs/ros/panda_ik/_index.js
+Unlinking: /home/student/haptic_ws/devel/share/gennodejs/ros/panda_ik/srv/pandaFk.js
+Unlinking: /home/student/haptic_ws/devel/share/gennodejs/ros/panda_ik/srv/pandaIk.js
+Unlinking: /home/student/haptic_ws/devel/share/gennodejs/ros/panda_ik/srv/_index.js
+Unlinking: /home/student/haptic_ws/devel/lib/python3/dist-packages/panda_ik/__init__.py
+Unlinking: /home/student/haptic_ws/devel/lib/python3/dist-packages/panda_ik/srv/__init__.py
+Unlinking: /home/student/haptic_ws/devel/lib/python3/dist-packages/panda_ik/srv/_pandaFk.py
+Unlinking: /home/student/haptic_ws/devel/lib/python3/dist-packages/panda_ik/srv/_pandaIk.py
+Unlinking: /home/student/haptic_ws/devel/lib/pkgconfig/panda_ik.pc
+Unlinking: /home/student/haptic_ws/devel/include/panda_ik/pandaIkRequest.h
+Unlinking: /home/student/haptic_ws/devel/include/panda_ik/pandaFk.h
+Unlinking: /home/student/haptic_ws/devel/include/panda_ik/pandaFkRequest.h
+Unlinking: /home/student/haptic_ws/devel/include/panda_ik/pandaIk.h
+Unlinking: /home/student/haptic_ws/devel/include/panda_ik/pandaFkResponse.h
+Unlinking: /home/student/haptic_ws/devel/include/panda_ik/pandaIkResponse.h

@@ -43,25 +43,25 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/student/haptic_ws/src/make_trajectory
+CMAKE_SOURCE_DIR = /home/student/HapticDeviceGaggioli/haptic_ws/src/make_trajectory
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/student/haptic_ws/build/make_trajectory
+CMAKE_BINARY_DIR = /home/student/HapticDeviceGaggioli/haptic_ws/build/make_trajectory
 
 # Utility rule file for make_trajectory_generate_messages_eus.
 
 # Include the progress variables for this target.
 include CMakeFiles/make_trajectory_generate_messages_eus.dir/progress.make
 
-CMakeFiles/make_trajectory_generate_messages_eus: /home/student/haptic_ws/devel/.private/make_trajectory/share/roseus/ros/make_trajectory/manifest.l
+CMakeFiles/make_trajectory_generate_messages_eus: /home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/make_trajectory/share/roseus/ros/make_trajectory/manifest.l
 
 
-/home/student/haptic_ws/devel/.private/make_trajectory/share/roseus/ros/make_trajectory/manifest.l: /opt/ros/noetic/lib/geneus/gen_eus.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/student/haptic_ws/build/make_trajectory/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating EusLisp manifest code for make_trajectory"
-	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py -m -o /home/student/haptic_ws/devel/.private/make_trajectory/share/roseus/ros/make_trajectory make_trajectory std_msgs franka_core_msgs panda_ik
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/make_trajectory/share/roseus/ros/make_trajectory/manifest.l: /opt/ros/noetic/lib/geneus/gen_eus.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/student/HapticDeviceGaggioli/haptic_ws/build/make_trajectory/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating EusLisp manifest code for make_trajectory"
+	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py -m -o /home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/make_trajectory/share/roseus/ros/make_trajectory make_trajectory std_msgs franka_core_msgs panda_ik
 
 make_trajectory_generate_messages_eus: CMakeFiles/make_trajectory_generate_messages_eus
-make_trajectory_generate_messages_eus: /home/student/haptic_ws/devel/.private/make_trajectory/share/roseus/ros/make_trajectory/manifest.l
+make_trajectory_generate_messages_eus: /home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/make_trajectory/share/roseus/ros/make_trajectory/manifest.l
 make_trajectory_generate_messages_eus: CMakeFiles/make_trajectory_generate_messages_eus.dir/build.make
 
 .PHONY : make_trajectory_generate_messages_eus
@@ -76,6 +76,6 @@ CMakeFiles/make_trajectory_generate_messages_eus.dir/clean:
 .PHONY : CMakeFiles/make_trajectory_generate_messages_eus.dir/clean
 
 CMakeFiles/make_trajectory_generate_messages_eus.dir/depend:
-	cd /home/student/haptic_ws/build/make_trajectory && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/student/haptic_ws/src/make_trajectory /home/student/haptic_ws/src/make_trajectory /home/student/haptic_ws/build/make_trajectory /home/student/haptic_ws/build/make_trajectory /home/student/haptic_ws/build/make_trajectory/CMakeFiles/make_trajectory_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/make_trajectory && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/student/HapticDeviceGaggioli/haptic_ws/src/make_trajectory /home/student/HapticDeviceGaggioli/haptic_ws/src/make_trajectory /home/student/HapticDeviceGaggioli/haptic_ws/build/make_trajectory /home/student/HapticDeviceGaggioli/haptic_ws/build/make_trajectory /home/student/HapticDeviceGaggioli/haptic_ws/build/make_trajectory/CMakeFiles/make_trajectory_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/make_trajectory_generate_messages_eus.dir/depend
 

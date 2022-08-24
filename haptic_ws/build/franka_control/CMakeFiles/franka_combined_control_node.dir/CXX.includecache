@@ -6,6 +6,20 @@
 
 #IncludeRegexTransform: 
 
+/home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros/franka_control/src/franka_combined_control_node.cpp
+controller_manager/controller_manager.h
+-
+franka_hw/franka_combined_hw.h
+-
+ros/ros.h
+-
+franka/control_tools.h
+-
+sched.h
+-
+string
+-
+
 /home/student/haptic_ws/devel/.private/franka_msgs/include/franka_msgs/ErrorRecoveryAction.h
 string
 -
@@ -420,20 +434,6 @@ ros/serialization.h
 ros/builtin_message_traits.h
 -
 ros/message_operations.h
--
-
-/home/student/haptic_ws/src/franka_ros/franka_control/src/franka_combined_control_node.cpp
-controller_manager/controller_manager.h
--
-franka_hw/franka_combined_hw.h
--
-ros/ros.h
--
-franka/control_tools.h
--
-sched.h
--
-string
 -
 
 /home/student/haptic_ws/src/franka_ros/franka_hw/include/franka_hw/control_mode.h

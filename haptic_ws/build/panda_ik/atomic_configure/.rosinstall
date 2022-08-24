@@ -1,2 +1,2 @@
 - setup-file:
-    local-name: /home/student/haptic_ws/devel/.private/panda_ik/setup.sh
+    local-name: /home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/panda_ik/setup.sh

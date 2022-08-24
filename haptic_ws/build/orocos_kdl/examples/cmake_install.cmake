@@ -1,8 +1,8 @@
-# Install script for directory: /home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/examples
+# Install script for directory: /home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/examples
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/student/haptic_ws/devel")
+  set(CMAKE_INSTALL_PREFIX "/home/student/HapticDeviceGaggioli/haptic_ws/devel")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

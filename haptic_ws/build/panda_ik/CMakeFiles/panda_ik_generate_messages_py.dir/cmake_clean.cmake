@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "/home/student/haptic_ws/devel/.private/panda_ik/lib/python3/dist-packages/panda_ik/srv/__init__.py"
-  "/home/student/haptic_ws/devel/.private/panda_ik/lib/python3/dist-packages/panda_ik/srv/_pandaFk.py"
-  "/home/student/haptic_ws/devel/.private/panda_ik/lib/python3/dist-packages/panda_ik/srv/_pandaIk.py"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/panda_ik/lib/python3/dist-packages/panda_ik/srv/__init__.py"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/panda_ik/lib/python3/dist-packages/panda_ik/srv/_pandaFk.py"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/panda_ik/lib/python3/dist-packages/panda_ik/srv/_pandaIk.py"
   "CMakeFiles/panda_ik_generate_messages_py"
 )
 

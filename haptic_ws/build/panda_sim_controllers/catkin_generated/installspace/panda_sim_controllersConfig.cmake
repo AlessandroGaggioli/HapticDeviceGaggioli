@@ -67,14 +67,14 @@ set(panda_sim_controllers_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(panda_sim_controllers_SOURCE_PREFIX /home/student/haptic_ws/src/panda_simulator/panda_sim_controllers)
-  set(panda_sim_controllers_DEVEL_PREFIX /home/student/haptic_ws/devel/.private/panda_sim_controllers)
+  set(panda_sim_controllers_SOURCE_PREFIX /home/student/HapticDeviceGaggioli/haptic_ws/src/panda_simulator/panda_sim_controllers)
+  set(panda_sim_controllers_DEVEL_PREFIX /home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/panda_sim_controllers)
   set(panda_sim_controllers_INSTALL_PREFIX "")
   set(panda_sim_controllers_PREFIX ${panda_sim_controllers_DEVEL_PREFIX})
 else()
   set(panda_sim_controllers_SOURCE_PREFIX "")
   set(panda_sim_controllers_DEVEL_PREFIX "")
-  set(panda_sim_controllers_INSTALL_PREFIX /home/student/haptic_ws/install)
+  set(panda_sim_controllers_INSTALL_PREFIX /home/student/HapticDeviceGaggioli/haptic_ws/install)
   set(panda_sim_controllers_PREFIX ${panda_sim_controllers_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/student/haptic_ws/install/lib;/home/student/haptic_ws/devel/lib;/home/student/turtle_ws/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/student/HapticDeviceGaggioli/haptic_ws/install/lib;/home/student/HapticDeviceGaggioli/haptic_ws/devel/lib;/home/student/haptic_ws/devel/lib;/home/student/turtle_ws/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

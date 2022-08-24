@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/student/haptic_ws/devel/.private/franka_visualization/lib/franka_visualization/robot_joint_state_publisher"
-  "/home/student/haptic_ws/devel/.private/franka_visualization/lib/franka_visualization/robot_joint_state_publisher.pdb"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_visualization/lib/franka_visualization/robot_joint_state_publisher"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_visualization/lib/franka_visualization/robot_joint_state_publisher.pdb"
   "CMakeFiles/robot_joint_state_publisher.dir/src/robot_joint_state_publisher.cpp.o"
 )
 

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/student/haptic_ws/src/franka_ros/franka_example_controllers
+CMAKE_SOURCE_DIR = /home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros/franka_example_controllers
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/student/haptic_ws/build/franka_example_controllers
+CMAKE_BINARY_DIR = /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_example_controllers
 
 # Utility rule file for dynamic_reconfigure_gencfg.
 
@@ -67,6 +67,6 @@ CMakeFiles/dynamic_reconfigure_gencfg.dir/clean:
 .PHONY : CMakeFiles/dynamic_reconfigure_gencfg.dir/clean
 
 CMakeFiles/dynamic_reconfigure_gencfg.dir/depend:
-	cd /home/student/haptic_ws/build/franka_example_controllers && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/student/haptic_ws/src/franka_ros/franka_example_controllers /home/student/haptic_ws/src/franka_ros/franka_example_controllers /home/student/haptic_ws/build/franka_example_controllers /home/student/haptic_ws/build/franka_example_controllers /home/student/haptic_ws/build/franka_example_controllers/CMakeFiles/dynamic_reconfigure_gencfg.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_example_controllers && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros/franka_example_controllers /home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros/franka_example_controllers /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_example_controllers /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_example_controllers /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_example_controllers/CMakeFiles/dynamic_reconfigure_gencfg.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/dynamic_reconfigure_gencfg.dir/depend
 

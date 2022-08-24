@@ -25,8 +25,8 @@ ABBREVIATE_BRIEF       = "The $name class" \
 ALWAYS_DETAILED_SEC    = NO
 INLINE_INHERITED_MEMB  = YES
 FULL_PATH_NAMES        = YES
-STRIP_FROM_PATH        = /home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl
-STRIP_FROM_INC_PATH    = /home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl
+STRIP_FROM_PATH        = /home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl
+STRIP_FROM_INC_PATH    = /home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl
 SHORT_NAMES            = NO
 JAVADOC_AUTOBRIEF      = YES
 MULTILINE_CPP_IS_BRIEF = NO
@@ -82,9 +82,9 @@ WARN_LOGFILE           =
 #---------------------------------------------------------------------------
 # configuration options related to the input files
 #---------------------------------------------------------------------------
-INPUT                  = /home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src \
-			  /home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/bindings/rtt \
-			  /home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/svd_eigen_Macie.hpp
+INPUT                  = /home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src \
+			  /home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/bindings/rtt \
+			  /home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl/src/utilities/svd_eigen_Macie.hpp
 FILE_PATTERNS          = *.cpp \
                          *.cxx \
                          *.h \

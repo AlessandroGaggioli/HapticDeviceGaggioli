@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "${prefix}/include;/opt/ros/noetic/include/lib
 PROJECT_CATKIN_DEPENDS = "controller_interface;dynamic_reconfigure;franka_hw;geometry_msgs;franka_core_msgs;hardware_interface;message_runtime;pluginlib;realtime_tools;roscpp".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "-lfranka_ros_controllers;/opt/ros/noetic/lib/libfranka.so.0.9.0".split(';') if "-lfranka_ros_controllers;/opt/ros/noetic/lib/libfranka.so.0.9.0" != "" else []
 PROJECT_NAME = "franka_ros_controllers"
-PROJECT_SPACE_DIR = "/home/student/haptic_ws/install"
+PROJECT_SPACE_DIR = "/home/student/HapticDeviceGaggioli/haptic_ws/install"
 PROJECT_VERSION = "0.7.1"

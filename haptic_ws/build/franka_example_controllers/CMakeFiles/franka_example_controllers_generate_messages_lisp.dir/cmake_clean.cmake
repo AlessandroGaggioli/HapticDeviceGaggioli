@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/student/haptic_ws/devel/.private/franka_example_controllers/share/common-lisp/ros/franka_example_controllers/msg/JointTorqueComparison.lisp"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_example_controllers/share/common-lisp/ros/franka_example_controllers/msg/JointTorqueComparison.lisp"
   "CMakeFiles/franka_example_controllers_generate_messages_lisp"
 )
 

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/student/haptic_ws/devel/.private/franka_hw/lib/franka_hw/franka_hw_test"
-  "/home/student/haptic_ws/devel/.private/franka_hw/lib/franka_hw/franka_hw_test.pdb"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_hw/lib/franka_hw/franka_hw_test"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_hw/lib/franka_hw/franka_hw_test.pdb"
   "CMakeFiles/franka_hw_test.dir/franka_combinable_hw_controller_switching_test.cpp.o"
   "CMakeFiles/franka_hw_test.dir/franka_hw_controller_switching_test.cpp.o"
   "CMakeFiles/franka_hw_test.dir/franka_hw_interfaces_test.cpp.o"

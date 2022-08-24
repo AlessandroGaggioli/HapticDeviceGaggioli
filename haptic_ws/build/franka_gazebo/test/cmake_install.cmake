@@ -1,8 +1,8 @@
-# Install script for directory: /home/student/haptic_ws/src/franka_ros/franka_gazebo/test
+# Install script for directory: /home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros/franka_gazebo/test
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/student/haptic_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/student/HapticDeviceGaggioli/haptic_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/student/haptic_ws/devel/.private/franka_example_controllers/include/franka_example_controllers/JointTorqueComparison.h"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_example_controllers/include/franka_example_controllers/JointTorqueComparison.h"
   "CMakeFiles/franka_example_controllers_generate_messages_cpp"
 )
 

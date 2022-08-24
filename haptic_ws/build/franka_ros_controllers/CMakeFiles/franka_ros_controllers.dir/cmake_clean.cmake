@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/student/haptic_ws/devel/.private/franka_ros_controllers/lib/libfranka_ros_controllers.pdb"
-  "/home/student/haptic_ws/devel/.private/franka_ros_controllers/lib/libfranka_ros_controllers.so"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_ros_controllers/lib/libfranka_ros_controllers.pdb"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_ros_controllers/lib/libfranka_ros_controllers.so"
   "CMakeFiles/franka_ros_controllers.dir/src/effort_joint_impedance_controller.cpp.o"
   "CMakeFiles/franka_ros_controllers.dir/src/effort_joint_position_controller.cpp.o"
   "CMakeFiles/franka_ros_controllers.dir/src/effort_joint_torque_controller.cpp.o"

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/student/haptic_ws/src/panda_simulator/panda_gazebo
+CMAKE_SOURCE_DIR = /home/student/HapticDeviceGaggioli/haptic_ws/src/panda_simulator/panda_gazebo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/student/haptic_ws/build/panda_gazebo
+CMAKE_BINARY_DIR = /home/student/HapticDeviceGaggioli/haptic_ws/build/panda_gazebo
 
 # Utility rule file for trajectory_msgs_generate_messages_lisp.
 
@@ -67,6 +67,6 @@ CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/clean:
 .PHONY : CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/clean
 
 CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/depend:
-	cd /home/student/haptic_ws/build/panda_gazebo && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/student/haptic_ws/src/panda_simulator/panda_gazebo /home/student/haptic_ws/src/panda_simulator/panda_gazebo /home/student/haptic_ws/build/panda_gazebo /home/student/haptic_ws/build/panda_gazebo /home/student/haptic_ws/build/panda_gazebo/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/panda_gazebo && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/student/HapticDeviceGaggioli/haptic_ws/src/panda_simulator/panda_gazebo /home/student/HapticDeviceGaggioli/haptic_ws/src/panda_simulator/panda_gazebo /home/student/HapticDeviceGaggioli/haptic_ws/build/panda_gazebo /home/student/HapticDeviceGaggioli/haptic_ws/build/panda_gazebo /home/student/HapticDeviceGaggioli/haptic_ws/build/panda_gazebo/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/depend
 

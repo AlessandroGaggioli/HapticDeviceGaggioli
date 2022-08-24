@@ -1,8 +1,8 @@
-# Install script for directory: /home/student/haptic_ws/src/franka_ros/franka_gazebo
+# Install script for directory: /home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros/franka_gazebo
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/student/haptic_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/student/HapticDeviceGaggioli/haptic_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -49,108 +49,108 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/student/haptic_ws/install/_setup_util.py")
+   "/home/student/HapticDeviceGaggioli/haptic_ws/install/_setup_util.py")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/student/haptic_ws/install" TYPE PROGRAM FILES "/home/student/haptic_ws/build/franka_gazebo/catkin_generated/installspace/_setup_util.py")
+file(INSTALL DESTINATION "/home/student/HapticDeviceGaggioli/haptic_ws/install" TYPE PROGRAM FILES "/home/student/HapticDeviceGaggioli/haptic_ws/build/franka_gazebo/catkin_generated/installspace/_setup_util.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/student/haptic_ws/install/env.sh")
+   "/home/student/HapticDeviceGaggioli/haptic_ws/install/env.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/student/haptic_ws/install" TYPE PROGRAM FILES "/home/student/haptic_ws/build/franka_gazebo/catkin_generated/installspace/env.sh")
+file(INSTALL DESTINATION "/home/student/HapticDeviceGaggioli/haptic_ws/install" TYPE PROGRAM FILES "/home/student/HapticDeviceGaggioli/haptic_ws/build/franka_gazebo/catkin_generated/installspace/env.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/student/haptic_ws/install/setup.bash;/home/student/haptic_ws/install/local_setup.bash")
+   "/home/student/HapticDeviceGaggioli/haptic_ws/install/setup.bash;/home/student/HapticDeviceGaggioli/haptic_ws/install/local_setup.bash")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/student/haptic_ws/install" TYPE FILE FILES
-    "/home/student/haptic_ws/build/franka_gazebo/catkin_generated/installspace/setup.bash"
-    "/home/student/haptic_ws/build/franka_gazebo/catkin_generated/installspace/local_setup.bash"
+file(INSTALL DESTINATION "/home/student/HapticDeviceGaggioli/haptic_ws/install" TYPE FILE FILES
+    "/home/student/HapticDeviceGaggioli/haptic_ws/build/franka_gazebo/catkin_generated/installspace/setup.bash"
+    "/home/student/HapticDeviceGaggioli/haptic_ws/build/franka_gazebo/catkin_generated/installspace/local_setup.bash"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/student/haptic_ws/install/setup.sh;/home/student/haptic_ws/install/local_setup.sh")
+   "/home/student/HapticDeviceGaggioli/haptic_ws/install/setup.sh;/home/student/HapticDeviceGaggioli/haptic_ws/install/local_setup.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/student/haptic_ws/install" TYPE FILE FILES
-    "/home/student/haptic_ws/build/franka_gazebo/catkin_generated/installspace/setup.sh"
-    "/home/student/haptic_ws/build/franka_gazebo/catkin_generated/installspace/local_setup.sh"
+file(INSTALL DESTINATION "/home/student/HapticDeviceGaggioli/haptic_ws/install" TYPE FILE FILES
+    "/home/student/HapticDeviceGaggioli/haptic_ws/build/franka_gazebo/catkin_generated/installspace/setup.sh"
+    "/home/student/HapticDeviceGaggioli/haptic_ws/build/franka_gazebo/catkin_generated/installspace/local_setup.sh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/student/haptic_ws/install/setup.zsh;/home/student/haptic_ws/install/local_setup.zsh")
+   "/home/student/HapticDeviceGaggioli/haptic_ws/install/setup.zsh;/home/student/HapticDeviceGaggioli/haptic_ws/install/local_setup.zsh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/student/haptic_ws/install" TYPE FILE FILES
-    "/home/student/haptic_ws/build/franka_gazebo/catkin_generated/installspace/setup.zsh"
-    "/home/student/haptic_ws/build/franka_gazebo/catkin_generated/installspace/local_setup.zsh"
+file(INSTALL DESTINATION "/home/student/HapticDeviceGaggioli/haptic_ws/install" TYPE FILE FILES
+    "/home/student/HapticDeviceGaggioli/haptic_ws/build/franka_gazebo/catkin_generated/installspace/setup.zsh"
+    "/home/student/HapticDeviceGaggioli/haptic_ws/build/franka_gazebo/catkin_generated/installspace/local_setup.zsh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/student/haptic_ws/install/.rosinstall")
+   "/home/student/HapticDeviceGaggioli/haptic_ws/install/.rosinstall")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/student/haptic_ws/install" TYPE FILE FILES "/home/student/haptic_ws/build/franka_gazebo/catkin_generated/installspace/.rosinstall")
+file(INSTALL DESTINATION "/home/student/HapticDeviceGaggioli/haptic_ws/install" TYPE FILE FILES "/home/student/HapticDeviceGaggioli/haptic_ws/build/franka_gazebo/catkin_generated/installspace/.rosinstall")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/student/haptic_ws/build/franka_gazebo/catkin_generated/installspace/franka_gazebo.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/student/HapticDeviceGaggioli/haptic_ws/build/franka_gazebo/catkin_generated/installspace/franka_gazebo.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/franka_gazebo/cmake" TYPE FILE FILES
-    "/home/student/haptic_ws/build/franka_gazebo/catkin_generated/installspace/franka_gazeboConfig.cmake"
-    "/home/student/haptic_ws/build/franka_gazebo/catkin_generated/installspace/franka_gazeboConfig-version.cmake"
+    "/home/student/HapticDeviceGaggioli/haptic_ws/build/franka_gazebo/catkin_generated/installspace/franka_gazeboConfig.cmake"
+    "/home/student/HapticDeviceGaggioli/haptic_ws/build/franka_gazebo/catkin_generated/installspace/franka_gazeboConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/franka_gazebo" TYPE FILE FILES "/home/student/haptic_ws/src/franka_ros/franka_gazebo/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/franka_gazebo" TYPE FILE FILES "/home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros/franka_gazebo/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/franka_gazebo" TYPE DIRECTORY FILES "/home/student/haptic_ws/src/franka_ros/franka_gazebo/include/franka_gazebo/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/franka_gazebo" TYPE DIRECTORY FILES "/home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros/franka_gazebo/include/franka_gazebo/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/franka_gazebo" TYPE FILE FILES
-    "/home/student/haptic_ws/src/franka_ros/franka_gazebo/franka_hw_sim_plugin.xml"
-    "/home/student/haptic_ws/src/franka_ros/franka_gazebo/franka_gripper_sim_plugin.xml"
+    "/home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros/franka_gazebo/franka_hw_sim_plugin.xml"
+    "/home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros/franka_gazebo/franka_gripper_sim_plugin.xml"
     )
 endif()
 
@@ -161,12 +161,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libfranka_hw_sim.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/student/haptic_ws/devel/.private/franka_gazebo/lib/libfranka_hw_sim.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gazebo/lib/libfranka_hw_sim.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libfranka_hw_sim.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libfranka_hw_sim.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libfranka_hw_sim.so"
-         OLD_RPATH "/home/student/haptic_ws/devel/.private/franka_hw/lib:/home/student/haptic_ws/devel/.private/franka_gripper/lib:/home/student/haptic_ws/devel/.private/franka_example_controllers/lib:/opt/ros/noetic/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/home/student/haptic_ws/devel/lib:/opt/ros/noetic/lib/x86_64-linux-gnu:"
+         OLD_RPATH "/home/student/haptic_ws/devel/.private/franka_hw/lib:/home/student/haptic_ws/devel/.private/franka_gripper/lib:/home/student/haptic_ws/devel/.private/franka_example_controllers/lib:/opt/ros/noetic/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/home/student/HapticDeviceGaggioli/haptic_ws/devel/lib:/opt/ros/noetic/lib/x86_64-linux-gnu:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libfranka_hw_sim.so")
@@ -184,12 +184,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libfranka_gripper_sim.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/student/haptic_ws/devel/.private/franka_gazebo/lib/libfranka_gripper_sim.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gazebo/lib/libfranka_gripper_sim.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libfranka_gripper_sim.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libfranka_gripper_sim.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libfranka_gripper_sim.so"
-         OLD_RPATH "/home/student/haptic_ws/devel/.private/franka_hw/lib:/home/student/haptic_ws/devel/.private/franka_gripper/lib:/home/student/haptic_ws/devel/.private/franka_example_controllers/lib:/opt/ros/noetic/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/home/student/haptic_ws/devel/lib:/opt/ros/noetic/lib/x86_64-linux-gnu:"
+         OLD_RPATH "/home/student/haptic_ws/devel/.private/franka_hw/lib:/home/student/haptic_ws/devel/.private/franka_gripper/lib:/home/student/haptic_ws/devel/.private/franka_example_controllers/lib:/opt/ros/noetic/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/home/student/HapticDeviceGaggioli/haptic_ws/devel/lib:/opt/ros/noetic/lib/x86_64-linux-gnu:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libfranka_gripper_sim.so")
@@ -201,21 +201,21 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/franka_gazebo" TYPE PROGRAM FILES "/home/student/haptic_ws/build/franka_gazebo/catkin_generated/installspace/delayed_controller_spawner.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/franka_gazebo" TYPE PROGRAM FILES "/home/student/HapticDeviceGaggioli/haptic_ws/build/franka_gazebo/catkin_generated/installspace/delayed_controller_spawner.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/franka_gazebo" TYPE DIRECTORY FILES "/home/student/haptic_ws/src/franka_ros/franka_gazebo/launch")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/franka_gazebo" TYPE DIRECTORY FILES "/home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros/franka_gazebo/launch")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/franka_gazebo" TYPE DIRECTORY FILES "/home/student/haptic_ws/src/franka_ros/franka_gazebo/config")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/franka_gazebo" TYPE DIRECTORY FILES "/home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros/franka_gazebo/config")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/student/haptic_ws/build/franka_gazebo/gtest/cmake_install.cmake")
-  include("/home/student/haptic_ws/build/franka_gazebo/test/cmake_install.cmake")
+  include("/home/student/HapticDeviceGaggioli/haptic_ws/build/franka_gazebo/gtest/cmake_install.cmake")
+  include("/home/student/HapticDeviceGaggioli/haptic_ws/build/franka_gazebo/test/cmake_install.cmake")
 
 endif()
 
@@ -227,5 +227,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/student/haptic_ws/build/franka_gazebo/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/student/HapticDeviceGaggioli/haptic_ws/build/franka_gazebo/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

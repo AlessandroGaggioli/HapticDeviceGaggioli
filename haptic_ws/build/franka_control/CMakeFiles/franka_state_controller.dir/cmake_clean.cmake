@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/student/haptic_ws/devel/.private/franka_control/lib/libfranka_state_controller.pdb"
-  "/home/student/haptic_ws/devel/.private/franka_control/lib/libfranka_state_controller.so"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_control/lib/libfranka_state_controller.pdb"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_control/lib/libfranka_state_controller.so"
   "CMakeFiles/franka_state_controller.dir/src/franka_state_controller.cpp.o"
 )
 

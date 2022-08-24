@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/student/haptic_ws/src/panda_simulator/panda_sim_custom_action_server
+CMAKE_SOURCE_DIR = /home/student/HapticDeviceGaggioli/haptic_ws/src/panda_simulator/panda_sim_custom_action_server
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/student/haptic_ws/build/panda_sim_custom_action_server
+CMAKE_BINARY_DIR = /home/student/HapticDeviceGaggioli/haptic_ws/build/panda_sim_custom_action_server
 
 # Utility rule file for sensor_msgs_generate_messages_cpp.
 
@@ -67,6 +67,6 @@ CMakeFiles/sensor_msgs_generate_messages_cpp.dir/clean:
 .PHONY : CMakeFiles/sensor_msgs_generate_messages_cpp.dir/clean
 
 CMakeFiles/sensor_msgs_generate_messages_cpp.dir/depend:
-	cd /home/student/haptic_ws/build/panda_sim_custom_action_server && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/student/haptic_ws/src/panda_simulator/panda_sim_custom_action_server /home/student/haptic_ws/src/panda_simulator/panda_sim_custom_action_server /home/student/haptic_ws/build/panda_sim_custom_action_server /home/student/haptic_ws/build/panda_sim_custom_action_server /home/student/haptic_ws/build/panda_sim_custom_action_server/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/panda_sim_custom_action_server && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/student/HapticDeviceGaggioli/haptic_ws/src/panda_simulator/panda_sim_custom_action_server /home/student/HapticDeviceGaggioli/haptic_ws/src/panda_simulator/panda_sim_custom_action_server /home/student/HapticDeviceGaggioli/haptic_ws/build/panda_sim_custom_action_server /home/student/HapticDeviceGaggioli/haptic_ws/build/panda_sim_custom_action_server /home/student/HapticDeviceGaggioli/haptic_ws/build/panda_sim_custom_action_server/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/sensor_msgs_generate_messages_cpp.dir/depend
 

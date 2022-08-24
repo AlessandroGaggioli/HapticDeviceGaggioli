@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/student/haptic_ws/devel/.private/panda_gazebo/lib/libpanda_gazebo_ros_control.pdb"
-  "/home/student/haptic_ws/devel/.private/panda_gazebo/lib/libpanda_gazebo_ros_control.so"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/panda_gazebo/lib/libpanda_gazebo_ros_control.pdb"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/panda_gazebo/lib/libpanda_gazebo_ros_control.so"
   "CMakeFiles/panda_gazebo_ros_control.dir/src/arm_controller_interface.cpp.o"
   "CMakeFiles/panda_gazebo_ros_control.dir/src/arm_kinematics_interface.cpp.o"
   "CMakeFiles/panda_gazebo_ros_control.dir/src/kdl_methods.cpp.o"

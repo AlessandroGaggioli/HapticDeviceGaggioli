@@ -1,7 +1,7 @@
 # generated from genmsg/cmake/pkg-genmsg.context.in
 
 messages_str = ""
-services_str = "/home/student/haptic_ws/src/panda_ik/srv/pandaIk.srv;/home/student/haptic_ws/src/panda_ik/srv/pandaFk.srv"
+services_str = "/home/student/HapticDeviceGaggioli/haptic_ws/src/panda_ik/srv/pandaIk.srv;/home/student/HapticDeviceGaggioli/haptic_ws/src/panda_ik/srv/pandaFk.srv"
 pkg_name = "panda_ik"
 dependencies_str = "std_msgs;geometry_msgs;sensor_msgs"
 langs = "gencpp;geneus;genlisp;gennodejs;genpy"

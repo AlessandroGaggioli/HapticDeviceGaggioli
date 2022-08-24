@@ -67,14 +67,14 @@ set(franka_description_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(franka_description_SOURCE_PREFIX /home/student/haptic_ws/src/franka_ros/franka_description)
-  set(franka_description_DEVEL_PREFIX /home/student/haptic_ws/devel/.private/franka_description)
+  set(franka_description_SOURCE_PREFIX /home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros/franka_description)
+  set(franka_description_DEVEL_PREFIX /home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_description)
   set(franka_description_INSTALL_PREFIX "")
   set(franka_description_PREFIX ${franka_description_DEVEL_PREFIX})
 else()
   set(franka_description_SOURCE_PREFIX "")
   set(franka_description_DEVEL_PREFIX "")
-  set(franka_description_INSTALL_PREFIX /home/student/haptic_ws/install)
+  set(franka_description_INSTALL_PREFIX /home/student/HapticDeviceGaggioli/haptic_ws/install)
   set(franka_description_PREFIX ${franka_description_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/student/haptic_ws/install/lib;/home/student/haptic_ws/devel/lib;/home/student/turtle_ws/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/student/HapticDeviceGaggioli/haptic_ws/install/lib;/home/student/HapticDeviceGaggioli/haptic_ws/devel/lib;/home/student/haptic_ws/devel/lib;/home/student/turtle_ws/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

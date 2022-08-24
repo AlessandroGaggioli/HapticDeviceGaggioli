@@ -1,0 +1,6 @@
+Warning: Cannot symlink from /home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/panda_hardware_interface/share/panda_hardware_interface/cmake/panda_hardware_interfaceConfig.cmake to existing file /home/student/HapticDeviceGaggioli/haptic_ws/devel/share/panda_hardware_interface/cmake/panda_hardware_interfaceConfig.cmake
+Warning: Source hash: ea79f415e6ade8640cebf43285f3bf0a
+Warning: Dest hash: 13c5732053c10b476f93ce8c00896c38
+Warning: Cannot symlink from /home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/panda_hardware_interface/lib/pkgconfig/panda_hardware_interface.pc to existing file /home/student/HapticDeviceGaggioli/haptic_ws/devel/lib/pkgconfig/panda_hardware_interface.pc
+Warning: Source hash: 370f14ede5ebe743dc08f26e3dd7e932
+Warning: Dest hash: 6ded3cdc56a1908b0d74840d7e2886c2

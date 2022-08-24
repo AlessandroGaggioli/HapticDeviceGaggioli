@@ -13,21 +13,21 @@ fi
 
 echo_and_run() { echo "+ $@" ; "$@" ; }
 
-echo_and_run cd "/home/student/haptic_ws/src/franka_ros_interface/franka_tools"
+echo_and_run cd "/home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros_interface/franka_tools"
 
 # ensure that Python install destination exists
-echo_and_run mkdir -p "$DESTDIR/home/student/haptic_ws/install/lib/python3/dist-packages"
+echo_and_run mkdir -p "$DESTDIR/home/student/HapticDeviceGaggioli/haptic_ws/install/lib/python3/dist-packages"
 
 # Note that PYTHONPATH is pulled from the environment to support installing
 # into one location when some dependencies were installed in another
 # location, #123.
 echo_and_run /usr/bin/env \
-    PYTHONPATH="/home/student/haptic_ws/install/lib/python3/dist-packages:/home/student/haptic_ws/build/franka_tools/lib/python3/dist-packages:$PYTHONPATH" \
-    CATKIN_BINARY_DIR="/home/student/haptic_ws/build/franka_tools" \
+    PYTHONPATH="/home/student/HapticDeviceGaggioli/haptic_ws/install/lib/python3/dist-packages:/home/student/HapticDeviceGaggioli/haptic_ws/build/franka_tools/lib/python3/dist-packages:$PYTHONPATH" \
+    CATKIN_BINARY_DIR="/home/student/HapticDeviceGaggioli/haptic_ws/build/franka_tools" \
     "/usr/bin/python3" \
-    "/home/student/haptic_ws/src/franka_ros_interface/franka_tools/setup.py" \
+    "/home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros_interface/franka_tools/setup.py" \
      \
-    build --build-base "/home/student/haptic_ws/build/franka_tools" \
+    build --build-base "/home/student/HapticDeviceGaggioli/haptic_ws/build/franka_tools" \
     install \
     --root="${DESTDIR-/}" \
-    --install-layout=deb --prefix="/home/student/haptic_ws/install" --install-scripts="/home/student/haptic_ws/install/bin"
+    --install-layout=deb --prefix="/home/student/HapticDeviceGaggioli/haptic_ws/install" --install-scripts="/home/student/HapticDeviceGaggioli/haptic_ws/install/bin"

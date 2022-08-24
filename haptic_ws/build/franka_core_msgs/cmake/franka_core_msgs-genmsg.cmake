@@ -2,7 +2,7 @@
 
 message(STATUS "franka_core_msgs: 5 messages, 0 services")
 
-set(MSG_I_FLAGS "-Ifranka_core_msgs:/home/student/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs/msg;-Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg;-Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg;-Icontrol_msgs:/opt/ros/noetic/share/control_msgs/cmake/../msg;-Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg;-Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg;-Ifranka_msgs:/home/student/haptic_ws/src/franka_ros/franka_msgs/msg;-Ifranka_msgs:/home/student/haptic_ws/devel/.private/franka_msgs/share/franka_msgs/msg;-Itrajectory_msgs:/opt/ros/noetic/share/trajectory_msgs/cmake/../msg")
+set(MSG_I_FLAGS "-Ifranka_core_msgs:/home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs/msg;-Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg;-Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg;-Icontrol_msgs:/opt/ros/noetic/share/control_msgs/cmake/../msg;-Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg;-Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg;-Ifranka_msgs:/home/student/haptic_ws/src/franka_ros/franka_msgs/msg;-Ifranka_msgs:/home/student/haptic_ws/devel/.private/franka_msgs/share/franka_msgs/msg;-Itrajectory_msgs:/opt/ros/noetic/share/trajectory_msgs/cmake/../msg")
 
 # Find all generators
 find_package(gencpp REQUIRED)
@@ -17,29 +17,29 @@ add_custom_target(franka_core_msgs_generate_messages ALL)
 
 
 
-get_filename_component(_filename "/home/student/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs/msg/JointCommand.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs/msg/JointCommand.msg" NAME_WE)
 add_custom_target(_franka_core_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "franka_core_msgs" "/home/student/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs/msg/JointCommand.msg" "std_msgs/Header"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "franka_core_msgs" "/home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs/msg/JointCommand.msg" "std_msgs/Header"
 )
 
-get_filename_component(_filename "/home/student/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs/msg/RobotState.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs/msg/RobotState.msg" NAME_WE)
 add_custom_target(_franka_core_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "franka_core_msgs" "/home/student/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs/msg/RobotState.msg" "std_msgs/Header:franka_msgs/Errors"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "franka_core_msgs" "/home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs/msg/RobotState.msg" "franka_msgs/Errors:std_msgs/Header"
 )
 
-get_filename_component(_filename "/home/student/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs/msg/EndPointState.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs/msg/EndPointState.msg" NAME_WE)
 add_custom_target(_franka_core_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "franka_core_msgs" "/home/student/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs/msg/EndPointState.msg" "geometry_msgs/Vector3:std_msgs/Header:geometry_msgs/Wrench:geometry_msgs/WrenchStamped"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "franka_core_msgs" "/home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs/msg/EndPointState.msg" "geometry_msgs/Wrench:std_msgs/Header:geometry_msgs/Vector3:geometry_msgs/WrenchStamped"
 )
 
-get_filename_component(_filename "/home/student/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs/msg/JointLimits.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs/msg/JointLimits.msg" NAME_WE)
 add_custom_target(_franka_core_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "franka_core_msgs" "/home/student/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs/msg/JointLimits.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "franka_core_msgs" "/home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs/msg/JointLimits.msg" ""
 )
 
-get_filename_component(_filename "/home/student/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs/msg/JointControllerStates.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs/msg/JointControllerStates.msg" NAME_WE)
 add_custom_target(_franka_core_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "franka_core_msgs" "/home/student/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs/msg/JointControllerStates.msg" "control_msgs/JointControllerState:std_msgs/Header"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "franka_core_msgs" "/home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs/msg/JointControllerStates.msg" "control_msgs/JointControllerState:std_msgs/Header"
 )
 
 #
@@ -49,31 +49,31 @@ add_custom_target(_franka_core_msgs_generate_messages_check_deps_${_filename}
 ### Section generating for lang: gencpp
 ### Generating Messages
 _generate_msg_cpp(franka_core_msgs
-  "/home/student/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs/msg/JointCommand.msg"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs/msg/JointCommand.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/franka_core_msgs
 )
 _generate_msg_cpp(franka_core_msgs
-  "/home/student/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs/msg/RobotState.msg"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs/msg/RobotState.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/student/haptic_ws/src/franka_ros/franka_msgs/msg/Errors.msg"
+  "/home/student/haptic_ws/src/franka_ros/franka_msgs/msg/Errors.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/franka_core_msgs
 )
 _generate_msg_cpp(franka_core_msgs
-  "/home/student/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs/msg/EndPointState.msg"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs/msg/EndPointState.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Wrench.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/WrenchStamped.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Wrench.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/WrenchStamped.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/franka_core_msgs
 )
 _generate_msg_cpp(franka_core_msgs
-  "/home/student/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs/msg/JointLimits.msg"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs/msg/JointLimits.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/franka_core_msgs
 )
 _generate_msg_cpp(franka_core_msgs
-  "/home/student/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs/msg/JointControllerStates.msg"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs/msg/JointControllerStates.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/control_msgs/cmake/../msg/JointControllerState.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/franka_core_msgs
@@ -93,15 +93,15 @@ add_custom_target(franka_core_msgs_generate_messages_cpp
 add_dependencies(franka_core_msgs_generate_messages franka_core_msgs_generate_messages_cpp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/student/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs/msg/JointCommand.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs/msg/JointCommand.msg" NAME_WE)
 add_dependencies(franka_core_msgs_generate_messages_cpp _franka_core_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs/msg/RobotState.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs/msg/RobotState.msg" NAME_WE)
 add_dependencies(franka_core_msgs_generate_messages_cpp _franka_core_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs/msg/EndPointState.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs/msg/EndPointState.msg" NAME_WE)
 add_dependencies(franka_core_msgs_generate_messages_cpp _franka_core_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs/msg/JointLimits.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs/msg/JointLimits.msg" NAME_WE)
 add_dependencies(franka_core_msgs_generate_messages_cpp _franka_core_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs/msg/JointControllerStates.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs/msg/JointControllerStates.msg" NAME_WE)
 add_dependencies(franka_core_msgs_generate_messages_cpp _franka_core_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -114,31 +114,31 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS franka_core_msgs_generate_messages_
 ### Section generating for lang: geneus
 ### Generating Messages
 _generate_msg_eus(franka_core_msgs
-  "/home/student/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs/msg/JointCommand.msg"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs/msg/JointCommand.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/franka_core_msgs
 )
 _generate_msg_eus(franka_core_msgs
-  "/home/student/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs/msg/RobotState.msg"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs/msg/RobotState.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/student/haptic_ws/src/franka_ros/franka_msgs/msg/Errors.msg"
+  "/home/student/haptic_ws/src/franka_ros/franka_msgs/msg/Errors.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/franka_core_msgs
 )
 _generate_msg_eus(franka_core_msgs
-  "/home/student/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs/msg/EndPointState.msg"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs/msg/EndPointState.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Wrench.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/WrenchStamped.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Wrench.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/WrenchStamped.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/franka_core_msgs
 )
 _generate_msg_eus(franka_core_msgs
-  "/home/student/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs/msg/JointLimits.msg"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs/msg/JointLimits.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/franka_core_msgs
 )
 _generate_msg_eus(franka_core_msgs
-  "/home/student/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs/msg/JointControllerStates.msg"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs/msg/JointControllerStates.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/control_msgs/cmake/../msg/JointControllerState.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/franka_core_msgs
@@ -158,15 +158,15 @@ add_custom_target(franka_core_msgs_generate_messages_eus
 add_dependencies(franka_core_msgs_generate_messages franka_core_msgs_generate_messages_eus)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/student/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs/msg/JointCommand.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs/msg/JointCommand.msg" NAME_WE)
 add_dependencies(franka_core_msgs_generate_messages_eus _franka_core_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs/msg/RobotState.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs/msg/RobotState.msg" NAME_WE)
 add_dependencies(franka_core_msgs_generate_messages_eus _franka_core_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs/msg/EndPointState.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs/msg/EndPointState.msg" NAME_WE)
 add_dependencies(franka_core_msgs_generate_messages_eus _franka_core_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs/msg/JointLimits.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs/msg/JointLimits.msg" NAME_WE)
 add_dependencies(franka_core_msgs_generate_messages_eus _franka_core_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs/msg/JointControllerStates.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs/msg/JointControllerStates.msg" NAME_WE)
 add_dependencies(franka_core_msgs_generate_messages_eus _franka_core_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -179,31 +179,31 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS franka_core_msgs_generate_messages_
 ### Section generating for lang: genlisp
 ### Generating Messages
 _generate_msg_lisp(franka_core_msgs
-  "/home/student/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs/msg/JointCommand.msg"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs/msg/JointCommand.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/franka_core_msgs
 )
 _generate_msg_lisp(franka_core_msgs
-  "/home/student/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs/msg/RobotState.msg"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs/msg/RobotState.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/student/haptic_ws/src/franka_ros/franka_msgs/msg/Errors.msg"
+  "/home/student/haptic_ws/src/franka_ros/franka_msgs/msg/Errors.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/franka_core_msgs
 )
 _generate_msg_lisp(franka_core_msgs
-  "/home/student/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs/msg/EndPointState.msg"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs/msg/EndPointState.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Wrench.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/WrenchStamped.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Wrench.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/WrenchStamped.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/franka_core_msgs
 )
 _generate_msg_lisp(franka_core_msgs
-  "/home/student/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs/msg/JointLimits.msg"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs/msg/JointLimits.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/franka_core_msgs
 )
 _generate_msg_lisp(franka_core_msgs
-  "/home/student/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs/msg/JointControllerStates.msg"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs/msg/JointControllerStates.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/control_msgs/cmake/../msg/JointControllerState.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/franka_core_msgs
@@ -223,15 +223,15 @@ add_custom_target(franka_core_msgs_generate_messages_lisp
 add_dependencies(franka_core_msgs_generate_messages franka_core_msgs_generate_messages_lisp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/student/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs/msg/JointCommand.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs/msg/JointCommand.msg" NAME_WE)
 add_dependencies(franka_core_msgs_generate_messages_lisp _franka_core_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs/msg/RobotState.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs/msg/RobotState.msg" NAME_WE)
 add_dependencies(franka_core_msgs_generate_messages_lisp _franka_core_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs/msg/EndPointState.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs/msg/EndPointState.msg" NAME_WE)
 add_dependencies(franka_core_msgs_generate_messages_lisp _franka_core_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs/msg/JointLimits.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs/msg/JointLimits.msg" NAME_WE)
 add_dependencies(franka_core_msgs_generate_messages_lisp _franka_core_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs/msg/JointControllerStates.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs/msg/JointControllerStates.msg" NAME_WE)
 add_dependencies(franka_core_msgs_generate_messages_lisp _franka_core_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -244,31 +244,31 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS franka_core_msgs_generate_messages_
 ### Section generating for lang: gennodejs
 ### Generating Messages
 _generate_msg_nodejs(franka_core_msgs
-  "/home/student/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs/msg/JointCommand.msg"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs/msg/JointCommand.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/franka_core_msgs
 )
 _generate_msg_nodejs(franka_core_msgs
-  "/home/student/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs/msg/RobotState.msg"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs/msg/RobotState.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/student/haptic_ws/src/franka_ros/franka_msgs/msg/Errors.msg"
+  "/home/student/haptic_ws/src/franka_ros/franka_msgs/msg/Errors.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/franka_core_msgs
 )
 _generate_msg_nodejs(franka_core_msgs
-  "/home/student/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs/msg/EndPointState.msg"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs/msg/EndPointState.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Wrench.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/WrenchStamped.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Wrench.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/WrenchStamped.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/franka_core_msgs
 )
 _generate_msg_nodejs(franka_core_msgs
-  "/home/student/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs/msg/JointLimits.msg"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs/msg/JointLimits.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/franka_core_msgs
 )
 _generate_msg_nodejs(franka_core_msgs
-  "/home/student/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs/msg/JointControllerStates.msg"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs/msg/JointControllerStates.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/control_msgs/cmake/../msg/JointControllerState.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/franka_core_msgs
@@ -288,15 +288,15 @@ add_custom_target(franka_core_msgs_generate_messages_nodejs
 add_dependencies(franka_core_msgs_generate_messages franka_core_msgs_generate_messages_nodejs)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/student/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs/msg/JointCommand.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs/msg/JointCommand.msg" NAME_WE)
 add_dependencies(franka_core_msgs_generate_messages_nodejs _franka_core_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs/msg/RobotState.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs/msg/RobotState.msg" NAME_WE)
 add_dependencies(franka_core_msgs_generate_messages_nodejs _franka_core_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs/msg/EndPointState.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs/msg/EndPointState.msg" NAME_WE)
 add_dependencies(franka_core_msgs_generate_messages_nodejs _franka_core_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs/msg/JointLimits.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs/msg/JointLimits.msg" NAME_WE)
 add_dependencies(franka_core_msgs_generate_messages_nodejs _franka_core_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs/msg/JointControllerStates.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs/msg/JointControllerStates.msg" NAME_WE)
 add_dependencies(franka_core_msgs_generate_messages_nodejs _franka_core_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -309,31 +309,31 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS franka_core_msgs_generate_messages_
 ### Section generating for lang: genpy
 ### Generating Messages
 _generate_msg_py(franka_core_msgs
-  "/home/student/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs/msg/JointCommand.msg"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs/msg/JointCommand.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/franka_core_msgs
 )
 _generate_msg_py(franka_core_msgs
-  "/home/student/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs/msg/RobotState.msg"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs/msg/RobotState.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/student/haptic_ws/src/franka_ros/franka_msgs/msg/Errors.msg"
+  "/home/student/haptic_ws/src/franka_ros/franka_msgs/msg/Errors.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/franka_core_msgs
 )
 _generate_msg_py(franka_core_msgs
-  "/home/student/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs/msg/EndPointState.msg"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs/msg/EndPointState.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Wrench.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/WrenchStamped.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Wrench.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/WrenchStamped.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/franka_core_msgs
 )
 _generate_msg_py(franka_core_msgs
-  "/home/student/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs/msg/JointLimits.msg"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs/msg/JointLimits.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/franka_core_msgs
 )
 _generate_msg_py(franka_core_msgs
-  "/home/student/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs/msg/JointControllerStates.msg"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs/msg/JointControllerStates.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/control_msgs/cmake/../msg/JointControllerState.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/franka_core_msgs
@@ -353,15 +353,15 @@ add_custom_target(franka_core_msgs_generate_messages_py
 add_dependencies(franka_core_msgs_generate_messages franka_core_msgs_generate_messages_py)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/student/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs/msg/JointCommand.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs/msg/JointCommand.msg" NAME_WE)
 add_dependencies(franka_core_msgs_generate_messages_py _franka_core_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs/msg/RobotState.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs/msg/RobotState.msg" NAME_WE)
 add_dependencies(franka_core_msgs_generate_messages_py _franka_core_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs/msg/EndPointState.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs/msg/EndPointState.msg" NAME_WE)
 add_dependencies(franka_core_msgs_generate_messages_py _franka_core_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs/msg/JointLimits.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs/msg/JointLimits.msg" NAME_WE)
 add_dependencies(franka_core_msgs_generate_messages_py _franka_core_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/student/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs/msg/JointControllerStates.msg" NAME_WE)
+get_filename_component(_filename "/home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros_interface/franka_common/franka_core_msgs/msg/JointControllerStates.msg" NAME_WE)
 add_dependencies(franka_core_msgs_generate_messages_py _franka_core_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility

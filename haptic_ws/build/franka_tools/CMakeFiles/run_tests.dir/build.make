@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/student/haptic_ws/src/franka_ros_interface/franka_tools
+CMAKE_SOURCE_DIR = /home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros_interface/franka_tools
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/student/haptic_ws/build/franka_tools
+CMAKE_BINARY_DIR = /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_tools
 
 # Utility rule file for run_tests.
 
@@ -67,6 +67,6 @@ CMakeFiles/run_tests.dir/clean:
 .PHONY : CMakeFiles/run_tests.dir/clean
 
 CMakeFiles/run_tests.dir/depend:
-	cd /home/student/haptic_ws/build/franka_tools && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/student/haptic_ws/src/franka_ros_interface/franka_tools /home/student/haptic_ws/src/franka_ros_interface/franka_tools /home/student/haptic_ws/build/franka_tools /home/student/haptic_ws/build/franka_tools /home/student/haptic_ws/build/franka_tools/CMakeFiles/run_tests.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_tools && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros_interface/franka_tools /home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros_interface/franka_tools /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_tools /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_tools /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_tools/CMakeFiles/run_tests.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/run_tests.dir/depend
 

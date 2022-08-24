@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
-  "/home/student/haptic_ws/devel/.private/franka_core_msgs/share/roseus/ros/franka_core_msgs/manifest.l"
-  "/home/student/haptic_ws/devel/.private/franka_core_msgs/share/roseus/ros/franka_core_msgs/msg/EndPointState.l"
-  "/home/student/haptic_ws/devel/.private/franka_core_msgs/share/roseus/ros/franka_core_msgs/msg/JointCommand.l"
-  "/home/student/haptic_ws/devel/.private/franka_core_msgs/share/roseus/ros/franka_core_msgs/msg/JointControllerStates.l"
-  "/home/student/haptic_ws/devel/.private/franka_core_msgs/share/roseus/ros/franka_core_msgs/msg/JointLimits.l"
-  "/home/student/haptic_ws/devel/.private/franka_core_msgs/share/roseus/ros/franka_core_msgs/msg/RobotState.l"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_core_msgs/share/roseus/ros/franka_core_msgs/manifest.l"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_core_msgs/share/roseus/ros/franka_core_msgs/msg/EndPointState.l"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_core_msgs/share/roseus/ros/franka_core_msgs/msg/JointCommand.l"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_core_msgs/share/roseus/ros/franka_core_msgs/msg/JointControllerStates.l"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_core_msgs/share/roseus/ros/franka_core_msgs/msg/JointLimits.l"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_core_msgs/share/roseus/ros/franka_core_msgs/msg/RobotState.l"
   "CMakeFiles/franka_core_msgs_generate_messages_eus"
 )
 

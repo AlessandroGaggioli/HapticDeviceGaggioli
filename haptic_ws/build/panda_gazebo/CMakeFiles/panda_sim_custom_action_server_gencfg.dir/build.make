@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/student/haptic_ws/src/panda_simulator/panda_gazebo
+CMAKE_SOURCE_DIR = /home/student/HapticDeviceGaggioli/haptic_ws/src/panda_simulator/panda_gazebo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/student/haptic_ws/build/panda_gazebo
+CMAKE_BINARY_DIR = /home/student/HapticDeviceGaggioli/haptic_ws/build/panda_gazebo
 
 # Utility rule file for panda_sim_custom_action_server_gencfg.
 
@@ -67,6 +67,6 @@ CMakeFiles/panda_sim_custom_action_server_gencfg.dir/clean:
 .PHONY : CMakeFiles/panda_sim_custom_action_server_gencfg.dir/clean
 
 CMakeFiles/panda_sim_custom_action_server_gencfg.dir/depend:
-	cd /home/student/haptic_ws/build/panda_gazebo && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/student/haptic_ws/src/panda_simulator/panda_gazebo /home/student/haptic_ws/src/panda_simulator/panda_gazebo /home/student/haptic_ws/build/panda_gazebo /home/student/haptic_ws/build/panda_gazebo /home/student/haptic_ws/build/panda_gazebo/CMakeFiles/panda_sim_custom_action_server_gencfg.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/panda_gazebo && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/student/HapticDeviceGaggioli/haptic_ws/src/panda_simulator/panda_gazebo /home/student/HapticDeviceGaggioli/haptic_ws/src/panda_simulator/panda_gazebo /home/student/HapticDeviceGaggioli/haptic_ws/build/panda_gazebo /home/student/HapticDeviceGaggioli/haptic_ws/build/panda_gazebo /home/student/HapticDeviceGaggioli/haptic_ws/build/panda_gazebo/CMakeFiles/panda_sim_custom_action_server_gencfg.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/panda_sim_custom_action_server_gencfg.dir/depend
 

@@ -1,4 +1,4 @@
-prefix=/home/student/haptic_ws/install
+prefix=/home/student/HapticDeviceGaggioli/haptic_ws/install
 
 Name: franka_gripper
 Description: Description of franka_gripper

@@ -1,9 +1,9 @@
 panda_simulator/panda_gazebo
-/home/student/haptic_ws/devel/.private/panda_gazebo/cmake.lock /home/student/haptic_ws/devel/./cmake.lock
-/home/student/haptic_ws/devel/.private/panda_gazebo/share/panda_gazebo/cmake/panda_gazeboConfig-version.cmake /home/student/haptic_ws/devel/share/panda_gazebo/cmake/panda_gazeboConfig-version.cmake
-/home/student/haptic_ws/devel/.private/panda_gazebo/share/panda_gazebo/cmake/panda_gazeboConfig.cmake /home/student/haptic_ws/devel/share/panda_gazebo/cmake/panda_gazeboConfig.cmake
-/home/student/haptic_ws/devel/.private/panda_gazebo/lib/libpanda_robot_hw_sim.so /home/student/haptic_ws/devel/lib/libpanda_robot_hw_sim.so
-/home/student/haptic_ws/devel/.private/panda_gazebo/lib/libpanda_gazebo_ros_control.so /home/student/haptic_ws/devel/lib/libpanda_gazebo_ros_control.so
-/home/student/haptic_ws/devel/.private/panda_gazebo/lib/pkgconfig/panda_gazebo.pc /home/student/haptic_ws/devel/lib/pkgconfig/panda_gazebo.pc
-/home/student/haptic_ws/devel/.private/panda_gazebo/lib/panda_gazebo/force_neutral_pose.py /home/student/haptic_ws/devel/lib/panda_gazebo/force_neutral_pose.py
-/home/student/haptic_ws/devel/.private/panda_gazebo/lib/panda_gazebo/cmake.lock /home/student/haptic_ws/devel/lib/panda_gazebo/cmake.lock
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/panda_gazebo/cmake.lock /home/student/HapticDeviceGaggioli/haptic_ws/devel/./cmake.lock
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/panda_gazebo/share/panda_gazebo/cmake/panda_gazeboConfig-version.cmake /home/student/HapticDeviceGaggioli/haptic_ws/devel/share/panda_gazebo/cmake/panda_gazeboConfig-version.cmake
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/panda_gazebo/share/panda_gazebo/cmake/panda_gazeboConfig.cmake /home/student/HapticDeviceGaggioli/haptic_ws/devel/share/panda_gazebo/cmake/panda_gazeboConfig.cmake
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/panda_gazebo/lib/libpanda_robot_hw_sim.so /home/student/HapticDeviceGaggioli/haptic_ws/devel/lib/libpanda_robot_hw_sim.so
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/panda_gazebo/lib/libpanda_gazebo_ros_control.so /home/student/HapticDeviceGaggioli/haptic_ws/devel/lib/libpanda_gazebo_ros_control.so
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/panda_gazebo/lib/pkgconfig/panda_gazebo.pc /home/student/HapticDeviceGaggioli/haptic_ws/devel/lib/pkgconfig/panda_gazebo.pc
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/panda_gazebo/lib/panda_gazebo/force_neutral_pose.py /home/student/HapticDeviceGaggioli/haptic_ws/devel/lib/panda_gazebo/force_neutral_pose.py
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/panda_gazebo/lib/panda_gazebo/cmake.lock /home/student/HapticDeviceGaggioli/haptic_ws/devel/lib/panda_gazebo/cmake.lock

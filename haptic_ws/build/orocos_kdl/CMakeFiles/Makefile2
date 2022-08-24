@@ -44,10 +44,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/student/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl
+CMAKE_SOURCE_DIR = /home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/orocos_kdl
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/student/haptic_ws/build/orocos_kdl
+CMAKE_BINARY_DIR = /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -176,14 +176,14 @@ tests/clean:
 doc/CMakeFiles/docs.dir/all:
 	$(MAKE) -f doc/CMakeFiles/docs.dir/build.make doc/CMakeFiles/docs.dir/depend
 	$(MAKE) -f doc/CMakeFiles/docs.dir/build.make doc/CMakeFiles/docs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/student/haptic_ws/build/orocos_kdl/CMakeFiles --progress-num= "Built target docs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl/CMakeFiles --progress-num= "Built target docs"
 .PHONY : doc/CMakeFiles/docs.dir/all
 
 # Build rule for subdir invocation for target.
 doc/CMakeFiles/docs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/student/haptic_ws/build/orocos_kdl/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 doc/CMakeFiles/docs.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/student/haptic_ws/build/orocos_kdl/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl/CMakeFiles 0
 .PHONY : doc/CMakeFiles/docs.dir/rule
 
 # Convenience name for target.
@@ -203,14 +203,14 @@ doc/CMakeFiles/docs.dir/clean:
 src/CMakeFiles/orocos-kdl.dir/all:
 	$(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/depend
 	$(MAKE) -f src/CMakeFiles/orocos-kdl.dir/build.make src/CMakeFiles/orocos-kdl.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/student/haptic_ws/build/orocos_kdl/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65 "Built target orocos-kdl"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65 "Built target orocos-kdl"
 .PHONY : src/CMakeFiles/orocos-kdl.dir/all
 
 # Build rule for subdir invocation for target.
 src/CMakeFiles/orocos-kdl.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/student/haptic_ws/build/orocos_kdl/CMakeFiles 65
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl/CMakeFiles 65
 	$(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/orocos-kdl.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/student/haptic_ws/build/orocos_kdl/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/student/HapticDeviceGaggioli/haptic_ws/build/orocos_kdl/CMakeFiles 0
 .PHONY : src/CMakeFiles/orocos-kdl.dir/rule
 
 # Convenience name for target.

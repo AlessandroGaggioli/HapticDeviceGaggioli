@@ -4,14 +4,14 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/student/haptic_ws/src/panda_simulator/panda_sim_controllers/src/panda_effort_controller.cpp" "/home/student/haptic_ws/build/panda_sim_controllers/CMakeFiles/panda_sim_controllers.dir/src/panda_effort_controller.cpp.o"
-  "/home/student/haptic_ws/src/panda_simulator/panda_sim_controllers/src/panda_gravity_controller.cpp" "/home/student/haptic_ws/build/panda_sim_controllers/CMakeFiles/panda_sim_controllers.dir/src/panda_gravity_controller.cpp.o"
-  "/home/student/haptic_ws/src/panda_simulator/panda_sim_controllers/src/panda_gripper_controller.cpp" "/home/student/haptic_ws/build/panda_sim_controllers/CMakeFiles/panda_sim_controllers.dir/src/panda_gripper_controller.cpp.o"
-  "/home/student/haptic_ws/src/panda_simulator/panda_sim_controllers/src/panda_joint_effort_controller.cpp" "/home/student/haptic_ws/build/panda_sim_controllers/CMakeFiles/panda_sim_controllers.dir/src/panda_joint_effort_controller.cpp.o"
-  "/home/student/haptic_ws/src/panda_simulator/panda_sim_controllers/src/panda_joint_position_controller.cpp" "/home/student/haptic_ws/build/panda_sim_controllers/CMakeFiles/panda_sim_controllers.dir/src/panda_joint_position_controller.cpp.o"
-  "/home/student/haptic_ws/src/panda_simulator/panda_sim_controllers/src/panda_joint_velocity_controller.cpp" "/home/student/haptic_ws/build/panda_sim_controllers/CMakeFiles/panda_sim_controllers.dir/src/panda_joint_velocity_controller.cpp.o"
-  "/home/student/haptic_ws/src/panda_simulator/panda_sim_controllers/src/panda_position_controller.cpp" "/home/student/haptic_ws/build/panda_sim_controllers/CMakeFiles/panda_sim_controllers.dir/src/panda_position_controller.cpp.o"
-  "/home/student/haptic_ws/src/panda_simulator/panda_sim_controllers/src/panda_velocity_controller.cpp" "/home/student/haptic_ws/build/panda_sim_controllers/CMakeFiles/panda_sim_controllers.dir/src/panda_velocity_controller.cpp.o"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/src/panda_simulator/panda_sim_controllers/src/panda_effort_controller.cpp" "/home/student/HapticDeviceGaggioli/haptic_ws/build/panda_sim_controllers/CMakeFiles/panda_sim_controllers.dir/src/panda_effort_controller.cpp.o"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/src/panda_simulator/panda_sim_controllers/src/panda_gravity_controller.cpp" "/home/student/HapticDeviceGaggioli/haptic_ws/build/panda_sim_controllers/CMakeFiles/panda_sim_controllers.dir/src/panda_gravity_controller.cpp.o"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/src/panda_simulator/panda_sim_controllers/src/panda_gripper_controller.cpp" "/home/student/HapticDeviceGaggioli/haptic_ws/build/panda_sim_controllers/CMakeFiles/panda_sim_controllers.dir/src/panda_gripper_controller.cpp.o"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/src/panda_simulator/panda_sim_controllers/src/panda_joint_effort_controller.cpp" "/home/student/HapticDeviceGaggioli/haptic_ws/build/panda_sim_controllers/CMakeFiles/panda_sim_controllers.dir/src/panda_joint_effort_controller.cpp.o"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/src/panda_simulator/panda_sim_controllers/src/panda_joint_position_controller.cpp" "/home/student/HapticDeviceGaggioli/haptic_ws/build/panda_sim_controllers/CMakeFiles/panda_sim_controllers.dir/src/panda_joint_position_controller.cpp.o"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/src/panda_simulator/panda_sim_controllers/src/panda_joint_velocity_controller.cpp" "/home/student/HapticDeviceGaggioli/haptic_ws/build/panda_sim_controllers/CMakeFiles/panda_sim_controllers.dir/src/panda_joint_velocity_controller.cpp.o"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/src/panda_simulator/panda_sim_controllers/src/panda_position_controller.cpp" "/home/student/HapticDeviceGaggioli/haptic_ws/build/panda_sim_controllers/CMakeFiles/panda_sim_controllers.dir/src/panda_position_controller.cpp.o"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/src/panda_simulator/panda_sim_controllers/src/panda_velocity_controller.cpp" "/home/student/HapticDeviceGaggioli/haptic_ws/build/panda_sim_controllers/CMakeFiles/panda_sim_controllers.dir/src/panda_velocity_controller.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -25,7 +25,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/student/haptic_ws/src/panda_simulator/panda_sim_controllers/include"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/src/panda_simulator/panda_sim_controllers/include"
   "/home/student/haptic_ws/devel/.private/franka_core_msgs/include"
   "/home/student/haptic_ws/devel/.private/franka_msgs/include"
   "/home/student/haptic_ws/devel/.private/franka_gripper/include"

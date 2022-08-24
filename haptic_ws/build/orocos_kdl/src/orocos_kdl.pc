@@ -1,4 +1,4 @@
-prefix=/home/student/haptic_ws/devel
+prefix=/home/student/HapticDeviceGaggioli/haptic_ws/devel
 libdir=${prefix}/lib
 includedir=${prefix}/include
 

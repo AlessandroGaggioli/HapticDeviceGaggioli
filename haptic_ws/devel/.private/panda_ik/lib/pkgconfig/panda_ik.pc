@@ -1,8 +1,8 @@
-prefix=/home/student/haptic_ws/devel/.private/panda_ik
+prefix=/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/panda_ik
 
 Name: panda_ik
 Description: Description of panda_ik
 Version: 0.0.0
-Cflags: -I/home/student/haptic_ws/devel/.private/panda_ik/include
+Cflags: -I/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/panda_ik/include
 Libs: -L${prefix}/lib 
 Requires: message_runtime

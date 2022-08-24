@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/student/haptic_ws/src/orocos_kinematics_dynamics/python_orocos_kdl
+CMAKE_SOURCE_DIR = /home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/python_orocos_kdl
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/student/haptic_ws/build/python_orocos_kdl
+CMAKE_BINARY_DIR = /home/student/HapticDeviceGaggioli/haptic_ws/build/python_orocos_kdl
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,9 +137,9 @@ install/local/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/student/haptic_ws/build/python_orocos_kdl/CMakeFiles /home/student/haptic_ws/build/python_orocos_kdl/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/student/HapticDeviceGaggioli/haptic_ws/build/python_orocos_kdl/CMakeFiles /home/student/HapticDeviceGaggioli/haptic_ws/build/python_orocos_kdl/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/student/haptic_ws/build/python_orocos_kdl/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/student/HapticDeviceGaggioli/haptic_ws/build/python_orocos_kdl/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

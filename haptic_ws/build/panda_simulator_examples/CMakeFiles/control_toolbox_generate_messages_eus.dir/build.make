@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/student/haptic_ws/src/panda_simulator/panda_simulator_examples
+CMAKE_SOURCE_DIR = /home/student/HapticDeviceGaggioli/haptic_ws/src/panda_simulator/panda_simulator_examples
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/student/haptic_ws/build/panda_simulator_examples
+CMAKE_BINARY_DIR = /home/student/HapticDeviceGaggioli/haptic_ws/build/panda_simulator_examples
 
 # Utility rule file for control_toolbox_generate_messages_eus.
 
@@ -67,6 +67,6 @@ CMakeFiles/control_toolbox_generate_messages_eus.dir/clean:
 .PHONY : CMakeFiles/control_toolbox_generate_messages_eus.dir/clean
 
 CMakeFiles/control_toolbox_generate_messages_eus.dir/depend:
-	cd /home/student/haptic_ws/build/panda_simulator_examples && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/student/haptic_ws/src/panda_simulator/panda_simulator_examples /home/student/haptic_ws/src/panda_simulator/panda_simulator_examples /home/student/haptic_ws/build/panda_simulator_examples /home/student/haptic_ws/build/panda_simulator_examples /home/student/haptic_ws/build/panda_simulator_examples/CMakeFiles/control_toolbox_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/panda_simulator_examples && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/student/HapticDeviceGaggioli/haptic_ws/src/panda_simulator/panda_simulator_examples /home/student/HapticDeviceGaggioli/haptic_ws/src/panda_simulator/panda_simulator_examples /home/student/HapticDeviceGaggioli/haptic_ws/build/panda_simulator_examples /home/student/HapticDeviceGaggioli/haptic_ws/build/panda_simulator_examples /home/student/HapticDeviceGaggioli/haptic_ws/build/panda_simulator_examples/CMakeFiles/control_toolbox_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/control_toolbox_generate_messages_eus.dir/depend
 

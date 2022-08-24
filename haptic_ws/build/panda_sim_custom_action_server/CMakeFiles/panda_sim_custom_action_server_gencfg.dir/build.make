@@ -43,44 +43,44 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/student/haptic_ws/src/panda_simulator/panda_sim_custom_action_server
+CMAKE_SOURCE_DIR = /home/student/HapticDeviceGaggioli/haptic_ws/src/panda_simulator/panda_sim_custom_action_server
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/student/haptic_ws/build/panda_sim_custom_action_server
+CMAKE_BINARY_DIR = /home/student/HapticDeviceGaggioli/haptic_ws/build/panda_sim_custom_action_server
 
 # Utility rule file for panda_sim_custom_action_server_gencfg.
 
 # Include the progress variables for this target.
 include CMakeFiles/panda_sim_custom_action_server_gencfg.dir/progress.make
 
-CMakeFiles/panda_sim_custom_action_server_gencfg: /home/student/haptic_ws/devel/.private/panda_sim_custom_action_server/include/panda_sim_custom_action_server/PandaPositionFFJointTrajectoryActionServerConfig.h
-CMakeFiles/panda_sim_custom_action_server_gencfg: /home/student/haptic_ws/devel/.private/panda_sim_custom_action_server/lib/python3/dist-packages/panda_sim_custom_action_server/cfg/PandaPositionFFJointTrajectoryActionServerConfig.py
+CMakeFiles/panda_sim_custom_action_server_gencfg: /home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/panda_sim_custom_action_server/include/panda_sim_custom_action_server/PandaPositionFFJointTrajectoryActionServerConfig.h
+CMakeFiles/panda_sim_custom_action_server_gencfg: /home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/panda_sim_custom_action_server/lib/python3/dist-packages/panda_sim_custom_action_server/cfg/PandaPositionFFJointTrajectoryActionServerConfig.py
 
 
-/home/student/haptic_ws/devel/.private/panda_sim_custom_action_server/include/panda_sim_custom_action_server/PandaPositionFFJointTrajectoryActionServerConfig.h: /home/student/haptic_ws/src/panda_simulator/panda_sim_custom_action_server/cfg/PandaPositionFFJointTrajectoryActionServer.cfg
-/home/student/haptic_ws/devel/.private/panda_sim_custom_action_server/include/panda_sim_custom_action_server/PandaPositionFFJointTrajectoryActionServerConfig.h: /opt/ros/noetic/share/dynamic_reconfigure/templates/ConfigType.py.template
-/home/student/haptic_ws/devel/.private/panda_sim_custom_action_server/include/panda_sim_custom_action_server/PandaPositionFFJointTrajectoryActionServerConfig.h: /opt/ros/noetic/share/dynamic_reconfigure/templates/ConfigType.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/student/haptic_ws/build/panda_sim_custom_action_server/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating dynamic reconfigure files from cfg/PandaPositionFFJointTrajectoryActionServer.cfg: /home/student/haptic_ws/devel/.private/panda_sim_custom_action_server/include/panda_sim_custom_action_server/PandaPositionFFJointTrajectoryActionServerConfig.h /home/student/haptic_ws/devel/.private/panda_sim_custom_action_server/lib/python3/dist-packages/panda_sim_custom_action_server/cfg/PandaPositionFFJointTrajectoryActionServerConfig.py"
-	catkin_generated/env_cached.sh /home/student/haptic_ws/build/panda_sim_custom_action_server/setup_custom_pythonpath.sh /home/student/haptic_ws/src/panda_simulator/panda_sim_custom_action_server/cfg/PandaPositionFFJointTrajectoryActionServer.cfg /opt/ros/noetic/share/dynamic_reconfigure/cmake/.. /home/student/haptic_ws/devel/.private/panda_sim_custom_action_server/share/panda_sim_custom_action_server /home/student/haptic_ws/devel/.private/panda_sim_custom_action_server/include/panda_sim_custom_action_server /home/student/haptic_ws/devel/.private/panda_sim_custom_action_server/lib/python3/dist-packages/panda_sim_custom_action_server
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/panda_sim_custom_action_server/include/panda_sim_custom_action_server/PandaPositionFFJointTrajectoryActionServerConfig.h: /home/student/HapticDeviceGaggioli/haptic_ws/src/panda_simulator/panda_sim_custom_action_server/cfg/PandaPositionFFJointTrajectoryActionServer.cfg
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/panda_sim_custom_action_server/include/panda_sim_custom_action_server/PandaPositionFFJointTrajectoryActionServerConfig.h: /opt/ros/noetic/share/dynamic_reconfigure/templates/ConfigType.py.template
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/panda_sim_custom_action_server/include/panda_sim_custom_action_server/PandaPositionFFJointTrajectoryActionServerConfig.h: /opt/ros/noetic/share/dynamic_reconfigure/templates/ConfigType.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/student/HapticDeviceGaggioli/haptic_ws/build/panda_sim_custom_action_server/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating dynamic reconfigure files from cfg/PandaPositionFFJointTrajectoryActionServer.cfg: /home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/panda_sim_custom_action_server/include/panda_sim_custom_action_server/PandaPositionFFJointTrajectoryActionServerConfig.h /home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/panda_sim_custom_action_server/lib/python3/dist-packages/panda_sim_custom_action_server/cfg/PandaPositionFFJointTrajectoryActionServerConfig.py"
+	catkin_generated/env_cached.sh /home/student/HapticDeviceGaggioli/haptic_ws/build/panda_sim_custom_action_server/setup_custom_pythonpath.sh /home/student/HapticDeviceGaggioli/haptic_ws/src/panda_simulator/panda_sim_custom_action_server/cfg/PandaPositionFFJointTrajectoryActionServer.cfg /opt/ros/noetic/share/dynamic_reconfigure/cmake/.. /home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/panda_sim_custom_action_server/share/panda_sim_custom_action_server /home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/panda_sim_custom_action_server/include/panda_sim_custom_action_server /home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/panda_sim_custom_action_server/lib/python3/dist-packages/panda_sim_custom_action_server
 
-/home/student/haptic_ws/devel/.private/panda_sim_custom_action_server/share/panda_sim_custom_action_server/docs/PandaPositionFFJointTrajectoryActionServerConfig.dox: /home/student/haptic_ws/devel/.private/panda_sim_custom_action_server/include/panda_sim_custom_action_server/PandaPositionFFJointTrajectoryActionServerConfig.h
-	@$(CMAKE_COMMAND) -E touch_nocreate /home/student/haptic_ws/devel/.private/panda_sim_custom_action_server/share/panda_sim_custom_action_server/docs/PandaPositionFFJointTrajectoryActionServerConfig.dox
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/panda_sim_custom_action_server/share/panda_sim_custom_action_server/docs/PandaPositionFFJointTrajectoryActionServerConfig.dox: /home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/panda_sim_custom_action_server/include/panda_sim_custom_action_server/PandaPositionFFJointTrajectoryActionServerConfig.h
+	@$(CMAKE_COMMAND) -E touch_nocreate /home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/panda_sim_custom_action_server/share/panda_sim_custom_action_server/docs/PandaPositionFFJointTrajectoryActionServerConfig.dox
 
-/home/student/haptic_ws/devel/.private/panda_sim_custom_action_server/share/panda_sim_custom_action_server/docs/PandaPositionFFJointTrajectoryActionServerConfig-usage.dox: /home/student/haptic_ws/devel/.private/panda_sim_custom_action_server/include/panda_sim_custom_action_server/PandaPositionFFJointTrajectoryActionServerConfig.h
-	@$(CMAKE_COMMAND) -E touch_nocreate /home/student/haptic_ws/devel/.private/panda_sim_custom_action_server/share/panda_sim_custom_action_server/docs/PandaPositionFFJointTrajectoryActionServerConfig-usage.dox
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/panda_sim_custom_action_server/share/panda_sim_custom_action_server/docs/PandaPositionFFJointTrajectoryActionServerConfig-usage.dox: /home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/panda_sim_custom_action_server/include/panda_sim_custom_action_server/PandaPositionFFJointTrajectoryActionServerConfig.h
+	@$(CMAKE_COMMAND) -E touch_nocreate /home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/panda_sim_custom_action_server/share/panda_sim_custom_action_server/docs/PandaPositionFFJointTrajectoryActionServerConfig-usage.dox
 
-/home/student/haptic_ws/devel/.private/panda_sim_custom_action_server/lib/python3/dist-packages/panda_sim_custom_action_server/cfg/PandaPositionFFJointTrajectoryActionServerConfig.py: /home/student/haptic_ws/devel/.private/panda_sim_custom_action_server/include/panda_sim_custom_action_server/PandaPositionFFJointTrajectoryActionServerConfig.h
-	@$(CMAKE_COMMAND) -E touch_nocreate /home/student/haptic_ws/devel/.private/panda_sim_custom_action_server/lib/python3/dist-packages/panda_sim_custom_action_server/cfg/PandaPositionFFJointTrajectoryActionServerConfig.py
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/panda_sim_custom_action_server/lib/python3/dist-packages/panda_sim_custom_action_server/cfg/PandaPositionFFJointTrajectoryActionServerConfig.py: /home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/panda_sim_custom_action_server/include/panda_sim_custom_action_server/PandaPositionFFJointTrajectoryActionServerConfig.h
+	@$(CMAKE_COMMAND) -E touch_nocreate /home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/panda_sim_custom_action_server/lib/python3/dist-packages/panda_sim_custom_action_server/cfg/PandaPositionFFJointTrajectoryActionServerConfig.py
 
-/home/student/haptic_ws/devel/.private/panda_sim_custom_action_server/share/panda_sim_custom_action_server/docs/PandaPositionFFJointTrajectoryActionServerConfig.wikidoc: /home/student/haptic_ws/devel/.private/panda_sim_custom_action_server/include/panda_sim_custom_action_server/PandaPositionFFJointTrajectoryActionServerConfig.h
-	@$(CMAKE_COMMAND) -E touch_nocreate /home/student/haptic_ws/devel/.private/panda_sim_custom_action_server/share/panda_sim_custom_action_server/docs/PandaPositionFFJointTrajectoryActionServerConfig.wikidoc
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/panda_sim_custom_action_server/share/panda_sim_custom_action_server/docs/PandaPositionFFJointTrajectoryActionServerConfig.wikidoc: /home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/panda_sim_custom_action_server/include/panda_sim_custom_action_server/PandaPositionFFJointTrajectoryActionServerConfig.h
+	@$(CMAKE_COMMAND) -E touch_nocreate /home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/panda_sim_custom_action_server/share/panda_sim_custom_action_server/docs/PandaPositionFFJointTrajectoryActionServerConfig.wikidoc
 
 panda_sim_custom_action_server_gencfg: CMakeFiles/panda_sim_custom_action_server_gencfg
-panda_sim_custom_action_server_gencfg: /home/student/haptic_ws/devel/.private/panda_sim_custom_action_server/include/panda_sim_custom_action_server/PandaPositionFFJointTrajectoryActionServerConfig.h
-panda_sim_custom_action_server_gencfg: /home/student/haptic_ws/devel/.private/panda_sim_custom_action_server/share/panda_sim_custom_action_server/docs/PandaPositionFFJointTrajectoryActionServerConfig.dox
-panda_sim_custom_action_server_gencfg: /home/student/haptic_ws/devel/.private/panda_sim_custom_action_server/share/panda_sim_custom_action_server/docs/PandaPositionFFJointTrajectoryActionServerConfig-usage.dox
-panda_sim_custom_action_server_gencfg: /home/student/haptic_ws/devel/.private/panda_sim_custom_action_server/lib/python3/dist-packages/panda_sim_custom_action_server/cfg/PandaPositionFFJointTrajectoryActionServerConfig.py
-panda_sim_custom_action_server_gencfg: /home/student/haptic_ws/devel/.private/panda_sim_custom_action_server/share/panda_sim_custom_action_server/docs/PandaPositionFFJointTrajectoryActionServerConfig.wikidoc
+panda_sim_custom_action_server_gencfg: /home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/panda_sim_custom_action_server/include/panda_sim_custom_action_server/PandaPositionFFJointTrajectoryActionServerConfig.h
+panda_sim_custom_action_server_gencfg: /home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/panda_sim_custom_action_server/share/panda_sim_custom_action_server/docs/PandaPositionFFJointTrajectoryActionServerConfig.dox
+panda_sim_custom_action_server_gencfg: /home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/panda_sim_custom_action_server/share/panda_sim_custom_action_server/docs/PandaPositionFFJointTrajectoryActionServerConfig-usage.dox
+panda_sim_custom_action_server_gencfg: /home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/panda_sim_custom_action_server/lib/python3/dist-packages/panda_sim_custom_action_server/cfg/PandaPositionFFJointTrajectoryActionServerConfig.py
+panda_sim_custom_action_server_gencfg: /home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/panda_sim_custom_action_server/share/panda_sim_custom_action_server/docs/PandaPositionFFJointTrajectoryActionServerConfig.wikidoc
 panda_sim_custom_action_server_gencfg: CMakeFiles/panda_sim_custom_action_server_gencfg.dir/build.make
 
 .PHONY : panda_sim_custom_action_server_gencfg
@@ -95,6 +95,6 @@ CMakeFiles/panda_sim_custom_action_server_gencfg.dir/clean:
 .PHONY : CMakeFiles/panda_sim_custom_action_server_gencfg.dir/clean
 
 CMakeFiles/panda_sim_custom_action_server_gencfg.dir/depend:
-	cd /home/student/haptic_ws/build/panda_sim_custom_action_server && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/student/haptic_ws/src/panda_simulator/panda_sim_custom_action_server /home/student/haptic_ws/src/panda_simulator/panda_sim_custom_action_server /home/student/haptic_ws/build/panda_sim_custom_action_server /home/student/haptic_ws/build/panda_sim_custom_action_server /home/student/haptic_ws/build/panda_sim_custom_action_server/CMakeFiles/panda_sim_custom_action_server_gencfg.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/panda_sim_custom_action_server && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/student/HapticDeviceGaggioli/haptic_ws/src/panda_simulator/panda_sim_custom_action_server /home/student/HapticDeviceGaggioli/haptic_ws/src/panda_simulator/panda_sim_custom_action_server /home/student/HapticDeviceGaggioli/haptic_ws/build/panda_sim_custom_action_server /home/student/HapticDeviceGaggioli/haptic_ws/build/panda_sim_custom_action_server /home/student/HapticDeviceGaggioli/haptic_ws/build/panda_sim_custom_action_server/CMakeFiles/panda_sim_custom_action_server_gencfg.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/panda_sim_custom_action_server_gencfg.dir/depend
 

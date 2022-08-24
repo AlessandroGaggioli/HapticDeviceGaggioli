@@ -1,2 +1,2 @@
 orocos_kinematics_dynamics/orocos_kinematics_dynamics
-/home/student/haptic_ws/devel/.private/orocos_kinematics_dynamics/cmake.lock /home/student/haptic_ws/devel/./cmake.lock
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/orocos_kinematics_dynamics/cmake.lock /home/student/HapticDeviceGaggioli/haptic_ws/devel/./cmake.lock

@@ -13,21 +13,21 @@ fi
 
 echo_and_run() { echo "+ $@" ; "$@" ; }
 
-echo_and_run cd "/home/student/haptic_ws/src/panda_simulator/panda_gazebo"
+echo_and_run cd "/home/student/HapticDeviceGaggioli/haptic_ws/src/panda_simulator/panda_gazebo"
 
 # ensure that Python install destination exists
-echo_and_run mkdir -p "$DESTDIR/home/student/haptic_ws/install/lib/python3/dist-packages"
+echo_and_run mkdir -p "$DESTDIR/home/student/HapticDeviceGaggioli/haptic_ws/install/lib/python3/dist-packages"
 
 # Note that PYTHONPATH is pulled from the environment to support installing
 # into one location when some dependencies were installed in another
 # location, #123.
 echo_and_run /usr/bin/env \
-    PYTHONPATH="/home/student/haptic_ws/install/lib/python3/dist-packages:/home/student/haptic_ws/build/panda_gazebo/lib/python3/dist-packages:$PYTHONPATH" \
-    CATKIN_BINARY_DIR="/home/student/haptic_ws/build/panda_gazebo" \
+    PYTHONPATH="/home/student/HapticDeviceGaggioli/haptic_ws/install/lib/python3/dist-packages:/home/student/HapticDeviceGaggioli/haptic_ws/build/panda_gazebo/lib/python3/dist-packages:$PYTHONPATH" \
+    CATKIN_BINARY_DIR="/home/student/HapticDeviceGaggioli/haptic_ws/build/panda_gazebo" \
     "/usr/bin/python3" \
-    "/home/student/haptic_ws/src/panda_simulator/panda_gazebo/setup.py" \
+    "/home/student/HapticDeviceGaggioli/haptic_ws/src/panda_simulator/panda_gazebo/setup.py" \
      \
-    build --build-base "/home/student/haptic_ws/build/panda_gazebo" \
+    build --build-base "/home/student/HapticDeviceGaggioli/haptic_ws/build/panda_gazebo" \
     install \
     --root="${DESTDIR-/}" \
-    --install-layout=deb --prefix="/home/student/haptic_ws/install" --install-scripts="/home/student/haptic_ws/install/bin"
+    --install-layout=deb --prefix="/home/student/HapticDeviceGaggioli/haptic_ws/install" --install-scripts="/home/student/HapticDeviceGaggioli/haptic_ws/install/bin"

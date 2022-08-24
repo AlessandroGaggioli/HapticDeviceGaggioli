@@ -1,4 +1,4 @@
-prefix=/home/student/haptic_ws/devel/.private/panda_sim_moveit
+prefix=/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/panda_sim_moveit
 
 Name: panda_sim_moveit
 Description: Description of panda_sim_moveit

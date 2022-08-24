@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/student/haptic_ws/devel/.private/franka_example_controllers/lib/franka_example_controllers/teleop_gripper_node"
-  "/home/student/haptic_ws/devel/.private/franka_example_controllers/lib/franka_example_controllers/teleop_gripper_node.pdb"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_example_controllers/lib/franka_example_controllers/teleop_gripper_node"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_example_controllers/lib/franka_example_controllers/teleop_gripper_node.pdb"
   "CMakeFiles/teleop_gripper_node.dir/src/teleop_gripper_node.cpp.o"
 )
 

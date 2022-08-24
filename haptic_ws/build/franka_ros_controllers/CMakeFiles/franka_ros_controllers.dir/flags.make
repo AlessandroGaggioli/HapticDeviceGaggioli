@@ -6,5 +6,5 @@ CXX_FLAGS = -O3 -DNDEBUG -fPIC   -std=gnu++14
 
 CXX_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"franka_ros_controllers\" -Dfranka_ros_controllers_EXPORTS
 
-CXX_INCLUDES = -I/home/student/haptic_ws/devel/.private/franka_ros_controllers/include -I/home/student/haptic_ws/src/franka_ros_interface/franka_ros_controllers/include -isystem /opt/ros/noetic/include/libfranka -isystem /usr/include/eigen3 -isystem /home/student/haptic_ws/devel/.private/franka_msgs/include -isystem /home/student/haptic_ws/devel/.private/franka_core_msgs/include -isystem /home/student/haptic_ws/src/franka_ros/franka_hw/include -isystem /opt/ros/noetic/include -isystem /opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp 
+CXX_INCLUDES = -I/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_ros_controllers/include -I/home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros_interface/franka_ros_controllers/include -isystem /opt/ros/noetic/include/libfranka -isystem /usr/include/eigen3 -isystem /home/student/haptic_ws/devel/.private/franka_msgs/include -isystem /home/student/haptic_ws/devel/.private/franka_core_msgs/include -isystem /home/student/haptic_ws/src/franka_ros/franka_hw/include -isystem /opt/ros/noetic/include -isystem /opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp 
 

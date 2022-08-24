@@ -7,6 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/student/haptic_ws/build/python_orocos_kdl/devel:$CMAKE_PREFIX_PATH"
-export PWD='/home/student/haptic_ws/build/python_orocos_kdl'
-export ROS_PACKAGE_PATH="/home/student/haptic_ws/src/orocos_kinematics_dynamics/python_orocos_kdl:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/student/HapticDeviceGaggioli/haptic_ws/build/python_orocos_kdl/devel:$CMAKE_PREFIX_PATH"
+export PWD='/home/student/HapticDeviceGaggioli/haptic_ws/build/python_orocos_kdl'
+export ROSLISP_PACKAGE_DIRECTORIES="/home/student/HapticDeviceGaggioli/haptic_ws/build/python_orocos_kdl/devel/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/python_orocos_kdl:$ROS_PACKAGE_PATH"

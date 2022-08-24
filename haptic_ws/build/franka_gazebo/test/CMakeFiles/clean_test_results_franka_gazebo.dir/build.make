@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/student/haptic_ws/src/franka_ros/franka_gazebo
+CMAKE_SOURCE_DIR = /home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros/franka_gazebo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/student/haptic_ws/build/franka_gazebo
+CMAKE_BINARY_DIR = /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_gazebo
 
 # Utility rule file for clean_test_results_franka_gazebo.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/student/haptic_ws/build/franka_gazebo
 include test/CMakeFiles/clean_test_results_franka_gazebo.dir/progress.make
 
 test/CMakeFiles/clean_test_results_franka_gazebo:
-	cd /home/student/haptic_ws/build/franka_gazebo/test && /usr/bin/python3 /opt/ros/noetic/share/catkin/cmake/test/remove_test_results.py /home/student/haptic_ws/build/franka_gazebo/test_results/franka_gazebo
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_gazebo/test && /usr/bin/python3 /opt/ros/noetic/share/catkin/cmake/test/remove_test_results.py /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_gazebo/test_results/franka_gazebo
 
 clean_test_results_franka_gazebo: test/CMakeFiles/clean_test_results_franka_gazebo
 clean_test_results_franka_gazebo: test/CMakeFiles/clean_test_results_franka_gazebo.dir/build.make
@@ -67,10 +67,10 @@ test/CMakeFiles/clean_test_results_franka_gazebo.dir/build: clean_test_results_f
 .PHONY : test/CMakeFiles/clean_test_results_franka_gazebo.dir/build
 
 test/CMakeFiles/clean_test_results_franka_gazebo.dir/clean:
-	cd /home/student/haptic_ws/build/franka_gazebo/test && $(CMAKE_COMMAND) -P CMakeFiles/clean_test_results_franka_gazebo.dir/cmake_clean.cmake
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_gazebo/test && $(CMAKE_COMMAND) -P CMakeFiles/clean_test_results_franka_gazebo.dir/cmake_clean.cmake
 .PHONY : test/CMakeFiles/clean_test_results_franka_gazebo.dir/clean
 
 test/CMakeFiles/clean_test_results_franka_gazebo.dir/depend:
-	cd /home/student/haptic_ws/build/franka_gazebo && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/student/haptic_ws/src/franka_ros/franka_gazebo /home/student/haptic_ws/src/franka_ros/franka_gazebo/test /home/student/haptic_ws/build/franka_gazebo /home/student/haptic_ws/build/franka_gazebo/test /home/student/haptic_ws/build/franka_gazebo/test/CMakeFiles/clean_test_results_franka_gazebo.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_gazebo && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros/franka_gazebo /home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros/franka_gazebo/test /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_gazebo /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_gazebo/test /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_gazebo/test/CMakeFiles/clean_test_results_franka_gazebo.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : test/CMakeFiles/clean_test_results_franka_gazebo.dir/depend
 

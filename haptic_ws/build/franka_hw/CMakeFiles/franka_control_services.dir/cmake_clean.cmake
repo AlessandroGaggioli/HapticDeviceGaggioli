@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/student/haptic_ws/devel/.private/franka_hw/lib/libfranka_control_services.pdb"
-  "/home/student/haptic_ws/devel/.private/franka_hw/lib/libfranka_control_services.so"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_hw/lib/libfranka_control_services.pdb"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_hw/lib/libfranka_control_services.so"
   "CMakeFiles/franka_control_services.dir/src/services.cpp.o"
 )
 

@@ -1,8 +1,8 @@
-# Install script for directory: /home/student/haptic_ws/src/panda_simulator/panda_simulator_examples
+# Install script for directory: /home/student/HapticDeviceGaggioli/haptic_ws/src/panda_simulator/panda_simulator_examples
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/student/haptic_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/student/HapticDeviceGaggioli/haptic_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -49,119 +49,119 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/student/haptic_ws/install/_setup_util.py")
+   "/home/student/HapticDeviceGaggioli/haptic_ws/install/_setup_util.py")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/student/haptic_ws/install" TYPE PROGRAM FILES "/home/student/haptic_ws/build/panda_simulator_examples/catkin_generated/installspace/_setup_util.py")
+file(INSTALL DESTINATION "/home/student/HapticDeviceGaggioli/haptic_ws/install" TYPE PROGRAM FILES "/home/student/HapticDeviceGaggioli/haptic_ws/build/panda_simulator_examples/catkin_generated/installspace/_setup_util.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/student/haptic_ws/install/env.sh")
+   "/home/student/HapticDeviceGaggioli/haptic_ws/install/env.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/student/haptic_ws/install" TYPE PROGRAM FILES "/home/student/haptic_ws/build/panda_simulator_examples/catkin_generated/installspace/env.sh")
+file(INSTALL DESTINATION "/home/student/HapticDeviceGaggioli/haptic_ws/install" TYPE PROGRAM FILES "/home/student/HapticDeviceGaggioli/haptic_ws/build/panda_simulator_examples/catkin_generated/installspace/env.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/student/haptic_ws/install/setup.bash;/home/student/haptic_ws/install/local_setup.bash")
+   "/home/student/HapticDeviceGaggioli/haptic_ws/install/setup.bash;/home/student/HapticDeviceGaggioli/haptic_ws/install/local_setup.bash")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/student/haptic_ws/install" TYPE FILE FILES
-    "/home/student/haptic_ws/build/panda_simulator_examples/catkin_generated/installspace/setup.bash"
-    "/home/student/haptic_ws/build/panda_simulator_examples/catkin_generated/installspace/local_setup.bash"
+file(INSTALL DESTINATION "/home/student/HapticDeviceGaggioli/haptic_ws/install" TYPE FILE FILES
+    "/home/student/HapticDeviceGaggioli/haptic_ws/build/panda_simulator_examples/catkin_generated/installspace/setup.bash"
+    "/home/student/HapticDeviceGaggioli/haptic_ws/build/panda_simulator_examples/catkin_generated/installspace/local_setup.bash"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/student/haptic_ws/install/setup.sh;/home/student/haptic_ws/install/local_setup.sh")
+   "/home/student/HapticDeviceGaggioli/haptic_ws/install/setup.sh;/home/student/HapticDeviceGaggioli/haptic_ws/install/local_setup.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/student/haptic_ws/install" TYPE FILE FILES
-    "/home/student/haptic_ws/build/panda_simulator_examples/catkin_generated/installspace/setup.sh"
-    "/home/student/haptic_ws/build/panda_simulator_examples/catkin_generated/installspace/local_setup.sh"
+file(INSTALL DESTINATION "/home/student/HapticDeviceGaggioli/haptic_ws/install" TYPE FILE FILES
+    "/home/student/HapticDeviceGaggioli/haptic_ws/build/panda_simulator_examples/catkin_generated/installspace/setup.sh"
+    "/home/student/HapticDeviceGaggioli/haptic_ws/build/panda_simulator_examples/catkin_generated/installspace/local_setup.sh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/student/haptic_ws/install/setup.zsh;/home/student/haptic_ws/install/local_setup.zsh")
+   "/home/student/HapticDeviceGaggioli/haptic_ws/install/setup.zsh;/home/student/HapticDeviceGaggioli/haptic_ws/install/local_setup.zsh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/student/haptic_ws/install" TYPE FILE FILES
-    "/home/student/haptic_ws/build/panda_simulator_examples/catkin_generated/installspace/setup.zsh"
-    "/home/student/haptic_ws/build/panda_simulator_examples/catkin_generated/installspace/local_setup.zsh"
+file(INSTALL DESTINATION "/home/student/HapticDeviceGaggioli/haptic_ws/install" TYPE FILE FILES
+    "/home/student/HapticDeviceGaggioli/haptic_ws/build/panda_simulator_examples/catkin_generated/installspace/setup.zsh"
+    "/home/student/HapticDeviceGaggioli/haptic_ws/build/panda_simulator_examples/catkin_generated/installspace/local_setup.zsh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/student/haptic_ws/install/.rosinstall")
+   "/home/student/HapticDeviceGaggioli/haptic_ws/install/.rosinstall")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/student/haptic_ws/install" TYPE FILE FILES "/home/student/haptic_ws/build/panda_simulator_examples/catkin_generated/installspace/.rosinstall")
+file(INSTALL DESTINATION "/home/student/HapticDeviceGaggioli/haptic_ws/install" TYPE FILE FILES "/home/student/HapticDeviceGaggioli/haptic_ws/build/panda_simulator_examples/catkin_generated/installspace/.rosinstall")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/student/haptic_ws/build/panda_simulator_examples/catkin_generated/installspace/panda_simulator_examples.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/student/HapticDeviceGaggioli/haptic_ws/build/panda_simulator_examples/catkin_generated/installspace/panda_simulator_examples.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/panda_simulator_examples/cmake" TYPE FILE FILES
-    "/home/student/haptic_ws/build/panda_simulator_examples/catkin_generated/installspace/panda_simulator_examplesConfig.cmake"
-    "/home/student/haptic_ws/build/panda_simulator_examples/catkin_generated/installspace/panda_simulator_examplesConfig-version.cmake"
+    "/home/student/HapticDeviceGaggioli/haptic_ws/build/panda_simulator_examples/catkin_generated/installspace/panda_simulator_examplesConfig.cmake"
+    "/home/student/HapticDeviceGaggioli/haptic_ws/build/panda_simulator_examples/catkin_generated/installspace/panda_simulator_examplesConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/panda_simulator_examples" TYPE FILE FILES "/home/student/haptic_ws/src/panda_simulator/panda_simulator_examples/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/panda_simulator_examples" TYPE FILE FILES "/home/student/HapticDeviceGaggioli/haptic_ws/src/panda_simulator/panda_simulator_examples/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/student/haptic_ws/build/panda_simulator_examples/catkin_generated/safe_execute_install.cmake")
+  include("/home/student/HapticDeviceGaggioli/haptic_ws/build/panda_simulator_examples/catkin_generated/safe_execute_install.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/panda_simulator_examples" TYPE PROGRAM FILES "/home/student/haptic_ws/build/panda_simulator_examples/catkin_generated/installspace/move_robot.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/panda_simulator_examples" TYPE PROGRAM FILES "/home/student/HapticDeviceGaggioli/haptic_ws/build/panda_simulator_examples/catkin_generated/installspace/move_robot.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/panda_simulator_examples" TYPE PROGRAM FILES "/home/student/haptic_ws/build/panda_simulator_examples/catkin_generated/installspace/task_space_control_using_sim_only.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/panda_simulator_examples" TYPE PROGRAM FILES "/home/student/HapticDeviceGaggioli/haptic_ws/build/panda_simulator_examples/catkin_generated/installspace/task_space_control_using_sim_only.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/panda_simulator_examples" TYPE PROGRAM FILES "/home/student/haptic_ws/build/panda_simulator_examples/catkin_generated/installspace/task_space_control_with_fri.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/panda_simulator_examples" TYPE PROGRAM FILES "/home/student/HapticDeviceGaggioli/haptic_ws/build/panda_simulator_examples/catkin_generated/installspace/task_space_control_with_fri.py")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/student/haptic_ws/build/panda_simulator_examples/gtest/cmake_install.cmake")
+  include("/home/student/HapticDeviceGaggioli/haptic_ws/build/panda_simulator_examples/gtest/cmake_install.cmake")
 
 endif()
 
@@ -173,5 +173,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/student/haptic_ws/build/panda_simulator_examples/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/student/HapticDeviceGaggioli/haptic_ws/build/panda_simulator_examples/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

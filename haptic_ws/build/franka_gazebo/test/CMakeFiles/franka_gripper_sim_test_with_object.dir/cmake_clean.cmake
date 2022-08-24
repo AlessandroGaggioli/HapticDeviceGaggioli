@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/student/haptic_ws/devel/.private/franka_gazebo/lib/franka_gazebo/franka_gripper_sim_test_with_object"
-  "/home/student/haptic_ws/devel/.private/franka_gazebo/lib/franka_gazebo/franka_gripper_sim_test_with_object.pdb"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gazebo/lib/franka_gazebo/franka_gripper_sim_test_with_object"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gazebo/lib/franka_gazebo/franka_gripper_sim_test_with_object.pdb"
   "CMakeFiles/franka_gripper_sim_test_with_object.dir/franka_gripper_sim_test_with_object.cpp.o"
   "CMakeFiles/franka_gripper_sim_test_with_object.dir/gripper_sim_test_setup.cpp.o"
 )

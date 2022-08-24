@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/student/haptic_ws/devel/.private/franka_gripper/lib/libfranka_gripper.pdb"
-  "/home/student/haptic_ws/devel/.private/franka_gripper/lib/libfranka_gripper.so"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/lib/libfranka_gripper.pdb"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_gripper/lib/libfranka_gripper.so"
   "CMakeFiles/franka_gripper.dir/src/franka_gripper.cpp.o"
 )
 

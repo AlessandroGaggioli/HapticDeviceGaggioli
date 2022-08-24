@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/student/haptic_ws/devel/.private/franka_example_controllers/lib/libfranka_example_controllers.pdb"
-  "/home/student/haptic_ws/devel/.private/franka_example_controllers/lib/libfranka_example_controllers.so"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_example_controllers/lib/libfranka_example_controllers.pdb"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_example_controllers/lib/libfranka_example_controllers.so"
   "CMakeFiles/franka_example_controllers.dir/src/cartesian_impedance_example_controller.cpp.o"
   "CMakeFiles/franka_example_controllers.dir/src/cartesian_pose_example_controller.cpp.o"
   "CMakeFiles/franka_example_controllers.dir/src/cartesian_velocity_example_controller.cpp.o"

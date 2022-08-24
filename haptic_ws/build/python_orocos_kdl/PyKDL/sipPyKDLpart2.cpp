@@ -6,23 +6,23 @@
 
 #include "sipAPIPyKDL.h"
 
-#line 675 "/home/student/haptic_ws/src/orocos_kinematics_dynamics/python_orocos_kdl/PyKDL/kinfam.sip"
+#line 675 "/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/python_orocos_kdl/PyKDL/kinfam.sip"
 #include <kdl/chainjnttojacsolver.hpp>
 using namespace KDL;
-#line 13 "/home/student/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart2.cpp"
+#line 13 "/home/student/HapticDeviceGaggioli/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart2.cpp"
 
-#line 241 "/home/student/haptic_ws/src/orocos_kinematics_dynamics/python_orocos_kdl/PyKDL/kinfam.sip"
+#line 241 "/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/python_orocos_kdl/PyKDL/kinfam.sip"
 #include <kdl/chain.hpp>
 using namespace KDL;
-#line 18 "/home/student/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart2.cpp"
-#line 280 "/home/student/haptic_ws/src/orocos_kinematics_dynamics/python_orocos_kdl/PyKDL/kinfam.sip"
+#line 18 "/home/student/HapticDeviceGaggioli/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart2.cpp"
+#line 280 "/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/python_orocos_kdl/PyKDL/kinfam.sip"
 #include <kdl/jntarray.hpp>
 using namespace KDL;
-#line 22 "/home/student/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart2.cpp"
-#line 361 "/home/student/haptic_ws/src/orocos_kinematics_dynamics/python_orocos_kdl/PyKDL/kinfam.sip"
+#line 22 "/home/student/HapticDeviceGaggioli/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart2.cpp"
+#line 361 "/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/python_orocos_kdl/PyKDL/kinfam.sip"
 #include <kdl/jntarray.hpp>
 using namespace KDL;
-#line 26 "/home/student/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart2.cpp"
+#line 26 "/home/student/HapticDeviceGaggioli/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart2.cpp"
 
 
 class sipChainJntToJacSolver : public  ::ChainJntToJacSolver
@@ -284,25 +284,25 @@ sipClassTypeDef sipTypeDef_PyKDL_ChainJntToJacSolver = {
     SIP_NULLPTR
 };
 
-#line 662 "/home/student/haptic_ws/src/orocos_kinematics_dynamics/python_orocos_kdl/PyKDL/kinfam.sip"
+#line 662 "/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/python_orocos_kdl/PyKDL/kinfam.sip"
 #include <kdl/chainiksolvervel_pinv_givens.hpp>
 using namespace KDL;
-#line 295 "/home/student/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart2.cpp"
+#line 295 "/home/student/HapticDeviceGaggioli/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart2.cpp"
 
-#line 241 "/home/student/haptic_ws/src/orocos_kinematics_dynamics/python_orocos_kdl/PyKDL/kinfam.sip"
+#line 241 "/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/python_orocos_kdl/PyKDL/kinfam.sip"
 #include <kdl/chain.hpp>
 using namespace KDL;
-#line 300 "/home/student/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart2.cpp"
-#line 280 "/home/student/haptic_ws/src/orocos_kinematics_dynamics/python_orocos_kdl/PyKDL/kinfam.sip"
+#line 300 "/home/student/HapticDeviceGaggioli/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart2.cpp"
+#line 280 "/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/python_orocos_kdl/PyKDL/kinfam.sip"
 #include <kdl/jntarray.hpp>
 using namespace KDL;
-#line 304 "/home/student/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart2.cpp"
-#line 281 "/home/student/haptic_ws/src/orocos_kinematics_dynamics/python_orocos_kdl/PyKDL/frames.sip"
+#line 304 "/home/student/HapticDeviceGaggioli/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart2.cpp"
+#line 281 "/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/python_orocos_kdl/PyKDL/frames.sip"
 #include <kdl/frames.hpp>
 #include <kdl/frames_io.hpp>
 #include <sstream>
 using namespace KDL;
-#line 310 "/home/student/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart2.cpp"
+#line 310 "/home/student/HapticDeviceGaggioli/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart2.cpp"
 
 
 class sipChainIkSolverVel_pinv_givens : public  ::ChainIkSolverVel_pinv_givens
@@ -584,25 +584,25 @@ sipClassTypeDef sipTypeDef_PyKDL_ChainIkSolverVel_pinv_givens = {
     SIP_NULLPTR
 };
 
-#line 637 "/home/student/haptic_ws/src/orocos_kinematics_dynamics/python_orocos_kdl/PyKDL/kinfam.sip"
+#line 637 "/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/python_orocos_kdl/PyKDL/kinfam.sip"
 #include <kdl/chainiksolvervel_pinv_nso.hpp>
 using namespace KDL;
-#line 599 "/home/student/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart2.cpp"
+#line 599 "/home/student/HapticDeviceGaggioli/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart2.cpp"
 
-#line 241 "/home/student/haptic_ws/src/orocos_kinematics_dynamics/python_orocos_kdl/PyKDL/kinfam.sip"
+#line 241 "/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/python_orocos_kdl/PyKDL/kinfam.sip"
 #include <kdl/chain.hpp>
 using namespace KDL;
-#line 604 "/home/student/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart2.cpp"
-#line 280 "/home/student/haptic_ws/src/orocos_kinematics_dynamics/python_orocos_kdl/PyKDL/kinfam.sip"
+#line 604 "/home/student/HapticDeviceGaggioli/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart2.cpp"
+#line 280 "/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/python_orocos_kdl/PyKDL/kinfam.sip"
 #include <kdl/jntarray.hpp>
 using namespace KDL;
-#line 608 "/home/student/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart2.cpp"
-#line 281 "/home/student/haptic_ws/src/orocos_kinematics_dynamics/python_orocos_kdl/PyKDL/frames.sip"
+#line 608 "/home/student/HapticDeviceGaggioli/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart2.cpp"
+#line 281 "/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/python_orocos_kdl/PyKDL/frames.sip"
 #include <kdl/frames.hpp>
 #include <kdl/frames_io.hpp>
 #include <sstream>
 using namespace KDL;
-#line 614 "/home/student/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart2.cpp"
+#line 614 "/home/student/HapticDeviceGaggioli/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart2.cpp"
 
 
 class sipChainIkSolverVel_pinv_nso : public  ::ChainIkSolverVel_pinv_nso
@@ -1124,25 +1124,25 @@ sipClassTypeDef sipTypeDef_PyKDL_ChainIkSolverVel_pinv_nso = {
     SIP_NULLPTR
 };
 
-#line 623 "/home/student/haptic_ws/src/orocos_kinematics_dynamics/python_orocos_kdl/PyKDL/kinfam.sip"
+#line 623 "/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/python_orocos_kdl/PyKDL/kinfam.sip"
 #include <kdl/chainiksolverpos_lma.hpp>
 using namespace KDL;
-#line 1149 "/home/student/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart2.cpp"
+#line 1149 "/home/student/HapticDeviceGaggioli/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart2.cpp"
 
-#line 241 "/home/student/haptic_ws/src/orocos_kinematics_dynamics/python_orocos_kdl/PyKDL/kinfam.sip"
+#line 241 "/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/python_orocos_kdl/PyKDL/kinfam.sip"
 #include <kdl/chain.hpp>
 using namespace KDL;
-#line 1154 "/home/student/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart2.cpp"
-#line 280 "/home/student/haptic_ws/src/orocos_kinematics_dynamics/python_orocos_kdl/PyKDL/kinfam.sip"
+#line 1154 "/home/student/HapticDeviceGaggioli/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart2.cpp"
+#line 280 "/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/python_orocos_kdl/PyKDL/kinfam.sip"
 #include <kdl/jntarray.hpp>
 using namespace KDL;
-#line 1158 "/home/student/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart2.cpp"
-#line 201 "/home/student/haptic_ws/src/orocos_kinematics_dynamics/python_orocos_kdl/PyKDL/frames.sip"
+#line 1158 "/home/student/HapticDeviceGaggioli/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart2.cpp"
+#line 201 "/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/python_orocos_kdl/PyKDL/frames.sip"
 #include <kdl/frames.hpp>
 #include <kdl/frames_io.hpp>
 #include <sstream>
 using namespace KDL;
-#line 1164 "/home/student/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart2.cpp"
+#line 1164 "/home/student/HapticDeviceGaggioli/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart2.cpp"
 
 
 class sipChainIkSolverPos_LMA : public  ::ChainIkSolverPos_LMA
@@ -1430,25 +1430,25 @@ sipClassTypeDef sipTypeDef_PyKDL_ChainIkSolverPos_LMA = {
     SIP_NULLPTR
 };
 
-#line 536 "/home/student/haptic_ws/src/orocos_kinematics_dynamics/python_orocos_kdl/PyKDL/kinfam.sip"
+#line 536 "/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/python_orocos_kdl/PyKDL/kinfam.sip"
 #include <kdl/chainiksolvervel_wdls.hpp>
 using namespace KDL;
-#line 1459 "/home/student/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart2.cpp"
+#line 1459 "/home/student/HapticDeviceGaggioli/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart2.cpp"
 
-#line 241 "/home/student/haptic_ws/src/orocos_kinematics_dynamics/python_orocos_kdl/PyKDL/kinfam.sip"
+#line 241 "/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/python_orocos_kdl/PyKDL/kinfam.sip"
 #include <kdl/chain.hpp>
 using namespace KDL;
-#line 1464 "/home/student/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart2.cpp"
-#line 280 "/home/student/haptic_ws/src/orocos_kinematics_dynamics/python_orocos_kdl/PyKDL/kinfam.sip"
+#line 1464 "/home/student/HapticDeviceGaggioli/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart2.cpp"
+#line 280 "/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/python_orocos_kdl/PyKDL/kinfam.sip"
 #include <kdl/jntarray.hpp>
 using namespace KDL;
-#line 1468 "/home/student/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart2.cpp"
-#line 281 "/home/student/haptic_ws/src/orocos_kinematics_dynamics/python_orocos_kdl/PyKDL/frames.sip"
+#line 1468 "/home/student/HapticDeviceGaggioli/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart2.cpp"
+#line 281 "/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/python_orocos_kdl/PyKDL/frames.sip"
 #include <kdl/frames.hpp>
 #include <kdl/frames_io.hpp>
 #include <sstream>
 using namespace KDL;
-#line 1474 "/home/student/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart2.cpp"
+#line 1474 "/home/student/HapticDeviceGaggioli/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart2.cpp"
 
 
 class sipChainIkSolverVel_wdls : public  ::ChainIkSolverVel_wdls
@@ -1604,7 +1604,7 @@ static PyObject *meth_ChainIkSolverVel_wdls_setWeightTS(PyObject *sipSelf, PyObj
         {
             int sipIsErr = 0;
 
-#line 547 "/home/student/haptic_ws/src/orocos_kinematics_dynamics/python_orocos_kdl/PyKDL/kinfam.sip"
+#line 547 "/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/python_orocos_kdl/PyKDL/kinfam.sip"
     //void setWeightTS(const Eigen::MatrixXd& Mx);
     //Mx has to be a 6x6 Matrix
 
@@ -1638,7 +1638,7 @@ static PyObject *meth_ChainIkSolverVel_wdls_setWeightTS(PyObject *sipSelf, PyObj
         }
     }
     sipCpp->setWeightTS(Mx);
-#line 1667 "/home/student/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart2.cpp"
+#line 1667 "/home/student/HapticDeviceGaggioli/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart2.cpp"
 
             if (sipIsErr)
                 return 0;
@@ -1670,7 +1670,7 @@ static PyObject *meth_ChainIkSolverVel_wdls_setWeightJS(PyObject *sipSelf, PyObj
         {
             int sipIsErr = 0;
 
-#line 584 "/home/student/haptic_ws/src/orocos_kinematics_dynamics/python_orocos_kdl/PyKDL/kinfam.sip"
+#line 584 "/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/python_orocos_kdl/PyKDL/kinfam.sip"
     //void setWeightJS(const Eigen::MatrixXd& Mx);
     //Mx has to be a simetric positive definite Matrix
     //unsigned int nOfJoints=sipCpp->chain.getNrOfJoints(); //To check that we are receiving valid data dimensions. This doesn't work, chain is a private member. todo: How can we check for this?
@@ -1700,7 +1700,7 @@ static PyObject *meth_ChainIkSolverVel_wdls_setWeightJS(PyObject *sipSelf, PyObj
         }
     }
     sipCpp->setWeightJS(Mq);
-#line 1730 "/home/student/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart2.cpp"
+#line 1730 "/home/student/HapticDeviceGaggioli/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart2.cpp"
 
             if (sipIsErr)
                 return 0;
@@ -1896,25 +1896,25 @@ sipClassTypeDef sipTypeDef_PyKDL_ChainIkSolverVel_wdls = {
     SIP_NULLPTR
 };
 
-#line 523 "/home/student/haptic_ws/src/orocos_kinematics_dynamics/python_orocos_kdl/PyKDL/kinfam.sip"
+#line 523 "/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/python_orocos_kdl/PyKDL/kinfam.sip"
 #include <kdl/chainiksolvervel_pinv.hpp>
 using namespace KDL;
-#line 1932 "/home/student/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart2.cpp"
+#line 1932 "/home/student/HapticDeviceGaggioli/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart2.cpp"
 
-#line 241 "/home/student/haptic_ws/src/orocos_kinematics_dynamics/python_orocos_kdl/PyKDL/kinfam.sip"
+#line 241 "/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/python_orocos_kdl/PyKDL/kinfam.sip"
 #include <kdl/chain.hpp>
 using namespace KDL;
-#line 1937 "/home/student/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart2.cpp"
-#line 280 "/home/student/haptic_ws/src/orocos_kinematics_dynamics/python_orocos_kdl/PyKDL/kinfam.sip"
+#line 1937 "/home/student/HapticDeviceGaggioli/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart2.cpp"
+#line 280 "/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/python_orocos_kdl/PyKDL/kinfam.sip"
 #include <kdl/jntarray.hpp>
 using namespace KDL;
-#line 1941 "/home/student/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart2.cpp"
-#line 281 "/home/student/haptic_ws/src/orocos_kinematics_dynamics/python_orocos_kdl/PyKDL/frames.sip"
+#line 1941 "/home/student/HapticDeviceGaggioli/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart2.cpp"
+#line 281 "/home/student/HapticDeviceGaggioli/haptic_ws/src/orocos_kinematics_dynamics/python_orocos_kdl/PyKDL/frames.sip"
 #include <kdl/frames.hpp>
 #include <kdl/frames_io.hpp>
 #include <sstream>
 using namespace KDL;
-#line 1947 "/home/student/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart2.cpp"
+#line 1947 "/home/student/HapticDeviceGaggioli/haptic_ws/build/python_orocos_kdl/PyKDL/sipPyKDLpart2.cpp"
 
 
 class sipChainIkSolverVel_pinv : public  ::ChainIkSolverVel_pinv

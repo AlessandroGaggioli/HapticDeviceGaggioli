@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/student/haptic_ws/src/franka_ros/franka_msgs
+CMAKE_SOURCE_DIR = /home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros/franka_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/student/haptic_ws/build/franka_msgs
+CMAKE_BINARY_DIR = /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_msgs
 
 # Utility rule file for _franka_msgs_generate_messages_check_deps_ErrorRecoveryAction.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/student/haptic_ws/build/franka_msgs
 include CMakeFiles/_franka_msgs_generate_messages_check_deps_ErrorRecoveryAction.dir/progress.make
 
 CMakeFiles/_franka_msgs_generate_messages_check_deps_ErrorRecoveryAction:
-	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py franka_msgs /home/student/haptic_ws/devel/.private/franka_msgs/share/franka_msgs/msg/ErrorRecoveryAction.msg franka_msgs/ErrorRecoveryActionFeedback:actionlib_msgs/GoalID:franka_msgs/ErrorRecoveryActionGoal:actionlib_msgs/GoalStatus:franka_msgs/ErrorRecoveryResult:franka_msgs/ErrorRecoveryActionResult:std_msgs/Header:franka_msgs/ErrorRecoveryFeedback:franka_msgs/ErrorRecoveryGoal
+	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py franka_msgs /home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_msgs/share/franka_msgs/msg/ErrorRecoveryAction.msg actionlib_msgs/GoalStatus:franka_msgs/ErrorRecoveryActionResult:actionlib_msgs/GoalID:std_msgs/Header:franka_msgs/ErrorRecoveryActionFeedback:franka_msgs/ErrorRecoveryFeedback:franka_msgs/ErrorRecoveryActionGoal:franka_msgs/ErrorRecoveryGoal:franka_msgs/ErrorRecoveryResult
 
 _franka_msgs_generate_messages_check_deps_ErrorRecoveryAction: CMakeFiles/_franka_msgs_generate_messages_check_deps_ErrorRecoveryAction
 _franka_msgs_generate_messages_check_deps_ErrorRecoveryAction: CMakeFiles/_franka_msgs_generate_messages_check_deps_ErrorRecoveryAction.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/_franka_msgs_generate_messages_check_deps_ErrorRecoveryAction.dir/cle
 .PHONY : CMakeFiles/_franka_msgs_generate_messages_check_deps_ErrorRecoveryAction.dir/clean
 
 CMakeFiles/_franka_msgs_generate_messages_check_deps_ErrorRecoveryAction.dir/depend:
-	cd /home/student/haptic_ws/build/franka_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/student/haptic_ws/src/franka_ros/franka_msgs /home/student/haptic_ws/src/franka_ros/franka_msgs /home/student/haptic_ws/build/franka_msgs /home/student/haptic_ws/build/franka_msgs /home/student/haptic_ws/build/franka_msgs/CMakeFiles/_franka_msgs_generate_messages_check_deps_ErrorRecoveryAction.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros/franka_msgs /home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros/franka_msgs /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_msgs /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_msgs /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_msgs/CMakeFiles/_franka_msgs_generate_messages_check_deps_ErrorRecoveryAction.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/_franka_msgs_generate_messages_check_deps_ErrorRecoveryAction.dir/depend
 

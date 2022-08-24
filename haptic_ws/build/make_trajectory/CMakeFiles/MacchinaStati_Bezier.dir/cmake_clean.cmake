@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/student/haptic_ws/devel/.private/make_trajectory/lib/make_trajectory/MacchinaStati_Bezier"
-  "/home/student/haptic_ws/devel/.private/make_trajectory/lib/make_trajectory/MacchinaStati_Bezier.pdb"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/make_trajectory/lib/make_trajectory/MacchinaStati_Bezier"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/make_trajectory/lib/make_trajectory/MacchinaStati_Bezier.pdb"
   "CMakeFiles/MacchinaStati_Bezier.dir/src/MacchinaStati_Bezier.cpp.o"
 )
 

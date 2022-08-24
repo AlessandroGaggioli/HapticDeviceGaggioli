@@ -1,4 +1,4 @@
-prefix=/home/student/haptic_ws/devel/.private/franka_panda_description
+prefix=/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_panda_description
 
 Name: franka_panda_description
 Description: Description of franka_panda_description

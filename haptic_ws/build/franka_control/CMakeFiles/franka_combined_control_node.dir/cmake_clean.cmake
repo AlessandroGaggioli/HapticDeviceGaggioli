@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/student/haptic_ws/devel/.private/franka_control/lib/franka_control/franka_combined_control_node"
-  "/home/student/haptic_ws/devel/.private/franka_control/lib/franka_control/franka_combined_control_node.pdb"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_control/lib/franka_control/franka_combined_control_node"
+  "/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_control/lib/franka_control/franka_combined_control_node.pdb"
   "CMakeFiles/franka_combined_control_node.dir/src/franka_combined_control_node.cpp.o"
 )
 

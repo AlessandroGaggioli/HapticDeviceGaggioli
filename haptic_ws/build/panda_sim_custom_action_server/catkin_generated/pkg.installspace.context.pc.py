@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "${prefix}/include".split(';') if "${prefix}/i
 PROJECT_CATKIN_DEPENDS = "rospy;actionlib;sensor_msgs;std_msgs;control_msgs;trajectory_msgs;dynamic_reconfigure;franka_core_msgs;franka_interface;panda_moveit_config".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "panda_sim_custom_action_server"
-PROJECT_SPACE_DIR = "/home/student/haptic_ws/install"
+PROJECT_SPACE_DIR = "/home/student/HapticDeviceGaggioli/haptic_ws/install"
 PROJECT_VERSION = "1.0.0"

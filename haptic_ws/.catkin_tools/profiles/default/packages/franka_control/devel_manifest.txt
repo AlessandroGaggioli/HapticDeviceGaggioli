@@ -1,8 +1,8 @@
 franka_ros/franka_control
-/home/student/haptic_ws/devel/.private/franka_control/cmake.lock /home/student/haptic_ws/devel/./cmake.lock
-/home/student/haptic_ws/devel/.private/franka_control/share/franka_control/cmake/franka_controlConfig-version.cmake /home/student/haptic_ws/devel/share/franka_control/cmake/franka_controlConfig-version.cmake
-/home/student/haptic_ws/devel/.private/franka_control/share/franka_control/cmake/franka_controlConfig.cmake /home/student/haptic_ws/devel/share/franka_control/cmake/franka_controlConfig.cmake
-/home/student/haptic_ws/devel/.private/franka_control/lib/libfranka_state_controller.so /home/student/haptic_ws/devel/lib/libfranka_state_controller.so
-/home/student/haptic_ws/devel/.private/franka_control/lib/franka_control/franka_combined_control_node /home/student/haptic_ws/devel/lib/franka_control/franka_combined_control_node
-/home/student/haptic_ws/devel/.private/franka_control/lib/franka_control/franka_control_node /home/student/haptic_ws/devel/lib/franka_control/franka_control_node
-/home/student/haptic_ws/devel/.private/franka_control/lib/pkgconfig/franka_control.pc /home/student/haptic_ws/devel/lib/pkgconfig/franka_control.pc
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_control/cmake.lock /home/student/HapticDeviceGaggioli/haptic_ws/devel/./cmake.lock
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_control/share/franka_control/cmake/franka_controlConfig-version.cmake /home/student/HapticDeviceGaggioli/haptic_ws/devel/share/franka_control/cmake/franka_controlConfig-version.cmake
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_control/share/franka_control/cmake/franka_controlConfig.cmake /home/student/HapticDeviceGaggioli/haptic_ws/devel/share/franka_control/cmake/franka_controlConfig.cmake
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_control/lib/libfranka_state_controller.so /home/student/HapticDeviceGaggioli/haptic_ws/devel/lib/libfranka_state_controller.so
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_control/lib/franka_control/franka_combined_control_node /home/student/HapticDeviceGaggioli/haptic_ws/devel/lib/franka_control/franka_combined_control_node
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_control/lib/franka_control/franka_control_node /home/student/HapticDeviceGaggioli/haptic_ws/devel/lib/franka_control/franka_control_node
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/franka_control/lib/pkgconfig/franka_control.pc /home/student/HapticDeviceGaggioli/haptic_ws/devel/lib/pkgconfig/franka_control.pc

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/student/haptic_ws/src/panda_simulator/panda_simulator_examples
+CMAKE_SOURCE_DIR = /home/student/HapticDeviceGaggioli/haptic_ws/src/panda_simulator/panda_simulator_examples
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/student/haptic_ws/build/panda_simulator_examples
+CMAKE_BINARY_DIR = /home/student/HapticDeviceGaggioli/haptic_ws/build/panda_simulator_examples
 
 # Utility rule file for dynamic_reconfigure_generate_messages_nodejs.
 
@@ -67,6 +67,6 @@ CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/clean:
 .PHONY : CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/clean
 
 CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/depend:
-	cd /home/student/haptic_ws/build/panda_simulator_examples && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/student/haptic_ws/src/panda_simulator/panda_simulator_examples /home/student/haptic_ws/src/panda_simulator/panda_simulator_examples /home/student/haptic_ws/build/panda_simulator_examples /home/student/haptic_ws/build/panda_simulator_examples /home/student/haptic_ws/build/panda_simulator_examples/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/panda_simulator_examples && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/student/HapticDeviceGaggioli/haptic_ws/src/panda_simulator/panda_simulator_examples /home/student/HapticDeviceGaggioli/haptic_ws/src/panda_simulator/panda_simulator_examples /home/student/HapticDeviceGaggioli/haptic_ws/build/panda_simulator_examples /home/student/HapticDeviceGaggioli/haptic_ws/build/panda_simulator_examples /home/student/HapticDeviceGaggioli/haptic_ws/build/panda_simulator_examples/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/depend
 

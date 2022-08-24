@@ -125,19 +125,28 @@ std::vector<std::vector<double>> ComputeBezier(double Npunti,std::vector<double>
     std::vector<std::vector<double>> BezierCurve ; 
     BezierCurve.resize(Npunti) ; 
 
-    double DeltaT = period/Npunti ; 
-    
+    double DeltaT = period/Npunti ; //calcolo il DeltaT come perioso su numero di punti
+
+    for(int i=0;i<3;i++) target[i] = pos_init[i] ; //inizializzo il punto iniziale della traiettoria per il calcolo della curva
+
+    /* CURVA BEZIER 
+
+        x = ax * t^3 + bx * t^2 + cx * t + x0 
+        y = ay * t^3 + by * t^2 + cy * t + y0
+        z = az * t^3 + bz * t^2 + cz * t + x0  */
+
     for(int i=0;i<Npunti;i++) {
-        for(int j=0;j<Ncoefficients;j++) {
+        for(int j=Ncoefficients;j>1;j--) {
             target[0] += coeff.coefficients_x[j]*pow(DeltaT*(i+1),j) ; 
-            target[1] += coeff.coefficients_y[i]*pow(DeltaT*(i+1),j) ; 
-            target[2] += coeff.coefficients_z[i]*pow(DeltaT*(i+1),j) ;
+            target[1] += coeff.coefficients_y[j]*pow(DeltaT*(i+1),j) ; 
+            target[2] += coeff.coefficients_z[j]*pow(DeltaT*(i+1),j) ;
         }
         for(int k=3;k<7;k++) {
             target[k]=pos_fin[k] ; 
         }
         BezierCurve[i] = target ; 
     }
+
 return BezierCurve ; 
 }
 
@@ -227,8 +236,44 @@ int main(int argc,char **argv) {
             }
         }
 
-        ros::spinOnce() ; 
-        loop_rate.sleep() ; 
+        /*
+            //dichiaro msg_send tipo franka_core_msgs
+            franka_core_msgs::JointCommand msg_send ; 
+
+            //Request IK del target
+            ik_srv.request.reference_pose.position.x=target[0] ; 
+            ik_srv.request.reference_pose.position.y=target[1] ; 
+            ik_srv.request.reference_pose.position.z=target[2] ; 
+            ik_srv.request.reference_pose.orientation.x=target[3] ; 
+            ik_srv.request.reference_pose.orientation.y=target[4] ; 
+            ik_srv.request.reference_pose.orientation.z=target[5] ; 
+            ik_srv.request.reference_pose.orientation.w=target[6] ;
+
+            //chiama ik_client 
+            if(ik_client.call(ik_srv)) {
+            //if success
+            if(ik_srv.response.success) {
+                //inserisci in joint_target la posizione dei giunti dei passi
+                std::cout <<"Joint Target\n" ; 
+                for(int i=0;i<NumJointState;i++) {
+                    joint_target[i]=ik_srv.response.solution.position[i] ; 
+                    std::cout <<joint_target[i] <<std::endl ; 
+                    }
+            } else std::cout <<"no result\n" ; 
+        }
+            else {
+                    std::cout <<"\nfail ik_service\n" ; 
+                }
+            
+            msg_send.mode=1 ; 
+            //set name e position del msg_send
+            msg_send.names=name ; 
+            msg_send.position=joint_target ; 
+            //pubblico msg_send
+            pub.publish(msg_send) ;*/
+
+    ros::spinOnce() ; 
+    loop_rate.sleep() ; 
     }
 
     ros::spin() ; 

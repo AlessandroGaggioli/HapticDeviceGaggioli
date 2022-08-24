@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/student/haptic_ws/src/franka_ros/franka_hw
+CMAKE_SOURCE_DIR = /home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros/franka_hw
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/student/haptic_ws/build/franka_hw
+CMAKE_BINARY_DIR = /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_hw
 
 # Utility rule file for run_tests_franka_hw_rostest_test_launch_franka_hw_test.test.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/student/haptic_ws/build/franka_hw
 include test/CMakeFiles/run_tests_franka_hw_rostest_test_launch_franka_hw_test.test.dir/progress.make
 
 test/CMakeFiles/run_tests_franka_hw_rostest_test_launch_franka_hw_test.test:
-	cd /home/student/haptic_ws/build/franka_hw/test && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/catkin/cmake/test/run_tests.py /home/student/haptic_ws/build/franka_hw/test_results/franka_hw/rostest-test_launch_franka_hw_test.xml "/usr/bin/python3 /opt/ros/noetic/share/rostest/cmake/../../../bin/rostest --pkgdir=/home/student/haptic_ws/src/franka_ros/franka_hw --package=franka_hw --results-filename test_launch_franka_hw_test.xml --results-base-dir \"/home/student/haptic_ws/build/franka_hw/test_results\" /home/student/haptic_ws/src/franka_ros/franka_hw/test/launch/franka_hw_test.test "
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_hw/test && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/catkin/cmake/test/run_tests.py /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_hw/test_results/franka_hw/rostest-test_launch_franka_hw_test.xml "/usr/bin/python3 /opt/ros/noetic/share/rostest/cmake/../../../bin/rostest --pkgdir=/home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros/franka_hw --package=franka_hw --results-filename test_launch_franka_hw_test.xml --results-base-dir \"/home/student/HapticDeviceGaggioli/haptic_ws/build/franka_hw/test_results\" /home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros/franka_hw/test/launch/franka_hw_test.test "
 
 run_tests_franka_hw_rostest_test_launch_franka_hw_test.test: test/CMakeFiles/run_tests_franka_hw_rostest_test_launch_franka_hw_test.test
 run_tests_franka_hw_rostest_test_launch_franka_hw_test.test: test/CMakeFiles/run_tests_franka_hw_rostest_test_launch_franka_hw_test.test.dir/build.make
@@ -67,10 +67,10 @@ test/CMakeFiles/run_tests_franka_hw_rostest_test_launch_franka_hw_test.test.dir/
 .PHONY : test/CMakeFiles/run_tests_franka_hw_rostest_test_launch_franka_hw_test.test.dir/build
 
 test/CMakeFiles/run_tests_franka_hw_rostest_test_launch_franka_hw_test.test.dir/clean:
-	cd /home/student/haptic_ws/build/franka_hw/test && $(CMAKE_COMMAND) -P CMakeFiles/run_tests_franka_hw_rostest_test_launch_franka_hw_test.test.dir/cmake_clean.cmake
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_hw/test && $(CMAKE_COMMAND) -P CMakeFiles/run_tests_franka_hw_rostest_test_launch_franka_hw_test.test.dir/cmake_clean.cmake
 .PHONY : test/CMakeFiles/run_tests_franka_hw_rostest_test_launch_franka_hw_test.test.dir/clean
 
 test/CMakeFiles/run_tests_franka_hw_rostest_test_launch_franka_hw_test.test.dir/depend:
-	cd /home/student/haptic_ws/build/franka_hw && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/student/haptic_ws/src/franka_ros/franka_hw /home/student/haptic_ws/src/franka_ros/franka_hw/test /home/student/haptic_ws/build/franka_hw /home/student/haptic_ws/build/franka_hw/test /home/student/haptic_ws/build/franka_hw/test/CMakeFiles/run_tests_franka_hw_rostest_test_launch_franka_hw_test.test.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_hw && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros/franka_hw /home/student/HapticDeviceGaggioli/haptic_ws/src/franka_ros/franka_hw/test /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_hw /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_hw/test /home/student/HapticDeviceGaggioli/haptic_ws/build/franka_hw/test/CMakeFiles/run_tests_franka_hw_rostest_test_launch_franka_hw_test.test.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : test/CMakeFiles/run_tests_franka_hw_rostest_test_launch_franka_hw_test.test.dir/depend
 

@@ -112,6 +112,7 @@ coefficients calc_coefficients(coefficients *coeff,std::vector<double> pos_init,
     coeff->coefficients_z[1] = 3.0 * (pos_ctrl_2[2] - pos_ctrl_1[2]) - coeff->coefficients_z[2] ; 
     coeff->coefficients_z[0] = pos_fin[2] - pos_init[2] - coeff->coefficients_z[2] - coeff->coefficients_z[1] ; 
 
+
 return *coeff ;
 }
 
@@ -211,8 +212,8 @@ int main(int argc,char **argv) {
     }
     //----------------------------------------
     //----------------------------------------
-
     while(ros::ok()) {
+        
         switch(state) {
             case 0: {
                 //state: init 
@@ -227,6 +228,11 @@ int main(int argc,char **argv) {
             case 3: {
                 //calcolo dei coefficienti 
                 calc_coefficients(&coeff_Bezier,pos_initial,joint_pos_initial,pos_final) ; 
+                for(int i=0;i<Ncoefficients;i++) {
+                    std::cout <<coeff_Bezier.coefficients_x[i] <<std::endl; 
+                    std::cout <<coeff_Bezier.coefficients_y[i] <<std::endl ; 
+                    std::cout <<coeff_Bezier.coefficients_z[i] <<std::endl; 
+                }
                 state = 4 ; 
             }
             case 4: {

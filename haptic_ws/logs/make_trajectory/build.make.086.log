@@ -1,0 +1,18 @@
+[35m[1mScanning dependencies of target MacchinaStati_Bezier[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/MacchinaStati_Bezier.dir/src/MacchinaStati_Bezier.cpp.o[0m
+[01m[K/home/student/HapticDeviceGaggioli/haptic_ws/src/make_trajectory/src/MacchinaStati_Bezier.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/student/HapticDeviceGaggioli/haptic_ws/src/make_trajectory/src/MacchinaStati_Bezier.cpp:232:63:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kstd[m[K’
+  232 |                     std::cout <<coeff_Bezier.coefficients_x[i][01;31m[K [m[K[32m[Kstd[m[K::endl;
+      |                                                               [01;31m[K^[m[K[32m[K~~~[m[K
+      |                                                               [32m[K;[m[K
+[01m[K/home/student/HapticDeviceGaggioli/haptic_ws/src/make_trajectory/src/MacchinaStati_Bezier.cpp:233:63:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kstd[m[K’
+  233 |                     std::cout <<coeff_Bezier.coefficients_y[i][01;31m[K [m[K[32m[Kstd[m[K::endl ;
+      |                                                               [01;31m[K^[m[K[32m[K~~~[m[K
+      |                                                               [32m[K;[m[K
+[01m[K/home/student/HapticDeviceGaggioli/haptic_ws/src/make_trajectory/src/MacchinaStati_Bezier.cpp:234:63:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kstd[m[K’
+  234 |                     std::cout <<coeff_Bezier.coefficients_z[i][01;31m[K [m[K[32m[Kstd[m[K::endl;
+      |                                                               [01;31m[K^[m[K[32m[K~~~[m[K
+      |                                                               [32m[K;[m[K
+make[2]: *** [CMakeFiles/MacchinaStati_Bezier.dir/build.make:63: CMakeFiles/MacchinaStati_Bezier.dir/src/MacchinaStati_Bezier.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:214: CMakeFiles/MacchinaStati_Bezier.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -134,8 +134,11 @@ target_link_libraries(Make_Trajectory_poly5_test ${catkin_LIBRARIES})
 add_executable(MacchinaStati src/MacchinaStati.cpp)
 target_link_libraries(MacchinaStati ${catkin_LIBRARIES})
 
-add_executable(MacchinaStati_Bezier src/MacchinaStati_Bezier.cpp)
-target_link_libraries(MacchinaStati_Bezier ${catkin_LIBRARIES})
+add_executable(MacchinaStatiBezier src/MacchinaStati_Bezier.cpp)
+target_link_libraries(MacchinaStatiBezier ${catkin_LIBRARIES})
+
+add_executable(MacchinaStati_Bezier_v2 src/MacchinaStati_Bezier_v2.cpp)
+target_link_libraries(MacchinaStati_Bezier_v2 ${catkin_LIBRARIES})
 
 ## Declare a C++ library
 # add_library(${PROJECT_NAME}

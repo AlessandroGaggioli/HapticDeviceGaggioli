@@ -1,0 +1,20 @@
+[35m[1mScanning dependencies of target MacchinaStati_Bezier[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/MacchinaStati_Bezier.dir/src/MacchinaStati_Bezier.cpp.o[0m
+[01m[K/home/student/HapticDeviceGaggioli/haptic_ws/src/make_trajectory/src/MacchinaStati_Bezier.cpp:[m[K In function ‘[01m[Kcoefficients calc_coefficients(coefficients*, std::vector<double>, std::vector<double>, std::vector<double>)[m[K’:
+[01m[K/home/student/HapticDeviceGaggioli/haptic_ws/src/make_trajectory/src/MacchinaStati_Bezier.cpp:108:94:[m[K [01;31m[Kerror: [m[Kfound ‘[01m[K:[m[K’ in nested-name-specifier, expected ‘[01m[K::[m[K’
+  108 |     for(int i=0;i<3;i++) pos_ctrl_1[i] = proiezione * joint_vel_initial[i] / modulo_velocita [01;31m[K:[m[K
+      |                                                                                              [01;31m[K^[m[K
+      |                                                                                              [32m[K::[m[K
+[01m[K/home/student/HapticDeviceGaggioli/haptic_ws/src/make_trajectory/src/MacchinaStati_Bezier.cpp:108:78:[m[K [01;31m[Kerror: [m[K‘[01m[Kmodulo_velocita[m[K’ is not a class, namespace, or enumeration
+  108 |     for(int i=0;i<3;i++) pos_ctrl_1[i] = proiezione * joint_vel_initial[i] / [01;31m[Kmodulo_velocita[m[K :
+      |                                                                              [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/student/HapticDeviceGaggioli/haptic_ws/src/make_trajectory/src/MacchinaStati_Bezier.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/student/HapticDeviceGaggioli/haptic_ws/src/make_trajectory/src/MacchinaStati_Bezier.cpp:191:44:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kpos_final[m[K’
+  191 |     joint_vel_initial.resize(NumJointState)
+      |                                            [01;31m[K^[m[K
+      |                                            [32m[K;[m[K
+  192 |     [32m[Kpos_final[m[K.resize(NumJointState) ;
+      |     [32m[K~~~~~~~~~[m[K                               
+make[2]: *** [CMakeFiles/MacchinaStati_Bezier.dir/build.make:63: CMakeFiles/MacchinaStati_Bezier.dir/src/MacchinaStati_Bezier.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:214: CMakeFiles/MacchinaStati_Bezier.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

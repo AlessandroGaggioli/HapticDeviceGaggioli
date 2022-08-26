@@ -7,6 +7,8 @@ make_trajectory
 /home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/make_trajectory/share/roseus/ros/make_trajectory/manifest.l /home/student/HapticDeviceGaggioli/haptic_ws/devel/share/roseus/ros/make_trajectory/manifest.l
 /home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/make_trajectory/lib/make_trajectory/MacchinaStati /home/student/HapticDeviceGaggioli/haptic_ws/devel/lib/make_trajectory/MacchinaStati
 /home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/make_trajectory/lib/make_trajectory/MacchinaStati_Bezier /home/student/HapticDeviceGaggioli/haptic_ws/devel/lib/make_trajectory/MacchinaStati_Bezier
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/make_trajectory/lib/make_trajectory/MacchinaStati_Bezier_v2 /home/student/HapticDeviceGaggioli/haptic_ws/devel/lib/make_trajectory/MacchinaStati_Bezier_v2
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/make_trajectory/lib/make_trajectory/MacchinaStatiBezier /home/student/HapticDeviceGaggioli/haptic_ws/devel/lib/make_trajectory/MacchinaStatiBezier
 /home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/make_trajectory/lib/make_trajectory/Make_Trajectory_poly5 /home/student/HapticDeviceGaggioli/haptic_ws/devel/lib/make_trajectory/Make_Trajectory_poly5
 /home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/make_trajectory/lib/make_trajectory/Make_Trajectory_poly5_test /home/student/HapticDeviceGaggioli/haptic_ws/devel/lib/make_trajectory/Make_Trajectory_poly5_test
 /home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/make_trajectory/lib/python3/dist-packages/make_trajectory/__init__.py /home/student/HapticDeviceGaggioli/haptic_ws/devel/lib/python3/dist-packages/make_trajectory/__init__.py

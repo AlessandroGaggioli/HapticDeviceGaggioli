@@ -20,6 +20,8 @@ std::vector<double> joint_pos_initial ;
 std::vector<double> pos_initial ; 
 std::vector<double> pos_final ; 
 
+std::vector<double> joint_vel_initial ; 
+
 std::vector<double> target ; 
 std::vector<double> joint_target ; 
 
@@ -100,6 +102,15 @@ coefficients calc_coefficients(coefficients *coeff,std::vector<double> pos_init,
     pos_ctrl_1.resize(NumJointState) ; 
     pos_ctrl_2.resize(NumJointState) ; 
 
+    //posizione di controllo 1 definita come il versore della velocità per la lunghezza del prolungamento
+    double proiezione = 0.1 ; //distanza del punto 1 rispetto al punto 0 
+    double modulo_velocita = sqrt(pow(joint_vel_initial[0],2)+pow(joint_vel_initial[1],2)+pow(joint_vel_initial[2],3))  ; //calcolo il modulo della velocità per calcolare il versore
+    for(int i=0;i<3;i++) pos_ctrl_1[i] = proiezione * joint_vel_initial[i] / modulo_velocita ;
+
+    //posizione di controllo 2 -- 
+    // --------------------------
+    // --------------------------
+
     coeff->coefficients_x[2] = 3.0 *(pos_ctrl_1[0] - pos_init[0]) ; 
     coeff->coefficients_x[1] = 3.0 *(pos_ctrl_2[0] - pos_ctrl_1[0]) - coeff->coefficients_x[2] ; 
     coeff->coefficients_x[0] = pos_fin[0] - pos_init[0] - coeff->coefficients_x[2] - coeff->coefficients_x[1] ; 
@@ -111,7 +122,6 @@ coefficients calc_coefficients(coefficients *coeff,std::vector<double> pos_init,
     coeff->coefficients_z[2] = 3.0 * (pos_ctrl_1[2] - pos_init[2]) ; 
     coeff->coefficients_z[1] = 3.0 * (pos_ctrl_2[2] - pos_ctrl_1[2]) - coeff->coefficients_z[2] ; 
     coeff->coefficients_z[0] = pos_fin[2] - pos_init[2] - coeff->coefficients_z[2] - coeff->coefficients_z[1] ; 
-
 
 return *coeff ;
 }
@@ -152,12 +162,14 @@ return BezierCurve ;
 }
 
 void JointStateCallback(const sensor_msgs::JointState& msg_send_received) {
+    std::cout <<"in\n" ;  
     //ricevo posizione di partenza 
     int j=0 ; 
     for(int i=0;i<9;i++) {
         if(msg_send_received.name[i] != "panda_finger_joint1" && msg_send_received.name[i] != "panda_finger_joint2") {
             name[j]=msg_send_received.name[i] ; 
             joint_pos_initial[j]=msg_send_received.position[i] ; 
+            joint_vel_initial[j]=msg_send_received.velocity[i] ; 
             j++  ; 
         }
     }
@@ -178,6 +190,7 @@ int main(int argc,char **argv) {
 
     name.resize(NumJointState) ; 
     joint_pos_initial.resize(NumJointState) ; 
+    joint_vel_initial.resize(NumJointState) ;
     pos_final.resize(NumJointState) ;    
     pos_initial.resize(NumJointState) ; 
     target.resize(NumJointState) ; 
@@ -205,10 +218,11 @@ int main(int argc,char **argv) {
     //Publisher
     pub=n.advertise<franka_core_msgs::JointCommand>("/panda_simulator/motion_controller/arm/joint_commands",1) ; 
     
+
     //ricevo posizione finale da tastiera-----------------
     std::cout <<"\nposizione di arrivo:\n" ; 
     for(int i=0;i<NumJointState;i++) {
-        std::cin >>pos_final[i] ; 
+        std::cin >>pos_final[i] ;
     }
     //----------------------------------------
     //----------------------------------------
@@ -216,17 +230,22 @@ int main(int argc,char **argv) {
         
         switch(state) {
             case 0: {
-                //state: init 
+                //state: init, accendo haptic 
                 state = 1 ; 
             }
             case 1: {
+                //state: una volta acceso l'haptic, inizio a leggere le posizioni, 
+                //converto le posizioni dal ref. frame haptic a quello del robot, 
+                //collego l'haptic al robot
                 state = 2 ; 
             }
             case 2: {
+                //state: accendo il calcolo della traiettoria, aspetto che si definisca l'oggetto da 
+                //prendere, la sua posizione e orientamento
                 state = 3 ; 
             }
             case 3: {
-                //calcolo dei coefficienti 
+                //state: calcolo dei coefficienti della curva Bezier
                 calc_coefficients(&coeff_Bezier,pos_initial,joint_pos_initial,pos_final) ; 
                 for(int i=0;i<Ncoefficients;i++) {
                     std::cout <<coeff_Bezier.coefficients_x[i] <<std::endl; 
@@ -236,7 +255,7 @@ int main(int argc,char **argv) {
                 state = 4 ; 
             }
             case 4: {
-                //calcolo punti traiettoria 
+                //state: calcolo i punti della traiettoria completa
                 BezierCurve = ComputeBezier(N_punti,pos_initial,pos_final,coeff_Bezier) ; 
                 state = 0 ; 
             }
@@ -279,7 +298,7 @@ int main(int argc,char **argv) {
             pub.publish(msg_send) ;*/
 
     ros::spinOnce() ; 
-    loop_rate.sleep() ; 
+    loop_rate.sleep() ;
     }
 
     ros::spin() ; 

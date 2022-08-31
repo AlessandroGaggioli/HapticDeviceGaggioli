@@ -1,0 +1,3 @@
+make[2]: *** No rule to make target '/home/student/HapticDeviceGaggioli/haptic_ws/src/make_trajectory/src/MacchinaStati_Bezier_v2.cpp', needed by 'CMakeFiles/MacchinaStati_Bezier_v2.dir/src/MacchinaStati_Bezier_v2.cpp.o'.  Stop.
+make[1]: *** [CMakeFiles/Makefile2:216: CMakeFiles/MacchinaStati_Bezier_v2.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

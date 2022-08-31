@@ -94,8 +94,7 @@ coefficients calc_coefficients(coefficients *coeff,std::vector<double> pos_init,
     coeff->coefficients_y.resize(Ncoefficients) ;
     coeff->coefficients_z.resize(Ncoefficients) ;
 
-    // POS_CTRL_1 E POS_CTRL_2 SONO LE POSIZIONI DI CONTROLLO 
-    //DELLA POLINOMIALE, ANCORA NON DICHIARATE NEL CODICE
+    // POS_CTRL_1 E POS_CTRL_2 posizioni di controllo
 
     std::vector<double> pos_ctrl_1 ; 
     std::vector<double> pos_ctrl_2 ; 
@@ -131,7 +130,7 @@ std::vector<std::vector<double>> ComputeBezier(double Npunti,std::vector<double>
     double distance_y = pos_fin[1] - pos_init[1] ; //distanza da percorrere lungo y
     double distance_z = pos_fin[2] - pos_init[2] ; //distanza da percorrere lungo z
 
-    double period = abs(distance_max(distance_x,distance_y,distance_z)) / Vmax; //periodo = distanza max / Vmax 
+    double period = abs(distance_max(distance_x,distance_y,distance_z)) / Vmax; //periodo = distanza max / Vmax S
 
     std::vector<std::vector<double>> BezierCurve ; 
     BezierCurve.resize(Npunti) ; 
@@ -162,7 +161,6 @@ return BezierCurve ;
 }
 
 void JointStateCallback(const sensor_msgs::JointState& msg_send_received) {
-    std::cout <<"in\n" ;  
     //ricevo posizione di partenza 
     int j=0 ; 
     for(int i=0;i<9;i++) {
@@ -174,11 +172,11 @@ void JointStateCallback(const sensor_msgs::JointState& msg_send_received) {
         }
     }
 
-    std::cout <<"\nname and position: " <<std::endl ; 
+    /*std::cout <<"\nname and position: " <<std::endl ; 
     for(int i=0;i<name.size();i++) {
         std::cout <<name[i] <<"\t" ; 
         std::cout <<joint_pos_initial[i] <<"\t"  ; 
-    } std::cout <<std::endl ; 
+    } std::cout <<std::endl ; */
 
     data = true ; 
     //-------------------------------------
@@ -217,7 +215,6 @@ int main(int argc,char **argv) {
 
     //Publisher
     pub=n.advertise<franka_core_msgs::JointCommand>("/panda_simulator/motion_controller/arm/joint_commands",1) ; 
-    
 
     //ricevo posizione finale da tastiera-----------------
     std::cout <<"\nposizione di arrivo:\n" ; 
@@ -226,39 +223,52 @@ int main(int argc,char **argv) {
     }
     //----------------------------------------
     //----------------------------------------
+
+    //Subscriber - ricevo i dati  
+    sub= n.subscribe("joint_states",1,JointStateCallback) ; 
+
     while(ros::ok()) {
         
         switch(state) {
             case 0: {
                 //state: init, accendo haptic 
                 state = 1 ; 
-            }
+            } break ; 
             case 1: {
                 //state: una volta acceso l'haptic, inizio a leggere le posizioni, 
                 //converto le posizioni dal ref. frame haptic a quello del robot, 
                 //collego l'haptic al robot
                 state = 2 ; 
-            }
+            } break ; 
             case 2: {
                 //state: accendo il calcolo della traiettoria, aspetto che si definisca l'oggetto da 
                 //prendere, la sua posizione e orientamento
                 state = 3 ; 
-            }
+            } break ; 
             case 3: {
                 //state: calcolo dei coefficienti della curva Bezier
                 calc_coefficients(&coeff_Bezier,pos_initial,joint_pos_initial,pos_final) ; 
+                std::cout <<"\nCOEFFICIENTS :\n" ; 
                 for(int i=0;i<Ncoefficients;i++) {
                     std::cout <<coeff_Bezier.coefficients_x[i] <<std::endl; 
                     std::cout <<coeff_Bezier.coefficients_y[i] <<std::endl ; 
                     std::cout <<coeff_Bezier.coefficients_z[i] <<std::endl; 
                 }
                 state = 4 ; 
-            }
+            } break ; 
             case 4: {
                 //state: calcolo i punti della traiettoria completa
                 BezierCurve = ComputeBezier(N_punti,pos_initial,pos_final,coeff_Bezier) ; 
+                std::cout <<"\n PUNTI CURVA\n" ; 
+                for(int i=0;i<N_punti;i++) {
+                    std::cout <<"\npunto " <<i <<std::endl ; 
+                    for(int j=0;j<NumJointState;j++) {
+                        std::cout <<std::endl <<BezierCurve[i][j] <<std::endl ;
+                    } 
+                    
+                }
                 state = 0 ; 
-            }
+            } break ; 
         }
 
         /*

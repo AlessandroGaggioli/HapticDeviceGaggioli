@@ -1,0 +1,45 @@
+[01m[K/home/student/HapticDeviceGaggioli/haptic_ws/src/make_trajectory/src/MacchinaStati_Bezier.cpp:[m[K In function ‘[01m[Kcoefficients calc_coefficients(coefficients*, std::vector<double>, std::vector<double>, std::vector<double>)[m[K’:
+[01m[K/home/student/HapticDeviceGaggioli/haptic_ws/src/make_trajectory/src/MacchinaStati_Bezier.cpp:113:39:[m[K [01;31m[Kerror: [m[Kno match for call to ‘[01m[K(std::vector<double>) (int)[m[K’
+  113 |     direzione_ctrl_2[0] = 2*(pos_fin(4[01;31m[K)[m[K*pos_fin(6)+pos_fin(5)*pos_fin(3)) ;
+      |                                       [01;31m[K^[m[K
+[01m[K/home/student/HapticDeviceGaggioli/haptic_ws/src/make_trajectory/src/MacchinaStati_Bezier.cpp:113:50:[m[K [01;31m[Kerror: [m[Kno match for call to ‘[01m[K(std::vector<double>) (int)[m[K’
+  113 |     direzione_ctrl_2[0] = 2*(pos_fin(4)*pos_fin(6[01;31m[K)[m[K+pos_fin(5)*pos_fin(3)) ;
+      |                                                  [01;31m[K^[m[K
+[01m[K/home/student/HapticDeviceGaggioli/haptic_ws/src/make_trajectory/src/MacchinaStati_Bezier.cpp:113:61:[m[K [01;31m[Kerror: [m[Kno match for call to ‘[01m[K(std::vector<double>) (int)[m[K’
+  113 |     direzione_ctrl_2[0] = 2*(pos_fin(4)*pos_fin(6)+pos_fin(5[01;31m[K)[m[K*pos_fin(3)) ;
+      |                                                             [01;31m[K^[m[K
+[01m[K/home/student/HapticDeviceGaggioli/haptic_ws/src/make_trajectory/src/MacchinaStati_Bezier.cpp:113:72:[m[K [01;31m[Kerror: [m[Kno match for call to ‘[01m[K(std::vector<double>) (int)[m[K’
+  113 |     direzione_ctrl_2[0] = 2*(pos_fin(4)*pos_fin(6)+pos_fin(5)*pos_fin(3[01;31m[K)[m[K) ;
+      |                                                                        [01;31m[K^[m[K
+[01m[K/home/student/HapticDeviceGaggioli/haptic_ws/src/make_trajectory/src/MacchinaStati_Bezier.cpp:114:39:[m[K [01;31m[Kerror: [m[Kno match for call to ‘[01m[K(std::vector<double>) (int)[m[K’
+  114 |     direzione_ctrl_2[1] = 2*(pos_fin(5[01;31m[K)[m[K*pos_fin(6)-pos_fin(4)*pos_fin(3)) ;
+      |                                       [01;31m[K^[m[K
+[01m[K/home/student/HapticDeviceGaggioli/haptic_ws/src/make_trajectory/src/MacchinaStati_Bezier.cpp:114:50:[m[K [01;31m[Kerror: [m[Kno match for call to ‘[01m[K(std::vector<double>) (int)[m[K’
+  114 |     direzione_ctrl_2[1] = 2*(pos_fin(5)*pos_fin(6[01;31m[K)[m[K-pos_fin(4)*pos_fin(3)) ;
+      |                                                  [01;31m[K^[m[K
+[01m[K/home/student/HapticDeviceGaggioli/haptic_ws/src/make_trajectory/src/MacchinaStati_Bezier.cpp:114:61:[m[K [01;31m[Kerror: [m[Kno match for call to ‘[01m[K(std::vector<double>) (int)[m[K’
+  114 |     direzione_ctrl_2[1] = 2*(pos_fin(5)*pos_fin(6)-pos_fin(4[01;31m[K)[m[K*pos_fin(3)) ;
+      |                                                             [01;31m[K^[m[K
+[01m[K/home/student/HapticDeviceGaggioli/haptic_ws/src/make_trajectory/src/MacchinaStati_Bezier.cpp:114:72:[m[K [01;31m[Kerror: [m[Kno match for call to ‘[01m[K(std::vector<double>) (int)[m[K’
+  114 |     direzione_ctrl_2[1] = 2*(pos_fin(5)*pos_fin(6)-pos_fin(4)*pos_fin(3[01;31m[K)[m[K) ;
+      |                                                                        [01;31m[K^[m[K
+[01m[K/home/student/HapticDeviceGaggioli/haptic_ws/src/make_trajectory/src/MacchinaStati_Bezier.cpp:115:40:[m[K [01;31m[Kerror: [m[Kno match for call to ‘[01m[K(std::vector<double>) (int)[m[K’
+  115 |     direzione_ctrl_2[2] = pow(pos_fin(3[01;31m[K)[m[K,2)-pow(pos_fin(4),2)-pow(pos_fin(5),2)+pow(pos_fin(6),2) ;
+      |                                        [01;31m[K^[m[K
+[01m[K/home/student/HapticDeviceGaggioli/haptic_ws/src/make_trajectory/src/MacchinaStati_Bezier.cpp:115:58:[m[K [01;31m[Kerror: [m[Kno match for call to ‘[01m[K(std::vector<double>) (int)[m[K’
+  115 |     direzione_ctrl_2[2] = pow(pos_fin(3),2)-pow(pos_fin(4[01;31m[K)[m[K,2)-pow(pos_fin(5),2)+pow(pos_fin(6),2) ;
+      |                                                          [01;31m[K^[m[K
+[01m[K/home/student/HapticDeviceGaggioli/haptic_ws/src/make_trajectory/src/MacchinaStati_Bezier.cpp:115:76:[m[K [01;31m[Kerror: [m[Kno match for call to ‘[01m[K(std::vector<double>) (int)[m[K’
+  115 |     direzione_ctrl_2[2] = pow(pos_fin(3),2)-pow(pos_fin(4),2)-pow(pos_fin(5[01;31m[K)[m[K,2)+pow(pos_fin(6),2) ;
+      |                                                                            [01;31m[K^[m[K
+[01m[K/home/student/HapticDeviceGaggioli/haptic_ws/src/make_trajectory/src/MacchinaStati_Bezier.cpp:115:94:[m[K [01;31m[Kerror: [m[Kno match for call to ‘[01m[K(std::vector<double>) (int)[m[K’
+  115 |     direzione_ctrl_2[2] = pow(pos_fin(3),2)-pow(pos_fin(4),2)-pow(pos_fin(5),2)+pow(pos_fin(6[01;31m[K)[m[K,2) ;
+      |                                                                                              [01;31m[K^[m[K
+[01m[K/home/student/HapticDeviceGaggioli/haptic_ws/src/make_trajectory/src/MacchinaStati_Bezier.cpp:116:18:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K<[m[K’ token
+  116 |     for(int i=0,i[01;31m[K<[m[K3;i++) pos_ctrl_2[i] = proiezione * direzione_ctrl_2[i] ;
+      |                  [01;31m[K^[m[K
+      |                  [32m[K;[m[K
+[01m[K/home/student/HapticDeviceGaggioli/haptic_ws/src/make_trajectory/src/MacchinaStati_Bezier.cpp:116:18:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K<[m[K’ token
+make[2]: *** [CMakeFiles/MacchinaStatiBezier.dir/build.make:63: CMakeFiles/MacchinaStatiBezier.dir/src/MacchinaStati_Bezier.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:214: CMakeFiles/MacchinaStatiBezier.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

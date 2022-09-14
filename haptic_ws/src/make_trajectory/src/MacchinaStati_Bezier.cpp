@@ -59,6 +59,7 @@ return max ;
 }
 
 coefficients calc_coefficients(coefficients *coeff,std::vector<double> pos_init,std::vector<double>joint_pos_init,std::vector<double> pos_fin) {
+   // std::cout <<"IN CALC_COEFFICIENTS\n" ;
     if(data) {
                         //Request FK della posizione iniziale
                         fk_srv.request.reference_joints.position=joint_pos_init ;
@@ -102,13 +103,28 @@ coefficients calc_coefficients(coefficients *coeff,std::vector<double> pos_init,
     pos_ctrl_2.resize(NumJointState) ; 
 
     //posizione di controllo 1 definita come il versore della velocità per la lunghezza del prolungamento
-    double proiezione = 0.1 ; //distanza del punto 1 rispetto al punto 0 
+    double proiezione = 0.05 ; //distanza del punto 1 rispetto al punto 0 
     double modulo_velocita = sqrt(pow(joint_vel_initial[0],2)+pow(joint_vel_initial[1],2)+pow(joint_vel_initial[2],3))  ; //calcolo il modulo della velocità per calcolare il versore
-    for(int i=0;i<3;i++) pos_ctrl_1[i] = proiezione * joint_vel_initial[i] / modulo_velocita ;
+    for(int i=0;i<3;i++) pos_ctrl_1[i] = pos_init[i]+proiezione * joint_vel_initial[i] / modulo_velocita ;
 
     //posizione di controllo 2 -- 
+    std::vector<double> direzione_ctrl_2 ; 
+    direzione_ctrl_2.resize(3) ; 
+    direzione_ctrl_2[0] = 2*(pos_fin[4]*pos_fin[6]+pos_fin[5]*pos_fin[3]) ; 
+    direzione_ctrl_2[1] = 2*(pos_fin[5]*pos_fin[6]-pos_fin[4]*pos_fin[3]) ; 
+    direzione_ctrl_2[2] = pow(pos_fin[3],2)-pow(pos_fin[4],2)-pow(pos_fin[5],2)+pow(pos_fin[6],2) ; 
+    for(int i=0;i<3;i++) pos_ctrl_2[i] = proiezione * direzione_ctrl_2[i] +pos_fin[i] ; 
     // --------------------------
     // --------------------------
+
+    std::cout <<"POS CTRL \n" ; 
+    for(int i=0;i<NumJointState;i++) {
+        std::cout <<pos_ctrl_1[i] <<std::endl ;
+    }
+
+    for(int i=0;i<NumJointState;i++) {
+        std::cout <<pos_ctrl_2[i] <<std::endl ;
+    }
 
     coeff->coefficients_x[2] = 3.0 *(pos_ctrl_1[0] - pos_init[0]) ; 
     coeff->coefficients_x[1] = 3.0 *(pos_ctrl_2[0] - pos_ctrl_1[0]) - coeff->coefficients_x[2] ; 
@@ -137,24 +153,29 @@ std::vector<std::vector<double>> ComputeBezier(double Npunti,std::vector<double>
 
     double DeltaT = period/Npunti ; //calcolo il DeltaT come perioso su numero di punti
 
-    for(int i=0;i<3;i++) target[i] = pos_init[i] ; //inizializzo il punto iniziale della traiettoria per il calcolo della curva
 
     /* CURVA BEZIER 
 
         x = ax * t^3 + bx * t^2 + cx * t + x0 
         y = ay * t^3 + by * t^2 + cy * t + y0
-        z = az * t^3 + bz * t^2 + cz * t + x0  */
+        z = az * t^3 + bz * t^2 + cz * t + z0  */
 
     for(int i=0;i<Npunti;i++) {
-        for(int j=Ncoefficients;j>1;j--) {
+        for(int j=Ncoefficients;j>0;j--) {
             target[0] += coeff.coefficients_x[j]*pow(DeltaT*(i+1),j) ; 
             target[1] += coeff.coefficients_y[j]*pow(DeltaT*(i+1),j) ; 
             target[2] += coeff.coefficients_z[j]*pow(DeltaT*(i+1),j) ;
         }
+
+        for(int k=0;k<3;k++) target[k] += pos_init[k] ; 
+
         for(int k=3;k<7;k++) {
             target[k]=pos_fin[k] ; 
         }
         BezierCurve[i] = target ; 
+        for(int k=0;k<NumJointState;k++) target[k] =0 ;  
+
+        //for(int k=0;k<NumJointState;k++) std::cout <<target[k] ; 
     }
 
 return BezierCurve ; 
@@ -172,7 +193,7 @@ void JointStateCallback(const sensor_msgs::JointState& msg_send_received) {
         }
     }
 
-    /*std::cout <<"\nname and position: " <<std::endl ; 
+   /* std::cout <<"\nname and position: " <<std::endl ; 
     for(int i=0;i<name.size();i++) {
         std::cout <<name[i] <<"\t" ; 
         std::cout <<joint_pos_initial[i] <<"\t"  ; 
@@ -254,6 +275,12 @@ int main(int argc,char **argv) {
                     std::cout <<coeff_Bezier.coefficients_y[i] <<std::endl ; 
                     std::cout <<coeff_Bezier.coefficients_z[i] <<std::endl; 
                 }
+
+                int in ; 
+                std::cin >>in ; 
+                while(!in) ; 
+
+
                 state = 4 ; 
             } break ; 
             case 4: {

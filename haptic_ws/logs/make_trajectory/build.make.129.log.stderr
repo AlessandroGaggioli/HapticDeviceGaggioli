@@ -1,0 +1,8 @@
+[01m[K/home/student/HapticDeviceGaggioli/haptic_ws/src/make_trajectory/src/MacchinaStati_Bezier_v3.cpp:[m[K In function ‘[01m[Kcoefficients calc_coefficients(coefficients*, std::vector<double>, std::vector<double>, std::vector<double>)[m[K’:
+[01m[K/home/student/HapticDeviceGaggioli/haptic_ws/src/make_trajectory/src/MacchinaStati_Bezier_v3.cpp:103:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kdirezione_ctrl_2[m[K’ was not declared in this scope; did you mean ‘[01m[Kdirezione_ctrl_1[m[K’?
+  103 |     [01;31m[Kdirezione_ctrl_2[m[K.resize(3) ;
+      |     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+      |     [32m[Kdirezione_ctrl_1[m[K
+make[2]: *** [CMakeFiles/MacchinaStatiBezierv3.dir/build.make:63: CMakeFiles/MacchinaStatiBezierv3.dir/src/MacchinaStati_Bezier_v3.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:382: CMakeFiles/MacchinaStatiBezierv3.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

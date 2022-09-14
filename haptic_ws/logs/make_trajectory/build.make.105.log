@@ -1,9 +1,0 @@
-[35m[1mScanning dependencies of target MacchinaStatiBezier[0m
-[ 11%] [32mBuilding CXX object CMakeFiles/MacchinaStatiBezier.dir/src/MacchinaStati_Bezier.cpp.o[0m
-[01m[K/home/student/HapticDeviceGaggioli/haptic_ws/src/make_trajectory/src/MacchinaStati_Bezier.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
-[01m[K/home/student/HapticDeviceGaggioli/haptic_ws/src/make_trajectory/src/MacchinaStati_Bezier.cpp:265:25:[m[K [01;31m[Kerror: [m[K‘[01m[Ktd[m[K’ has not been declared
-  265 |                         [01;31m[Ktd[m[K::cout <<BezierCurve[i][j] ;
-      |                         [01;31m[K^~[m[K
-make[2]: *** [CMakeFiles/MacchinaStatiBezier.dir/build.make:63: CMakeFiles/MacchinaStatiBezier.dir/src/MacchinaStati_Bezier.cpp.o] Error 1
-make[1]: *** [CMakeFiles/Makefile2:214: CMakeFiles/MacchinaStatiBezier.dir/all] Error 2
-make: *** [Makefile:141: all] Error 2

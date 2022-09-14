@@ -1,0 +1,9 @@
+[01m[K/home/student/HapticDeviceGaggioli/haptic_ws/src/make_trajectory/src/MacchinaStati_Bezier.cpp:[m[K In function ‘[01m[Kcoefficients calc_coefficients(coefficients*, std::vector<double>, std::vector<double>, std::vector<double>)[m[K’:
+[01m[K/home/student/HapticDeviceGaggioli/haptic_ws/src/make_trajectory/src/MacchinaStati_Bezier.cpp:116:18:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K<[m[K’ token
+  116 |     for(int i=0,i[01;31m[K<[m[K3;i++) pos_ctrl_2[i] = proiezione * direzione_ctrl_2[i] ;
+      |                  [01;31m[K^[m[K
+      |                  [32m[K;[m[K
+[01m[K/home/student/HapticDeviceGaggioli/haptic_ws/src/make_trajectory/src/MacchinaStati_Bezier.cpp:116:18:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K<[m[K’ token
+make[2]: *** [CMakeFiles/MacchinaStatiBezier.dir/build.make:63: CMakeFiles/MacchinaStatiBezier.dir/src/MacchinaStati_Bezier.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:214: CMakeFiles/MacchinaStatiBezier.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

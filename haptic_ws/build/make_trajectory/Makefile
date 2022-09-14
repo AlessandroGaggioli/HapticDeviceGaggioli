@@ -168,6 +168,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named MacchinaStatiBezierv2
+
+# Build rule for target.
+MacchinaStatiBezierv2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 MacchinaStatiBezierv2
+.PHONY : MacchinaStatiBezierv2
+
+# fast build rule for target.
+MacchinaStatiBezierv2/fast:
+	$(MAKE) -f CMakeFiles/MacchinaStatiBezierv2.dir/build.make CMakeFiles/MacchinaStatiBezierv2.dir/build
+.PHONY : MacchinaStatiBezierv2/fast
+
+#=============================================================================
 # Target rules for targets named MacchinaStatiBezier
 
 # Build rule for target.
@@ -231,6 +244,19 @@ make_trajectory_gennodejs: cmake_check_build_system
 make_trajectory_gennodejs/fast:
 	$(MAKE) -f CMakeFiles/make_trajectory_gennodejs.dir/build.make CMakeFiles/make_trajectory_gennodejs.dir/build
 .PHONY : make_trajectory_gennodejs/fast
+
+#=============================================================================
+# Target rules for targets named MacchinaStatiBezierv3
+
+# Build rule for target.
+MacchinaStatiBezierv3: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 MacchinaStatiBezierv3
+.PHONY : MacchinaStatiBezierv3
+
+# fast build rule for target.
+MacchinaStatiBezierv3/fast:
+	$(MAKE) -f CMakeFiles/MacchinaStatiBezierv3.dir/build.make CMakeFiles/MacchinaStatiBezierv3.dir/build
+.PHONY : MacchinaStatiBezierv3/fast
 
 #=============================================================================
 # Target rules for targets named make_trajectory_generate_messages_nodejs
@@ -1261,6 +1287,60 @@ src/MacchinaStati_Bezier.cpp.s:
 	$(MAKE) -f CMakeFiles/MacchinaStatiBezier.dir/build.make CMakeFiles/MacchinaStatiBezier.dir/src/MacchinaStati_Bezier.cpp.s
 .PHONY : src/MacchinaStati_Bezier.cpp.s
 
+src/MacchinaStati_Bezier_v2.o: src/MacchinaStati_Bezier_v2.cpp.o
+
+.PHONY : src/MacchinaStati_Bezier_v2.o
+
+# target to build an object file
+src/MacchinaStati_Bezier_v2.cpp.o:
+	$(MAKE) -f CMakeFiles/MacchinaStatiBezierv2.dir/build.make CMakeFiles/MacchinaStatiBezierv2.dir/src/MacchinaStati_Bezier_v2.cpp.o
+.PHONY : src/MacchinaStati_Bezier_v2.cpp.o
+
+src/MacchinaStati_Bezier_v2.i: src/MacchinaStati_Bezier_v2.cpp.i
+
+.PHONY : src/MacchinaStati_Bezier_v2.i
+
+# target to preprocess a source file
+src/MacchinaStati_Bezier_v2.cpp.i:
+	$(MAKE) -f CMakeFiles/MacchinaStatiBezierv2.dir/build.make CMakeFiles/MacchinaStatiBezierv2.dir/src/MacchinaStati_Bezier_v2.cpp.i
+.PHONY : src/MacchinaStati_Bezier_v2.cpp.i
+
+src/MacchinaStati_Bezier_v2.s: src/MacchinaStati_Bezier_v2.cpp.s
+
+.PHONY : src/MacchinaStati_Bezier_v2.s
+
+# target to generate assembly for a file
+src/MacchinaStati_Bezier_v2.cpp.s:
+	$(MAKE) -f CMakeFiles/MacchinaStatiBezierv2.dir/build.make CMakeFiles/MacchinaStatiBezierv2.dir/src/MacchinaStati_Bezier_v2.cpp.s
+.PHONY : src/MacchinaStati_Bezier_v2.cpp.s
+
+src/MacchinaStati_Bezier_v3.o: src/MacchinaStati_Bezier_v3.cpp.o
+
+.PHONY : src/MacchinaStati_Bezier_v3.o
+
+# target to build an object file
+src/MacchinaStati_Bezier_v3.cpp.o:
+	$(MAKE) -f CMakeFiles/MacchinaStatiBezierv3.dir/build.make CMakeFiles/MacchinaStatiBezierv3.dir/src/MacchinaStati_Bezier_v3.cpp.o
+.PHONY : src/MacchinaStati_Bezier_v3.cpp.o
+
+src/MacchinaStati_Bezier_v3.i: src/MacchinaStati_Bezier_v3.cpp.i
+
+.PHONY : src/MacchinaStati_Bezier_v3.i
+
+# target to preprocess a source file
+src/MacchinaStati_Bezier_v3.cpp.i:
+	$(MAKE) -f CMakeFiles/MacchinaStatiBezierv3.dir/build.make CMakeFiles/MacchinaStatiBezierv3.dir/src/MacchinaStati_Bezier_v3.cpp.i
+.PHONY : src/MacchinaStati_Bezier_v3.cpp.i
+
+src/MacchinaStati_Bezier_v3.s: src/MacchinaStati_Bezier_v3.cpp.s
+
+.PHONY : src/MacchinaStati_Bezier_v3.s
+
+# target to generate assembly for a file
+src/MacchinaStati_Bezier_v3.cpp.s:
+	$(MAKE) -f CMakeFiles/MacchinaStatiBezierv3.dir/build.make CMakeFiles/MacchinaStatiBezierv3.dir/src/MacchinaStati_Bezier_v3.cpp.s
+.PHONY : src/MacchinaStati_Bezier_v3.cpp.s
+
 src/Make_Trajectory_poly5.o: src/Make_Trajectory_poly5.cpp.o
 
 .PHONY : src/Make_Trajectory_poly5.o
@@ -1325,11 +1405,13 @@ help:
 	@echo "... install/local"
 	@echo "... list_install_components"
 	@echo "... test"
+	@echo "... MacchinaStatiBezierv2"
 	@echo "... MacchinaStatiBezier"
 	@echo "... MacchinaStati"
 	@echo "... make_trajectory_genpy"
 	@echo "... make_trajectory_generate_messages_py"
 	@echo "... make_trajectory_gennodejs"
+	@echo "... MacchinaStatiBezierv3"
 	@echo "... make_trajectory_generate_messages_nodejs"
 	@echo "... make_trajectory_genlisp"
 	@echo "... make_trajectory_generate_messages_lisp"
@@ -1414,6 +1496,12 @@ help:
 	@echo "... src/MacchinaStati_Bezier.o"
 	@echo "... src/MacchinaStati_Bezier.i"
 	@echo "... src/MacchinaStati_Bezier.s"
+	@echo "... src/MacchinaStati_Bezier_v2.o"
+	@echo "... src/MacchinaStati_Bezier_v2.i"
+	@echo "... src/MacchinaStati_Bezier_v2.s"
+	@echo "... src/MacchinaStati_Bezier_v3.o"
+	@echo "... src/MacchinaStati_Bezier_v3.i"
+	@echo "... src/MacchinaStati_Bezier_v3.s"
 	@echo "... src/Make_Trajectory_poly5.o"
 	@echo "... src/Make_Trajectory_poly5.i"
 	@echo "... src/Make_Trajectory_poly5.s"

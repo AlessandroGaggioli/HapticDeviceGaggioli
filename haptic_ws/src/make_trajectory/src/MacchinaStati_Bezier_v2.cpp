@@ -14,7 +14,6 @@
 #define N_punti 200
 
 int state = 0 ; 
-double  Vmax =  0.1  ; 
 
 std::vector<double> joint_pos_initial ; 
 std::vector<double> pos_initial ; 
@@ -59,8 +58,7 @@ return max ;
 }
 
 coefficients calc_coefficients(coefficients *coeff,std::vector<double> pos_init,std::vector<double>joint_pos_init,std::vector<double> pos_fin) {
-   // std::cout <<"IN CALC_COEFFICIENTS\n" ;
-    if(data) {
+    /*if(data) {
                         //Request FK della posizione iniziale
                         fk_srv.request.reference_joints.position=joint_pos_init ;
                         if(fk_client.call(fk_srv)) {    
@@ -81,14 +79,13 @@ coefficients calc_coefficients(coefficients *coeff,std::vector<double> pos_init,
                 std::cout <<"\nfail fk_service\n" ;  
             }
     } 
-    data = false ; 
+    data = false ; */
 
     //Calcolo dei coefficienti della polinomiale 
 
-
-    coeff->coefficients_x.resize(Ncoefficients) ;
-    coeff->coefficients_y.resize(Ncoefficients) ;
-    coeff->coefficients_z.resize(Ncoefficients) ;
+    coeff->coefficients_x.resize(Ncoefficients) ;   
+    coeff->coefficients_y.resize(Ncoefficients) ;   
+    coeff->coefficients_z.resize(Ncoefficients) ;   
 
     // POS_CTRL_1 E POS_CTRL_2 posizioni di controllo
 
@@ -102,7 +99,7 @@ coefficients calc_coefficients(coefficients *coeff,std::vector<double> pos_init,
     double modulo_velocita = sqrt(pow(joint_vel_initial[0],2)+pow(joint_vel_initial[1],2)+pow(joint_vel_initial[2],3))  ; //calcolo il modulo della velocità per calcolare il versore
     for(int i=0;i<3;i++) pos_ctrl_1[i] = pos_init[i]+proiezione * joint_vel_initial[i] / modulo_velocita ;
 
-    //posizione di controllo 2 -- 
+    //posizione di controllo 2 -- calcolata dal quaternione del punto finale
     std::vector<double> direzione_ctrl_2 ; 
     direzione_ctrl_2.resize(3) ; 
     direzione_ctrl_2[0] = 2*(pos_fin[4]*pos_fin[6]+pos_fin[5]*pos_fin[3]) ; 
@@ -113,11 +110,11 @@ coefficients calc_coefficients(coefficients *coeff,std::vector<double> pos_init,
     // --------------------------
 
     std::cout <<"\nPOS CTRL \n" ; 
-    for(int i=0;i<NumJointState;i++) {
+    for(int i=0;i<3;i++) {
         std::cout <<pos_ctrl_1[i] <<std::endl ;
     }
-
-    for(int i=0;i<NumJointState;i++) {
+    std::cout <<std::endl ; 
+    for(int i=0;i<3;i++) {
         std::cout <<pos_ctrl_2[i] <<std::endl ;
     }
 
@@ -141,6 +138,18 @@ std::vector<std::vector<double>> ComputeBezier(double Npunti,std::vector<double>
     std::vector<std::vector<double>> BezierCurve ; 
     BezierCurve.resize(Npunti) ; 
 
+    std::cout <<"\nCOEFFICIENTS :\n" ; 
+                for(int i=0;i<Ncoefficients;i++) {
+                    std::cout <<coeff.coefficients_x[i] <<std::endl; 
+                    std::cout <<coeff.coefficients_y[i] <<std::endl ; 
+                    std::cout <<coeff.coefficients_z[i] <<std::endl <<std::endl ;
+                }
+
+    std::cout <<"\nposizione iniziale:\n" ; 
+    for(int i=0;i<NumJointState;i++) { std::cout <<pos_init[i] <<std::endl ; }
+
+    std::cout <<"\nposizione finale:\n" ; 
+    for(int i=0;i<NumJointState;i++) { std::cout <<pos_fin[i] <<std::endl ; } 
 
     /* CURVA BEZIER 
 
@@ -148,11 +157,15 @@ std::vector<std::vector<double>> ComputeBezier(double Npunti,std::vector<double>
         y = ay * t^3 + by * t^2 + cy * t + y0
         z = az * t^3 + bz * t^2 + cz * t + z0  */
 
+    double dt = 1.0/(Npunti-1) ; 
+
+    std::cout <<"dt: " <<dt <<std::endl ;
+
     for(int i=0;i<Npunti;i++) {
         for(int j=Ncoefficients;j>0;j--) {
-            target[0] += coeff.coefficients_x[j]*pow(1.0/(Npunti-1)*(i+1),j) ; 
-            target[1] += coeff.coefficients_y[j]*pow(1.0/(Npunti-1)*(i+1),j) ; 
-            target[2] += coeff.coefficients_z[j]*pow(1.0/(Npunti-1)*(i+1),j) ;
+            target[0] += coeff.coefficients_x[3-j]*pow(dt*i,j) ; 
+            target[1] += coeff.coefficients_y[3-j]*pow(dt*i,j) ; 
+            target[2] += coeff.coefficients_z[3-j]*pow(dt*i,j) ;
         }
 
         for(int k=0;k<3;k++) target[k] += pos_init[k] ; 
@@ -161,9 +174,8 @@ std::vector<std::vector<double>> ComputeBezier(double Npunti,std::vector<double>
             target[k]=pos_fin[k] ; 
         }
         BezierCurve[i] = target ; 
-        for(int k=0;k<NumJointState;k++) target[k] =0 ;  
 
-        //for(int k=0;k<NumJointState;k++) std::cout <<target[k] ; 
+        for(int k=0;k<NumJointState;k++) target[k] =0 ;  
     }
 
 return BezierCurve ; 
@@ -189,6 +201,7 @@ void JointStateCallback(const sensor_msgs::JointState& msg_send_received) {
 
     data = true ; 
     //-------------------------------------
+
 }
 
 int main(int argc,char **argv) {
@@ -256,24 +269,35 @@ int main(int argc,char **argv) {
             } break ; 
             case 3: {
                 //state: calcolo dei coefficienti della curva Bezier
-                calc_coefficients(&coeff_Bezier,pos_initial,joint_pos_initial,pos_final) ; 
-                std::cout <<"\nCOEFFICIENTS :\n" ; 
-                for(int i=0;i<Ncoefficients;i++) {
-                    std::cout <<coeff_Bezier.coefficients_x[i] <<std::endl; 
-                    std::cout <<coeff_Bezier.coefficients_y[i] <<std::endl ; 
-                    std::cout <<coeff_Bezier.coefficients_z[i] <<std::endl; 
+
+                // --------CINEMATICA DIRETTA--------------------------------------------
+                if(data) {
+                        //Request FK della posizione iniziale
+                        fk_srv.request.reference_joints.position=joint_pos_initial ;
+                        if(fk_client.call(fk_srv)) {    
+                        pos_initial[0]=fk_srv.response.solution.position.x ; 
+                        pos_initial[1]=fk_srv.response.solution.position.y ;
+                        pos_initial[2]=fk_srv.response.solution.position.z ;
+                        pos_initial[3]=fk_srv.response.solution.orientation.x ;
+                        pos_initial[4]=fk_srv.response.solution.orientation.y ;
+                        pos_initial[5]=fk_srv.response.solution.orientation.z ;
+                        pos_initial[6]=fk_srv.response.solution.orientation.w ;
+                    }  
+                else {
+                std::cout <<"\nfail fk_service\n" ;  
                 }
+                } 
+                data = false ; 
+                // ------------------------------------------------------------------------
 
-                int in ; 
-                std::cin >>in ; 
-                while(!in) ; 
-
+                calc_coefficients(&coeff_Bezier,pos_initial,joint_pos_initial,pos_final) ; 
 
                 state = 4 ; 
             } break ; 
             case 4: {
                 //state: calcolo i punti della traiettoria completa
                 BezierCurve = ComputeBezier(N_punti,pos_initial,pos_final,coeff_Bezier) ; 
+
                 std::cout <<"\n PUNTI CURVA\n" ; 
                 for(int i=0;i<N_punti;i++) {
                     std::cout <<"\npunto " <<i <<std::endl ; 

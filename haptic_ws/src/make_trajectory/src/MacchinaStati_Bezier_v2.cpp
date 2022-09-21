@@ -7,6 +7,12 @@
 #include <iostream>
 #include <string>
 #include <cmath>
+#include <tf2_ros/transform_listener.h>
+#include <geometry_msgs/TransformStamped.h>
+#include "geometry_msgs/PointStamped.h" 
+#include "tf2_ros/message_filter.h"
+#include "message_filters/subscriber.h"
+#include "tf2_geometry_msgs/tf2_geometry_msgs.h"
 
 #define NumJointState 7
 #define frequence 50
@@ -19,10 +25,18 @@ std::vector<double> joint_pos_initial ;
 std::vector<double> pos_initial ; 
 std::vector<double> pos_final ; 
 
+std::vector<double> robot_pos_link0 ; 
+
 std::vector<double> joint_vel_initial ; 
+
+std::vector<double> haptic_pose ; 
+std::vector<double> haptic_vel ; 
 
 std::vector<double> target ; 
 std::vector<double> joint_target ; 
+
+std::vector<double> offset_haptic_to_robot ; 
+std::vector<double> offset_robot_to_haptic ; 
 
 std::vector<std::vector<double>> BezierCurve ;
 
@@ -40,6 +54,7 @@ panda_ik::pandaIk ik_srv ;
 
 //SUBSCRIBER 
 ros::Subscriber sub ; 
+ros::Subscriber haptic_sub ; 
 
 //PUBLISHER 
 ros::Publisher pub ; 
@@ -50,36 +65,7 @@ typedef struct  {
     std::vector<double> coefficients_z ; 
 } coefficients ; 
 
-double distance_max(double a,double b,double c) {
-    double max = a; 
-    if(b>a) max = b ; 
-    if(c>max) max = c; 
-return max ; 
-}
-
-coefficients calc_coefficients(coefficients *coeff,std::vector<double> pos_init,std::vector<double>joint_pos_init,std::vector<double> pos_fin) {
-    /*if(data) {
-                        //Request FK della posizione iniziale
-                        fk_srv.request.reference_joints.position=joint_pos_init ;
-                        if(fk_client.call(fk_srv)) {    
-                        pos_init[0]=fk_srv.response.solution.position.x ; 
-                        pos_init[1]=fk_srv.response.solution.position.y ;
-                        pos_init[2]=fk_srv.response.solution.position.z ;
-                        pos_init[3]=fk_srv.response.solution.orientation.x ;
-                        pos_init[4]=fk_srv.response.solution.orientation.y ;
-                        pos_init[5]=fk_srv.response.solution.orientation.z ;
-                        pos_init[6]=fk_srv.response.solution.orientation.w ;
-
-                        std::cout <<"\npos_initial: \n" ; 
-                        for(int i=0;i<NumJointState;i++) {
-                            std::cout <<pos_init[i] <<std::endl ; 
-                        }
-                    }  
-        else {
-                std::cout <<"\nfail fk_service\n" ;  
-            }
-    } 
-    data = false ; */
+coefficients calc_coefficients(coefficients *coeff,std::vector<double> pos_init,std::vector<double> pos_fin) {
 
     //Calcolo dei coefficienti della polinomiale 
 
@@ -181,6 +167,7 @@ std::vector<std::vector<double>> ComputeBezier(double Npunti,std::vector<double>
 return BezierCurve ; 
 }
 
+
 void JointStateCallback(const sensor_msgs::JointState& msg_send_received) {
     //ricevo posizione di partenza 
     int j=0 ; 
@@ -201,7 +188,35 @@ void JointStateCallback(const sensor_msgs::JointState& msg_send_received) {
 
     data = true ; 
     //-------------------------------------
+}
 
+void HapticEndEffectorCallback(const sensor_msgs::JointState& msg_send_received) {
+    //ricevo posizione dell'haptic
+    for(int i=0;i<7;i++) {
+        haptic_pose[i]=msg_send_received.position[i] ; 
+        haptic_vel[i]=msg_send_received.velocity[i] ; 
+    }
+}
+
+std::vector<double> ConvertWorkspace(std::vector<double> robot_pos,std::vector<double> haptic_pos,std::string mode) {
+    
+    if(mode == "haptic_to_robot") {
+        std::vector<double> offset ; 
+        offset.resize(3) ; 
+        offset[0] = robot_pos[0] - haptic_pos[0] ; 
+        offset[1] = robot_pos[1] - haptic_pos[1] ; 
+        offset[2] = robot_pos[2] - haptic_pos[2] ; 
+    }
+
+    else if(mode == "robot_to_haptic") {
+        std::vector<double> offset ; 
+        offset.resize(3) ; 
+        offset[0] = haptic_pos[0] - robot_pos[0] ; 
+        offset[1] = haptic_pos[1] - robot_pos[1] ; 
+        offset[2] = haptic_pos[2] - robot_pos[2] : 
+    }
+
+return offset ; 
 }
 
 int main(int argc,char **argv) {
@@ -213,10 +228,15 @@ int main(int argc,char **argv) {
     joint_vel_initial.resize(NumJointState) ;
     pos_final.resize(NumJointState) ;    
     pos_initial.resize(NumJointState) ; 
+    haptic_pose.resize(NumJointState) ; 
+    haptic_vel.resize(NumJointState) ; 
     target.resize(NumJointState) ; 
+    robot_pos_link0.resize(NumJointState) ; 
     coeff_Bezier.coefficients_x.resize(Ncoefficients) ;    
     coeff_Bezier.coefficients_y.resize(Ncoefficients) ;    
     coeff_Bezier.coefficients_z.resize(Ncoefficients) ;  
+    offset_haptic_to_robot.resize(3) ; 
+    offset_robot_to_haptic.resize(3) ; 
 
     name[0]="panda_joint1" ; 
     name[1]="panda_joint2" ;
@@ -230,6 +250,11 @@ int main(int argc,char **argv) {
     ros::init(argc,argv,"MacchinaStati") ; 
     ros::NodeHandle n ; 
     ros::Rate loop_rate(frequence) ; 
+
+    //TF2_LISTENER
+    tf2_ros::Buffer tfBuffer ; 
+    tf2_ros::TransformListener tfListener(tfBuffer) ;
+    ros::Rate rate(10.0) ; 
 
     //Client
     fk_client=n.serviceClient<panda_ik::pandaFk>("panda_fk_service") ;
@@ -248,6 +273,7 @@ int main(int argc,char **argv) {
 
     //Subscriber - ricevo i dati  
     sub= n.subscribe("joint_states",1,JointStateCallback) ; 
+    haptic_sub=n.subscribe("geomagic/end_effector_pose",1,HapticEndEffectorCallback) ; 
 
     while(ros::ok()) {
         
@@ -256,21 +282,14 @@ int main(int argc,char **argv) {
                 //state: init, accendo haptic 
                 state = 1 ; 
             } break ; 
+
             case 1: {
                 //state: una volta acceso l'haptic, inizio a leggere le posizioni, 
-                //converto le posizioni dal ref. frame haptic a quello del robot, 
-                //collego l'haptic al robot
-                state = 2 ; 
-            } break ; 
-            case 2: {
-                //state: accendo il calcolo della traiettoria, aspetto che si definisca l'oggetto da 
-                //prendere, la sua posizione e orientamento
-                state = 3 ; 
-            } break ; 
-            case 3: {
-                //state: calcolo dei coefficienti della curva Bezier
+                //converto le posizioni dal ref. frame end effector a quello del robot, 
+                //collego l'haptic al robot previa trasformazione con offset delle posizioni
 
                 // --------CINEMATICA DIRETTA--------------------------------------------
+                
                 if(data) {
                         //Request FK della posizione iniziale
                         fk_srv.request.reference_joints.position=joint_pos_initial ;
@@ -289,14 +308,63 @@ int main(int argc,char **argv) {
                 } 
                 data = false ; 
                 // ------------------------------------------------------------------------
+                
+                geometry_msgs::TransformStamped transformStamped ;
+                try{
+                    transformStamped = tfBuffer.lookupTransform("panda_link0","panda_hand",ros::Time(0)) ;   
+                }
+                catch (tf2::TransformException &ex) {
+                    ROS_WARN("%s",ex.what()) ; 
+                    ros::Duration(1.0).sleep() ; 
+                    continue ; 
+                }
 
-                calc_coefficients(&coeff_Bezier,pos_initial,joint_pos_initial,pos_final) ; 
+                // tf reference frame end effector - robot ------------------
+                
+                robot_pos_link0[0] = transformStamped.transform.translation.x ;
+                robot_pos_link0[1] = transformStamped.transform.translation.y ;
+                robot_pos_link0[2] = transformStamped.transform.translation.z ; 
+                robot_pos_link0[3] = transformStamped.transform.rotation.x ;
+                robot_pos_link0[4] = transformStamped.transform.rotation.y  ;
+                robot_pos_link0[5] = transformStamped.transform.rotation.z ;
+                robot_pos_link0[6] = transformStamped.transform.rotation.w ; 
+
+                std::cout <<"\nrobot_pos_link0: \n"
+                for(int i=0;i<robot_pos_link0.size();i++) std::cout <<robot_pos_link0[i] <<std::endl ; 
+                std::cout <<std::endl ; 
+
+                //-----------------------------------------------------------
+
+                //--- conversione posizione haptic -> robot ------------------
+
+                offset_haptic_to_robot = ConvertWorkspace(robot_pos_link0,haptic_pose,"haptic_to_robot") ; 
+
+                //--------------------------------------------------------------
+
+                state = 2 ; 
+            } break ; 
+
+            case 2: {
+                //state: accendo il calcolo della traiettoria, aspetto che si definisca l'oggetto da 
+                //prendere, la sua posizione e orientamento
+                state = 3 ; 
+            } break ; 
+            case 3: {
+                //state: calcolo dei coefficienti della curva Bezier
+
+                //----- calcolo posizioni reali, conversione haptic to robot-----------
+                for(int i=0;i<3;i++) robot_pos_link0[i] += offset_haptic_to_robot[i] ; 
+                //---------------------------------------------------------------------
+
+                //----calcolo coefficienti ---------------------------------------------
+                calc_coefficients(&coeff_Bezier,robot_pos_link0,pos_final) ; 
+                //---------------------------------------------------------------------
 
                 state = 4 ; 
             } break ; 
             case 4: {
-                //state: calcolo i punti della traiettoria completa
-                BezierCurve = ComputeBezier(N_punti,pos_initial,pos_final,coeff_Bezier) ; 
+                //state: calcolo i punti della traiettoria completa------------------
+                BezierCurve = ComputeBezier(N_punti,robot_pos_link0,pos_final,coeff_Bezier) ; 
 
                 std::cout <<"\n PUNTI CURVA\n" ; 
                 for(int i=0;i<N_punti;i++) {
@@ -306,6 +374,10 @@ int main(int argc,char **argv) {
                     } 
                     
                 }
+                //-----------------------------------------------------------
+                //--------conversione posizione robot-> haptic---------------
+                offset_robot_to_haptic = ConvertWorkspace(robot_pos_link0,haptic_pose,"robot_to_haptic") ;
+                //-----------------------------------------------------------
                 state = 0 ; 
             } break ; 
         }

@@ -1,0 +1,8 @@
+[01m[K/home/student/HapticDeviceGaggioli/haptic_ws/src/make_trajectory/src/MacchinaStati_Bezier_v2.cpp:[m[K In constructor ‘[01m[KPoseDrawer::PoseDrawer()[m[K’:
+[01m[K/home/student/HapticDeviceGaggioli/haptic_ws/src/make_trajectory/src/MacchinaStati_Bezier_v2.cpp:29:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kn[m[K’ was not declared in this scope; did you mean ‘[01m[Kyn[m[K’?
+   29 |                 point_sub_.subscribe([01;31m[Kn[m[K,"point_stamped",10) ;
+      |                                      [01;31m[K^[m[K
+      |                                      [32m[Kyn[m[K
+make[2]: *** [CMakeFiles/MacchinaStatiBezierv2.dir/build.make:63: CMakeFiles/MacchinaStatiBezierv2.dir/src/MacchinaStati_Bezier_v2.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:226: CMakeFiles/MacchinaStatiBezierv2.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

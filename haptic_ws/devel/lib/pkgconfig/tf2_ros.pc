@@ -1,0 +1,1 @@
+/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/tf2_ros/lib/pkgconfig/tf2_ros.pc

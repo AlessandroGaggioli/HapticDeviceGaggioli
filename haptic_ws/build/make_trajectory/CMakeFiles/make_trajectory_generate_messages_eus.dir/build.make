@@ -58,7 +58,7 @@ CMakeFiles/make_trajectory_generate_messages_eus: /home/student/HapticDeviceGagg
 
 /home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/make_trajectory/share/roseus/ros/make_trajectory/manifest.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/student/HapticDeviceGaggioli/haptic_ws/build/make_trajectory/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating EusLisp manifest code for make_trajectory"
-	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py -m -o /home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/make_trajectory/share/roseus/ros/make_trajectory make_trajectory std_msgs franka_core_msgs panda_ik
+	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py -m -o /home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/make_trajectory/share/roseus/ros/make_trajectory make_trajectory std_msgs franka_core_msgs panda_ik tf2_msgs
 
 make_trajectory_generate_messages_eus: CMakeFiles/make_trajectory_generate_messages_eus
 make_trajectory_generate_messages_eus: /home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/make_trajectory/share/roseus/ros/make_trajectory/manifest.l

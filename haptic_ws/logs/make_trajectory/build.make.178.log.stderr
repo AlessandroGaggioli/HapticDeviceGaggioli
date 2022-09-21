@@ -1,0 +1,14 @@
+/usr/bin/ld: CMakeFiles/MacchinaStatiBezierv2.dir/src/MacchinaStati_Bezier_v2.cpp.o: in function `main':
+MacchinaStati_Bezier_v2.cpp:(.text+0x1e3f): undefined reference to `tf2::BufferCore::lookupTransform(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, ros::Time const&) const'
+/usr/bin/ld: CMakeFiles/MacchinaStatiBezierv2.dir/src/MacchinaStati_Bezier_v2.cpp.o: in function `__static_initialization_and_destruction_0(int, int)':
+MacchinaStati_Bezier_v2.cpp:(.text+0x2b32): undefined reference to `tf2_ros::Buffer::Buffer(ros::Duration, bool)'
+/usr/bin/ld: MacchinaStati_Bezier_v2.cpp:(.text+0x2bbf): undefined reference to `tf2_ros::TransformListener::TransformListener(tf2::BufferCore&, bool, ros::TransportHints)'
+/usr/bin/ld: MacchinaStati_Bezier_v2.cpp:(.text+0x2be0): undefined reference to `tf2_ros::TransformListener::~TransformListener()'
+/usr/bin/ld: CMakeFiles/MacchinaStatiBezierv2.dir/src/MacchinaStati_Bezier_v2.cpp.o: in function `tf2_ros::Buffer::~Buffer()':
+MacchinaStati_Bezier_v2.cpp:(.text._ZN7tf2_ros6BufferD2Ev[_ZN7tf2_ros6BufferD5Ev]+0x13): undefined reference to `vtable for tf2_ros::Buffer'
+/usr/bin/ld: MacchinaStati_Bezier_v2.cpp:(.text._ZN7tf2_ros6BufferD2Ev[_ZN7tf2_ros6BufferD5Ev]+0x21): undefined reference to `vtable for tf2_ros::Buffer'
+/usr/bin/ld: MacchinaStati_Bezier_v2.cpp:(.text._ZN7tf2_ros6BufferD2Ev[_ZN7tf2_ros6BufferD5Ev]+0x4b): undefined reference to `tf2::BufferCore::~BufferCore()'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/MacchinaStatiBezierv2.dir/build.make:101: /home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/make_trajectory/lib/make_trajectory/MacchinaStatiBezierv2] Error 1
+make[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/MacchinaStatiBezierv2.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

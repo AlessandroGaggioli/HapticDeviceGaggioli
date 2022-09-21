@@ -1,0 +1,23 @@
+[01m[K/home/student/HapticDeviceGaggioli/haptic_ws/src/make_trajectory/src/MacchinaStati_Bezier_v2.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/student/HapticDeviceGaggioli/haptic_ws/src/make_trajectory/src/MacchinaStati_Bezier_v2.cpp:318:38:[m[K [01;31m[Kerror: [m[K‘[01m[KTransformStamped[m[K’ was not declared in this scope; did you mean ‘[01m[Kgeometry_msgs::TransformStamped[m[K’?
+  318 |                 robot_pos_link0[0] = [01;31m[KTransformStamped[m[K.transform.translation.x * pos_initial[0] ;
+      |                                      [01;31m[K^~~~~~~~~~~~~~~~[m[K
+      |                                      [32m[Kgeometry_msgs::TransformStamped[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/message_traits.h:31[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/serialization.h:37[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/publisher.h:34[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/node_handle.h:32[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/student/HapticDeviceGaggioli/haptic_ws/src/make_trajectory/src/MacchinaStati_Bezier_v2.cpp:1[m[K:
+[01m[K/opt/ros/noetic/include/tf2/transform_storage.h:44:21:[m[K [01;36m[Knote: [m[K‘[01m[Kgeometry_msgs::TransformStamped[m[K’ declared here
+   44 | ROS_DECLARE_MESSAGE([01;36m[KTransformStamped[m[K)
+      |                     [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/message_forward.h:60:32:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROS_DECLARE_MESSAGE_WITH_ALLOCATOR[m[K’
+   60 |   typedef msg##_<alloc<void> > [01;36m[Knew_name[m[K; \
+      |                                [01;36m[K^~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/tf2/transform_storage.h:44:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_DECLARE_MESSAGE[m[K’
+   44 | [01;36m[KROS_DECLARE_MESSAGE[m[K(TransformStamped)
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/MacchinaStatiBezierv2.dir/build.make:63: CMakeFiles/MacchinaStatiBezierv2.dir/src/MacchinaStati_Bezier_v2.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:226: CMakeFiles/MacchinaStatiBezierv2.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

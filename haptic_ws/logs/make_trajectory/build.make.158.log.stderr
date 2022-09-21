@@ -1,0 +1,10 @@
+[01m[K/home/student/HapticDeviceGaggioli/haptic_ws/src/make_trajectory/src/MacchinaStati_Bezier_v2.cpp:40:28:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K([m[K’ token
+   40 | tf2_ros::transform_listener[01;31m[K([m[KtfBuffer) ;
+      |                            [01;31m[K^[m[K
+[01m[K/home/student/HapticDeviceGaggioli/haptic_ws/src/make_trajectory/src/MacchinaStati_Bezier_v2.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/student/HapticDeviceGaggioli/haptic_ws/src/make_trajectory/src/MacchinaStati_Bezier_v2.cpp:288:30:[m[K [01;31m[Kerror: [m[K‘[01m[KtransformStamped[m[K’ is not a member of ‘[01m[Ktf2_ros[m[K’
+  288 |                     tf2_ros::[01;31m[KtransformStamped[m[K = tfBuffer.lookupTransform("panda_hand","panda_link0",ros::Time(0)) ;
+      |                              [01;31m[K^~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/MacchinaStatiBezierv2.dir/build.make:63: CMakeFiles/MacchinaStatiBezierv2.dir/src/MacchinaStati_Bezier_v2.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:216: CMakeFiles/MacchinaStatiBezierv2.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

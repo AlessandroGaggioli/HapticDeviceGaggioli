@@ -1,0 +1,121 @@
+[01m[K/home/student/HapticDeviceGaggioli/haptic_ws/src/make_trajectory/src/MacchinaStati_Bezier_v2.cpp:31:43:[m[K [01;31m[Kerror: [m[K‘[01m[KPointStampedCOnstPtr[m[K’ in namespace ‘[01m[Kgeometry_msgs[m[K’ does not name a type; did you mean ‘[01m[KPointStampedConstPtr[m[K’?
+   31 |     void msgCallback(const geometry_msgs::[01;31m[KPointStampedCOnstPtr[m[K& point_ptr) {
+      |                                           [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+      |                                           [32m[KPointStampedConstPtr[m[K
+[01m[K/home/student/HapticDeviceGaggioli/haptic_ws/src/make_trajectory/src/MacchinaStati_Bezier_v2.cpp:[m[K In constructor ‘[01m[KPoseDrawer::PoseDrawer()[m[K’:
+[01m[K/home/student/HapticDeviceGaggioli/haptic_ws/src/make_trajectory/src/MacchinaStati_Bezier_v2.cpp:25:28:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KPoseDrawer[m[K’ does not have any field named ‘[01m[Ktarget_frame[m[K’
+   25 |             tf2_(buffer_), [01;31m[Ktarget_frame[m[K("panda_link0"),
+      |                            [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/student/HapticDeviceGaggioli/haptic_ws/src/make_trajectory/src/MacchinaStati_Bezier_v2.cpp:28:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kn_[m[K’ was not declared in this scope; did you mean ‘[01m[Kn[m[K’?
+   28 |                 point_sub_.subscribe([01;31m[Kn_[m[K,"point_stamped",10) ;
+      |                                      [01;31m[K^~[m[K
+      |                                      [32m[Kn[m[K
+[01m[K/home/student/HapticDeviceGaggioli/haptic_ws/src/make_trajectory/src/MacchinaStati_Bezier_v2.cpp:[m[K In member function ‘[01m[Kvoid PoseDrawer::msgCallback(const int&)[m[K’:
+[01m[K/home/student/HapticDeviceGaggioli/haptic_ws/src/make_trajectory/src/MacchinaStati_Bezier_v2.cpp:35:32:[m[K [01;31m[Kerror: [m[Kinvalid type argument of unary ‘[01m[K*[m[K’ (have ‘[01m[Kint[m[K’)
+   35 |             buffer_.transform(*[01;31m[Kpoint_ptr[m[K,point_out,target_frame_) ;
+      |                                [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/student/HapticDeviceGaggioli/haptic_ws/src/make_trajectory/src/MacchinaStati_Bezier_v2.cpp:39:39:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K%[m[K’ token
+   39 |         catch [34m[K([m[Ktf2::TransformException[01;31m[K [m[K[32m[K%[m[Kex) {
+      |               [34m[K~[m[K                       [01;31m[K^[m[K[32m[K~[m[K
+      |                                       [32m[K)[m[K
+[01m[K/home/student/HapticDeviceGaggioli/haptic_ws/src/make_trajectory/src/MacchinaStati_Bezier_v2.cpp:39:40:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[K%[m[K’ token
+   39 |         catch (tf2::TransformException [01;31m[K%[m[Kex) {
+      |                                        [01;31m[K^[m[K
+[01m[K/home/student/HapticDeviceGaggioli/haptic_ws/src/make_trajectory/src/MacchinaStati_Bezier_v2.cpp:39:40:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K%[m[K’ token
+[01m[K/home/student/HapticDeviceGaggioli/haptic_ws/src/make_trajectory/src/MacchinaStati_Bezier_v2.cpp:39:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kex[m[K’ was not declared in this scope; did you mean ‘[01m[Kexp[m[K’?
+   39 |         catch (tf2::TransformException %[01;31m[Kex[m[K) {
+      |                                         [01;31m[K^~[m[K
+      |                                         [32m[Kexp[m[K
+[01m[K/home/student/HapticDeviceGaggioli/haptic_ws/src/make_trajectory/src/MacchinaStati_Bezier_v2.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/student/HapticDeviceGaggioli/haptic_ws/src/make_trajectory/src/MacchinaStati_Bezier_v2.cpp:296:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kn[m[K’ was not declared in this scope; did you mean ‘[01m[Kyn[m[K’?
+  296 |     fk_client=[01;31m[Kn[m[K.serviceClient<panda_ik::pandaFk>("panda_fk_service") ;
+      |               [01;31m[K^[m[K
+      |               [32m[Kyn[m[K
+[01m[K/home/student/HapticDeviceGaggioli/haptic_ws/src/make_trajectory/src/MacchinaStati_Bezier_v2.cpp:296:48:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+  296 |     fk_client=n.serviceClient<panda_ik::pandaFk[01;31m[K>[m[K("panda_fk_service") ;
+      |                                                [01;31m[K^[m[K
+[01m[K/home/student/HapticDeviceGaggioli/haptic_ws/src/make_trajectory/src/MacchinaStati_Bezier_v2.cpp:297:48:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+  297 |     ik_client=n.serviceClient<panda_ik::pandaIk[01;31m[K>[m[K("panda_ik_service") ;
+      |                                                [01;31m[K^[m[K
+[01m[K/home/student/HapticDeviceGaggioli/haptic_ws/src/make_trajectory/src/MacchinaStati_Bezier_v2.cpp:300:51:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+  300 |     pub=n.advertise<franka_core_msgs::JointCommand[01;31m[K>[m[K("/panda_simulator/motion_controller/arm/joint_commands",1) ;
+      |                                                   [01;31m[K^[m[K
+In file included from [01m[K/usr/include/boost/bind.hpp:22[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/publisher.h:35[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/node_handle.h:32[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/student/HapticDeviceGaggioli/haptic_ws/src/make_trajectory/src/MacchinaStati_Bezier_v2.cpp:1[m[K:
+/usr/include/boost/bind/bind.hpp: In instantiation of ‘[01m[Kvoid boost::_bi::list2<A1, A2>::operator()(boost::_bi::type<void>, F&, A&, int) [with F = boost::_mfi::mf1<void, PoseDrawer, const int&>; A = boost::_bi::rrlist1<const boost::shared_ptr<const geometry_msgs::PointStamped_<std::allocator<void> > >&>; A1 = boost::_bi::value<PoseDrawer*>; A2 = boost::arg<1>][m[K’:
+[01m[K/usr/include/boost/bind/bind.hpp:1306:50:[m[K   required from ‘[01m[Kboost::_bi::bind_t<R, F, L>::result_type boost::_bi::bind_t<R, F, L>::operator()(A1&&) [with A1 = const boost::shared_ptr<const geometry_msgs::PointStamped_<std::allocator<void> > >&; R = void; F = boost::_mfi::mf1<void, PoseDrawer, const int&>; L = boost::_bi::list2<boost::_bi::value<PoseDrawer*>, boost::arg<1> >; boost::_bi::bind_t<R, F, L>::result_type = void][m[K’
+[01m[K/usr/include/boost/function/function_template.hpp:158:11:[m[K   required from ‘[01m[Kstatic void boost::detail::function::void_function_obj_invoker1<FunctionObj, R, T0>::invoke(boost::detail::function::function_buffer&, T0) [with FunctionObj = boost::_bi::bind_t<void, boost::_mfi::mf1<void, PoseDrawer, const int&>, boost::_bi::list2<boost::_bi::value<PoseDrawer*>, boost::arg<1> > >; R = void; T0 = const boost::shared_ptr<const geometry_msgs::PointStamped_<std::allocator<void> > >&][m[K’
+[01m[K/usr/include/boost/function/function_template.hpp:931:38:[m[K   required from ‘[01m[Kvoid boost::function1<R, T1>::assign_to(Functor) [with Functor = boost::_bi::bind_t<void, boost::_mfi::mf1<void, PoseDrawer, const int&>, boost::_bi::list2<boost::_bi::value<PoseDrawer*>, boost::arg<1> > >; R = void; T0 = const boost::shared_ptr<const geometry_msgs::PointStamped_<std::allocator<void> > >&][m[K’
+[01m[K/usr/include/boost/function/function_template.hpp:720:7:[m[K   required from ‘[01m[Kboost::function1<R, T1>::function1(Functor, typename boost::enable_if_<(! boost::is_integral<Functor>::value), int>::type) [with Functor = boost::_bi::bind_t<void, boost::_mfi::mf1<void, PoseDrawer, const int&>, boost::_bi::list2<boost::_bi::value<PoseDrawer*>, boost::arg<1> > >; R = void; T0 = const boost::shared_ptr<const geometry_msgs::PointStamped_<std::allocator<void> > >&; typename boost::enable_if_<(! boost::is_integral<Functor>::value), int>::type = int][m[K’
+[01m[K/usr/include/boost/function/function_template.hpp:1068:16:[m[K   required from ‘[01m[Kboost::function<R(T0)>::function(Functor, typename boost::enable_if_<(! boost::is_integral<Functor>::value), int>::type) [with Functor = boost::_bi::bind_t<void, boost::_mfi::mf1<void, PoseDrawer, const int&>, boost::_bi::list2<boost::_bi::value<PoseDrawer*>, boost::arg<1> > >; R = void; T0 = const boost::shared_ptr<const geometry_msgs::PointStamped_<std::allocator<void> > >&; typename boost::enable_if_<(! boost::is_integral<Functor>::value), int>::type = int][m[K’
+[01m[K/opt/ros/noetic/include/message_filters/simple_filter.h:75:67:[m[K   required from ‘[01m[Kmessage_filters::Connection message_filters::SimpleFilter<M>::registerCallback(const C&) [with C = boost::_bi::bind_t<void, boost::_mfi::mf1<void, PoseDrawer, const int&>, boost::_bi::list2<boost::_bi::value<PoseDrawer*>, boost::arg<1> > >; M = geometry_msgs::PointStamped_<std::allocator<void> >][m[K’
+[01m[K/home/student/HapticDeviceGaggioli/haptic_ws/src/make_trajectory/src/MacchinaStati_Bezier_v2.cpp:29:91:[m[K   required from here
+[01m[K/usr/include/boost/bind/bind.hpp:319:35:[m[K [01;31m[Kerror: [m[Kno match for call to ‘[01m[K(boost::_mfi::mf1<void, PoseDrawer, const int&>) (PoseDrawer*&, const boost::shared_ptr<const geometry_msgs::PointStamped_<std::allocator<void> > >&)[m[K’
+  319 |         [01;31m[Kunwrapper<F>::unwrap(f, 0)(a[base_type::a1_], a[base_type::a2_])[m[K;
+      |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/bind/mem_fn.hpp:215[m[K,
+                 from [01m[K/usr/include/boost/mem_fn.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/function/detail/prologue.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/function.hpp:30[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/forwards.h:40[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/common.h:37[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/ros.h:43[m[K,
+                 from [01m[K/home/student/HapticDeviceGaggioli/haptic_ws/src/make_trajectory/src/MacchinaStati_Bezier_v2.cpp:1[m[K:
+[01m[K/usr/include/boost/bind/mem_fn_template.hpp:163:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KR boost::_mfi::mf1<R, T, A1>::operator()(T*, A1) const [with R = void; T = PoseDrawer; A1 = const int&][m[K’
+  163 |     R [01;36m[Koperator[m[K()(T * p, A1 a1) const
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/boost/bind/mem_fn_template.hpp:163:28:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kconst boost::shared_ptr<const geometry_msgs::PointStamped_<std::allocator<void> > >[m[K’ to ‘[01m[Kconst int&[m[K’
+  163 |     R operator()(T * p, [01;36m[KA1 a1[m[K) const
+      |                         [01;36m[K~~~^~[m[K
+[01m[K/usr/include/boost/bind/mem_fn_template.hpp:168:25:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class U> R boost::_mfi::mf1<R, T, A1>::operator()(U&, A1) const [with U = U; R = void; T = PoseDrawer; A1 = const int&][m[K’
+  168 |     template<class U> R [01;36m[Koperator[m[K()(U & u, A1 a1) const
+      |                         [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/boost/bind/mem_fn_template.hpp:168:25:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/usr/include/boost/bind.hpp:22[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/publisher.h:35[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/node_handle.h:32[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/student/HapticDeviceGaggioli/haptic_ws/src/make_trajectory/src/MacchinaStati_Bezier_v2.cpp:1[m[K:
+[01m[K/usr/include/boost/bind/bind.hpp:319:35:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[K(& a)->boost::_bi::rrlist1<const boost::shared_ptr<const geometry_msgs::PointStamped_<std::allocator<void> > >&>::operator[](boost::_bi::storage2<boost::_bi::value<PoseDrawer*>, boost::arg<1> >::a2_)[m[K’ (type ‘[01m[Kconst boost::shared_ptr<const geometry_msgs::PointStamped_<std::allocator<void> > >[m[K’) to type ‘[01m[Kconst int&[m[K’
+  319 |         [01;36m[Kunwrapper<F>::unwrap(f, 0)(a[base_type::a1_], a[base_type::a2_])[m[K;
+      |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/bind/mem_fn.hpp:215[m[K,
+                 from [01m[K/usr/include/boost/mem_fn.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/function/detail/prologue.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/function.hpp:30[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/forwards.h:40[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/common.h:37[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/ros.h:43[m[K,
+                 from [01m[K/home/student/HapticDeviceGaggioli/haptic_ws/src/make_trajectory/src/MacchinaStati_Bezier_v2.cpp:1[m[K:
+[01m[K/usr/include/boost/bind/mem_fn_template.hpp:176:25:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class U> R boost::_mfi::mf1<R, T, A1>::operator()(const U&, A1) const [with U = U; R = void; T = PoseDrawer; A1 = const int&][m[K’
+  176 |     template<class U> R [01;36m[Koperator[m[K()(U const & u, A1 a1) const
+      |                         [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/boost/bind/mem_fn_template.hpp:176:25:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/usr/include/boost/bind.hpp:22[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/publisher.h:35[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/node_handle.h:32[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/student/HapticDeviceGaggioli/haptic_ws/src/make_trajectory/src/MacchinaStati_Bezier_v2.cpp:1[m[K:
+[01m[K/usr/include/boost/bind/bind.hpp:319:35:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[K(& a)->boost::_bi::rrlist1<const boost::shared_ptr<const geometry_msgs::PointStamped_<std::allocator<void> > >&>::operator[](boost::_bi::storage2<boost::_bi::value<PoseDrawer*>, boost::arg<1> >::a2_)[m[K’ (type ‘[01m[Kconst boost::shared_ptr<const geometry_msgs::PointStamped_<std::allocator<void> > >[m[K’) to type ‘[01m[Kconst int&[m[K’
+  319 |         [01;36m[Kunwrapper<F>::unwrap(f, 0)(a[base_type::a1_], a[base_type::a2_])[m[K;
+      |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/bind/mem_fn.hpp:215[m[K,
+                 from [01m[K/usr/include/boost/mem_fn.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/function/detail/prologue.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/function.hpp:30[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/forwards.h:40[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/common.h:37[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/ros.h:43[m[K,
+                 from [01m[K/home/student/HapticDeviceGaggioli/haptic_ws/src/make_trajectory/src/MacchinaStati_Bezier_v2.cpp:1[m[K:
+[01m[K/usr/include/boost/bind/mem_fn_template.hpp:184:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KR boost::_mfi::mf1<R, T, A1>::operator()(T&, A1) const [with R = void; T = PoseDrawer; A1 = const int&][m[K’
+  184 |     R [01;36m[Koperator[m[K()(T & t, A1 a1) const
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/boost/bind/mem_fn_template.hpp:184:22:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KPoseDrawer*[m[K’ to ‘[01m[KPoseDrawer&[m[K’
+  184 |     R operator()([01;36m[KT & t[m[K, A1 a1) const
+      |                  [01;36m[K~~~~^[m[K
+make[2]: *** [CMakeFiles/MacchinaStatiBezierv2.dir/build.make:63: CMakeFiles/MacchinaStatiBezierv2.dir/src/MacchinaStati_Bezier_v2.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:226: CMakeFiles/MacchinaStatiBezierv2.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

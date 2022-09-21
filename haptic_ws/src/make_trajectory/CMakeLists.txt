@@ -15,6 +15,8 @@ find_package(catkin REQUIRED COMPONENTS
   sensor_msgs
   franka_core_msgs
   panda_ik
+  tf2_ros
+
 )
 
 ## System dependencies are found with CMake's conventions
@@ -73,6 +75,7 @@ find_package(catkin REQUIRED COMPONENTS
    std_msgs
    franka_core_msgs
    panda_ik
+   tf2_msgs
  )
 
 ################################################
@@ -107,7 +110,7 @@ find_package(catkin REQUIRED COMPONENTS
 catkin_package(
   INCLUDE_DIRS include
   LIBRARIES make_trajectory
-  CATKIN_DEPENDS message_runtime roscpp rospy std_msgs franka_core_msgs panda_ik
+  CATKIN_DEPENDS message_runtime roscpp rospy std_msgs franka_core_msgs panda_ik tf2_ros
   DEPENDS system_lib
 )
 
@@ -139,9 +142,6 @@ target_link_libraries(MacchinaStatiBezier ${catkin_LIBRARIES})
 
 add_executable(MacchinaStatiBezierv2 src/MacchinaStati_Bezier_v2.cpp)
 target_link_libraries(MacchinaStatiBezierv2 ${catkin_LIBRARIES})
-
-add_executable(MacchinaStatiBezierv3 src/MacchinaStati_Bezier_v3.cpp)
-target_link_libraries(MacchinaStatiBezierv3 ${catkin_LIBRARIES})
 
 ## Declare a C++ library
 # add_library(${PROJECT_NAME}

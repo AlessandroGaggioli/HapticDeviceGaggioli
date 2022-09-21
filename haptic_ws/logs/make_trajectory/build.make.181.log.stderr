@@ -1,0 +1,38 @@
+[01m[K/home/student/HapticDeviceGaggioli/haptic_ws/src/make_trajectory/src/MacchinaStati_Bezier_v2.cpp:[m[K In constructor ‘[01m[KPoseDrawer::PoseDrawer()[m[K’:
+[01m[K/home/student/HapticDeviceGaggioli/haptic_ws/src/make_trajectory/src/MacchinaStati_Bezier_v2.cpp:25:28:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KPoseDrawer[m[K’ does not have any field named ‘[01m[Ktarget_frame[m[K’
+   25 |             tf2_(buffer_), [01;31m[Ktarget_frame[m[K("panda_link0"),
+      |                            [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/student/HapticDeviceGaggioli/haptic_ws/src/make_trajectory/src/MacchinaStati_Bezier_v2.cpp:28:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kn_[m[K’ was not declared in this scope; did you mean ‘[01m[Kn[m[K’?
+   28 |                 point_sub_.subscribe([01;31m[Kn_[m[K,"point_stamped",10) ;
+      |                                      [01;31m[K^~[m[K
+      |                                      [32m[Kn[m[K
+[01m[K/home/student/HapticDeviceGaggioli/haptic_ws/src/make_trajectory/src/MacchinaStati_Bezier_v2.cpp:[m[K In member function ‘[01m[Kvoid PoseDrawer::msgCallback(const PointStampedConstPtr&)[m[K’:
+[01m[K/home/student/HapticDeviceGaggioli/haptic_ws/src/make_trajectory/src/MacchinaStati_Bezier_v2.cpp:39:39:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K%[m[K’ token
+   39 |         catch [34m[K([m[Ktf2::TransformException[01;31m[K [m[K[32m[K%[m[Kex) {
+      |               [34m[K~[m[K                       [01;31m[K^[m[K[32m[K~[m[K
+      |                                       [32m[K)[m[K
+[01m[K/home/student/HapticDeviceGaggioli/haptic_ws/src/make_trajectory/src/MacchinaStati_Bezier_v2.cpp:39:40:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[K%[m[K’ token
+   39 |         catch (tf2::TransformException [01;31m[K%[m[Kex) {
+      |                                        [01;31m[K^[m[K
+[01m[K/home/student/HapticDeviceGaggioli/haptic_ws/src/make_trajectory/src/MacchinaStati_Bezier_v2.cpp:39:40:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K%[m[K’ token
+[01m[K/home/student/HapticDeviceGaggioli/haptic_ws/src/make_trajectory/src/MacchinaStati_Bezier_v2.cpp:39:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kex[m[K’ was not declared in this scope; did you mean ‘[01m[Kexp[m[K’?
+   39 |         catch (tf2::TransformException %[01;31m[Kex[m[K) {
+      |                                         [01;31m[K^~[m[K
+      |                                         [32m[Kexp[m[K
+[01m[K/home/student/HapticDeviceGaggioli/haptic_ws/src/make_trajectory/src/MacchinaStati_Bezier_v2.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/student/HapticDeviceGaggioli/haptic_ws/src/make_trajectory/src/MacchinaStati_Bezier_v2.cpp:296:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kn[m[K’ was not declared in this scope; did you mean ‘[01m[Kyn[m[K’?
+  296 |     fk_client=[01;31m[Kn[m[K.serviceClient<panda_ik::pandaFk>("panda_fk_service") ;
+      |               [01;31m[K^[m[K
+      |               [32m[Kyn[m[K
+[01m[K/home/student/HapticDeviceGaggioli/haptic_ws/src/make_trajectory/src/MacchinaStati_Bezier_v2.cpp:296:48:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+  296 |     fk_client=n.serviceClient<panda_ik::pandaFk[01;31m[K>[m[K("panda_fk_service") ;
+      |                                                [01;31m[K^[m[K
+[01m[K/home/student/HapticDeviceGaggioli/haptic_ws/src/make_trajectory/src/MacchinaStati_Bezier_v2.cpp:297:48:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+  297 |     ik_client=n.serviceClient<panda_ik::pandaIk[01;31m[K>[m[K("panda_ik_service") ;
+      |                                                [01;31m[K^[m[K
+[01m[K/home/student/HapticDeviceGaggioli/haptic_ws/src/make_trajectory/src/MacchinaStati_Bezier_v2.cpp:300:51:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+  300 |     pub=n.advertise<franka_core_msgs::JointCommand[01;31m[K>[m[K("/panda_simulator/motion_controller/arm/joint_commands",1) ;
+      |                                                   [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/MacchinaStatiBezierv2.dir/build.make:63: CMakeFiles/MacchinaStatiBezierv2.dir/src/MacchinaStati_Bezier_v2.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:226: CMakeFiles/MacchinaStatiBezierv2.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

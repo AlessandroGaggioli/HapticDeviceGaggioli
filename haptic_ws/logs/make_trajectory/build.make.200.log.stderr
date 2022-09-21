@@ -1,0 +1,21 @@
+[01m[K/home/student/HapticDeviceGaggioli/haptic_ws/src/make_trajectory/src/MacchinaStati_Bezier_v2.cpp:[m[K In function ‘[01m[Kvoid ConvertWorkspace(std::vector<double>, std::vector<double>, std::string)[m[K’:
+[01m[K/home/student/HapticDeviceGaggioli/haptic_ws/src/make_trajectory/src/MacchinaStati_Bezier_v2.cpp:215:49:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K:[m[K’ token
+  215 |         offset[2] = haptic_pos[2] - robot_pos[2][01;31m[K [m[K[32m[K:[m[K
+      |                                                 [01;31m[K^[m[K[32m[K~[m[K
+      |                                                 [32m[K;[m[K
+[01m[K/home/student/HapticDeviceGaggioli/haptic_ws/src/make_trajectory/src/MacchinaStati_Bezier_v2.cpp:217:21:[m[K [01;31m[Kerror: [m[K‘[01m[Ki[m[K’ was not declared in this scope
+  217 |         for(int i=0;[01;31m[Ki[m[K<3;i++) haptic_pos[i] += offset[i] ;
+      |                     [01;31m[K^[m[K
+[01m[K/home/student/HapticDeviceGaggioli/haptic_ws/src/make_trajectory/src/MacchinaStati_Bezier_v2.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/student/HapticDeviceGaggioli/haptic_ws/src/make_trajectory/src/MacchinaStati_Bezier_v2.cpp:329:52:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kfor[m[K’
+  329 |                 std::cout <<"\nrobot_pos_link0: \n"
+      |                                                    [01;31m[K^[m[K
+      |                                                    [32m[K;[m[K
+  330 |                 [32m[Kfor[m[K(int i=0;i<robot_pos_link0.size();i++) std::cout <<robot_pos_link0[i] <<std::endl ;
+      |                 [32m[K~~~[m[K                                 
+[01m[K/home/student/HapticDeviceGaggioli/haptic_ws/src/make_trajectory/src/MacchinaStati_Bezier_v2.cpp:330:29:[m[K [01;31m[Kerror: [m[K‘[01m[Ki[m[K’ was not declared in this scope
+  330 |                 for(int i=0;[01;31m[Ki[m[K<robot_pos_link0.size();i++) std::cout <<robot_pos_link0[i] <<std::endl ;
+      |                             [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/MacchinaStatiBezierv2.dir/build.make:63: CMakeFiles/MacchinaStatiBezierv2.dir/src/MacchinaStati_Bezier_v2.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:226: CMakeFiles/MacchinaStatiBezierv2.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

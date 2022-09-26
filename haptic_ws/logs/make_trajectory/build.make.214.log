@@ -1,0 +1,21 @@
+[35m[1mScanning dependencies of target MacchinaStatiBezierv2[0m
+[  9%] [32mBuilding CXX object CMakeFiles/MacchinaStatiBezierv2.dir/src/MacchinaStati_Bezier_v2.cpp.o[0m
+[01m[K/home/student/HapticDeviceGaggioli/haptic_ws/src/make_trajectory/src/MacchinaStati_Bezier_v2.cpp:[m[K In function ‘[01m[Kvoid ProdottoMatrici(double (*)[3], double (*)[3], double, int)[m[K’:
+[01m[K/home/student/HapticDeviceGaggioli/haptic_ws/src/make_trajectory/src/MacchinaStati_Bezier_v2.cpp:73:23:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kdouble[int][m[K’ for array subscript
+   73 |             prodotto[i[01;31m[K][m[K[j] =0 ;
+      |                       [01;31m[K^[m[K
+[01m[K/home/student/HapticDeviceGaggioli/haptic_ws/src/make_trajectory/src/MacchinaStati_Bezier_v2.cpp:75:27:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kdouble[int][m[K’ for array subscript
+   75 |                 prodotto[i[01;31m[K][m[K[j] += M1[i][k] * M2[k][j] ;
+      |                           [01;31m[K^[m[K
+[01m[K/home/student/HapticDeviceGaggioli/haptic_ws/src/make_trajectory/src/MacchinaStati_Bezier_v2.cpp:[m[K In function ‘[01m[Kvoid ConvertOrientation(std::vector<double>)[m[K’:
+[01m[K/home/student/HapticDeviceGaggioli/haptic_ws/src/make_trajectory/src/MacchinaStati_Bezier_v2.cpp:285:82:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kdouble (*)[3][m[K’ to ‘[01m[Kdouble[m[K’
+  285 |     ProdottoMatrici(RotationMatrix_Haptic_Robot,RotationMatrix_EndEffectorHaptic,[01;31m[KRotationMatrix_EndEffectorRobot[m[K,3) ;
+      |                                                                                  [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                                                                  [01;31m[K|[m[K
+      |                                                                                  [01;31m[Kdouble (*)[3][m[K
+[01m[K/home/student/HapticDeviceGaggioli/haptic_ws/src/make_trajectory/src/MacchinaStati_Bezier_v2.cpp:69:61:[m[K [01;36m[Knote: [m[K  initializing argument 3 of ‘[01m[Kvoid ProdottoMatrici(double (*)[3], double (*)[3], double, int)[m[K’
+   69 | void ProdottoMatrici(double M1[3][3],double M2[3][3],[01;36m[Kdouble prodotto[m[K,int n) {
+      |                                                      [01;36m[K~~~~~~~^~~~~~~~[m[K
+make[2]: *** [CMakeFiles/MacchinaStatiBezierv2.dir/build.make:63: CMakeFiles/MacchinaStatiBezierv2.dir/src/MacchinaStati_Bezier_v2.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:226: CMakeFiles/MacchinaStatiBezierv2.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

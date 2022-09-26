@@ -59,6 +59,25 @@ typedef struct  {
     std::vector<double> coefficients_z ; 
 } coefficients ; 
 
+ double sgn(double a) {
+        double ret  ; 
+        if(a>=0) ret = 1.0 ; 
+        else ret = -1.0 ; 
+    return ret ; 
+    }
+
+void ProdottoMatrici(double M1[3][3],double M2[3][3],double prodotto[3][3],int n) {
+    int k ; 
+    for(int i=0;i<n;i++) {
+        for(int j=0;j<n;j++) {
+            prodotto[i][j] =0 ; 
+            for(k=0;k<n;k++) {
+                prodotto[i][j] += M1[i][k] * M2[k][j] ; 
+            }
+        }
+    }
+}
+
 coefficients calc_coefficients(coefficients *coeff,std::vector<double> pos_init,std::vector<double> pos_fin,std::vector<double> vel_init) {
 
     //Calcolo dei coefficienti della polinomiale 
@@ -139,48 +158,138 @@ return BezierCurve ;
 
 
 void JointStateCallback(const sensor_msgs::JointState& msg_send_received) {
-    //ricevo posizione di partenza 
+    //leggo dal simulatore la velocità iniziale -------------------
     int j=0 ; 
-    for(int i=0;i<9;i++) {
+    for(int i=0;i<9;i++) {Orientation_EndEffectorRobot,3
         if(msg_send_received.name[i] != "panda_finger_joint1" && msg_send_received.name[i] != "panda_finger_joint2") {
             vel_initial[j]=msg_send_received.velocity[i] ; 
             j++  ; 
         }
     }
 
-   //-------------------------------------
+   //-------------------------------------------------------------
 }
 
 void HapticEndEffectorCallback(const sensor_msgs::JointState& msg) {
-    //ricevo posizione dell'haptic
+    //leggo posizione dell'haptic---------------------
     for(int i=0;i<7;i++) {
         haptic_pose[i]=msg.position[i] ; 
         haptic_vel[i]=msg.velocity[i] ; 
         std::cout <<haptic_pose[i] <<std::endl ; 
     }
-
+    //-------------------------------------------------
 
 }
 
-std::vector<double> ConvertWorkspace(std::vector<double> robot_pos,std::vector<double> haptic_pos,std::string mode) {
+std::vector<double> OffsetConvertWorkspace(std::vector<double> robot_pos,std::vector<double> haptic_pos,std::string mode) {
+
+    /* Calcolo offset tra i frame
+       del workspace del robot e dell'haptic*/
 
     std::vector<double> offset ;
+    offset.resize(3) ; 
     if(mode == "haptic_to_robot") {
          
-        offset.resize(3) ; 
         offset[0] = robot_pos[0] - haptic_pos[0] ; 
         offset[1] = robot_pos[1] - haptic_pos[1] ; 
         offset[2] = robot_pos[2] - haptic_pos[2] ; 
     }
+
     else if(mode == "robot_to_haptic") {
         
-        offset.resize(3) ; 
         offset[0] = haptic_pos[0] - robot_pos[0] ; 
         offset[1] = haptic_pos[1] - robot_pos[1] ; 
         offset[2] = haptic_pos[2] - robot_pos[2] ;
     }
 
 return offset ; 
+}
+
+std::vector<double> ConvertWorkspace(std::vector<double> robot_pos,std::vector<double> haptic_pos,std::string mode) {
+    std::vector<double> converted_pose ; 
+    std::vector<double> temp ; 
+    converted_pose.resize(robot_pos.size()) ; 
+    temp.resize(3) ; 
+    Orientation_EndEffectorRobot,3verted_pose[i] = temp[i] ; 
+    }
+    else if(mode == "robot_to_haptic") {
+        converted_pose = haptic_pos ; 
+        temp[0] = haptic_pos[1] ; 
+        temp[1] = haptic_pos[2] ; 
+        temp[2] = haptic_pos[0] ; 
+        for(int i=0;i<3;i++) converted_pose[i] = temp[i] ; 
+    }
+
+return converted_pose ;
+}
+
+
+
+std::vector<double> ConvertOrientation(std::vector<double> haptic_joint,std::vector<double> pos_robot) {
+
+    //--- calcolo orientamento end effector rispetto haptic ------------------------------------
+    double q1 = haptic_joint[0] ; 
+    double q2 = haptic_joint[1] ; 
+    double q3 = haptic_joint[2] ; 
+    double RotationMatrix_EndEffectorHaptic[3][3] ;  
+    RotationMatrix_EndEffectorHaptic[0][0] = cos(q1)*cos(q2)*cos(q3) - cos(q1)*sin(q2)*sin(q3) ; 
+    RotationMatrix_EndEffectorHaptic[0][1] = -cos(q1)*cos(q2)*sin(q3)-cos(q1)*cos(q3)*sin(q2) ; 
+    RotationMatrix_EndEffectorHaptic[0][2] = sin(q1) ; 
+    RotationMatrix_EndEffectorHaptic[1][0] = cos(q2)*cos(q3)*sin(q1) - sin(q1)*sin(q2)*sin(q3); 
+    RotationMatrix_EndEffectorHaptic[1][1] = -cos(q2)*sin(q1)*sin(q3)-cos(q3)*sin(q1)*sin(q2) ; 
+    RotationMatrix_EndEffectorHaptic[1][2] = -cos(q1) ; 
+    RotationMatrix_EndEffectorHaptic[2][0] = cos(q2)*sin(q3) + cos(q3)*sin(q2) ; 
+    RotationMatrix_EndEffectorHaptic[2][1] = cos(q2)*cos(q3) - sin(q2) * sin(q3) ; 
+    RotationMatrix_EndEffectorHaptic[2][2] = 0 ; 
+
+    //------------------------------------------------------------------------------------------
+    /*--- matrice di trasformazione orientamento haptic - robot, 
+    che rende l'orientamento dell'haptic "concorde" con quello del robot : 
+
+    R = [0 1 0 ; 0 0 1 ; 1 0 0]^T = Rot(x,-90°) * Rot(z,-90°) 
+    
+    ----------------------------------------------------------------------------------------------------------  */
+    double RotationMatrix_Haptic_Robot[3][3] ; 
+    for(int i=0;i<3;i++) {
+        for(int j=0;j<3;j++) {
+            RotationMatrix_Haptic_Robot[i][j] = 0 ; 
+            if((i==0 && j==1) || (i==1 && j==2) || (i==2 && j==0)) RotationMatrix_Haptic_Robot[i][j] = 1 ; 
+        }
+    }
+    //--- prodotto matriciale tra orientamento rispetto haptic e matrice di trasformazione --------------------------
+    double Orientation_EndEffectorRobot[3][3] ; 
+    ProdottoMatrici(RotationMatrix_Haptic_Robot,RotationMatrix_EndEffectorHaptic,Orientation_EndEffectorRobot,3) ; 
+    //---------------------------------------------------------------------------------------------------------------
+    //--- prodotto matriciale tra matrice trasformazione end effector-base robot-------------------------------------
+    /*          robot_pos_link0[3] = transformStamped.transform.rotation.x ;
+                robot_pos_link0[4] = transformStamped.transform.rotation.y  ;
+                robot_pos_link0[5] = transformStamped.transform.rotation.z ;
+                robot_pos_link0[6] = transformStamped.transform.rotation.w ; */ 
+    double RotationMatrix_EndEffectorRobot[3][3] ; 
+    double x = pos_robot[3] ; 
+    double y = pos_robot[4] ; 
+    double z = pos_robot[5] ; 
+    double w = pos_robot[6] ; 
+    RotationMatrix_EndEffectorRobot[0][0] = 1-2*y*y-2*z*z ; 
+    RotationMatrix_EndEffectorRobot[0][1] = 2*x*y-2*w*z ; 
+    RotationMatrix_EndEffectorRobot[0][2] = 2*x*z + 2*w*y ; 
+    RotationMatrix_EndEffectorRobot[1][0] = 2*x*y + 2*w*z ; 
+    RotationMatrix_EndEffectorRobot[1][1] = 1-2*x*x-2*z*z ; 
+    RotationMatrix_EndEffectorRobot[1][2] = 2*y*z - 2*w*z ; 
+    RotationMatrix_EndEffectorRobot[2][0] = 2*x*z - 2*w*y ; 
+    RotationMatrix_EndEffectorRobot[2][1] = 2*y*z + 2*w*x ; 
+    RotationMatrix_EndEffectorRobot[2][2] = 1-2*x*x-2*y*y ; 
+    std::vector<double> Orientation_Robot[3][3] ; 
+    ProdottoMatrici(Orientation_EndEffectorRobot,RotationMatrix_EndEffectorRobot,Orientation_Robot,3) ; 
+    //----------------------------------------------------------------------------------------------------------
+    std::vector<double> quaternion ; 
+    quaternion.resize(4) ; 
+    quaternion[3] = 0.5 * sqrt(Orientation_Robot[0][0]+Orientation_Robot[1][1]+Orientation_Robot[2][2]+1) ; 
+    quaternion[0] = 0.5 * sgn(Orientation_Robot[2][1]-Orientation_Robot[1][2]) * sqrt(Orientation_Robot[0][0]-Orientation_Robot[1][1]-Orientation_Robot[2][2]+1) ; 
+    quaternion[1] = 0.5 * sgn(Orientation_Robot[0][2]-Orientation_Robot[2][1]) * sqrt(Orientation_Robot[1][1]-Orientation_Robot[2][2]-Orientation_Robot[0][0]+1) ; 
+    quaternion[2] = 0.5 * sgn(Orientation_Robot[1][0]-Orientation_Robot[0][1]) * sqrt(Orientation_Robot[2][2]-Orientation_Robot[0][0]Orientation_Robot[1][1]+1) ; 
+
+return quaternion ; 
 }
 
 int main(int argc,char **argv) {
@@ -226,8 +335,10 @@ int main(int argc,char **argv) {
 
     //Subscriber - ricevo i dati  
     sub= n.subscribe("joint_states",1,JointStateCallback) ; 
-    haptic_sub=n.subscribe("geomagic/end_effector_pose",1,HapticEndEffectorCallback) ; 
+    haptic_sub=n.subscribe("Geomagic/end_effector_pose",1,HapticEndEffectorCallback) ; 
 
+    //-------MACCHINA A STATI--------------------------------------
+    
     while(ros::ok()) {
         
         switch(state) {
@@ -268,15 +379,13 @@ int main(int argc,char **argv) {
 
                 //--- conversione posizione haptic -> robot ------------------
 
-                offset_haptic_to_robot = ConvertWorkspace(robot_pos_link0,haptic_pose,"haptic_to_robot") ; 
+                offset_haptic_to_robot = OffsetConvertWorkspace(robot_pos_link0,haptic_pose,"haptic_to_robot") ; 
 
                 //---------------------------------------------------------------------
 
                 //----- calcolo posizioni reali, conversione haptic to robot-----------
                 for(int i=0;i<3;i++) robot_pos_link0[i] += offset_haptic_to_robot[i] ; 
                 //---------------------------------------------------------------------
-
-                
 
                 state = 2 ; 
             } break ; 
@@ -309,46 +418,12 @@ int main(int argc,char **argv) {
                 }
                 //-----------------------------------------------------------
                 //--------conversione posizione robot-> haptic---------------
-                offset_robot_to_haptic = ConvertWorkspace(robot_pos_link0,haptic_pose,"robot_to_haptic") ;
+                offset_robot_to_haptic = OffsetConvertWorkspace(robot_pos_link0,haptic_pose,"robot_to_haptic") ;
                 //-----------------------------------------------------------
                 state = 0 ; 
             } break ; 
         }
 
-        /*
-            //dichiaro msg_send tipo franka_core_msgs
-            franka_core_msgs::JointCommand msg_send ; 
-
-            //Request IK del target
-            ik_srv.request.reference_pose.position.x=target[0] ; 
-            ik_srv.request.reference_pose.position.y=target[1] ; 
-            ik_srv.request.reference_pose.position.z=target[2] ; 
-            ik_srv.request.reference_pose.orientation.x=target[3] ; 
-            ik_srv.request.reference_pose.orientation.y=target[4] ; 
-            ik_srv.request.reference_pose.orientation.z=target[5] ; 
-            ik_srv.request.reference_pose.orientation.w=target[6] ;
-
-            //chiama ik_client 
-            if(ik_client.call(ik_srv)) {
-            //if success
-            if(ik_srv.response.success) {
-                //inserisci in joint_target la posizione dei giunti dei passi
-                std::cout <<"Joint Target\n" ; 
-                for(int i=0;i<NumJointState;i++) {
-                    joint_target[i]=ik_srv.response.solution.position[i] ; 
-                    std::cout <<joint_target[i] <<std::endl ; 
-                    }
-            } else std::cout <<"no result\n" ; 
-        }
-            else {
-                    std::cout <<"\nfail ik_service\n" ; 
-                }
-            
-            msg_send.mode=1 ; 
-            //set position del msg_send
-            msg_send.position=joint_target ; 
-            //pubblico msg_send
-            pub.publish(msg_send) ;*/
 
     ros::spinOnce() ; 
     loop_rate.sleep() ;

@@ -1,0 +1,39 @@
+[01m[K/home/student/HapticDeviceGaggioli/haptic_ws/src/make_trajectory/src/MacchinaStati_Bezier_v2.cpp:[m[K In function ‘[01m[Kvoid JointStateCallback(const JointState&)[m[K’:
+[01m[K/home/student/HapticDeviceGaggioli/haptic_ws/src/make_trajectory/src/MacchinaStati_Bezier_v2.cpp:163:27:[m[K [01;31m[Kerror: [m[K‘[01m[KOrientation_EndEffectorRobot[m[K’ was not declared in this scope
+  163 |     for(int i=0;i<9;i++) {[01;31m[KOrientation_EndEffectorRobot[m[K,3
+      |                           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/student/HapticDeviceGaggioli/haptic_ws/src/make_trajectory/src/MacchinaStati_Bezier_v2.cpp:[m[K In function ‘[01m[Kstd::vector<double> ConvertWorkspace(std::vector<double>, std::vector<double>, std::string)[m[K’:
+[01m[K/home/student/HapticDeviceGaggioli/haptic_ws/src/make_trajectory/src/MacchinaStati_Bezier_v2.cpp:213:5:[m[K [01;31m[Kerror: [m[K‘[01m[KOrientation_EndEffectorRobot[m[K’ was not declared in this scope
+  213 |     [01;31m[KOrientation_EndEffectorRobot[m[K,3verted_pose[i] = temp[i] ;
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/student/HapticDeviceGaggioli/haptic_ws/src/make_trajectory/src/MacchinaStati_Bezier_v2.cpp:213:34:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""verted_pose[m[K’
+  213 |     Orientation_EndEffectorRobot,[01;31m[K3verted_pose[m[K[i] = temp[i] ;
+      |                                  [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/student/HapticDeviceGaggioli/haptic_ws/src/make_trajectory/src/MacchinaStati_Bezier_v2.cpp:213:47:[m[K [01;31m[Kerror: [m[K‘[01m[Ki[m[K’ was not declared in this scope
+  213 |     Orientation_EndEffectorRobot,3verted_pose[[01;31m[Ki[m[K] = temp[i] ;
+      |                                               [01;31m[K^[m[K
+[01m[K/home/student/HapticDeviceGaggioli/haptic_ws/src/make_trajectory/src/MacchinaStati_Bezier_v2.cpp:214:5:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+  214 |     [01;35m[K}[m[K
+      |     [01;35m[K^[m[K
+[01m[K/home/student/HapticDeviceGaggioli/haptic_ws/src/make_trajectory/src/MacchinaStati_Bezier_v2.cpp:[m[K At global scope:
+[01m[K/home/student/HapticDeviceGaggioli/haptic_ws/src/make_trajectory/src/MacchinaStati_Bezier_v2.cpp:215:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kelse[m[K’
+  215 |     [01;31m[Kelse[m[K if(mode == "robot_to_haptic") {
+      |     [01;31m[K^~~~[m[K
+[01m[K/home/student/HapticDeviceGaggioli/haptic_ws/src/make_trajectory/src/MacchinaStati_Bezier_v2.cpp:223:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kreturn[m[K’
+  223 | [01;31m[Kreturn[m[K converted_pose ;
+      | [01;31m[K^~~~~~[m[K
+[01m[K/home/student/HapticDeviceGaggioli/haptic_ws/src/make_trajectory/src/MacchinaStati_Bezier_v2.cpp:224:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+  224 | [01;31m[K}[m[K
+      | [01;31m[K^[m[K
+[01m[K/home/student/HapticDeviceGaggioli/haptic_ws/src/make_trajectory/src/MacchinaStati_Bezier_v2.cpp:[m[K In function ‘[01m[Kstd::vector<double> ConvertOrientation(std::vector<double>, std::vector<double>)[m[K’:
+[01m[K/home/student/HapticDeviceGaggioli/haptic_ws/src/make_trajectory/src/MacchinaStati_Bezier_v2.cpp:283:82:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::vector<double> (*)[3][m[K’ to ‘[01m[Kdouble (*)[3][m[K’
+  283 |     ProdottoMatrici(Orientation_EndEffectorRobot,RotationMatrix_EndEffectorRobot,[01;31m[KOrientation_Robot[m[K,3) ;
+      |                                                                                  [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+      |                                                                                  [01;31m[K|[m[K
+      |                                                                                  [01;31m[Kstd::vector<double> (*)[3][m[K
+[01m[K/home/student/HapticDeviceGaggioli/haptic_ws/src/make_trajectory/src/MacchinaStati_Bezier_v2.cpp:69:61:[m[K [01;36m[Knote: [m[K  initializing argument 3 of ‘[01m[Kvoid ProdottoMatrici(double (*)[3], double (*)[3], double (*)[3], int)[m[K’
+   69 | void ProdottoMatrici(double M1[3][3],double M2[3][3],[01;36m[Kdouble prodotto[3][3][m[K,int n) {
+      |                                                      [01;36m[K~~~~~~~^~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/MacchinaStatiBezierv2.dir/build.make:63: CMakeFiles/MacchinaStatiBezierv2.dir/src/MacchinaStati_Bezier_v2.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:228: CMakeFiles/MacchinaStatiBezierv2.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -168,19 +168,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named MacchinaStatiBezierv2
-
-# Build rule for target.
-MacchinaStatiBezierv2: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 MacchinaStatiBezierv2
-.PHONY : MacchinaStatiBezierv2
-
-# fast build rule for target.
-MacchinaStatiBezierv2/fast:
-	$(MAKE) -f CMakeFiles/MacchinaStatiBezierv2.dir/build.make CMakeFiles/MacchinaStatiBezierv2.dir/build
-.PHONY : MacchinaStatiBezierv2/fast
-
-#=============================================================================
 # Target rules for targets named MacchinaStatiBezier
 
 # Build rule for target.
@@ -257,6 +244,19 @@ make_trajectory_generate_messages_nodejs: cmake_check_build_system
 make_trajectory_generate_messages_nodejs/fast:
 	$(MAKE) -f CMakeFiles/make_trajectory_generate_messages_nodejs.dir/build.make CMakeFiles/make_trajectory_generate_messages_nodejs.dir/build
 .PHONY : make_trajectory_generate_messages_nodejs/fast
+
+#=============================================================================
+# Target rules for targets named publish_orientation_rviz
+
+# Build rule for target.
+publish_orientation_rviz: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 publish_orientation_rviz
+.PHONY : publish_orientation_rviz
+
+# fast build rule for target.
+publish_orientation_rviz/fast:
+	$(MAKE) -f CMakeFiles/publish_orientation_rviz.dir/build.make CMakeFiles/publish_orientation_rviz.dir/build
+.PHONY : publish_orientation_rviz/fast
 
 #=============================================================================
 # Target rules for targets named make_trajectory_generate_messages_lisp
@@ -1404,33 +1404,6 @@ src/MacchinaStati_Bezier.cpp.s:
 	$(MAKE) -f CMakeFiles/MacchinaStatiBezier.dir/build.make CMakeFiles/MacchinaStatiBezier.dir/src/MacchinaStati_Bezier.cpp.s
 .PHONY : src/MacchinaStati_Bezier.cpp.s
 
-src/MacchinaStati_Bezier_v2.o: src/MacchinaStati_Bezier_v2.cpp.o
-
-.PHONY : src/MacchinaStati_Bezier_v2.o
-
-# target to build an object file
-src/MacchinaStati_Bezier_v2.cpp.o:
-	$(MAKE) -f CMakeFiles/MacchinaStatiBezierv2.dir/build.make CMakeFiles/MacchinaStatiBezierv2.dir/src/MacchinaStati_Bezier_v2.cpp.o
-.PHONY : src/MacchinaStati_Bezier_v2.cpp.o
-
-src/MacchinaStati_Bezier_v2.i: src/MacchinaStati_Bezier_v2.cpp.i
-
-.PHONY : src/MacchinaStati_Bezier_v2.i
-
-# target to preprocess a source file
-src/MacchinaStati_Bezier_v2.cpp.i:
-	$(MAKE) -f CMakeFiles/MacchinaStatiBezierv2.dir/build.make CMakeFiles/MacchinaStatiBezierv2.dir/src/MacchinaStati_Bezier_v2.cpp.i
-.PHONY : src/MacchinaStati_Bezier_v2.cpp.i
-
-src/MacchinaStati_Bezier_v2.s: src/MacchinaStati_Bezier_v2.cpp.s
-
-.PHONY : src/MacchinaStati_Bezier_v2.s
-
-# target to generate assembly for a file
-src/MacchinaStati_Bezier_v2.cpp.s:
-	$(MAKE) -f CMakeFiles/MacchinaStatiBezierv2.dir/build.make CMakeFiles/MacchinaStatiBezierv2.dir/src/MacchinaStati_Bezier_v2.cpp.s
-.PHONY : src/MacchinaStati_Bezier_v2.cpp.s
-
 src/Make_Trajectory_poly5.o: src/Make_Trajectory_poly5.cpp.o
 
 .PHONY : src/Make_Trajectory_poly5.o
@@ -1485,6 +1458,33 @@ src/Make_Trajectory_poly5_test.cpp.s:
 	$(MAKE) -f CMakeFiles/Make_Trajectory_poly5_test.dir/build.make CMakeFiles/Make_Trajectory_poly5_test.dir/src/Make_Trajectory_poly5_test.cpp.s
 .PHONY : src/Make_Trajectory_poly5_test.cpp.s
 
+src/publish_orientation_rviz.o: src/publish_orientation_rviz.cpp.o
+
+.PHONY : src/publish_orientation_rviz.o
+
+# target to build an object file
+src/publish_orientation_rviz.cpp.o:
+	$(MAKE) -f CMakeFiles/publish_orientation_rviz.dir/build.make CMakeFiles/publish_orientation_rviz.dir/src/publish_orientation_rviz.cpp.o
+.PHONY : src/publish_orientation_rviz.cpp.o
+
+src/publish_orientation_rviz.i: src/publish_orientation_rviz.cpp.i
+
+.PHONY : src/publish_orientation_rviz.i
+
+# target to preprocess a source file
+src/publish_orientation_rviz.cpp.i:
+	$(MAKE) -f CMakeFiles/publish_orientation_rviz.dir/build.make CMakeFiles/publish_orientation_rviz.dir/src/publish_orientation_rviz.cpp.i
+.PHONY : src/publish_orientation_rviz.cpp.i
+
+src/publish_orientation_rviz.s: src/publish_orientation_rviz.cpp.s
+
+.PHONY : src/publish_orientation_rviz.s
+
+# target to generate assembly for a file
+src/publish_orientation_rviz.cpp.s:
+	$(MAKE) -f CMakeFiles/publish_orientation_rviz.dir/build.make CMakeFiles/publish_orientation_rviz.dir/src/publish_orientation_rviz.cpp.s
+.PHONY : src/publish_orientation_rviz.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1495,13 +1495,13 @@ help:
 	@echo "... install/local"
 	@echo "... list_install_components"
 	@echo "... test"
-	@echo "... MacchinaStatiBezierv2"
 	@echo "... MacchinaStatiBezier"
 	@echo "... MacchinaStati"
 	@echo "... make_trajectory_genpy"
 	@echo "... make_trajectory_generate_messages_py"
 	@echo "... make_trajectory_gennodejs"
 	@echo "... make_trajectory_generate_messages_nodejs"
+	@echo "... publish_orientation_rviz"
 	@echo "... make_trajectory_generate_messages_lisp"
 	@echo "... rebuild_cache"
 	@echo "... make_trajectory_generate_messages_cpp"
@@ -1595,15 +1595,15 @@ help:
 	@echo "... src/MacchinaStati_Bezier.o"
 	@echo "... src/MacchinaStati_Bezier.i"
 	@echo "... src/MacchinaStati_Bezier.s"
-	@echo "... src/MacchinaStati_Bezier_v2.o"
-	@echo "... src/MacchinaStati_Bezier_v2.i"
-	@echo "... src/MacchinaStati_Bezier_v2.s"
 	@echo "... src/Make_Trajectory_poly5.o"
 	@echo "... src/Make_Trajectory_poly5.i"
 	@echo "... src/Make_Trajectory_poly5.s"
 	@echo "... src/Make_Trajectory_poly5_test.o"
 	@echo "... src/Make_Trajectory_poly5_test.i"
 	@echo "... src/Make_Trajectory_poly5_test.s"
+	@echo "... src/publish_orientation_rviz.o"
+	@echo "... src/publish_orientation_rviz.i"
+	@echo "... src/publish_orientation_rviz.s"
 .PHONY : help
 
 

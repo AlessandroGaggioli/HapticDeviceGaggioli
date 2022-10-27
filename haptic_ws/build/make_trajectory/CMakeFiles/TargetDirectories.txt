@@ -2,13 +2,13 @@
 /home/student/HapticDeviceGaggioli/haptic_ws/build/make_trajectory/CMakeFiles/install/local.dir
 /home/student/HapticDeviceGaggioli/haptic_ws/build/make_trajectory/CMakeFiles/list_install_components.dir
 /home/student/HapticDeviceGaggioli/haptic_ws/build/make_trajectory/CMakeFiles/test.dir
-/home/student/HapticDeviceGaggioli/haptic_ws/build/make_trajectory/CMakeFiles/MacchinaStatiBezierv2.dir
 /home/student/HapticDeviceGaggioli/haptic_ws/build/make_trajectory/CMakeFiles/MacchinaStatiBezier.dir
 /home/student/HapticDeviceGaggioli/haptic_ws/build/make_trajectory/CMakeFiles/MacchinaStati.dir
 /home/student/HapticDeviceGaggioli/haptic_ws/build/make_trajectory/CMakeFiles/make_trajectory_genpy.dir
 /home/student/HapticDeviceGaggioli/haptic_ws/build/make_trajectory/CMakeFiles/make_trajectory_generate_messages_py.dir
 /home/student/HapticDeviceGaggioli/haptic_ws/build/make_trajectory/CMakeFiles/make_trajectory_gennodejs.dir
 /home/student/HapticDeviceGaggioli/haptic_ws/build/make_trajectory/CMakeFiles/make_trajectory_generate_messages_nodejs.dir
+/home/student/HapticDeviceGaggioli/haptic_ws/build/make_trajectory/CMakeFiles/publish_orientation_rviz.dir
 /home/student/HapticDeviceGaggioli/haptic_ws/build/make_trajectory/CMakeFiles/make_trajectory_generate_messages_lisp.dir
 /home/student/HapticDeviceGaggioli/haptic_ws/build/make_trajectory/CMakeFiles/rebuild_cache.dir
 /home/student/HapticDeviceGaggioli/haptic_ws/build/make_trajectory/CMakeFiles/make_trajectory_generate_messages_cpp.dir

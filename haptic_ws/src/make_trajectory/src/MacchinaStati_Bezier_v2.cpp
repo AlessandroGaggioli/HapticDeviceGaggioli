@@ -160,7 +160,7 @@ return BezierCurve ;
 void JointStateCallback(const sensor_msgs::JointState& msg_send_received) {
     //leggo dal simulatore la velocità iniziale -------------------
     int j=0 ; 
-    for(int i=0;i<9;i++) {Orientation_EndEffectorRobot,3
+    for(int i=0;i<9;i++) {
         if(msg_send_received.name[i] != "panda_finger_joint1" && msg_send_received.name[i] != "panda_finger_joint2") {
             vel_initial[j]=msg_send_received.velocity[i] ; 
             j++  ; 
@@ -210,10 +210,18 @@ std::vector<double> ConvertWorkspace(std::vector<double> robot_pos,std::vector<d
     std::vector<double> temp ; 
     converted_pose.resize(robot_pos.size()) ; 
     temp.resize(3) ; 
-    Orientation_EndEffectorRobot,3verted_pose[i] = temp[i] ; 
+    temp=0 ; 
+    /*
+        converto le posizioni da haptic a robot ( Yh = Zr ; Xh = Yr ; Zh = Xr)
+        e le posizioni da robot a haptic 
+    */
+    if(mode == "haptic_to_robot") {
+        temp[0] = robot_pos[2] ; 
+        temp[1] = robot_pos[0] ; 
+        temp[2] = robt_pos[1] ; 
+        for(int i=0;i<3;i++) converted_pose[i] = temp[i] ;
     }
-    else if(mode == "robot_to_haptic") {
-        converted_pose = haptic_pos ; 
+    else if(mode == "robot_to_haptic") { 
         temp[0] = haptic_pos[1] ; 
         temp[1] = haptic_pos[2] ; 
         temp[2] = haptic_pos[0] ; 
@@ -230,7 +238,7 @@ std::vector<double> ConvertOrientation(std::vector<double> haptic_joint,std::vec
     //--- calcolo orientamento end effector rispetto haptic ------------------------------------
     double q1 = haptic_joint[0] ; 
     double q2 = haptic_joint[1] ; 
-    double q3 = haptic_joint[2] ; 
+    double q3 = haptic_joint[2] ;
     double RotationMatrix_EndEffectorHaptic[3][3] ;  
     RotationMatrix_EndEffectorHaptic[0][0] = cos(q1)*cos(q2)*cos(q3) - cos(q1)*sin(q2)*sin(q3) ; 
     RotationMatrix_EndEffectorHaptic[0][1] = -cos(q1)*cos(q2)*sin(q3)-cos(q1)*cos(q3)*sin(q2) ; 

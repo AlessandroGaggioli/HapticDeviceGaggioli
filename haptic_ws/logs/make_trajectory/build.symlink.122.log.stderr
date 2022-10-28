@@ -10,11 +10,6 @@ Warning: Dest hash: 7f948e00087c77f7a0b15832733a31bf
 Warning: Cannot symlink from /home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/make_trajectory/lib/make_trajectory/MacchinaStati_Bezier to existing file /home/student/HapticDeviceGaggioli/haptic_ws/devel/lib/make_trajectory/MacchinaStati_Bezier
 Warning: Source hash: 75176daf1acac67d8cb5981dbc7c00c2
 Warning: Dest hash: 9bf60c71c79aed7e6c5d8e5eaa566e27
-Linked: (/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/make_trajectory/lib/make_trajectory/publish_orientation_rviz, /home/student/HapticDeviceGaggioli/haptic_ws/devel/lib/make_trajectory/publish_orientation_rviz)
-Linked: (/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/make_trajectory/lib/make_trajectory/MacchinaStatiBezierv3, /home/student/HapticDeviceGaggioli/haptic_ws/devel/lib/make_trajectory/MacchinaStatiBezierv3)
-Linked: (/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/make_trajectory/lib/make_trajectory/MacchinaStatiBezierv2, /home/student/HapticDeviceGaggioli/haptic_ws/devel/lib/make_trajectory/MacchinaStatiBezierv2)
-Linked: (/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/make_trajectory/lib/make_trajectory/MacchinaStati_Bezier_v2, /home/student/HapticDeviceGaggioli/haptic_ws/devel/lib/make_trajectory/MacchinaStati_Bezier_v2)
-Linked: (/home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/make_trajectory/lib/make_trajectory/MacchinaStatiBezier, /home/student/HapticDeviceGaggioli/haptic_ws/devel/lib/make_trajectory/MacchinaStatiBezier)
 Warning: Cannot symlink from /home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/make_trajectory/lib/pkgconfig/make_trajectory.pc to existing file /home/student/HapticDeviceGaggioli/haptic_ws/devel/lib/pkgconfig/make_trajectory.pc
 Warning: Source hash: 981c6284a739771f595ac0e42fb02175
 Warning: Dest hash: cf0b9abdbc25872fc3fe268a0d4c8c96

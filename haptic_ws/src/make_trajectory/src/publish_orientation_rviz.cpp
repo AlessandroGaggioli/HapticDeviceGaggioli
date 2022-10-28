@@ -110,7 +110,7 @@ std::vector<double> ConvertOrientation(std::vector<double> haptic_joint,std::vec
 }
 
 int main(int argc,char **argv) {
-    std::vector<double> haptic_joint = {0,0,0} ; 
+    std::vector<double> haptic_joint = {-0,0.26888954639434814, -0.6397024393081665} ; 
     std::vector<double> robot_pos = {0.306912 , -1.03551e-05 , 0.590178 , -1, -0.00019153, 0.000497322, 6.63308e-06} ; 
 
     std::vector<double> quaternion ; 

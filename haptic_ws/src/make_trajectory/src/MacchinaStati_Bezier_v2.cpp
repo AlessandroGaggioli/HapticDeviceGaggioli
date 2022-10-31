@@ -59,12 +59,41 @@ typedef struct  {
     std::vector<double> coefficients_z ; 
 } coefficients ; 
 
+typedef struct {
+    std::vector<double> force_direction ; 
+    double force_module ; 
+} F ; 
+
  double sgn(double a) {
         double ret  ; 
         if(a>=0) ret = 1.0 ; 
         else ret = -1.0 ; 
     return ret ; 
     }
+
+double two_points_distance(std::vector<double> A,std::vector<double> B) {
+    double distance; 
+    distance = abs(sqrt(pow((B[0]-A[0]),2) + pow((B[1]-A[1]),2) + pow((B[2]-A[2]),2))) ; 
+return distance ; 
+}
+
+std::vector<double> nearest_point(std::vector<std::vector<double>> Curve,int n_points,std::vector<double> EndEffector) {
+    std::vector<double> near ; 
+    near.resize(NumJointState) ; 
+
+    near = Curve[0] ; 
+    for(int i=1;i<n_points;i++) {
+        if(two_points_distance(EndEffector,near)<two_points_distance(EndEffector,near)) near = Curve[i] ; 
+    }
+
+return near ; 
+}
+
+double Force_Module(std::vector<double> A,std::vector<double> B) {
+    double force_module = 1.0/two_points_distance(A,B) ; 
+    if(force_module>2.5) force_module=2.5 ; 
+return force_module ;
+}
 
 void ProdottoMatrici(double M1[3][3],double M2[3][3],double prodotto[3][3],int n) {
     int k ; 
@@ -361,8 +390,29 @@ int main(int argc,char **argv) {
                 //--------conversione posizione robot-> haptic---------------
                 offset_robot_to_haptic = OffsetConvertWorkspace(robot_pos_link0,haptic_pose,"robot_to_haptic") ;
                 //-----------------------------------------------------------
-                state = 0 ; 
+                state = 5; 
             } break ; 
+            case 5: {
+                //state: calcolo della forza
+                //devo calcolare in ogni istante il punto più vicino della curva a cui si trova l'end-effector
+                std::vector<double> point_force ; 
+                point_force.resize(NumJointState) ; 
+                //---------------------------------------
+                std::vector<double> robot_position ; 
+                robot_position.resize(7) ; 
+                robot_position = robot_pos_link0 ; 
+                //------------------------------------
+                point_force = nearest_point(BezierCurve,N_punti,robot_position) ; 
+                
+                //CALCOLO DELLA FORZA (MODULO E DIREZIONE)
+                F force ; 
+                force.force_module = Force_Module(robot_position,point_force) ; 
+                force.force_direction ; 
+                force.force_direction.resize(3) ; 
+                for(int i=0;i<3;i++) {
+                    force.force_direction[i] = (point_force[i]-robot_position[i])/ two_points_distance(robot_position,point_force) ; 
+                }
+            }
         }
 
 

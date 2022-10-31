@@ -53,6 +53,7 @@ CMAKE_BINARY_DIR = /home/student/HapticDeviceGaggioli/haptic_ws/build/make_traje
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/MacchinaStatiBezierv2.dir/all
 all: CMakeFiles/MacchinaStatiBezier.dir/all
 all: CMakeFiles/MacchinaStati.dir/all
 all: CMakeFiles/publish_orientation_rviz.dir/all
@@ -69,6 +70,7 @@ preinstall: gtest/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/MacchinaStatiBezierv2.dir/clean
 clean: CMakeFiles/MacchinaStatiBezier.dir/clean
 clean: CMakeFiles/MacchinaStati.dir/clean
 clean: CMakeFiles/make_trajectory_genpy.dir/clean
@@ -216,6 +218,33 @@ gtest/googletest/clean: gtest/googletest/CMakeFiles/gtest_main.dir/clean
 gtest/googletest/clean: gtest/googletest/CMakeFiles/gtest.dir/clean
 
 .PHONY : gtest/googletest/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/MacchinaStatiBezierv2.dir
+
+# All Build rule for target.
+CMakeFiles/MacchinaStatiBezierv2.dir/all:
+	$(MAKE) -f CMakeFiles/MacchinaStatiBezierv2.dir/build.make CMakeFiles/MacchinaStatiBezierv2.dir/depend
+	$(MAKE) -f CMakeFiles/MacchinaStatiBezierv2.dir/build.make CMakeFiles/MacchinaStatiBezierv2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/student/HapticDeviceGaggioli/haptic_ws/build/make_trajectory/CMakeFiles --progress-num=5,6 "Built target MacchinaStatiBezierv2"
+.PHONY : CMakeFiles/MacchinaStatiBezierv2.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/MacchinaStatiBezierv2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/student/HapticDeviceGaggioli/haptic_ws/build/make_trajectory/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/MacchinaStatiBezierv2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/student/HapticDeviceGaggioli/haptic_ws/build/make_trajectory/CMakeFiles 0
+.PHONY : CMakeFiles/MacchinaStatiBezierv2.dir/rule
+
+# Convenience name for target.
+MacchinaStatiBezierv2: CMakeFiles/MacchinaStatiBezierv2.dir/rule
+
+.PHONY : MacchinaStatiBezierv2
+
+# clean rule for target.
+CMakeFiles/MacchinaStatiBezierv2.dir/clean:
+	$(MAKE) -f CMakeFiles/MacchinaStatiBezierv2.dir/build.make CMakeFiles/MacchinaStatiBezierv2.dir/clean
+.PHONY : CMakeFiles/MacchinaStatiBezierv2.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/MacchinaStatiBezier.dir
@@ -392,7 +421,7 @@ CMakeFiles/make_trajectory_generate_messages_nodejs.dir/clean:
 CMakeFiles/publish_orientation_rviz.dir/all:
 	$(MAKE) -f CMakeFiles/publish_orientation_rviz.dir/build.make CMakeFiles/publish_orientation_rviz.dir/depend
 	$(MAKE) -f CMakeFiles/publish_orientation_rviz.dir/build.make CMakeFiles/publish_orientation_rviz.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/student/HapticDeviceGaggioli/haptic_ws/build/make_trajectory/CMakeFiles --progress-num=18,19 "Built target publish_orientation_rviz"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/student/HapticDeviceGaggioli/haptic_ws/build/make_trajectory/CMakeFiles --progress-num=20,21 "Built target publish_orientation_rviz"
 .PHONY : CMakeFiles/publish_orientation_rviz.dir/all
 
 # Build rule for subdir invocation for target.
@@ -783,7 +812,7 @@ CMakeFiles/make_trajectory_generate_messages_eus.dir/all: CMakeFiles/franka_core
 CMakeFiles/make_trajectory_generate_messages_eus.dir/all: CMakeFiles/std_msgs_generate_messages_eus.dir/all
 	$(MAKE) -f CMakeFiles/make_trajectory_generate_messages_eus.dir/build.make CMakeFiles/make_trajectory_generate_messages_eus.dir/depend
 	$(MAKE) -f CMakeFiles/make_trajectory_generate_messages_eus.dir/build.make CMakeFiles/make_trajectory_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/student/HapticDeviceGaggioli/haptic_ws/build/make_trajectory/CMakeFiles --progress-num=17 "Built target make_trajectory_generate_messages_eus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/student/HapticDeviceGaggioli/haptic_ws/build/make_trajectory/CMakeFiles --progress-num=19 "Built target make_trajectory_generate_messages_eus"
 .PHONY : CMakeFiles/make_trajectory_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
@@ -837,7 +866,7 @@ CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean:
 CMakeFiles/Make_Trajectory_poly5_test.dir/all:
 	$(MAKE) -f CMakeFiles/Make_Trajectory_poly5_test.dir/build.make CMakeFiles/Make_Trajectory_poly5_test.dir/depend
 	$(MAKE) -f CMakeFiles/Make_Trajectory_poly5_test.dir/build.make CMakeFiles/Make_Trajectory_poly5_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/student/HapticDeviceGaggioli/haptic_ws/build/make_trajectory/CMakeFiles --progress-num=7,8 "Built target Make_Trajectory_poly5_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/student/HapticDeviceGaggioli/haptic_ws/build/make_trajectory/CMakeFiles --progress-num=9,10 "Built target Make_Trajectory_poly5_test"
 .PHONY : CMakeFiles/Make_Trajectory_poly5_test.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1863,7 +1892,7 @@ CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/clean:
 CMakeFiles/Make_Trajectory_poly5.dir/all:
 	$(MAKE) -f CMakeFiles/Make_Trajectory_poly5.dir/build.make CMakeFiles/Make_Trajectory_poly5.dir/depend
 	$(MAKE) -f CMakeFiles/Make_Trajectory_poly5.dir/build.make CMakeFiles/Make_Trajectory_poly5.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/student/HapticDeviceGaggioli/haptic_ws/build/make_trajectory/CMakeFiles --progress-num=5,6 "Built target Make_Trajectory_poly5"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/student/HapticDeviceGaggioli/haptic_ws/build/make_trajectory/CMakeFiles --progress-num=7,8 "Built target Make_Trajectory_poly5"
 .PHONY : CMakeFiles/Make_Trajectory_poly5.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2593,7 +2622,7 @@ gtest/googlemock/CMakeFiles/gmock_main.dir/all: gtest/googlemock/CMakeFiles/gmoc
 gtest/googlemock/CMakeFiles/gmock_main.dir/all: gtest/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f gtest/googlemock/CMakeFiles/gmock_main.dir/build.make gtest/googlemock/CMakeFiles/gmock_main.dir/depend
 	$(MAKE) -f gtest/googlemock/CMakeFiles/gmock_main.dir/build.make gtest/googlemock/CMakeFiles/gmock_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/student/HapticDeviceGaggioli/haptic_ws/build/make_trajectory/CMakeFiles --progress-num=11,12 "Built target gmock_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/student/HapticDeviceGaggioli/haptic_ws/build/make_trajectory/CMakeFiles --progress-num=13,14 "Built target gmock_main"
 .PHONY : gtest/googlemock/CMakeFiles/gmock_main.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2620,7 +2649,7 @@ gtest/googlemock/CMakeFiles/gmock_main.dir/clean:
 gtest/googlemock/CMakeFiles/gmock.dir/all: gtest/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f gtest/googlemock/CMakeFiles/gmock.dir/build.make gtest/googlemock/CMakeFiles/gmock.dir/depend
 	$(MAKE) -f gtest/googlemock/CMakeFiles/gmock.dir/build.make gtest/googlemock/CMakeFiles/gmock.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/student/HapticDeviceGaggioli/haptic_ws/build/make_trajectory/CMakeFiles --progress-num=9,10 "Built target gmock"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/student/HapticDeviceGaggioli/haptic_ws/build/make_trajectory/CMakeFiles --progress-num=11,12 "Built target gmock"
 .PHONY : gtest/googlemock/CMakeFiles/gmock.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2647,7 +2676,7 @@ gtest/googlemock/CMakeFiles/gmock.dir/clean:
 gtest/googletest/CMakeFiles/gtest_main.dir/all: gtest/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f gtest/googletest/CMakeFiles/gtest_main.dir/build.make gtest/googletest/CMakeFiles/gtest_main.dir/depend
 	$(MAKE) -f gtest/googletest/CMakeFiles/gtest_main.dir/build.make gtest/googletest/CMakeFiles/gtest_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/student/HapticDeviceGaggioli/haptic_ws/build/make_trajectory/CMakeFiles --progress-num=15,16 "Built target gtest_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/student/HapticDeviceGaggioli/haptic_ws/build/make_trajectory/CMakeFiles --progress-num=17,18 "Built target gtest_main"
 .PHONY : gtest/googletest/CMakeFiles/gtest_main.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2674,7 +2703,7 @@ gtest/googletest/CMakeFiles/gtest_main.dir/clean:
 gtest/googletest/CMakeFiles/gtest.dir/all:
 	$(MAKE) -f gtest/googletest/CMakeFiles/gtest.dir/build.make gtest/googletest/CMakeFiles/gtest.dir/depend
 	$(MAKE) -f gtest/googletest/CMakeFiles/gtest.dir/build.make gtest/googletest/CMakeFiles/gtest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/student/HapticDeviceGaggioli/haptic_ws/build/make_trajectory/CMakeFiles --progress-num=13,14 "Built target gtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/student/HapticDeviceGaggioli/haptic_ws/build/make_trajectory/CMakeFiles --progress-num=15,16 "Built target gtest"
 .PHONY : gtest/googletest/CMakeFiles/gtest.dir/all
 
 # Build rule for subdir invocation for target.

@@ -2,6 +2,7 @@
 /home/student/HapticDeviceGaggioli/haptic_ws/build/make_trajectory/CMakeFiles/install/local.dir
 /home/student/HapticDeviceGaggioli/haptic_ws/build/make_trajectory/CMakeFiles/list_install_components.dir
 /home/student/HapticDeviceGaggioli/haptic_ws/build/make_trajectory/CMakeFiles/test.dir
+/home/student/HapticDeviceGaggioli/haptic_ws/build/make_trajectory/CMakeFiles/MacchinaStatiBezierv2.dir
 /home/student/HapticDeviceGaggioli/haptic_ws/build/make_trajectory/CMakeFiles/MacchinaStatiBezier.dir
 /home/student/HapticDeviceGaggioli/haptic_ws/build/make_trajectory/CMakeFiles/MacchinaStati.dir
 /home/student/HapticDeviceGaggioli/haptic_ws/build/make_trajectory/CMakeFiles/make_trajectory_genpy.dir

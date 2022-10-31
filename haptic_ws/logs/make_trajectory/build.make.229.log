@@ -1,0 +1,16 @@
+[35m[1mScanning dependencies of target MacchinaStatiBezierv2[0m
+[  7%] [32mBuilding CXX object CMakeFiles/MacchinaStatiBezierv2.dir/src/MacchinaStati_Bezier_v2.cpp.o[0m
+[ 15%] [32m[1mLinking CXX executable /home/student/HapticDeviceGaggioli/haptic_ws/devel/.private/make_trajectory/lib/make_trajectory/MacchinaStatiBezierv2[0m
+[ 15%] Built target MacchinaStatiBezierv2
+[ 30%] Built target MacchinaStatiBezier
+[ 46%] Built target MacchinaStati
+[35m[1mScanning dependencies of target publish_orientation_rviz[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/publish_orientation_rviz.dir/src/publish_orientation_rviz.cpp.o[0m
+[01m[K/home/student/HapticDeviceGaggioli/haptic_ws/src/make_trajectory/src/publish_orientation_rviz.cpp:[m[K In function ‘[01m[Kstd::vector<double> ConvertOrientation(std::vector<double>, std::vector<double>)[m[K’:
+[01m[K/home/student/HapticDeviceGaggioli/haptic_ws/src/make_trajectory/src/publish_orientation_rviz.cpp:47:587:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K][m[K’ token
+   47 |     RotationMatrix_EndEffectorHaptic[0][1] = sin(q6)*(sin(q1)*sin(q5) + cos(q5)*(cos(q4)*(cos(q1)*sin(q2)*sin(q3) - cos(q1)*cos(q2)*cos(q3)) + sin(q4)*(cos(q1)*cos(q2)*sin(q3) + cos(q1)*cos(q3)*sin(q2)))) - cos(q6)*(cos(q4)*(cos(q1)*cos(q2)*sin(q3) + cos(q1)*cos(q3)*sin(q2)) - sin(q4)*(cos(q1)*sin(q2)*sin(q3) - cos(q1)*cos(q2)*cos(q3)));  cos(q5)*sin(q1) - sin(q5)*(cos(q4)*(cos(q1)*sin(q2)*sin(q3) - cos(q1)*cos(q2)*cos(q3)) + sin(q4)*(cos(q1)*cos(q2)*sin(q3) + cos(q1)*cos(q3)*sin(q2))), (0.1333*cos(q1)*cos(q2)) - (0.1333*cos(q1)*sin(q2)*sin(q3)) + (0.1333*cos(q1)*cos(q2)*cos(q3))[01;31m[K][m[K
+      |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           [01;31m[K^[m[K
+      |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           [32m[K;[m[K
+make[2]: *** [CMakeFiles/publish_orientation_rviz.dir/build.make:63: CMakeFiles/publish_orientation_rviz.dir/src/publish_orientation_rviz.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:423: CMakeFiles/publish_orientation_rviz.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

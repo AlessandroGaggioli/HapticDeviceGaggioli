@@ -1,0 +1,12 @@
+[ 15%] Built target MacchinaStatiBezierv2
+[ 30%] Built target MacchinaStatiBezier
+[ 46%] Built target MacchinaStati
+[35m[1mScanning dependencies of target publish_orientation_rviz[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/publish_orientation_rviz.dir/src/publish_orientation_rviz.cpp.o[0m
+[01m[K/home/student/HapticDeviceGaggioli/haptic_ws/src/make_trajectory/src/publish_orientation_rviz.cpp:[m[K In function ‘[01m[Kstd::vector<double> ConvertOrientation(std::vector<double>, std::vector<double>)[m[K’:
+[01m[K/home/student/HapticDeviceGaggioli/haptic_ws/src/make_trajectory/src/publish_orientation_rviz.cpp:75:13:[m[K [01;31m[Kerror: [m[K‘[01m[KFinal_Rotation[m[K’ was not declared in this scope
+   75 |             [01;31m[KFinal_Rotation[m[K[i][j]=0 ;
+      |             [01;31m[K^~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/publish_orientation_rviz.dir/build.make:63: CMakeFiles/publish_orientation_rviz.dir/src/publish_orientation_rviz.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:423: CMakeFiles/publish_orientation_rviz.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

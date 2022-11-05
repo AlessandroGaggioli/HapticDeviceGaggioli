@@ -64,13 +64,6 @@ typedef struct {
     double force_module ; 
 } F ; 
 
- double sgn(double a) {
-        double ret  ; 
-        if(a>=0) ret = 1.0 ; 
-        else ret = -1.0 ; 
-    return ret ; 
-    }
-
 double two_points_distance(std::vector<double> A,std::vector<double> B) {
     double distance; 
     distance = abs(sqrt(pow((B[0]-A[0]),2) + pow((B[1]-A[1]),2) + pow((B[2]-A[2]),2))) ; 
@@ -79,11 +72,11 @@ return distance ;
 
 std::vector<double> nearest_point(std::vector<std::vector<double>> Curve,int n_points,std::vector<double> EndEffector) {
     std::vector<double> near ; 
-    near.resize(NumJointState) ; 
+    near.resize(7) ; 
 
     near = Curve[0] ; 
     for(int i=1;i<n_points;i++) {
-        if(two_points_distance(EndEffector,near)<two_points_distance(EndEffector,near)) near = Curve[i] ; 
+        if(two_points_distance(EndEffector,Curve[i])<two_points_distance(EndEffector,near)) near = Curve[i] ; 
     }
 
 return near ; 
@@ -93,18 +86,6 @@ double Force_Module(std::vector<double> A,std::vector<double> B) {
     double force_module = 1.0/two_points_distance(A,B) ; 
     if(force_module>2.5) force_module=2.5 ; 
 return force_module ;
-}
-
-void ProdottoMatrici(double M1[3][3],double M2[3][3],double prodotto[3][3],int n) {
-    int k ; 
-    for(int i=0;i<n;i++) {
-        for(int j=0;j<n;j++) {
-            prodotto[i][j] =0 ; 
-            for(k=0;k<n;k++) {
-                prodotto[i][j] += M1[i][k] * M2[k][j] ; 
-            }
-        }
-    }
 }
 
 coefficients calc_coefficients(coefficients *coeff,std::vector<double> pos_init,std::vector<double> pos_fin,std::vector<double> vel_init) {
